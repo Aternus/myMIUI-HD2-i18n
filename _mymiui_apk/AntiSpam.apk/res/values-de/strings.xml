@@ -8,9 +8,9 @@
   <string name="fw_blacklist">Blacklist</string>
   <string name="fw_whitelist">Whitelist</string>
   <string name="enable_firewall">Firewall aktivieren</string>
-  <string name="fw_pattern_settings">Firewall Verhalten</string>
-  <string name="fw_action_settings">Firewall Einstellungen</string>
-  <string name="fw_time_settings">Sperr Zeit Einstellungen</string>
+  <string name="fw_pattern_settings">Firewall Regeln</string>
+  <string name="fw_action_settings">Einstellungen</string>
+  <string name="fw_time_settings">Zeitplan</string>
   <string name="fw_start_time">Startzeit</string>
   <string name="fw_end_time">Endzeit</string>
   <string name="fw_all_day">Täglich</string>
@@ -64,28 +64,28 @@
   <string name="fw_restore_ms">Zurück zu Nachrichten</string>
   <string name="fw_ms" formatted="false">Nachrichten Zeit: %s (%d)</string>
   <string name="fw_call" formatted="false">Anrufzeit: %s (%d)</string>
-  <string name="fw_blacklist_hint">Anrufe und Nachrichten werden Automatisch blockiert wenn Sie in der Blacklist sind</string>
+  <string name="fw_blacklist_hint">Anrufe und Nachrichten werden automatisch blockiert wenn Sie in der Blacklist sind</string>
   <string name="fw_whitelist_hint">Whitelist Einträge werden nicht blockiert</string>
   <string name="fw_no_effect">Gast-Modus ist ausgeschaltet</string>
-  <string name="fw_call_muted">Anrufe Lautlos</string>
+  <string name="fw_call_muted">Anrufe lautlos</string>
   <string name="fw_call_rejected">Anruf abgelehnt</string>
-  <string name="fw_ms_muted">Nachrichten sind Lautlos</string>
-  <string name="fw_ms_rejected">Nachrichten Blockiert</string>
+  <string name="fw_ms_muted">Nachrichten sind lautlos</string>
+  <string name="fw_ms_rejected">Nachrichten blockiert</string>
   <string name="fw_ms_filtered">Nachrichten gefiltert</string>
-  <string name="fw_ms_imported">SMS wurde Importiert</string>
+  <string name="fw_ms_imported">SMS wurde importiert</string>
   <string name="fw_keyword_list">Stichwort Liste</string>
   <string name="fw_keyword_list_hint">Diese Stichwort werden verwendet, um eingehende Nachrichten zu blockieren</string>
   <string name="menu_edit">Editor</string>
   <string name="fw_add_keyword">Stichworte hinzufügen</string>
   <string name="fw_edit_keyword">Stichworte ändern</string>
-  <string name="fw_clear_all_keyword">Alle Löschen</string>
+  <string name="fw_clear_all_keyword">Alle löschen</string>
   <string name="fw_add_keyword_existing">%s Stichwort existiert bereits</string>
   <string name="member_firewall_log" formatted="false">Blockiert: Nummer %d Details %d</string>
   <string name="clear_all_calllog">Alle Anrufe im Bericht löschen</string>
   <string name="clear_all_mslog">Alle SMS/MMS im Bericht löschen</string>
   <string name="calllog">Anrufe</string>
   <string name="firewall_log">Berichte</string>
-  <string name="fw_on">Private Modus Läuft</string>
+  <string name="fw_on">Privater Modus läuft</string>
   <string name="fw_blocked">Block-Statistik</string>
   <string name="fw_blocked_count" formatted="false">%d %d Anrufe und Nachrichten blockiert</string>
   <string name="firewall_settings">Privater Modus</string>
