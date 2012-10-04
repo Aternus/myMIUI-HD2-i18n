@@ -1,0 +1,186 @@
+﻿### LANGUAGE STRING RESOURCE FILE
+#
+# Language : Hebrew
+#
+# @author aternus <admin@atern.us>
+#
+# @resource http://www.w3schools.com/tags/ref_language_codes.asp
+#
+
+#
+#--- SYSTEM STRING RESOURCE
+#
+text_ok=אישור
+text_next=הבא
+text_back=הקודם
+text_yes=כן
+text_no=לא
+text_about=אודות
+text_calibrating=כלים לכיול
+text_quit=צא מההתקנה
+text_quit_msg=האם אתה בטוח כי אתה רוצה לצאת מאשף ההתקנה?
+
+#
+#-- myMIUI STRING RESOURCE
+#
+##
+# 2 - Welcome Screen
+##
+mymiui.welcome.title=ברוכים הבאים אל myMIUI
+mymiui.welcome.device=מכשיר
+mymiui.welcome.version=גרסא
+mymiui.welcome.release.date=תאריך שחרור
+mymiui.welcome.author=יוצר
+mymiui.welcome.more.info=דו"ח שינוים ופרטים נוספים
+mymiui.welcome.credits=תודות
+
+##
+# 3 - ToS
+##
+mymiui.tos.title=תנאי שימוש של myMIUI
+mymiui.tos.desc=אנא קרא בעיון את תנאי השימוש של <b><#000000>my</#><#ff7e00>MIUI</#></b>...
+mymiui.tos.content=<@center><#d31820>השימוש בקושחה זו הוא על אחראיות המשתמש בלבד\
+איני אחראי על כל נזק, ישיר או עקיף אשר יכול להיגרם כתוצאה משימוש בקושחה זו</#></@>\
+\
+<@center><b><#titlefg>תמיכה</#></b></@>\
+\
+לתמיכה אנא בקרו בשירשור של myMIUI ב XDA Developers:\
+\
+http://forum.xda-developers.com/showthread.php?t=1639932\
+\
+<#0060a5>נא לדאוג לצרף את דו"ח המערכת לפנייתכם. הדו"ח נמצא ב "/mymiui-debug.log"</#>\
+\
+תהנו!\
+
+mymiui.tos.cb.title=הנני מסכים, בואו נתחיל...
+mymiui.tos.cb.content=לפני ההמשך נא לקרוא בעיון את תנאי השימוש של myMIUI...
+
+##
+# 4 - Minimum Requirements
+##
+mymiui.req.pleasewait=אוסף מידע...
+mymiui.req.continue=הנני מבין
+
+# /system partition
+mymiui.req.system.title=אזהרה: מחיצת /system...
+mymiui.req.system.content=זיהינו כי גודל מחיצת ה /system קטן מ 200MB.\
+\
+אנא תשקלו להגדיל את גודל מחיצת ה /system במכשירכם; <#d31820>אחרת אתם עלולים להתקל בבעיות חמורות</#>!\
+
+# /sd-ext partition
+mymiui.req.sd_ext.title=אזהרה: מחיצת /sd-ext...
+mymiui.req.sd_ext.content=זיהינו כי גודל מחיצת ה /sd-ext קטן מ 500MB או חסר (לא מותקן?).\
+\
+אנא תשקלו להגדיל את גודל מחיצת ה /sd-ext במכשירכם או לחלופין צרו מחיצת EXT חדשה על ידי CWR.\
+\
+<b>גודל מומלץ:</b>\
+\
+<b>EXT:</b> <#d31820>500MB</#>, <b>SWAP:</b> <#d31820>0MB</#>\
+\
+<#d31820>האפשרויות הבאות איננן זמינות עד אשר תווצר מחיצת EXT:</#>\
+\
+<*>myMIUI IDE©</*>\
+
+# /sdcard partition
+mymiui.req.sdcard.title=אזהרה: מחיצת /sdcard...
+mymiui.req.sdcard.content=זיהינו כי גודל המקום הפנוי במחיצת /sdcard קטן מ 100MB.\
+\
+על מנת להשתמש ב <b><#000000>my</#><#ff7e00>MIUI</#></b> כראוי, נדרשים לפחות 100MB של מקום פנוי בכרטיס הזיכרון.\
+\
+אנא תשקלו מחיקת קבצים או רכישת כרטיס זיכרון גדול יותר; <#d31820>אחרת אתם עלולים להתקל בבעיות חמורות</#>!\
+\
+<#d31820>האפשרויות הבאות אינן זמינות עד אשר יגדל המקום הפנוי בכרטיס הזיכרון:</#>\
+\
+<*>zipAlign</*>\
+
+# MAGLDR / cLK Detection
+mymiui.req.clk.title=זוהה מאתחל cLK
+mymiui.req.clk.content=זיהינו כי הנכם מנסים להתקין את <b><#000000>my</#><#ff7e00>MIUI</#></b> עם מאתחל cLK.\
+\
+האם זה נכון?\
+
+mymiui.req.magldr.title=זוהה מאתחל MAGLDR
+mymiui.req.magldr.content=זיהינו כי הנכם מנסים להתקין את <b><#000000>my</#><#ff7e00>MIUI</#></b> עם מאתחל MAGLDR.\
+\
+האם זה נכון?\
+
+mymiui.req.bl_error.title=שגיאה: מאתחל לא ידוע...
+mymiui.req.bl_error.content=לא הצלחנו לזהות את המאתחל במכשירכם...\
+\
+אנא וודאו כי הנכם משתמשים ב <#d31820>CWR v5.0.0.0+</#> עם\
+\
+<#d31820>cLK version 1.4.0.1+</#>\
+\
+או\
+\
+<#d31820>MAGLDR 1.13+</#>\
+\
+לפרטים נוספים אנא בקרו בשירשור של myMIUI ב XDA Developers.\
+
+##
+# 5 - Installation Menu
+##
+mymiui.install_apps=תוכנות
+mymiui.install_theme=ערכת נושא
+mymiui.install_sys_modules=מודולים של המערכת
+mymiui.install_sys_modifications=שינוים של המערכת
+mymiui.install_sys_appearance=מראה של המערכת
+mymiui.install_troubleshooting=פתרון בעיות
+mymiui.install_lockscreen=מסך הנעילה
+
+mymiui.install_menu.title=סוג ההתקנה של myMIUI
+mymiui.install_menu.subtitle=נא לבחור את סוג ההתקנה:
+mymiui.install_menu.typical=רגיל
+mymiui.install_menu.custom=מותאם אישית
+
+##
+# 5_1 - Typical
+##
+mymiui.install_typical.title=התקנה רגילה של myMIUI
+mymiui.install_typical.subtitle=ההתקנה הרגילה כוללת:
+
+##
+# 5_2 - Custom
+##
+mymiui.install_custom.title=התקנה מותאמת אישית של myMIUI
+mymiui.install_custom.subtitle=נא לבחור את הפריטים אשר ברצונכם להתקין:
+mymiui.install_troubleshooting.clean_install=התקנה נקייה
+mymiui.install_troubleshooting.clean_install.desc=מחיקת פרטי משתמש. בחרו אפשרות זו אם הנכם נתקלים בבעיות לאחר ההתקנה. <#d31820>אנא וודאו כי גיביתם את כל המידע ממכשירכם!</#>
+
+##
+# 6 - Installation Confirm
+##
+mymiui.install_ready=אשף ההתקנה מוכן...
+mymiui.install_ready.desc=האם ברצונכם להתחיל בהתקנה של <b><#000000>my</#><#ff7e00>MIUI</#></b>?\
+\
+על מנת להתחיל בהתקנה לחצו
+mymiui.install_now=התקן כעת
+
+##
+# 7 - Installation
+##
+mymiui.install_process.title=מתקין את myMIUI...
+mymiui.install_process.desc=אשף ההתקנה מתקין את <b><#000000>my</#><#ff7e00>MIUI</#></b> על מכשירכם, אנא חכו בסבלנות...
+mymiui.install_process.finish=ההתקנה של myMIUI הסתיימה.
+mymiui.install_finish=סיים
+
+# success
+mymiui.install_finish.success.title=myMIUI הותקן בהצלחה
+mymiui.install_finish.success.content=<@center>ברכות!\
+\
+<b><#000000>my</#><#ff7e00>MIUI</#></b> הותקן בהצלחה...</@>\
+\
+בטעינה הראשונה של המכשיר נא לאפשר למערכת כ<#d31820>10 דקות</#> על מנת שתוכל להגדיר את עצמה כראוי.\
+\
+אם אתם נהנים מקושחה זו, אנא תשקלו לתת תרומה קטנה על מנת לעזור לי לממן את האוניברסיטה ולהראות את הערכתכם.\
+\
+<#1a3665>Pay</#><#32689a>Pal</#>: paypal@atern.us\
+\
+תודה!\
+
+mymiui.install_finish.success.cb=הפעל מחדש את המכשיר כעת.
+
+# failure
+mymiui.install_finish.failure.title=התקנת myMIUI נכשלה
+mymiui.install_finish.failure.content.ec=תהליך ההתקנה נכשל עם השגיאה הבא:
+mymiui.install_finish.failure.content.support=נא ליצור קשר עם התמיכה. בפניה נא לצרף את קוד השגיאה.

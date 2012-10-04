@@ -1,0 +1,186 @@
+﻿### LANGUAGE STRING RESOURCE FILE
+#
+# Language : English
+#
+# @author aternus <admin@atern.us>
+#
+# @resource http://www.w3schools.com/tags/ref_language_codes.asp
+#
+
+#
+#--- SYSTEM STRING RESOURCE
+#
+text_ok=OK
+text_next=Next
+text_back=Back
+text_yes=Yes
+text_no=No
+text_about=About
+text_calibrating=Calibration Tools
+text_quit=Quit Installation
+text_quit_msg=Are you sure you want to quit the installer?
+
+#
+#-- myMIUI STRING RESOURCE
+#
+##
+# 2 - Welcome Screen
+##
+mymiui.welcome.title=Welcome to myMIUI ROM
+mymiui.welcome.device=device
+mymiui.welcome.version=version
+mymiui.welcome.release.date=release date
+mymiui.welcome.author=author
+mymiui.welcome.more.info=changelog & more information
+mymiui.welcome.credits=special thanks
+
+##
+# 3 - ToS
+##
+mymiui.tos.title=myMIUI Terms of Use
+mymiui.tos.desc=Please read carefully the terms of use that apply to <b><#000000>my</#><#ff7e00>MIUI</#></b>...
+mymiui.tos.content=<@center><#d31820>USE THIS ROM AT YOUR OWN RISK\
+IM NOT RESPONSIBLE FOR ANY DAMAGE, DIRECT OR OTHERWISE THAT THIS ROM MIGHT CAUSE</#></@>\
+\
+<@center><b><#titlefg>Support</#></b></@>\
+\
+For support please visit myMIUI thread at XDA Developers:\
+\
+http://forum.xda-developers.com/showthread.php?t=1639932\
+\
+<#0060a5>Make sure to attach the debug log which is located at "/mymiui-debug.log"</#>\
+\
+Enjoy!\
+
+mymiui.tos.cb.title=I Agree, lets get started...
+mymiui.tos.cb.content=Please read myMIUI Terms of Use before proceeding...
+
+##
+# 4 - Minimum Requirements
+##
+mymiui.req.pleasewait=Gathering information...
+mymiui.req.continue=I Understand
+
+# /system partition
+mymiui.req.system.title=Warning: /system partition...
+mymiui.req.system.content=We have detected that your /system partition size is under 200MB.\
+\
+Please consider increasing your /system partition size; <#d31820>otherwise you may run into serious issues</#>!\
+
+# /sd-ext partition
+mymiui.req.sd_ext.title=Warning: /sd-ext partition...
+mymiui.req.sd_ext.content=We have detected that your /sd-ext partition size is under 500MB or missing (not mounted?).\
+\
+Please consider increasing your /sd-ext partition size or creating an EXT partition by using CWR.\
+\
+<b>Recommended size:</b>\
+\
+<b>EXT:</b> <#d31820>500MB</#>, <b>SWAP:</b> <#d31820>0MB</#>\
+\
+<#d31820>The following features will be disabled until the EXT partition is created:</#>\
+\
+<*>myMIUI IDE©</*>\
+
+# /sdcard partition
+mymiui.req.sdcard.title=Warning: /sdcard partition...
+mymiui.req.sdcard.content=We have detected that your /sdcard free space is under 100MB.\
+\
+In order to use <b><#000000>my</#><#ff7e00>MIUI</#></b> properly, at least 100MB of free space is required.\
+\
+Please consider deleting some files or getting a bigger SDCard; <#d31820>otherwise you may run into serious issues</#>!\
+\
+<#d31820>The following features will be disabled until free space increases:</#>\
+\
+<*>zipAlign</*>\
+
+# MAGLDR / cLK Detection
+mymiui.req.clk.title=cLK Detected
+mymiui.req.clk.content=We have detected that you are trying to install <b><#000000>my</#><#ff7e00>MIUI</#></b> with a cLK bootloader.\
+\
+Is that correct?\
+
+mymiui.req.magldr.title=MAGLDR Detected
+mymiui.req.magldr.content=We have detected that you are trying to install <b><#000000>my</#><#ff7e00>MIUI</#></b> with a MAGLDR bootloader.\
+\
+Is that correct?\
+
+mymiui.req.bl_error.title=Error: Bootloader Unknown...
+mymiui.req.bl_error.content=We could not detect the bootloader your device is using...\
+\
+Make sure you are using <#d31820>CWR v5.0.0.0+</#> with\
+\
+<#d31820>cLK version 1.4.0.1+</#>\
+\
+OR\
+\
+<#d31820>MAGLDR 1.13+</#>\
+\
+Please visit myMIUI thread at XDA Developers for more details.\
+
+##
+# 5 - Installation Menu
+##
+mymiui.install_apps=Apps
+mymiui.install_theme=Theme
+mymiui.install_sys_modules=System Modules
+mymiui.install_sys_modifications=System Modifications
+mymiui.install_sys_appearance=System Appearance
+mymiui.install_troubleshooting=Troubleshooting
+mymiui.install_lockscreen=Lockscreen
+
+mymiui.install_menu.title=myMIUI Installation Type
+mymiui.install_menu.subtitle=Please select the installation type:
+mymiui.install_menu.typical=Typical
+mymiui.install_menu.custom=Custom
+
+##
+# 5_1 - Typical
+##
+mymiui.install_typical.title=myMIUI Typical Installation
+mymiui.install_typical.subtitle=Typical installation includes:
+
+##
+# 5_2 - Custom
+##
+mymiui.install_custom.title=myMIUI Custom Installation
+mymiui.install_custom.subtitle=Please select which items you would like to install:
+mymiui.install_troubleshooting.clean_install=Clean Install
+mymiui.install_troubleshooting.clean_install.desc=Wipe user data. Enable if you are having problems after installation. <#d31820>Make sure to backup!</#>
+
+##
+# 6 - Installation Confirm
+##
+mymiui.install_ready=Installer Ready...
+mymiui.install_ready.desc=Are you ready to install <b><#000000>my</#><#ff7e00>MIUI</#></b>?\
+\
+To start installation press
+mymiui.install_now=Install Now
+
+##
+# 7 - Installation
+##
+mymiui.install_process.title=Installing myMIUI...
+mymiui.install_process.desc=<b><#000000>my</#><#ff7e00>MIUI</#></b> is currently being installed to your device, this might take a while...
+mymiui.install_process.finish=myMIUI installation finished.
+mymiui.install_finish=Finish
+
+# success
+mymiui.install_finish.success.title=myMIUI Installation Successful
+mymiui.install_finish.success.content=<@center>Congratulations!\
+\
+<b><#000000>my</#><#ff7e00>MIUI</#></b> was installed successfully...</@>\
+\
+Please allow up to <#d31820>10 minutes</#> for the first boot so the system can configure itself properly.\
+\
+If you like my work and enjoy the ROM, please consider a small donation to help me get through college and show your appreciation.\
+\
+<#1a3665>Pay</#><#32689a>Pal</#>: paypal@atern.us\
+\
+Thanks!\
+
+mymiui.install_finish.success.cb=Reboot your device now.
+
+# failure
+mymiui.install_finish.failure.title=myMIUI Installation Failed
+mymiui.install_finish.failure.content.ec=Installation process failed with the following error code:
+mymiui.install_finish.failure.content.support=Please contact support stating the error code.

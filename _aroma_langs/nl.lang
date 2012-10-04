@@ -1,0 +1,186 @@
+﻿### LANGUAGE STRING RESOURCE FILE
+#
+# Language : Dutch (Flemish)
+#
+# @author uloga <xda developers>
+#
+# @resource http://www.w3schools.com/tags/ref_language_codes.asp
+#
+
+#
+#--- SYSTEM STRING RESOURCE
+#
+text_ok=OK
+text_next=Volgende
+text_back=Terug
+text_yes=Ja
+text_no=Neen
+text_about=Over
+text_calibrating=Calibratie Eigenschappen
+text_quit=Verlaat installatie
+text_quit_msg=Ben je zeker dat je de installatie wilt verlaten?
+
+#
+#-- myMIUI STRING RESOURCE
+#
+##
+# 2 - Welcome Screen
+##
+mymiui.welcome.title=Welkom bij myMIUI ROM
+mymiui.welcome.device=apparaat
+mymiui.welcome.version=versie
+mymiui.welcome.release.date=release datum
+mymiui.welcome.author=auteur
+mymiui.welcome.more.info=changelog & meer informatie
+mymiui.welcome.credits=bedankt aan
+
+##
+# 3 - ToS
+##
+mymiui.tos.title=myMIUI Gebruikersovereenkomst
+mymiui.tos.desc=Gelieve de gebruikersovereenkomst van <b><#000000>my</#><#ff7e00>MIUI</#></b> grondig te overlezen...
+mymiui.tos.content=<@center><#d31820>GEBRUIK DEZE ROM OP EIGEN RISICO\
+IK BEN NIET VERANTWOORDELIJK VOOR ONGEVALLEN OF PROBLEMEN DIE DEZE ROM VEROORZAAKT</#></@>\
+\
+<@center><b><#titlefg>Ondersteuning</#></b></@>\
+\
+Voor meer ondersteuning bezoek de myMIUI post op XDA Developers:\
+\
+http://forum.xda-developers.com/showthread.php?t=1639932\
+\
+<#0060a5>Vergeet ook niet je logfile toe te voegen aan je reactie, deze bevindt zich hier "/mymiui-debug.log"</#>\
+\
+Veel plezier!\
+
+mymiui.tos.cb.title=Ik ga akkoord!
+mymiui.tos.cb.content=Gelieve de myMIUI gebruikersovereenkomst te lezen alvorens door te gaan...
+
+##
+# 4 - Minimum Requirements
+##
+mymiui.req.pleasewait=Informatie wordt opgehaald...
+mymiui.req.continue=Dit versta ik
+
+# /system partition
+mymiui.req.system.title=Opgelet: /system partition...
+mymiui.req.system.content=De groote van uw /system partition is kleiner dan 200MB.\
+\
+Gelieve uw partitie /system partition te vergroten; <#d31820>anders kunnen er zich problemen voordoen</#>!\
+
+# /sd-ext partition
+mymiui.req.sd_ext.title=Opgelet: /sd-ext partition...
+mymiui.req.sd_ext.content=Uw /sd-ext partition grootte is kleiner dan 500MB of bestaat niet.\
+\
+Gelieve uw partitie /sd-ext partition te vergroten of een EXT partitie te maken met CWR.\
+\
+<b>Aanbevolen ruimte:</b>\
+\
+<b>EXT:</b> <#d31820>500MB</#>, <b>SWAP:</b> <#d31820>0MB</#>\
+\
+<#d31820>De volgende opties worden niet gebruikt zolang er geen EXT partitie is:</#>\
+\
+<*>myMIUI IDE©</*>\
+
+# /sdcard partition
+mymiui.req.sdcard.title=Opgelet: /sdcard partition...
+mymiui.req.sdcard.content=De ruimte op je /sdcard is kleiner dan 100MB.\
+\
+Om <b><#000000>my</#><#ff7e00>MIUI</#></b> correct te gebruiken is er minstens 100MB vrije ruimte nodig.\
+\
+Gelieve plaats te maken of een grotere SD-kaart te kopen; <#d31820>anders kunnen er serieuze problemen ontstaan</#>!\
+\
+<#d31820>De volgende opties worden niet gebruikt zolang er geen extra vrije ruimte is:</#>\
+\
+<*>zipAlign</*>\
+
+# MAGLDR / cLK Detection
+mymiui.req.clk.title=cLK gedecteerd
+mymiui.req.clk.content=We hebben gededecteerd dat je <b><#000000>my</#><#ff7e00>MIUI</#></b> wilt installeren met een cLK bootloader.\
+\
+Is dit correct?\
+
+mymiui.req.magldr.title=MAGLDR gedecteerd
+mymiui.req.magldr.content=We hebben gededecteerd dat je <b><#000000>my</#><#ff7e00>MIUI</#></b> wilt installeren met een MAGLDR bootloader.\
+\
+Is dit correct?\
+
+mymiui.req.bl_error.title=Fout: Onbekende bootloader...
+mymiui.req.bl_error.content=Je bootloader kon niet gededecteerd worden...\
+\
+Zorg ervoor dat je <#d31820>CWR v5.0.0.0+</#> gebruikt met\
+\
+<#d31820>cLK versie 1.4.0.1+</#>\
+\
+OF\
+\
+<#d31820>MAGLDR 1.13+</#>\
+\
+Bezoek de myMIUI post op XDA Developers voor meer details.\
+
+##
+# 5 - Installation Menu
+##
+mymiui.install_apps=Apps
+mymiui.install_theme=Thema
+mymiui.install_sys_modules=Systeem Modules
+mymiui.install_sys_modifications=Systeem Aanpassingen
+mymiui.install_sys_appearance=Systeem Voorkomen
+mymiui.install_troubleshooting=Probleemoplossing
+mymiui.install_lockscreen=Vergrendelscherm
+
+mymiui.install_menu.title=myMIUI Installatie Type
+mymiui.install_menu.subtitle=Selecteer het installatie type:
+mymiui.install_menu.typical=Normaal
+mymiui.install_menu.custom=Aangepast
+
+##
+# 5_1 - Typical
+##
+mymiui.install_typical.title=myMIUI Normale Installatie
+mymiui.install_typical.subtitle=Normale installatie houdt in:
+
+##
+# 5_2 - Custom
+##
+mymiui.install_custom.title=myMIUI Aangepaste Installatie
+mymiui.install_custom.subtitle=Selecteer de opties die je wilt installeren:
+mymiui.install_troubleshooting.clean_install=Schone Installatie
+mymiui.install_troubleshooting.clean_install.desc=Wis alle gebruikersdata. Vink dit aan indien je problemen ondervindt. <#d31820>Vergeet geen back-up te maken!</#>
+
+##
+# 6 - Installation Confirm
+##
+mymiui.install_ready=Installer is Gereed...
+mymiui.install_ready.desc=Ben je klaar om <b><#000000>my</#><#ff7e00>MIUI</#></b> te installeren?\
+\
+Om de installatie te starten druk
+mymiui.install_now=Installeer nu
+
+##
+# 7 - Installation
+##
+mymiui.install_process.title=Bezig met het installeren van myMIUI...
+mymiui.install_process.desc=<b><#000000>my</#><#ff7e00>MIUI</#></b> wordt geïnstalleerd, gelieve even te wachten...
+mymiui.install_process.finish=myMIUI installatie compleet.
+mymiui.install_finish=Beëindig
+
+# success
+mymiui.install_finish.success.title=myMIUI Installatie Succesvol
+mymiui.install_finish.success.content=<@center>Proficiat!\
+\
+<b><#000000>my</#><#ff7e00>MIUI</#></b> is succesvol geïnstalleerd...</@>\
+\
+Geef het apparaat ongeveer <#d31820>10 minutes</#> voor de eerste opstart.\
+\
+Als je mijn werk wilt steunen kan je altijd een donatie sturen naar het volgende adres.\
+\
+<#1a3665>Pay</#><#32689a>Pal</#>: paypal@atern.us\
+\
+Bedankt!\
+
+mymiui.install_finish.success.cb=Herstart je apparaat nu.
+
+# failure
+mymiui.install_finish.failure.title=myMIUI Installatie Gefaald
+mymiui.install_finish.failure.content.ec=Installatie proces is gefaald, dit is de foutcode:
+mymiui.install_finish.failure.content.support=Gelieve ondersteuning te vragen op de post op XDA Developers, vergeet zeker niet de foutcode te vermelden.

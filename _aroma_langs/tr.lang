@@ -1,0 +1,186 @@
+﻿### LANGUAGE STRING RESOURCE FILE
+#
+# Language : Turkish
+#
+# @author metra01 <xda developers>
+#
+# @resource http://www.w3schools.com/tags/ref_language_codes.asp
+#
+
+#
+#--- SYSTEM STRING RESOURCE
+#
+text_ok=OK
+text_next=Sonraki
+text_back=Önceki
+text_yes=Evet
+text_no=Hayır
+text_about=Hakkında
+text_calibrating=Kalibrasyon Araçları
+text_quit=Kurdan Çık
+text_quit_msg=Kur dan çıkmaya emin misiniz?
+
+#
+#-- myMIUI STRING RESOURCE
+#
+##
+# 2 - Welcome Screen
+##
+mymiui.welcome.title=myMIUI ROM a Hoşgeldiniz
+mymiui.welcome.device=cihaz
+mymiui.welcome.version=versiyon
+mymiui.welcome.release.date=yayım tarihi
+mymiui.welcome.author=yönetici
+mymiui.welcome.more.info=changelog ve diğer bilgiler
+mymiui.welcome.credits=özel teşekkürler
+
+##
+# 3 - ToS
+##
+mymiui.tos.title=myMIUI Kullanım Şartları
+mymiui.tos.desc=Lütfen kullanım şartlarını dikkatle okuyunuz <b><#000000>my</#><#ff7e00>MIUI</#></b>...
+mymiui.tos.content=<@center><#d31820>BU ROM'U KULLANMANIZ KENDİ SORUMLULUĞUNUZDADIR\
+BU ROMUN KULLANIMINDAN DOĞABİLECEK HERHANGİ BİR HASARDAN BİZ SORUMLU DEĞİLİZ</#></@>\
+\
+<@center><b><#titlefg>Support</#></b></@>\
+\
+Destek için Lütfen XDA Developers forumundaki myMIUI konu başlığını ziyaret ediniz:\
+\
+http://forum.xda-developers.com/showthread.php?t=1639932\
+\
+<#0060a5>Lütfen "/mymiui-debug.log" da bulunan debug log u eklemeyi unutmayınız</#>\
+\
+Eğlenme zamanı!\
+
+mymiui.tos.cb.title=Tamam, hayadi başlayalım...
+mymiui.tos.cb.content=Lütfen başlamadan önce myMIUI kullanım şartlarını dikkatle okuyunuz...
+
+##
+# 4 - Minimum Requirment
+##
+mymiui.req.pleasewait=Bilgiler toplanıyor...
+mymiui.req.continue=Anladım
+
+# /system partition
+mymiui.req.system.title=Dikkat: /system partition...
+mymiui.req.system.content=Sistem partition boyutunun/200MB ın altında olduğu algılandı.\
+\
+Lütfen sistem partition /miktarını yükseltiniz <#d31820>aksi taktirde kullanımda ciddi sorunlar yaşayabilirsiniz</#>!\
+
+# /sd-ext partition
+mymiui.req.sd_ext.title=Dikkat: /sd-ext partition...
+mymiui.req.sd_ext.content=Sd-ext partition'ın boyutu /500MB'n altında ya da hiç olmadığı algılandı. (not mounted?)\
+\
+Lütfen sd-ext partition alanını /yükseltiniz ya da CWR kullanarak bir EXT partition oluşturunuz.\
+\
+<b>Tavsiye edilen boyut:</b>\
+\
+<b>EXT:</b> <#d31820>500MB</#>, <b>SWAP:</b> <#d31820>0MB</#>\
+\
+<#d31820>EXT partition oluştururlana kadar aşağıdaki özellikler kullanılamayacaktır:</#>\
+\
+<*>myMIUI IDE©</*>\
+
+# /sdcard partition
+mymiui.req.sdcard.title=Dikkat: /sdcard partition...
+mymiui.req.sdcard.content=Sdcard boş alanınızın /100MB'tan az olduğu algılandı.\
+\
+ <b><#000000>my</#><#ff7e00>MIUI</#></b> nin kullanımı için, en az 100MB boş alan gerekmektedir.\
+\
+Lütfen gereksiz dosyaları siliniz ya da daha yüksek kapasiteli bir sd kart takınız ; <#d31820>aksi taktirde kullanımda ciddi sorunlar yaşayabilirsiniz</#>!\
+\
+<#d31820>Boyut arttırılana kadar aşağıdaki özellikler kullanılamayacaktır:</#>\
+\
+<*>zipAlign</*>\
+
+# MAGLDR / cLK Tarama
+mymiui.req.clk.title=cLK Algılandı
+mymiui.req.clk.content= <b><#000000>my</#><#ff7e00>MIUI</#></b> yi CLK bootloader ile yüklemeye çalıştığınız algılandı.\
+\
+Doğru mu?\
+
+mymiui.req.magldr.title=MAGLDR Algılandı
+mymiui.req.magldr.content=<b><#000000>my</#><#ff7e00>MIUI</#></b> yi MAGLDR bootloader ile yüklemeye çalıştığınız algılandı.\
+\
+Doğru mu?\
+
+mymiui.req.bl_error.title=Error: Bilinmeyen Bootloader ...
+mymiui.req.bl_error.content=Cihazınızda yüklü bootloader algılanmadı ...\
+\
+<#d31820>CWR v5.0.0.0+</#> kullandığınıza emin olunuz \
+\
+<#d31820>cLK version 1.4.0.1+</#>\
+\
+YA DA\
+\
+<#d31820>MAGLDR 1.13+</#>\
+\
+Detaylar için XDA Developers forumundaki myMIUI konu başlığını ziyaret edebilirsiniz.\
+
+##
+# 5 - Installation Menu
+##
+mymiui.install_apps=Uygulamalar
+mymiui.install_theme=Tema
+mymiui.install_sys_modules=Sistem Modulleri
+mymiui.install_sys_modifications=System Değişiklikleri
+mymiui.install_sys_appearance=Sistem Görünümü
+mymiui.install_troubleshooting=Sorungiderme
+mymiui.install_lockscreen=Kilitekranı
+
+mymiui.install_menu.title=myMIUI Kurulum Tipi
+mymiui.install_menu.subtitle=Lütfen kurulum tipini seçiniz:
+mymiui.install_menu.typical=Özgün
+mymiui.install_menu.custom=Özel
+
+##
+# 5_1 - Typical
+##
+mymiui.install_typical.title=myMIUI Özgün Kurulum
+mymiui.install_typical.subtitle=Özgün kurulum içeriği:
+
+##
+# 5_2 - Custom
+##
+mymiui.install_custom.title=myMIUI Özel kurulum
+mymiui.install_custom.subtitle=Lütfen kurmak istediğiniz bölümleri seçiniz:
+mymiui.install_troubleshooting.clean_install=Temiz kurulum
+mymiui.install_troubleshooting.clean_install.desc=Problem olması durumunda kullanıcı bilgilerinin silinmesi mümkündür <#d31820>Yedek aldığınıza emin olun!</#>
+
+##
+# 6 - Installation Confirmation
+##
+mymiui.install_ready=Kurucu hazır...
+mymiui.install_ready.desc=Kurmaya hazır mızınız <b><#000000>my</#><#ff7e00>MIUI</#></b>?\
+\
+Kuruluma başlamak için basınız
+mymiui.install_now=Şimdi Kur
+
+##
+# 7 - Installation
+##
+mymiui.install_process.title=myMIUI Kuruluyor...
+mymiui.install_process.desc=<b><#000000>my</#><#ff7e00>MIUI</#></b> şu anda kuruluyor, biraz uzun sürebilir...
+mymiui.install_process.finish=myMIUI kurulumu bitti.
+mymiui.install_finish=Bitti
+
+# success
+mymiui.install_finish.success.title=myMIUI Başarıyla kuruldu
+mymiui.install_finish.success.content=<@center>Tebrikler!\
+\
+<b><#000000>my</#><#ff7e00>MIUI</#></b> başarıyla kuruldu...</@>\
+\
+Lütfen ilk açılış yüklemesinin düzgün yapılabilmesi için <#d31820>10 dakika</#> bekleyiniz.\
+\
+Eğer çalışmamı beğendiyseniz, bu ROM ile size iyi eğlenceler, memnuniyetinizi göstermek ve kolejde okumama katkıda bulunmak için bağışalrınıza açığım.\
+\
+<#1a3665>Pay</#><#32689a>Pal</#>: paypal@atern.us\
+\
+Teşekkürler!\
+
+mymiui.install_finish.success.cb=Cihazınızı tekrar başlatınız.
+
+# failure
+mymiui.install_finish.failure.title=myMIUI Kurulumu hatası
+mymiui.install_finish.failure.content.ec=Kurulum işlemi aşağıdaki hata kodu ile başarılamdı:
+mymiui.install_finish.failure.content.support=Lütfen hata kodu ile birlikte iletişime geçiniz.

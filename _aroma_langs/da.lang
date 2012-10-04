@@ -1,0 +1,186 @@
+﻿### LANGUAGE STRING RESOURCE FILE
+#
+# Language : Danish
+#
+# @author lars andersen (pokeman) <xda developers>
+#
+# @resource http://www.w3schools.com/tags/ref_language_codes.asp
+#
+
+#
+#--- SYSTEM STRING RESOURCE
+#
+text_ok=OK
+text_next=Næste
+text_back=Forrige
+text_yes=Ja
+text_no=Nej
+text_about=Om
+text_calibrating=Kalibreringsværktøjer
+text_quit=Afslut installation
+text_quit_msg=Er du sikker på at du vil afslutte installationsprogrammet?
+
+#
+#-- myMIUI STRING RESOURCE
+#
+##
+# 2 - Welcome Screen
+##
+mymiui.welcome.title=Velkommen til myMIUI ROM
+mymiui.welcome.device=enhed
+mymiui.welcome.version=version
+mymiui.welcome.release.date=udgivelsesdato
+mymiui.welcome.author=udgiver
+mymiui.welcome.more.info=changelog og mere information
+mymiui.welcome.credits=særlig tak til
+
+##
+# 3 - ToS
+##
+mymiui.tos.title=myMIUI Terms of Use
+mymiui.tos.desc=Please read carefully the terms of use that apply to <b><#000000>my</#><#ff7e00>MIUI</#></b>...
+mymiui.tos.content=<@center><#d31820>USE THIS ROM AT YOUR OWN RISK\
+IM NOT RESPONSIBLE FOR ANY DAMAGE, DIRECT OR OTHERWISE THAT THIS ROM MIGHT CAUSE</#></@>\
+\
+<@center><b><#titlefg>Support</#></b></@>\
+\
+For support please visit myMIUI thread at XDA Developers:\
+\
+http://forum.xda-developers.com/showthread.php?t=1639932\
+\
+<#0060a5>Make sure to attach the debug log which is located at "/mymiui-debug.log"</#>\
+\
+Enjoy!\
+
+mymiui.tos.cb.title=Jeg accepterer, lad os komme i gang...
+mymiui.tos.cb.content=Læs venligst myMIUI betingelser for brug før der fortsættes...
+
+##
+# 4 - Minimum Requirements
+##
+mymiui.req.pleasewait=Indsamler information...
+mymiui.req.continue=Jeg forstår
+
+# /system partition
+mymiui.req.system.title=Advarsel: /system partition...
+mymiui.req.system.content=Vi har registreret, at størrelsen på din /system partition er under 200MB.\
+\
+Du bør overveje at øge størrelsen på din /system partition; <#d31820>ellers kan du løbe ind i alvorlige problemer</#>!\
+
+# /sd-ext partition
+mymiui.req.sd_ext.title=Advarsel: /sd-ext partition...
+mymiui.req.sd_ext.content=Vi har registreret, at størrelsen på din /sd-ext partition er under 500MB eller mangler (ikke monteret?).\
+\
+Du bør overveje at øge størrelsen på din /sd-ext partition eller oprette en EXT partition ved hjælp af CWR.\
+\
+<b>Recommended size:</b>\
+\
+<b>EXT:</b> <#d31820>500MB</#>, <b>SWAP:</b> <#d31820>0MB</#>\
+\
+<#d31820>Følgende funktioner vil blive deaktiveret, indtil en EXT partition er oprettet:</#>\
+\
+<*>myMIUI IDE©</*>\
+
+# /sdcard partition
+mymiui.req.sdcard.title=Advarsel: /sdcard partition...
+mymiui.req.sdcard.content=Vi har opdaget at den ledige plads på /sdcard er under 100MB.\
+\
+For at bruge <b><#000000>my</#><#ff7e00>MIUI</#></b> korrekt, er minimum 100MB ledig plads påkrævet.\
+\
+Du bør overveje at slette nogle filer eller anskaffe et større SD-kort; <#d31820>ellers kan du løbe ind i alvorlige problemer</#>!\
+\
+<#d31820>Følgende funktioner vil blive deaktiveret, indtil den ledige plads forøges:</#>\
+\
+<*>zipAlign</*>\
+
+# MAGLDR / cLK Detection
+mymiui.req.clk.title=cLK registreret
+mymiui.req.clk.content=Vi har registreret, at du forsøger at installere <b><#000000>my</#><#ff7e00>MIUI</#></b> med en cLK bootloader.\
+\
+Er dette korrekt?\
+
+mymiui.req.magldr.title=MAGLDR registreret
+mymiui.req.magldr.content=Vi har registreret, at du forsøger at installere <b><#000000>my</#><#ff7e00>MIUI</#></b> med en MAGLDR bootloader.\
+\
+Er dette korrekt?\
+
+mymiui.req.bl_error.title=Fejl: Bootloader ukendt...
+mymiui.req.bl_error.content=Vi kunne ikke finde den bootloader din enhed benytter...\
+\
+Sørg for, at du bruger <#d31820>CWR v5.0.0.0+</#> med\
+\
+<#d31820>cLK version 1.4.0.1+</#>\
+\
+OR\
+\
+<#d31820>MAGLDR 1.13+</#>\
+\
+Besøg myMIUI tråd på XDA Developers for yderligere detaljer.\
+
+##
+# 5 - Installation Menu
+##
+mymiui.install_apps=Apps
+mymiui.install_theme=Tema
+mymiui.install_sys_modules=System moduler
+mymiui.install_sys_modifications=System modifikationer
+mymiui.install_sys_appearance=System udseende
+mymiui.install_troubleshooting=Fejlfinding
+mymiui.install_lockscreen=Låseskærm
+
+mymiui.install_menu.title=myMIUI Installationstype
+mymiui.install_menu.subtitle=Vælg installationstype:
+mymiui.install_menu.typical=Typisk
+mymiui.install_menu.custom=Tilpasset
+
+##
+# 5_1 - Typical
+##
+mymiui.install_typical.title=myMIUI typisk installation
+mymiui.install_typical.subtitle=Typisk installation inkluderer:
+
+##
+# 5_2 - Custom
+##
+mymiui.install_custom.title=myMIUI tilpasset installation
+mymiui.install_custom.subtitle=Vælg hvilke elementer du vil installere:
+mymiui.install_troubleshooting.clean_install=Ren installation
+mymiui.install_troubleshooting.clean_install.desc=Slet brugerdata. Aktiver, hvis du har problemer efter installation. <#d31820>Sørg for at tage backup!</#>
+
+##
+# 6 - Installation Confirm
+##
+mymiui.install_ready=Klar til installation...
+mymiui.install_ready.desc=Er du klar til at installere <b><#000000>my</#><#ff7e00>MIUI</#></b>?\
+\
+For at starte installationen tryk
+mymiui.install_now=Installer nu
+
+##
+# 7 - Installation
+##
+mymiui.install_process.title=Installere myMIUI...
+mymiui.install_process.desc=<b><#000000>my</#><#ff7e00>MIUI</#></b> er ved at blive installeret på din enhed, dette kan tage et stykke tid...
+mymiui.install_process.finish=myMIUI installationen er afsluttet.
+mymiui.install_finish=Afslut
+
+# success
+mymiui.install_finish.success.title=myMIUI installationen lykkedes
+mymiui.install_finish.success.content=<@center>Tillykke!\
+\
+<b><#000000>my</#><#ff7e00>MIUI</#></b> blev installeret med succes...</@>\
+\
+Der kan gå op til <#d31820>10 minutter</#> for den første opstart, så systemet kan konfigurere sig selv ordentligt.\
+\
+Hvis du kan lide mit arbejde, venligst overvej en lille donation til at hjælpe mig med at komme igennem skole og vise din påskønnelse.\
+\
+<#1a3665>Pay</#><#32689a>Pal</#>: paypal@atern.us\
+\
+Mange tak!\
+
+mymiui.install_finish.success.cb=Genstart din enhed nu.
+
+# failure
+mymiui.install_finish.failure.title=myMIUI installationen mislykkedes
+mymiui.install_finish.failure.content.ec=Installationen mislykkedes med følgende fejlkode:
+mymiui.install_finish.failure.content.support=Kontakt support med angivelse af fejlkoden.

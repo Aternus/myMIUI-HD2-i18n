@@ -1,0 +1,186 @@
+﻿### LANGUAGE STRING RESOURCE FILE
+#
+# Language : German
+#
+# @author waldemator <xda developers>
+#
+# @resource http://www.w3schools.com/tags/ref_language_codes.asp
+#
+
+#
+#--- SYSTEM STRING RESOURCE
+#
+text_ok=OK
+text_next=Weiter
+text_back=Zurück
+text_yes=Ja
+text_no=Nein
+text_about=Info
+text_calibrating=Kalibrierung
+text_quit=Beende Installation
+text_quit_msg=Soll die Installation beendet werden?
+
+#
+#-- myMIUI STRING RESOURCE
+#
+##
+# 2 - Welcome Screen
+##
+mymiui.welcome.title=Willkommen zu myMIUI ROM
+mymiui.welcome.device=Gerät
+mymiui.welcome.version=Version
+mymiui.welcome.release.date=Release Datum
+mymiui.welcome.author=Autor
+mymiui.welcome.more.info=Changelog & weitere Informationen
+mymiui.welcome.credits=Credits
+
+##
+# 3 - ToS
+##
+mymiui.tos.title=myMIUI Nutzungsbedingungen
+mymiui.tos.desc=Bitte lesesn sie sorgsam die Nutzungsbedingungen des <b><#000000>my</#><#ff7e00>MIUI</#></b>...
+mymiui.tos.content=<@center><#d31820>NUTZUNG DIESES ROMS ERFOLGT AUF EIGENES RISIKO\
+ICH BIN NICHT VERANTWORTLICH FÜR IRGENDWECLHE SCHÄDEN, DIREKTE ODER ANDERWEITIGE, DIE DIESES ROM AUSLÖSEN KÖNNTE</#></@>\
+\
+<@center><b><#titlefg>Support</#></b></@>\
+\
+Für Support besuchen Sie meinen myMIUI Thread im XDA Developers Forum:\
+\
+http://forum.xda-developers.com/showthread.php?t=1639932\
+\
+<#0060a5>Die Debug-Log Datei befindet sich unter "/mymiui-debug.log"</#>\
+\
+Viel Spaß!\
+
+mymiui.tos.cb.title=Ich akzeptiere, lasst uns starten..
+mymiui.tos.cb.content=Bitte lesen Sie erst die myMIUI Nutzungsbedingungen bevor es weiter geht...
+
+##
+# 4 - Minimum Requirements
+##
+mymiui.req.pleasewait=Lese Geräteinformationen...
+mymiui.req.continue=Ich bin einverstanden
+
+# /system partition
+mymiui.req.system.title=Warnung: /system Partition...
+mymiui.req.system.content=Ihre /system Partition ist kleiner als 200MB.\
+\
+Sie sollten Ihre /system Partition vergrößern; <#d31820>andernfalls können schwere Fehler auftreten</#>!\
+
+# /sd-ext partition
+mymiui.req.sd_ext.title=Warnung: /sd-ext Partition...
+mymiui.req.sd_ext.content=Ihre /sd-ext Partition ist kleiner als 500MB oder fehlt vollständig (nicht gemountet?).\
+\
+Sie sollten Ihre /sd-ext Partition vergrößern oder eine EXT Partition mit CWR erstellen.\
+\
+<b>Empfohlene Größe:</b>\
+\
+<b>EXT:</b> <#d31820>500MB</#>, <b>SWAP:</b> <#d31820>0MB</#>\
+\
+<#d31820>Folgende Features sind deaktiviert bis die EXT Partition erstellt wird:</#>\
+\
+<*>myMIUI IDE©</*>\
+
+# /sdcard partition
+mymiui.req.sdcard.title=Warnung: /sdcard Partition...
+mymiui.req.sdcard.content=Der zur Verfügung stehende Speicherplatz auf Ihrer /sdcard liegt unter 100MB.\
+\
+Um <b><#000000>my</#><#ff7e00>MIUI</#></b> nutzen zu können, sollten mindestens 100MB freien Speicherplatz verfügbar sein.\
+\
+Bitte löschen Sie einige Dateien oder stecken Sie eine größere SD-Karte ein; <#d31820>andernfalls können schwere Fehler auftreten</#>!\
+\
+<#d31820>Folgende Features sind deaktiviert bis der Speicherplatz vergrößert wird:</#>\
+\
+<*>zipAlign</*>\
+
+# MAGLDR / cLK Detection
+mymiui.req.clk.title=cLK gefunden
+mymiui.req.clk.content=Sie möchten <b><#000000>my</#><#ff7e00>MIUI</#></b> mit dem cLK Bootloader installieren.\
+\
+Ist das korrekt?\
+
+mymiui.req.magldr.title=MAGLDR gefunden
+mymiui.req.magldr.content=Sie möchten <b><#000000>my</#><#ff7e00>MIUI</#></b> mit dem MAGLDR Bootloader isntallieren.\
+\
+Ist das korrekt?\
+
+mymiui.req.bl_error.title=Fehler: Bootloader unbekannt...
+mymiui.req.bl_error.content=Wir konnten den Bootloader auf Ihrem Gerät nicht erkennen...\
+\
+Stellen Sie sicher dass einer der folgenden Bootloader installiert ist:<#d31820>CWR v5.0.0.0+</#> mit\
+\
+<#d31820>cLK Version 1.4.0.1+</#>\
+\
+ODER\
+\
+<#d31820>MAGLDR 1.13+</#>\
+\
+Besuchen Sie meinen myMIUI Thread im XDA Developers Forum für Einzelheiten.\
+
+##
+# 5 - Installation Menu
+##
+mymiui.install_apps=Apps
+mymiui.install_theme=Themen
+mymiui.install_sys_modules=Systemmodule
+mymiui.install_sys_modifications=Systemeinstellungen
+mymiui.install_sys_appearance=Systemdesign
+mymiui.install_troubleshooting=Fehlerbehebung
+mymiui.install_lockscreen=Lockscreen
+
+mymiui.install_menu.title=myMIUI Installationsart
+mymiui.install_menu.subtitle=Bitte wählen Sie die Installationsart:
+mymiui.install_menu.typical=Typisch
+mymiui.install_menu.custom=Benutzerdefiniert
+
+##
+# 5_1 - Typical
+##
+mymiui.install_typical.title=myMIUI Typische Installation
+mymiui.install_typical.subtitle=Typische Installation beinhaltet:
+
+##
+# 5_2 - Custom
+##
+mymiui.install_custom.title=myMIUI Benutzerdefinierte Installation
+mymiui.install_custom.subtitle=Welche Module sollen installiert werden:
+mymiui.install_troubleshooting.clean_install=Saubere Installation
+mymiui.install_troubleshooting.clean_install.desc=Löscht Nutzerdaten. Selektieren, falls es Probleme nach einer Isntallation gab <#d31820>Vergessen Sie nicht einen Backup zu erstellen!</#>
+
+##
+# 6 - Installation Confirm
+##
+mymiui.install_ready=Installer bereit...
+mymiui.install_ready.desc=Bereit <b><#000000>my</#><#ff7e00>MIUI</#></b> zu installieren?\
+\
+Um die Installation zu starten drücken Sie
+mymiui.install_now=Jetzt installieren
+
+##
+# 7 - Installation
+##
+mymiui.install_process.title=Installiere myMIUI...
+mymiui.install_process.desc=<b><#000000>my</#><#ff7e00>MIUI</#></b> wird installiert, das könnte eine Weile dauern...
+mymiui.install_process.finish=myMIUI Installation fertig gestellt.
+mymiui.install_finish=Ende
+
+# success
+mymiui.install_finish.success.title=myMIUI Installation erfolgreich
+mymiui.install_finish.success.content=<@center>Wir gratulieren!\
+\
+<b><#000000>my</#><#ff7e00>MIUI</#></b> wurde erfolgreich installiert...</@>\
+\
+Der erste Bootvorgang kann bis zu <#d31820>10 Minuten</#> dauern währen sich das System konfiguriert.\
+\
+Wenn Sie meine Arbeit mögen und genießen Sie die ROM, beachten Sie bitte mit einer kleinen Spende helfen Sie mir durch die Universität zu bekommen und zeigen Sie Ihre Wertschätzung.\
+\
+<#1a3665>Pay</#><#32689a>Pal</#>: paypal@atern.us\
+\
+Danke!\
+
+mymiui.install_finish.success.cb=Gerät wird neugestartet
+
+# failure
+mymiui.install_finish.failure.title=myMIUI Installation fehlgeschlagen
+mymiui.install_finish.failure.content.ec=Installation wurde mit folgendem Fehler abgebrochen:
+mymiui.install_finish.failure.content.support=Kontaktieren Sie den Support wegen dem entstandenen Fehler.

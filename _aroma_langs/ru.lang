@@ -1,0 +1,187 @@
+﻿### LANGUAGE STRING RESOURCE FILE
+#
+# Language : Russian
+#
+# @author sergey <inbox5005@inbox.ru>
+# @author aternus <admin@atern.us>
+#
+# @resource http://www.w3schools.com/tags/ref_language_codes.asp
+#
+
+#
+#--- SYSTEM STRING RESOURCE
+#
+text_ok=OK
+text_next=Вперед
+text_back=Назад
+text_yes=Да
+text_no=Нет
+text_about=О программе
+text_calibrating=Утилиты калибровки
+text_quit=Отмена
+text_quit_msg=Вы уверены что хотите выйти из программы установки?
+
+#
+#-- myMIUI STRING RESOURCE
+#
+##
+# 2 - Welcome Screen
+##
+mymiui.welcome.title=Добро пожаловать в myMIUI
+mymiui.welcome.device=Устройство
+mymiui.welcome.version=Версия
+mymiui.welcome.release.date=Дата релиза
+mymiui.welcome.author=Автор
+mymiui.welcome.more.info=История изменений и дополнительная информация
+mymiui.welcome.credits=Отдельные благодарности
+
+##
+# 3 - ToS
+##
+mymiui.tos.title=Условия использования myMIUI
+mymiui.tos.desc=Пожалуйста прочтите внимательно условия использования применяющиеся к <b><#000000>my</#><#ff7e00>MIUI</#></b>...
+mymiui.tos.content=<@center><#d31820>ВЫ ИСПОЛЬЗУЕТЕ ПРОШИВКУ НА СВОЙ СТРАХ И РИСК\
+Я НЕ ОТВЕЧАЮ, ЗА КАКИЕ ЛИБО ПОВРЕЖДЕНИЯ, ПРЯМЫЕ ИЛИ ЛЮБЫЕ ДРУГИЕ КОТОРЫЕ МОЖЕТ НАНЕСТИ ДАННАЯ ПРОШИВКА</#></@>\
+\
+<@center><b><#titlefg>Техническая поддержка</#></b></@>\
+\
+Для получения технической поддержки, пожалуйста посетите ветку myMIUI на форуме XDA Developers:\
+\
+http://forum.xda-developers.com/showthread.php?t=1639932\
+\
+<#0060a5>Приложите к сообщению об ошибке лог файл с вашего устройства  "/mymiui-debug.log"</#>\
+\
+Наслаждайтесь!\
+
+mymiui.tos.cb.title=Я согласен, давайте продолжим…
+mymiui.tos.cb.content=Пожалуйста прочтите условия использования myMIUI перед тем как продолжить...
+
+##
+# 4 - Minimum Requirements
+##
+mymiui.req.pleasewait=Сбор информации...
+mymiui.req.continue=Я понимаю
+
+# /system partition
+mymiui.req.system.title=Осторожно: /system раздел...
+mymiui.req.system.content=Мы обнаружили что размер вашего /system раздела меньше 200MB.\
+\
+Пожалуйста, подумайте об увеличении размера /system раздела; <#d31820>иначе вы можете натолкнуться на серьёзные проблемы</#>!\
+
+# /sd-ext partition
+mymiui.req.sd_ext.title=Осторожно: /sd-ext раздел...
+mymiui.req.sd_ext.content=Мы обнаружили что размер вашего /sd-ext раздела меньше 500MB или отсуствует (не примонтирован?).\
+\
+Пожалуйста, подумайте об увеличении размера /sd-ext раздела или его создания с помощью CWR.\
+\
+<b>Рекомендованный раздел:</b>\
+\
+<b>EXT:</b> <#d31820>500MB</#>, <b>SWAP:</b> <#d31820>0MB</#>\
+\
+<#d31820>Следующие особенности будут выключены пока не будет создан EXT раздел:</#>\
+\
+<*>myMIUI IDE©</*>\
+
+# /sdcard partition
+mymiui.req.sdcard.title=Осторожно: /sdcard раздел...
+mymiui.req.sdcard.content= Мы обнаружили что размер вашего свободного места на /sdcard меньше 100MB.\
+\
+Для того чтоб вы могли полноценно использовать  <b><#000000>my</#><#ff7e00>MIUI</#></b>, необходимо как минимум 100MB свободного пространства.\
+\
+Пожалуйста рассмотрите возможность покупки более емкой microSD карты или удалите какие-нибудь файлы; <#d31820>иначе вы можете натолкнуться на серьёзные проблемы</#>!\
+\
+<#d31820>Следующие особенности будут выключены пока не будет увеличено свободное место:</#>\
+\
+<*>zipAlign</*>\
+
+# MAGLDR / cLK Detection
+mymiui.req.clk.title=Обнаружен cLK
+mymiui.req.clk.content=Мы обнаружили что вы пытаетесь установить <b><#000000>my</#><#ff7e00>MIUI</#></b> с загрузчиком cLK.\
+\
+Это верно?\
+
+mymiui.req.magldr.title=Обнаружен MAGLDR
+mymiui.req.magldr.content= Мы обнаружили что вы пытаетесь установить <b><#000000>my</#><#ff7e00>MIUI</#></b> с загрузчиком MAGLDR.\
+\
+Это верно?\
+
+mymiui.req.bl_error.title=Ошибка: Загрузчик неизвестен...
+mymiui.req.bl_error.content=Мы не можем определить какой загрузчик использует ваше устройство...\
+\
+Убедитесь, что вы используете <#d31820>CWR v5.0.0.0+</#> с\
+\
+<#d31820>cLK version 1.4.0.1+</#>\
+\
+ИЛИ\
+\
+<#d31820>MAGLDR 1.13+</#>\
+\
+Пожалуйста, посетите ветку myMIUI на форуме XDA Developers для получения детальной информации.\
+
+##
+# 5 - Installation Menu
+##
+mymiui.install_apps=Приложения
+mymiui.install_theme=Тема
+mymiui.install_sys_modules=Системные модули
+mymiui.install_sys_modifications=Изменения системы
+mymiui.install_sys_appearance=Внешний вид системы
+mymiui.install_troubleshooting=Поиск и устранение неисправностей
+mymiui.install_lockscreen=Блокировка экрана
+
+mymiui.install_menu.title=Тип установки myMIUI
+mymiui.install_menu.subtitle=Пожалуйста выберите тип установки:
+mymiui.install_menu.typical=Обычный
+mymiui.install_menu.custom=Расширенный
+
+##
+# 5_1 - Typical
+##
+mymiui.install_typical.title=Обычная установка myMIUI
+mymiui.install_typical.subtitle=Обычная установка включает:
+
+##
+# 5_2 - Custom
+##
+mymiui.install_custom.title=Расширенная установка myMIUI
+mymiui.install_custom.subtitle=Пожалуйста выберите какие компоненты вы бы хотели установить:
+mymiui.install_troubleshooting.clean_install=Чистая установка
+mymiui.install_troubleshooting.clean_install.desc=Удаление пользовательских данных. Включите если у вас наблюдается проблемы после установки. <#d31820>Убедитесь что вы сделали копию!</#>
+
+##
+# 6 - Installation Confirm
+##
+mymiui.install_ready=Установщик готов...
+mymiui.install_ready.desc=Вы готовы установить <b><#000000>my</#><#ff7e00>MIUI</#></b>?\
+\
+Для начала установки нажмите
+mymiui.install_now=Установить сейчас
+
+##
+# 7 - Installation
+##
+mymiui.install_process.title=Установка myMIUI...
+mymiui.install_process.desc=<b><#000000>my</#><#ff7e00>MIUI</#></b> в данный момент устанавливается на ваше устройство, это может занять некоторое время...
+mymiui.install_process.finish=Установка myMIUI завершена.
+mymiui.install_finish=Готово
+
+# success
+mymiui.install_finish.success.title=Установка myMIUI завершена успешно
+mymiui.install_finish.success.content=<@center>Поздравляем!\
+\
+<b><#000000>my</#><#ff7e00>MIUI</#></b> успешно установлена...</@>\
+\
+Пожалуйста подождите <#d31820>10 минут</#> после первого запуска, для того чтоб система могла настроить себя правильно.\
+\
+Если вам нравится моя работа и вы наслаждаетесь прошивкой, пожалуйста подумайте о небольшом денежном взносе для того чтоб показать вашу признательность и помочь мне с обучением в колледже.\
+\
+<#1a3665>Pay</#><#32689a>Pal</#>: paypal@atern.us\
+\
+Спасибо!\
+
+mymiui.install_finish.success.cb=Перезагрузите ваше устройство.
+
+# failure
+mymiui.install_finish.failure.title=Установка myMIUI прошла неудачно
+mymiui.install_finish.failure.content.ec=Процесс установки закончился с кодом ошибки:
+mymiui.install_finish.failure.content.support=Пожалуйста свяжитесь с технической поддержкой и приложите код ошибки
