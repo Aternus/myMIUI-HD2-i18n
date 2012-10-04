@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_label">Usługa VPN</string>
+  <string name="vpn_notification_title_connected">%s VPN połączony</string>
+  <string name="vpn_notification_title_disconnected">%s VPN rozłączony</string>
+  <string name="vpn_notification_hint_disconnected">Dotknij, aby podłączyć się do sieci VPN.</string>
+</resources>

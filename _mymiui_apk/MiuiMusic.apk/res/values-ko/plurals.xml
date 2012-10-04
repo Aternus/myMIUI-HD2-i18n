@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <plurals name="Nsongs">
+    <item quantity="other">%d 곡</item>
+  </plurals>
+  <plurals name="Nsongscomp">
+    <item quantity="other">%2$d 부터 총 %1$d곡</item>
+  </plurals>
+  <plurals name="Nalbums">
+    <item quantity="other">%d 앨범</item>
+    <item quantity="one">1 앨뱀</item>
+  </plurals>
+  <plurals name="NNNtracksdeleted">
+    <item quantity="other">%d곡 삭제됨</item>
+    <item quantity="one">1곡 삭제됨</item>
+  </plurals>
+  <plurals name="NNNtrackstoplaylist">
+    <item quantity="other">%d곡이 재생목록에 추가됨</item>
+    <item quantity="one">1곡이 재생목록에 추가됨</item>
+  </plurals>
+  <plurals name="NNNtrackstofavoriteplaylist">
+    <item quantity="other">%d곡이 즐겨찾기에 추가됨</item>
+    <item quantity="one">1곡이 즐겨찾기에 추가됨</item>
+  </plurals>
+</resources>

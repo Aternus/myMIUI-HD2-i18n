@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="prefEntries_ringtone_repeat">
+    <item>1 alkalommal</item>
+    <item>2 alkalommal</item>
+    <item>3 alkalommal</item>
+    <item>5 alkalommal</item>
+    <item>10 alkalommal</item>
+  </string-array>
+  <string-array name="contact_entries">
+    <item>Név</item>
+    <item>Becenév</item>
+    <item>Telefon</item>
+    <item>Levél</item>
+    <item>Szervezet</item>
+    <item>IM</item>
+    <item>VOIP</item>
+    <item>Születésnap</item>
+    <item>Web oldal</item>
+    <item>Lakcím</item>
+    <item>Megjegy.</item>
+  </string-array>
+  <string-array name="select_dialog_items">
+    <item>1 mp</item>
+    <item>2 mp</item>
+    <item>3 mp</item>
+    <item>4 mp</item>
+    <item>5 mp</item>
+    <item>6 mp</item>
+    <item>7 mp</item>
+    <item>8 mp</item>
+    <item>9 mp</item>
+    <item>10 mp</item>
+    <item>Egyéb...</item>
+  </string-array>
+</resources>

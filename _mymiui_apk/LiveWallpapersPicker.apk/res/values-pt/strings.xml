@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="application_name">Wallpapers Animados</string>
+  <string name="live_wallpaper_picker_title">Wallpapers animados</string>
+  <string name="live_wallpaper_preview_title">Pré-visualização de wallpapers animados</string>
+  <string name="configure_wallpaper">Definições</string>
+  <string name="wallpaper_instructions">Definir Wallpaper</string>
+  <string name="live_wallpaper_empty">Nenhum Wallpaper animado disponível.</string>
+  <string name="set_live_wallpaper">Definir Wallpaper</string>
+  <string name="wallpaper_title_and_author">%1$s por %2$s</string>
+  <string name="live_wallpaper_loading">A carregar Wallpaper animado...</string>
+</resources>

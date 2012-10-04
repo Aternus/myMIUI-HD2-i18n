@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Superuser</string>
+  <string name="app_name_request">Superuser Anfrage</string>
+  <string name="permlab_respond">Auf SU-Anfragen reagieren</string>
+  <string name="permdesc_respond">Erlaubt den Anwendungen auf SU-Anfragen zu reagieren.</string>
+  <string name="su_original">Original</string>
+  <string name="warning">Warnung</string>
+  <string name="malicious_app_found">Package %s was found to be requesting permission to respond to Superuser requests. It\'s likely that this app is malicious and attempting to grant superuser access without your knowledge. It\'s recommended that you uninstall it now.</string>
+  <string name="malicious_app_notification_ticker">Potentielles Bösartiges App erkannt</string>
+  <string name="malicious_app_notification_text">%s kann bösartig sein.</string>
+  <string name="uninstall">Deinstallieren</string>
+  <string name="no">Nein</string>
+  <string name="tab_apps">Apps</string>
+  <string name="tab_log">Log</string>
+  <string name="allow">Erlauben</string>
+  <string name="forget">Löschen</string>
+  <string name="cancel">Abbrechen</string>
+  <string name="deny">Sperren</string>
+  <string name="remember">Merken</string>
+  <string name="uid">(uid: %d)</string>
+  <string name="request" formatted="false">%s als %s (uid: %d)</string>
+  <string name="unknown">Unbekannter Name</string>
+  <string name="allowed">Erlaubt</string>
+  <string name="denied">Verweigert</string>
+  <string name="created">Erstellt</string>
+  <string name="empty_apps">Keine Apps in Liste</string>
+  <string name="pref_category_log_title">Verlauf</string>
+  <string name="pref_clear_log">Verlauf Löschen</string>
+  <string name="notification_text">%s wurden SU-Rechte gewährt</string>
+  <string name="unknown_package">Unbekanntes Paket</string>
+  <string name="unknown_app">Unbekanntes App</string>
+  <string name="permission_message">SMS</string>
+  <string name="permission_root">ROOT</string>
+  <string name="permission">Berechtigungen:</string>
+  <string name="permission_message_summary">Nachrichten Berechtigungen</string>
+  <string name="permission_root_summary">ROOT Berechtigungen</string>
+  <string name="app_details">App Details</string>
+  <string name="app_manage">App Manager</string>
+  <string name="app_detail_info">Version：%s</string>
+  <string name="permission_manage">Rechte Management</string>
+  <string name="forbidden">Verboten</string>
+  <string name="ask">Immer fragen</string>
+  <string name="permssion_detail">%s Berechtigungen</string>
+  <string name="clear_log_message">Superuser möchte den Verlauf löschen.</string>
+  <string name="success_clear_log">Superuser hat alle Verläufe gelöscht.</string>
+  <string name="enable_authority_message">Rechte Management aktiviert</string>
+  <string name="confirm_disable_authority">Wenn Sie Superuser deaktivieren wird auch die Überwachung von Bösartiger Software beendet. Wollen Sie das wirklich?</string>
+  <string name="ask_for_root_permission_message">%s versucht, Root-Rechte zu erlangen. Wollen Sie diese Aktion erlauben?</string>
+</resources>

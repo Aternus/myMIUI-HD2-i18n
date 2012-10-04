@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Certificaat Installer</string>
+  <string name="pick_file_title">Kies een certificaat</string>
+  <string name="pkcs12_password_dialog_title">Extract uit PKCS12 sleutelring</string>
+  <string name="extracting_pkcs12">Extraheren...</string>
+  <string name="pkcs12_file_password_dialog_title">Uitpakken van %s</string>
+  <string name="name_credential_dialog_title">Certificaat naam geven</string>
+  <string name="credential_name">Certificaat naam:</string>
+  <string name="credential_password">Wachtwoord invoeren om de certificaten te halen</string>
+  <string name="credential_info">Het pakket bevat:</string>
+  <string name="p12_description">Certificaten in PKCS12 sleutelring</string>
+  <string name="one_userkey">een gebruikers sleutel</string>
+  <string name="one_usercrt">een gebruikers certificaat</string>
+  <string name="one_cacrt">een CA certificaat</string>
+  <string name="n_cacrts">%d CA certificaten</string>
+  <string name="password_error">Voer het juiste wchtwoord in</string>
+  <string name="password_empty_error">Voer het wachtwoord in</string>
+  <string name="name_empty_error">Voer een naam in</string>
+  <string name="name_char_error">Geef een naam die alleen letters en cijfers bevat</string>
+  <string name="storage_error">Niet in staat om het certificaat op te slaan. Klik op OK om opnieuw te proberen.</string>
+  <string name="unable_to_save_cert">Niet mogelijk om het certificaat op te slaan. De opslag van referenties is niet ingeschakeld of juist geïnitialiseerd.</string>
+  <string name="cert_not_saved">Certificaat is niet geïnstalleerd</string>
+  <string name="no_cert_to_saved">Geen certificaat om te installeren</string>
+  <string name="intent_parse_error">Niet in staat het doel te parseren: %s</string>
+  <string name="cert_is_added">%s is geïnstalleerd</string>
+  <string name="cert_too_large_error">Installatie mislukt. Certificaat is te groot</string>
+  <string name="cert_missing_error">Installatie mislukt. Kan het certificaat bestand niet vinden</string>
+  <string name="cert_read_error">Installatie mislukt. Kan het certificaat bestand niet lezen</string>
+  <string name="no_cert_file_found">Geen certificaat-bestand gevonden op de SD-kaart</string>
+  <string name="sdcard_not_present">SD-kaart is niet aanwezig.</string>
+</resources>

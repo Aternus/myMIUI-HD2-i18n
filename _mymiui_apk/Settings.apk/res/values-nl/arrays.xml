@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="timezone_filters">
+    <item>Amerika</item>
+    <item>Europa</item>
+    <item>Afrika</item>
+    <item>Azië</item>
+    <item>Australië</item>
+    <item>Pacific</item>
+    <item>All</item>
+  </string-array>
+  <string-array name="date_format_titles">
+    <item>Jaar-Maand-Dag</item>
+    <item>Maand-Dag-Jaar</item>
+    <item>Dag-Maand-Jaar</item>
+  </string-array>
+  <string-array name="animations_entries">
+    <item>Uit</item>
+    <item>Med</item>
+    <item>Max</item>
+  </string-array>
+  <string-array name="access_control_privacy_mode_entries">
+    <item>Geen wachtwoord</item>
+    <item>Wachtwoord beveiligd</item>
+  </string-array>
+  <string-array name="access_control_app_entries">
+    <item>Geen wachtwoord</item>
+    <item>Verberg homescreen icon</item>
+    <item>Wachtwoord beveiligd</item>
+  </string-array>
+  <string-array name="animations_summaries">
+    <item>Geen scherm animaties</item>
+    <item>Enkele scherm animaties</item>
+    <item>Alle scherm animaties</item>
+  </string-array>
+  <string-array name="led_color_entries">
+    <item>Wit (Standaard)</item>
+    <item>Groen</item>
+    <item>Rood</item>
+    <item>Blauw</item>
+    <item>Geel</item>
+    <item>Cyaan</item>
+    <item>Magenta</item>
+    <item>Roze</item>
+    <item>Oranje</item>
+    <item>Sapphire</item>
+  </string-array>
+  <string-array name="led_freq_entries">
+    <item>2 seconden</item>
+    <item>3 seconden</item>
+    <item>4 seconden</item>
+    <item>5 seconden</item>
+    <item>6 seconden</item>
+    <item>7 seconden</item>
+    <item>8 seconden</item>
+    <item>9 seconden</item>
+  </string-array>
+  <string-array name="screen_timeout_entries">
+    <item>30s</item>
+    <item>1m</item>
+    <item>5m</item>
+    <item>10m</item>
+    <item>Off</item>
+  </string-array>
+  <string-array name="tts_rate_entries">
+    <item>Heel langzaam</item>
+    <item>Langzaam</item>
+    <item>Normaal</item>
+    <item>Snel</item>
+    <item>Heel snel</item>
+  </string-array>
+  <string-array name="tts_pitch_entries">
+    <item>Heel laag</item>
+    <item>Laag</item>
+    <item>Normaal</item>
+    <item>Hoog</item>
+    <item>Heel hoog</item>
+  </string-array>
+  <string-array name="tts_lang_entries">
+    <item>Amerikaans Engels</item>
+    <item>Brits Engels</item>
+    <item>Frans</item>
+    <item>Duits</item>
+    <item>Italiaans</item>
+    <item>Spaans</item>
+  </string-array>
+  <string-array name="tts_demo_strings">
+    <item>This is an example of speech synthesis in English.</item>
+    <item>This is an example of speech synthesis in English.</item>
+    <item>Voici un échantillon de synthèse vocale en français.</item>
+    <item>Dies ist ein Beispiel für Sprachsynthese in Deutsch.</item>
+    <item>Questo è un esempio di sintesi vocale in italiano.</item>
+    <item>Este es un ejemplo de síntesis de voz en español.</item>
+  </string-array>
+  <string-array name="wifi_wps_method">
+    <item>Druk Toets</item>
+    <item>Pin Nummer</item>
+  </string-array>
+  <string-array name="wifi_wps_ssid">
+    <item>Elke ssid</item>
+  </string-array>
+  <string-array name="wifi_status">
+    <item/>
+    <item>Scannen…</item>
+    <item>Verbinden…</item>
+    <item>Authenticeren…</item>
+    <item>IP adres verkrijgen…</item>
+    <item>Verbonden</item>
+    <item>Uitgesteld</item>
+    <item>Verbreken...</item>
+    <item>Verbinding verbroken</item>
+    <item>Niet succesvol</item>
+  </string-array>
+  <string-array name="wifi_status_with_ssid">
+    <item/>
+    <item>Scannen…</item>
+    <item>Verbinden met %1$s…</item>
+    <item>Authenticeren met %1$s…</item>
+    <item>Verkrijgen van IP adres van %1$s…</item>
+    <item>Verbonden met %1$s</item>
+    <item>Geschorst</item>
+    <item>Verbinding verbreken van %1$s…</item>
+    <item>Verbinding verbroken</item>
+    <item>Niet succesvol</item>
+  </string-array>
+  <string-array name="wifi_security">
+    <item>Open</item>
+    <item>WEP</item>
+    <item>WPA/WPA2 PSK</item>
+    <item>802.1x EAP</item>
+    <item>WAPI PSK</item>
+    <item>WAPI CERT</item>
+  </string-array>
+  <string-array name="wifi_ap_security">
+    <item>Open</item>
+    <item>WPA2 PSK</item>
+  </string-array>
+  <string-array name="wifi_wapi_psk_type">
+    <item>WAPI PSK ASCII</item>
+    <item>WAPI PSK hexadecimal</item>
+  </string-array>
+  <string-array name="wifi_eap_method">
+    <item>PEAP</item>
+    <item>TLS</item>
+    <item>TTLS</item>
+  </string-array>
+  <string-array name="bluetooth_visibility_timeout_entries">
+    <item>2 Minuten</item>
+    <item>5 Minuten</item>
+    <item>1 Uur</item>
+    <item>Nooit</item>
+  </string-array>
+  <string-array name="bluetooth_visibility_timeout_values">
+    <item>tweemin</item>
+    <item>vijfmin</item>
+    <item>eenuur</item>
+    <item>nooit</item>
+  </string-array>
+  <string-array name="wifi_signal">
+    <item>Slecht</item>
+    <item>Redelijk</item>
+    <item>Goed</item>
+    <item>Zeer goed</item>
+  </string-array>
+  <string-array name="wifi_sleep_policy_entries">
+    <item>Bij uitgaan van het scherm</item>
+    <item>Nooit tijdens opladen</item>
+    <item>Nooit</item>
+  </string-array>
+  <string-array name="battery_history_type_spinner">
+    <item>CPU gebruik</item>
+    <item>Netwerk gebruik</item>
+    <item>GPS gebruik</item>
+    <item>Sensor gebruik</item>
+    <item>Gedeeltelijk wakker worden gebruik</item>
+    <item>Overig gebruik</item>
+  </string-array>
+  <string-array name="battery_history_which_spinner">
+    <item>Sinds laatste keer ontkoppeld</item>
+    <item>Totaal sinds laatst opgestart</item>
+    <item>Totaal over gehele tijd</item>
+  </string-array>
+  <string-array name="usage_stats_display_order_types">
+    <item>Gebruiks tijd</item>
+    <item>Start teller</item>
+    <item>Applicatie naam</item>
+  </string-array>
+  <string-array name="wifi_eap_entries">
+    <item>PEAP</item>
+    <item>TLS</item>
+    <item>TTLS</item>
+  </string-array>
+  <string-array name="wifi_phase2_entries">
+    <item>Geen</item>
+    <item>PAP</item>
+    <item>MSCHAP</item>
+    <item>MSCHAPV2</item>
+    <item>GTC</item>
+  </string-array>
+  <string-array name="emergency_tone_entries">
+    <item>Uit</item>
+    <item>Melding</item>
+    <item>Trillen</item>
+  </string-array>
+  <string-array name="haptic_feedback_level_entries">
+    <item>Weinig</item>
+    <item>Normaal</item>
+    <item>Sterk</item>
+  </string-array>
+  <string-array name="special_locale_names">
+    <item>Chinese (Simplified)</item>
+    <item>Chinese (Traditional)</item>
+  </string-array>
+  <string-array name="apn_auth_entries">
+    <item>Geen</item>
+    <item>PAP</item>
+    <item>CHAP</item>
+    <item>PAP or CHAP</item>
+  </string-array>
+  <string-array name="app_install_location_entries">
+    <item>Interne opslag van apparaat</item>
+    <item>Verwijderbare SD-kaart</item>
+    <item>Laat het systeem bepalen</item>
+  </string-array>
+  <string-array name="app_install_location_values">
+    <item>apparaat</item>
+    <item>sd kaart</item>
+    <item>auto</item>
+  </string-array>
+  <string-array name="vibrate_entries">
+    <item>Altijd</item>
+    <item>Nooit</item>
+    <item>Alleen in stille modus</item>
+    <item>Altijd behalve in stille modus</item>
+  </string-array>
+  <string-array name="vibrate_values">
+    <item>Altijd</item>
+    <item>Nooit</item>
+    <item>Alleen in stille modus</item>
+    <item>Altijd behalve in stille modus</item>
+  </string-array>
+  <string-array name="battery_indicator_style_entries">
+    <item>Balk</item>
+    <item>Percentage</item>
+    <item>Smalle balk bovenaan</item>
+  </string-array>
+  <string-array name="usage_screen_power_slices">
+    <item>Open Scherm stroom verbuik</item>
+    <item>Verbuik bij scherm uit</item>
+    <item>Verbuik bij gedimde verlichting</item>
+    <item>Verbuik bij normale verlichtind</item>
+    <item>Verbruik bij felle verlichting</item>
+    <item>Verbuik bij volledige verlichting</item>
+  </string-array>
+  <string-array name="usage_radio_power_slices">
+    <item>1 A Cell signal power</item>
+    <item>2 Cell signal power</item>
+    <item>3 Signal power grid</item>
+    <item>4 Cell signal power</item>
+    <item>Cell signal power over</item>
+    <item>Search for the signal power</item>
+  </string-array>
+  <string-array name="usage_wifi_power_slices">
+    <item>Laat Wi-Fi stroom gebruik zien</item>
+    <item>Wi-Fi stroom gebruik</item>
+  </string-array>
+  <string-array name="usage_bluetooth_power_slices">
+    <item>Laat bluetooth stroom gebruik zien</item>
+    <item>Bluetooth stroom gebruik</item>
+  </string-array>
+  <string-array name="usage_app_power_slices">
+    <item>Audio stroom gebruik</item>
+    <item>Video stroom gebruik</item>
+    <item>CPU stroom gebruik</item>
+    <item>Data stroom gebruik</item>
+    <item>Sensor stroom gebruik</item>
+  </string-array>
+  <string-array name="overscroll_mode_entries">
+    <item>Altijd flexibel</item>
+    <item>Flexibel als de inhoud vol is</item>
+    <item>Geen flexibiliteit</item>
+  </string-array>
+  <string-array name="menu_style_entries">
+    <item>Rooster aanzicht</item>
+    <item>Lijst aanzicht</item>
+  </string-array>
+  <string-array name="led_color_entries_for_milestone">
+    <item>Groen (standaard)</item>
+    <item>Rood</item>
+    <item>Blauw</item>
+    <item>Geel</item>
+    <item>Cyan</item>
+    <item>Magenta</item>
+    <item>Oranje</item>
+  </string-array>
+  <string-array name="led_color_entries_for_mione">
+    <item>Blauw</item>
+    <item>Rood</item>
+    <item>Groen</item>
+    <item>Roze</item>
+    <item>Violet</item>
+    <item>Paars</item>
+    <item>Emerald</item>
+    <item>Cyaan</item>
+    <item>Sapphire</item>
+  </string-array>
+  <string-array name="entries_light_filter_window">
+    <item>10 s</item>
+    <item>20 s</item>
+    <item>30 s</item>
+    <item>40 s</item>
+    <item>50 s</item>
+    <item>60 s</item>
+  </string-array>
+  <string-array name="entries_light_filter_reset">
+    <item>Disabled</item>
+    <item>400 lux</item>
+    <item>500 lux</item>
+    <item>600 lux</item>
+    <item>700 lux</item>
+    <item>800 lux</item>
+    <item>900 lux</item>
+    <item>1000 lux</item>
+    <item>1500 lux</item>
+    <item>2000 lux</item>
+    <item>2500 lux</item>
+  </string-array>
+  <string-array name="entries_light_filter_interval">
+    <item>0.5 s</item>
+    <item>1 s</item>
+    <item>2 s</item>
+    <item>5 s</item>
+    <item>10 s</item>
+  </string-array>
+  <string-array name="entries_light_levels_dim">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>8</item>
+    <item>10</item>
+    <item>12</item>
+    <item>14</item>
+    <item>16</item>
+    <item>18</item>
+    <item>20 (default)</item>
+    <item>22</item>
+    <item>24</item>
+    <item>26</item>
+  </string-array>
+</resources>

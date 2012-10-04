@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Svetilka</string>
+  <string name="about">O programu:</string>
+  <string name="about_btn">O svetilki</string>
+  <string name="about_title">O programu</string>
+  <string name="about_close">Zapri</string>
+  <string name="description">Ta program manipulira z LED svetilko kamere.\n</string>
+  <string name="warning">Opozorilo: Če boste LED svetilko pustili prižgano za dalj časa jo lahko pregrejete.\n\nPolna moč je bila testirana za 1/2 ure, a obstaja možnost uničenja LED luči.\n</string>
+  <string name="license">Originalna koda iz Nexus One svetilke od Bena Buxtona, izdana pod GPL, v3.\nhttp://n1torch.googlecode.com/\n\nHvala Davidu Prietu za nov UI dizajn.\n\nPrilagojeno za CyanogenMod - Steve Kondik.\n\n</string>
+  <string name="warning_label">Opozorilo</string>
+  <string name="brightwarn">Polna svetlost je bila testirana za 1/2 ure, ampak se je zelo segrela in začela utripati po 45min. Dolgotrajne posledice so neznane.\n\nTo trenutno še ni podprto na pripomočku.\n\Kliknite \'Potrdi\' če želite uporabljati na lastno odgovornost.</string>
+  <string name="brightwarn_title">Gumb za \'Vklop\' visoke svetlosti!!!</string>
+  <string name="brightwarn_negative">Ne hvala</string>
+  <string name="brightwarn_accept">Potrdi</string>
+  <string name="label_on">Vključi</string>
+  <string name="label_off">Izključi</string>
+  <string name="label_high">Visoka svetlost</string>
+  <string name="label_strobe">Utripanje</string>
+  <string name="label_frequency">Frekvenca: (podrsajte za spremembo)</string>
+  <string name="widget_options">Splošne nastavitve</string>
+  <string name="setting_widget_bright">Svetel pripomoček</string>
+  <string name="setting_widget_strobe">Utripanje svetilke</string>
+  <string name="setting_frequency_title">Frekvenca utripanja</string>
+  <string name="setting_frequency_summary">Frekvenca utripanja luči</string>
+  <string name="setting_frequency_dialog">Frekvenca</string>
+  <string name="setting_frequency_hz">Hz</string>
+  <string name="setting_add_widget">Dodaj pripomoček</string>
+  <string name="not_torch_title">Svetilka vključena</string>
+  <string name="not_torch_summary">Svetilka je trenutno vključena</string>
+  <string name="widget_label">Svetilka</string>
+  <string name="torch_message">Enostavno lahko odprete svetilko z držanjem [icon] na zaslonu za zaklepanje</string>
+</resources>

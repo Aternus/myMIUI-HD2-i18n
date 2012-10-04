@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="animation">
+    <item>Nincs animáció</item>
+    <item>Áttűnés</item>
+    <item>Tárcsázás</item>
+    <item>Lapozás</item>
+    <item>Vízesés</item>
+    <item>Forgatás</item>
+    <item>3D kocka</item>
+    <item>Beúszás</item>
+  </string-array>
+</resources>

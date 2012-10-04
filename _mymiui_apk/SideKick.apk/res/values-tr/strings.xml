@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sidekick_activity_label">SideKick arama</string>
+  <string name="menu_preferences">Arama Ayarları</string>
+  <string name="menu_history">Arama Geçmişi</string>
+  <string name="search_hint">Aramak için kelime girin</string>
+  <string name="change_search_setting">Arama ayarlarını değiştir</string>
+  <string name="search_web">İnternette ara</string>
+  <string name="search_recent_hint">Yakınlarda Arananlar</string>
+  <string name="search_no_result_hint">\"%s\" için sonuç bulunamadı.</string>
+  <string name="search_no_result_hint_suggistion">Arama İpuçları:</string>
+  <string name="search_no_result_hint_line1">Kelimeyi doğru yazdığınızdan emin olun</string>
+  <string name="search_no_result_hint_line2">Başka bir kelimeyle aramayı deneyin</string>
+  <string name="search_no_result_hint_line3">Daha genel bir ifade deneyin</string>
+  <string name="history_delete_hint">Öğeyi silmek için uzunca bas</string>
+  <string name="search_sources">Arama Ayarları</string>
+  <string name="search_sources_summary">Arama bu mobil aygıtta depolanan bilgileri kapsasın</string>
+  <string name="input_history">Arama Geçmişi</string>
+  <string name="delete_input_history">Arama Geçmişini Temizle</string>
+  <string name="search_result_header_hint_search">Toplam %d sonuç bulundu</string>
+  <string name="search_result_header_hint_recent">Toplam %d sonuç bulundu</string>
+  <string name="search_threshold_title">Her arama sonunda en fazla sonuç.</string>
+  <string name="search_threshold_infinite">Sınırsız</string>
+  <string name="search_threshold_ten">10</string>
+  <string name="search_threshold_thirty">30</string>
+  <string name="search_engine_title">Arama motorunu seç</string>
+  <string name="search_engine_google">Google</string>
+  <string name="search_engine_baidu">Baidu</string>
+  <string name="search_history_today">Bugün</string>
+  <string name="search_history_yesterday">Dün</string>
+  <string name="default_web_search_engine_google">http://www.google.com/m/search?q=</string>
+  <string name="default_web_search_engine_baidu">http://m.baidu.com/ssid=0/from=1269a/bd_page_type=1/s?word=</string>
+  <string name="recent_dialog_buttonAppKiller_summary">Uygulama Sonlandırıcı %1$s yer açtı.\nKullanılabilir bellek: %2$s</string>
+  <string name="recent_dialog_buttonAppKiller">Uyg. Sonlandır</string>
+  <string name="recent_dialog_buttonTaskManager">Uygulamalar</string>
+</resources>

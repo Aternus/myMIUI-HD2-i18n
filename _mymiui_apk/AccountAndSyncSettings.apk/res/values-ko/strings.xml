@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_label">계정 및 동기화 설정</string>
+  <string name="sync_settings">계정 및 동기화 설정</string>
+  <string name="sync_too_many_deletes">삭제 한도 초과</string>
+  <string name="background_data">백그라운드 데이터</string>
+  <string name="background_data_summary">앱이 언제나 데이터를 주고 받으며 동기화 할 수 있습니다.</string>
+  <string name="background_data_dialog_title">주의</string>
+  <string name="background_data_dialog_message">백그라운드 데이터를 끄면 배터리 사용량과 데이터통신 비용을 절감 할 수 있습니다. 몇몇 앱의 경우 기본적인 백그라운드 연결 상태가 유지 될 수 있습니다.</string>
+  <string name="sync_automatically">자동 동기화</string>
+  <string name="sync_automatically_summary">앱이 데이터를 알아서 동기화 합니다.</string>
+  <string name="settings_backup">백업 설정</string>
+  <string name="settings_backup_summary">내 설정 백업</string>
+  <string name="sync_menu_sync_now">지금 동기화</string>
+  <string name="sync_menu_sync_cancel">동기화 취소</string>
+  <string name="sync_one_time_sync">동기화 하려면 터치\n%1$s</string>
+  <string name="sync_gmail">G메일</string>
+  <string name="sync_calendar">캘린더</string>
+  <string name="sync_contacts">연락처</string>
+  <string name="sync_too_many_deletes_desc">%2$s, %3$s 계정에 대해 %1$d개의 삭제된 항목이 있습니다. 어떻게 하시겠습니까?</string>
+  <string name="sync_really_delete">항목 삭제.</string>
+  <string name="sync_undo_deletes">삭제 취소.</string>
+  <string name="sync_do_nothing">무시</string>
+  <string name="sync_is_failing">동기화를 진행함에 있어 현재 문제가 발견 되었습니다. 잠시 후 이어집니다.</string>
+  <string name="sync_plug"><font fgcolor="#ffffffff">구글 동기화에 오신 것을 환영 합니다!</font> \nA 당신의 연락처, 일정, 개인정보를 동기화 하여 백업 및 복구가 가능해 집니다.\u0020</string>
+  <string name="header_application_sync_settings">애플리케이션 동기화 설정</string>
+  <string name="header_manage_accounts">계정 관리</string>
+  <string name="header_manage_default_accounts">새 연락처 저장</string>
+  <string name="header_general_sync_settings">일반 동기화 설정</string>
+  <string name="sync_enabled">동기화 ON</string>
+  <string name="sync_disabled">동기화 OFF</string>
+  <string name="sync_error">동기화 오류</string>
+  <string name="add_account_label">계정 추가</string>
+  <string name="header_data_and_synchronization">데이터 동기화</string>
+  <string name="preference_change_password_title">비밀번호 변경</string>
+  <string name="header_account_settings">계정 설정</string>
+  <string name="remove_account_label">계정 삭제</string>
+  <string name="header_add_an_account">계정 추가</string>
+  <string name="finish_button_label">완료</string>
+  <string name="really_remove_account_title">계정 삭제</string>
+  <string name="really_remove_account_message">정말 계정을 제거 하시겠습니까? 제거시 모든 문자,연락처,다른 휴대폰 내의 정보가 삭제 됩니다. \n진행 하시겠습니까?</string>
+  <string name="remove_account_failed">이 계정은 현재 일부 애플리케이션에서 사용 중 입니다. 제거 하려면 휴대폰을 공장 초기화 하여야만 가능 합니다. (개인 정보 모두 삭제됨). 보안 설정에서 설정 할 수 있습니다.</string>
+  <string name="provider_label">구독정보 푸시</string>
+  <string name="sync_item_title">%s 동기화</string>
+  <string name="cant_sync_dialog_title">수동 동기화 불가</string>
+  <string name="cant_sync_dialog_message">이 항목에 대한 동기화가 불가능 합니다. 백그라운드 데이터 자동 동기화로 설정 하세요.</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="clir_display_values">
+    <item>Padrão de Rede</item>
+    <item>Ocultar número</item>
+    <item>Mostrar número</item>
+  </string-array>
+  <string-array name="list_language_entries">
+    <item>Inglês</item>
+    <item>Francês</item>
+    <item>Espanhol</item>
+    <item>Japonês</item>
+    <item>Coreano</item>
+    <item>Chinês</item>
+    <item>Hebraico</item>
+  </string-array>
+  <string-array name="gsm_umts_network_preferences_choices">
+    <item>GSM/WCDMA (modo auto)</item>
+    <item>WCDMA apenas</item>
+    <item>Apenas GSM</item>
+    <item>GSM/WCDA (WCDMA preferido)</item>
+  </string-array>
+  <string-array name="cdma_system_select_choices">
+    <item>Apenas início</item>
+    <item>Automático</item>
+  </string-array>
+  <string-array name="cdma_roaming_mode_choices">
+    <item>Redes Domésticas apenas</item>
+    <item>Redes Associadas</item>
+    <item>Qualquer rede</item>
+  </string-array>
+  <string-array name="cdma_network_preferences_choices">
+    <item>CDMA/EvDo</item>
+    <item>Só CDMA</item>
+    <item>Só EvDO</item>
+  </string-array>
+  <string-array name="cdma_subscription_choices">
+    <item>RUIM/SIM</item>
+    <item>NV</item>
+  </string-array>
+  <string-array name="tty_mode_entries">
+    <item>TTY Off</item>
+    <item>TTY Full</item>
+    <item>TTY HCO</item>
+    <item>TTY VCO</item>
+  </string-array>
+  <string-array name="dtmf_tone_entries">
+    <item>Normal</item>
+    <item>Longo</item>
+  </string-array>
+</resources>

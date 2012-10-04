@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_label">Tài khoản và đồng bộ</string>
+  <string name="sync_settings">Thiết lập Tài khoản &amp; Đồng bộ</string>
+  <string name="sync_too_many_deletes">Xóa vượt quá giới hạn</string>
+  <string name="background_data">Dữ liệu chạy nền</string>
+  <string name="background_data_summary">Các Ứng dụng có thể đồng bộ, gửi và nhận dữ liệu bất cứ lúc nào</string>
+  <string name="background_data_dialog_title">Chú ý</string>
+  <string name="background_data_dialog_message">Vô hiệu hóa dữ liệu chạy nền giúp kéo dài thời gian sử dụng pin và giảm sử dụng dữ liệu. Một số ứng dụng vẫn có thể sử dụng kết nối dữ liệu nền.</string>
+  <string name="sync_automatically">Tự động Đồng bộ</string>
+  <string name="sync_automatically_summary">Các Ứng dụng sẽ tự động đồng bộ dữ liệu</string>
+  <string name="settings_backup">Sao lưu thiết lập</string>
+  <string name="settings_backup_summary">Sao lưu thiết lập của tôi</string>
+  <string name="sync_menu_sync_now">Đồng bộ ngay</string>
+  <string name="sync_menu_sync_cancel">Hủy Đồng bộ</string>
+  <string name="sync_one_time_sync">Chạm để Đồng bộ ngay\n%1$s</string>
+  <string name="sync_gmail">Gmail</string>
+  <string name="sync_calendar">Lịch</string>
+  <string name="sync_contacts">Danh bạ</string>
+  <string name="sync_too_many_deletes_desc">Đây là những %1$d mục được xóa cho %2$s, tài khoản %3$s. Bạn có muốn làm việc này không?</string>
+  <string name="sync_really_delete">Xóa các mục.</string>
+  <string name="sync_undo_deletes">Phục hồi xóa.</string>
+  <string name="sync_do_nothing">Không làm gì bây giờ.</string>
+  <string name="sync_is_failing">Đồng bộ hiện đang gặp vấn đề. Nó sẽ trở lại ngay.</string>
+  <string name="sync_plug"/>
+  <string name="header_application_sync_settings">Thiêt lập ứng dụng Đồng bộ</string>
+  <string name="header_manage_accounts">Quản lý tài khoản</string>
+  <string name="header_manage_default_accounts">Tài khoản mặc định</string>
+  <string name="header_general_sync_settings">Thiết lập các mục đồng bộ</string>
+  <string name="sync_enabled">Đồng bộ Bật</string>
+  <string name="sync_disabled">Đồng bộ Tắt</string>
+  <string name="sync_error">Đồng bộ lỗi</string>
+  <string name="add_account_label">Thêm tài khoản</string>
+  <string name="header_data_and_synchronization">Dữ liệu &amp; đồng bộ</string>
+  <string name="preference_change_password_title">Đổi mật khẩu</string>
+  <string name="header_account_settings">Thiết lập Tài khoản</string>
+  <string name="remove_account_label">Bỏ Tài khoản</string>
+  <string name="header_add_an_account">Thêm Tài khoản</string>
+  <string name="finish_button_label">Kết thúc</string>
+  <string name="really_remove_account_title">Bỏ Tài khoản</string>
+  <string name="really_remove_account_message">Bạn có thực sự muốn xóa tài khoản này? Loại bỏ nó cũng sẽ xoá tất cả các tin nhắn, địa chỉ liên hệ của nó, và các dữ liệu từ điện thoại. \nTiếp tục?</string>
+  <string name="remove_account_failed">Tài khoản này là yêu cầu của một số ứng dụng. Bạn chỉ có thể loại bỏ nó bằng cách cài đặt lại điện thoại về mặc định (mà sẽ xóa tất cả dữ liệu cá nhân). Bạn làm điều đó trong ứng dụng Thiết lập/Bảo mật.</string>
+  <string name="provider_label">Thúc đẩy các mục đăng ký</string>
+  <string name="sync_item_title">Đồng bộ %s</string>
+  <string name="cant_sync_dialog_title">Không thể đồng bộ bằng tay</string>
+  <string name="cant_sync_dialog_message">Đồng bộ cho mục này hiên nay đang bị vô hiệu hóa. Để thay đổi điều bạn muốn, tạm thời chuyển về dữ liệu nền và đồng bộ tự động.</string>
+</resources>

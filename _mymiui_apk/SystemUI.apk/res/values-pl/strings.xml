@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="always_use_accessory">Użyj domyślnie dla tego akcesorium USB</string>
+  <string name="app_label">Pasek statusu</string>
+  <string name="battery_low_percent_format">Pozostało %d%%.</string>
+  <string name="battery_low_subtitle">Niski poziom baterii:</string>
+  <string name="battery_low_title">Podłącz ładowarkę</string>
+  <string name="battery_low_why">Użycie baterii</string>
+  <string name="call_status_dialing">Łączenie</string>
+  <string name="dismount_storage">Nie łącz</string>
+  <string name="label_view">Wyświetl</string>
+  <string name="mount_storage">Podłącz</string>
+  <string name="move_data_to_sdcard_message">Zrzuty ekranu, zdjęcia, dźwięki i inne dane zostaną przeniesione na kartę SD by zapewnić płynność działania interfejsu</string>
+  <string name="move_data_to_sdcard_title">Przenieś dane na kartę SD</string>
+  <string name="return_to_incall_screen">Kliknij by powrócić do połączenia</string>
+  <string name="status_bar_clear_all_button">Wyczyść</string>
+  <string name="status_bar_date_format">d MMM</string>
+  <string name="status_bar_date_format_lock">E, d MMM</string>
+  <string name="status_bar_latest_events_title">Powiadomienia</string>
+  <string name="status_bar_no_notifications_title">Brak powiadomień</string>
+  <string name="status_bar_ongoing_events_title">Wychodzące</string>
+  <string name="status_bar_time_format_12">h:mma</string>
+  <string name="status_bar_time_format_24">HH:mm</string>
+  <string name="tab_notifications_lable">Powiadomienia</string>
+  <string name="tab_toggles_lable">Przełączniki</string>
+  <string name="title_usb_accessory">Akcesorium USB</string>
+  <string name="usb_accessory_confirm_prompt">Otworzyć %1$s jeśli to akcesorium USB jest połączone?</string>
+  <string name="usb_accessory_permission_prompt">Zezwolić aplikacji %1$s na dostęp do akcesorium USB?</string>
+  <string name="usb_accessory_uri_prompt">Brak zainstalowanych aplikacji współpracujących z tym akcesorium USB. Dowiedz się więcej tu %1$s</string>
+  <string name="usb_device_confirm_prompt">Otworzyć %1$s jeśli to urządzenie USB jest połączone?</string>
+  <string name="usb_mode_dont_ask">Nie pytaj</string>
+  <string name="usb_mode_mount_storage_title">Dysk USB</string>
+  <string name="usb_mode_notification">Dysk USB</string>
+  <string name="user_guide_for_call">By przejść do panelu telefonu, przesuń w dół pasek statusu i kliknij na powiadomienie o połączeniu</string>
+  <string name="user_guide_for_notification">Otrzymano nowe powiadomienie，przeciągnij w dół pasek statusu by zobaczyć szczegóły</string>
+  <string name="user_guide_for_toggle">Lista przełączników może być przewijana w poziomie</string>
+  <string name="user_guide_for_toggle_list">Kliknij by ustawić własną listę przełączników</string>
+</resources>

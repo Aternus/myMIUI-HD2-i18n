@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_label">VPN Services</string>
+  <string name="vpn_notification_hint_disconnected">Tik om opnieuw verbinding te maken met een VPN.</string>
+  <string name="vpn_notification_title_connected">%s VPN verbonden</string>
+  <string name="vpn_notification_title_disconnected">%s VPN verbroken</string>
+</resources>

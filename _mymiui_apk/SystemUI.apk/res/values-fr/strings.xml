@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_label">Barre de notifications</string>
+  <string name="status_bar_clear_all_button">Effacer tout</string>
+  <string name="status_bar_no_notifications_title">Aucune notification</string>
+  <string name="status_bar_ongoing_events_title">En cours</string>
+  <string name="status_bar_latest_events_title">Notifications</string>
+  <string name="battery_low_title">Branchez le chargeur</string>
+  <string name="battery_low_subtitle">Le niveau de la batterie est faible :</string>
+  <string name="battery_low_percent_format">Maximum %d %% restants.</string>
+  <string name="battery_low_why">Utilisation de la batterie</string>
+  <string name="usb_accessory_permission_prompt">Voulez-vous autoriser l\'application %1$s à accéder à l\'accessoire USB ?</string>
+  <string name="usb_device_confirm_prompt">Voulez-vous ouvrir %1$s quand ce périphérique USB est connecté ?</string>
+  <string name="usb_accessory_confirm_prompt">Voulez-vous ouvrir %1$s quand cet accessoire USB est connecté ?</string>
+  <string name="usb_accessory_uri_prompt">Aucune application ne fonctionne avec cet accessoire USB. En savoir plus sur : %1$s</string>
+  <string name="title_usb_accessory">Accessoire USB</string>
+  <string name="label_view">Voir</string>
+  <string name="always_use_accessory">Utiliser par défault</string>
+  <string name="tab_notifications_lable">Notifications</string>
+  <string name="tab_toggles_lable">Raccourcis</string>
+  <string name="status_bar_time_format_12">h:mma</string>
+  <string name="status_bar_time_format_24">HH:mm</string>
+  <string name="status_bar_date_format">EEEE d MMMM</string>
+  <string name="status_bar_date_format_lock">EEEE d MMMM yyyy</string>
+  <string name="usb_mode_notification">Stokage USB</string>
+  <string name="usb_mode_dont_ask">Ne plus demander</string>
+  <string name="usb_mode_mount_storage_title">Ouvrir le stockage USB</string>
+  <string name="mount_storage">Monter</string>
+  <string name="dismount_storage">Démonter</string>
+  <string name="move_data_to_sdcard_title">Transfert les fichiers vers la carte SD</string>
+  <string name="move_data_to_sdcard_message">Les captures d\'écran, photo, audio et autres données seront définitivement déplacé vers la carte SD afin d\'assurer une interface plus fluide et stable.</string>
+  <string name="user_guide_for_notification">Nouvelle notification reçue, vous pouvez faire glisser la barre d\'état ​​pour vérifier les détails</string>
+  <string name="user_guide_for_toggle">La liste peut défiler horizontalement</string>
+  <string name="user_guide_for_toggle_list">Cliquez dessus pour personnaliser la liste</string>
+  <string name="user_guide_for_call">Pour revenir à l\'interface utilisateur du téléphone, vous pouvez faire glisser la barre d\'état ​​et cliquez sur la notification d\'appel</string>
+  <string name="return_to_incall_screen">Cliquer pour retourner à l\'écran d\'appel en cours</string>
+  <string name="call_status_dialing">En communication</string>
+</resources>

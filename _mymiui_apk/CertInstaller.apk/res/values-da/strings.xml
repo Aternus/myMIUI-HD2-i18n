@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Installer til certifikater</string>
+  <string name="pick_file_title">Vælg et certifikat</string>
+  <string name="pkcs12_password_dialog_title">Udvind fra PKCS12 keystore</string>
+  <string name="extracting_pkcs12">Udvinder...</string>
+  <string name="pkcs12_file_password_dialog_title">Udvind fra %s</string>
+  <string name="name_credential_dialog_title">Navngiv certifikatet</string>
+  <string name="credential_name">Certifikat navn:</string>
+  <string name="credential_password">Indtast kodeordet for at udvinde certifikaterne.</string>
+  <string name="credential_info">Pakken indeholder:</string>
+  <string name="p12_description">Certifikater i PKCS12 keystore.</string>
+  <string name="one_userkey">én brugernøgle</string>
+  <string name="one_usercrt">ét bruger certifikat</string>
+  <string name="one_cacrt">ét CA certifikat</string>
+  <string name="n_cacrts">%d CA certifikater</string>
+  <string name="password_error">Venligst indtast korrekt kodeord.</string>
+  <string name="password_empty_error">Indtast kodeord.</string>
+  <string name="name_empty_error">Venligst indtast et navn.</string>
+  <string name="name_char_error">Indtast navn der kun indehoder tal og/eller bogstaver.</string>
+  <string name="storage_error">Ikke istand til at gemme certifikatet. Klik OK for at prøve igen.</string>
+  <string name="unable_to_save_cert">Ikke istand til at gemme certifikatet. Lageret for legitimationsoplysninger er ikke aktiveret eller korrekt startet.</string>
+  <string name="cert_not_saved">Certifikatet er ikke installeret.</string>
+  <string name="no_cert_to_saved">Intet certifikat at installere.</string>
+  <string name="intent_parse_error">Ikke istand til at analysere forsæt: %s</string>
+  <string name="cert_is_added">%s er installeret.</string>
+  <string name="cert_too_large_error">Installation mislykekdes. Certifikatstørrelse er for stor.</string>
+  <string name="cert_missing_error">Installation mislykkedes. Kan ikke lokalisere certifikatfilen.</string>
+  <string name="cert_read_error">Installation mislykkedes. Kan ikke læse certifikatfilen.</string>
+  <string name="no_cert_file_found">Ingen certifikatfil fundet på SD-kortet.</string>
+  <string name="sdcard_not_present">SD-kort ikke til stede.</string>
+</resources>

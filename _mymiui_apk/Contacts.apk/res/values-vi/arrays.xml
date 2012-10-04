@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="pick_photo_values">
+    <item>Ảnh chụp</item>
+    <item>Từ album ảnh</item>
+    <item>Hình đại diện</item>
+    <item>Khôi phục về mặc định</item>
+  </string-array>
+  <string-array name="pick_incoming_call_photo_values">
+    <item>Ảnh chụp</item>
+    <item>Từ album ảnh</item>
+  </string-array>
+  <string-array name="edit_incoming_call_photo_values">
+    <item>Ảnh chụp</item>
+    <item>Từ album ảnh</item>
+    <item>Sửa cỡ ảnh</item>
+    <item>Xóa</item>
+  </string-array>
+  <string-array name="click_shortcut_entries">
+    <item>Call</item>
+    <item>Xem tên liên lạc</item>
+    <item>Tên liên lạc</item>
+  </string-array>
+</resources>

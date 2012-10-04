@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="backup_dialog_content_type">
+    <item>WiFi podatki</item>
+    <item>Vse aplikacije</item>
+  </string-array>
+  <string-array name="system_package_label">
+    <item>Galerija</item>
+    <item>Glasba</item>
+    <item>Snemalnik zvoka</item>
+    <item>Brskalnik</item>
+    <item>Fotoaparat</item>
+    <item>File Explorer</item>
+  </string-array>
+  <string-array name="system_data_label">
+    <item>Stiki</item>
+    <item>Dnevnik klicev</item>
+    <item>Sporočila</item>
+    <item>Večpredstavnostna sporočila</item>
+    <item>Sistem nastavitve</item>
+    <item>Wi-Fi nastavitve</item>
+    <item>Desktop postavitev</item>
+    <item>Alarm nastavitve</item>
+    <item>Opombe</item>
+    <item>DND nastavitve</item>
+    <item>Trenutno temo</item>
+    <item>Superkorisnik</item>
+  </string-array>
+  <string-array name="app_type_desc">
+    <item>(Podatki)</item>
+    <item>(Aplikacije)</item>
+    <item>(Podatki + Aplikacije)</item>
+  </string-array>
+  <string-array name="cloud_data_label">
+    <item>Stiki</item>
+    <item>Dnevnik klicev</item>
+    <item>Sporočila</item>
+    <item>WiFi nastavitve</item>
+    <item>Beležke</item>
+  </string-array>
+  <string-array name="cloud_account_data">
+    <item>Stiki</item>
+    <item>Wi-Fi nastavitve</item>
+    <item>Opombe</item>
+  </string-array>
+  <string-array name="cloud_sim_data">
+    <item>Dnevnik klicev</item>
+    <item>Sporočila</item>
+  </string-array>
+</resources>

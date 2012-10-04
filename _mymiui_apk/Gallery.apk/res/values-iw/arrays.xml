@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="animation">
+    <item>ללא</item>
+    <item>עמעום</item>
+    <item>נפילה</item>
+    <item>דפדוף</item>
+    <item>מפל</item>
+    <item>סיבוב</item>
+    <item>קוביה</item>
+    <item>מעבר אחורי</item>
+  </string-array>
+</resources>

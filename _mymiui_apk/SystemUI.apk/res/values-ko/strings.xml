@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_label">상태 표시줄</string>
+  <string name="status_bar_clear_all_button">지우기</string>
+  <string name="status_bar_no_notifications_title">알림 없음</string>
+  <string name="status_bar_ongoing_events_title">진행 중</string>
+  <string name="status_bar_latest_events_title">알림</string>
+  <string name="battery_low_title">밥주세요~!</string>
+  <string name="battery_low_subtitle">배터리가 얼마남지 않았습니다:</string>
+  <string name="battery_low_percent_format">%d%% 혹은 더 적게 남았습니다.</string>
+  <string name="battery_low_why">배터리 사용</string>
+  <string name="tab_notifications_lable">알림</string>
+  <string name="tab_toggles_lable">기능</string>
+  <string name="status_bar_time_format_12">h:mma</string>
+  <string name="status_bar_time_format_24">HH:mm</string>
+  <string name="status_bar_date_format">MMMM d일, EEEE,</string>
+  <string name="status_bar_date_format_lock">MMMM d일, EEEE</string>
+  <string name="usb_accessory_permission_prompt">%1$s앱이 USB 액세서리에 접근할도록 허용 하시겠습니까?</string>
+  <string name="usb_device_confirm_prompt">USB장치 연결시 %1$s앱을 실행 하시겠습니까?</string>
+  <string name="usb_accessory_confirm_prompt">USB장치 연결시 %1$s앱을 실행 하시겠습니까?</string>
+  <string name="usb_accessory_uri_prompt">이 USB 액세서리에서 작동할 앱이 설치되어 있지 않습니다. %1$s에서 액세서리 사용법을 확인하세요.</string>
+  <string name="title_usb_accessory">USB 액세서리</string>
+  <string name="label_view">보기</string>
+  <string name="always_use_accessory">USB 장치 사용을 허용</string>
+  <string name="usb_mode_notification">USB 휴대용 저장소</string>
+  <string name="usb_mode_dont_ask">다시 묻지 않음</string>
+  <string name="usb_mode_mount_storage_title">SD카드 마운트</string>
+  <string name="mount_storage">USB 저장소</string>
+  <string name="dismount_storage">충전만</string>
+</resources>

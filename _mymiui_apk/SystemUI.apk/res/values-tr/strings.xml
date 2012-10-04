@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_label">Bildirim Çubuğu</string>
+  <string name="status_bar_clear_all_button">Temizle</string>
+  <string name="status_bar_no_notifications_title">Bildirim Yok</string>
+  <string name="status_bar_ongoing_events_title">Sürekli</string>
+  <string name="status_bar_latest_events_title">Bildirimler</string>
+  <string name="battery_low_title">Lütfen şarz cihazını takın</string>
+  <string name="battery_low_subtitle">Pil azalıyor:</string>
+  <string name="battery_low_percent_format">%d%% veya daha az kaldı.</string>
+  <string name="battery_low_why">Pil kullanımı</string>
+  <string name="usb_accessory_permission_prompt">%1$s Uygulamasına USB aksesuarı erişimi izni verilsin mi?</string>
+  <string name="usb_device_confirm_prompt">USB cihazı takıldığında %1$s açılsın mı?</string>
+  <string name="usb_accessory_confirm_prompt">USB aksesuarı takıldığında %1$s açılsın mı?</string>
+  <string name="usb_accessory_uri_prompt">USB aksesuarıyla çalışan bir uygulama yüklü değil. Bu aksesuar hakkında daha fazla bilgi edin: %1$s</string>
+  <string name="title_usb_accessory">USB Aksesuar</string>
+  <string name="label_view">Göster</string>
+  <string name="always_use_accessory">Bu USB aksesuarı için varsayılanı kullan</string>
+  <string name="tab_notifications_lable">Bildirimler</string>
+  <string name="tab_toggles_lable">Kısayollar</string>
+  <string name="status_bar_time_format_12">h:mma</string>
+  <string name="status_bar_time_format_24">HH:mm</string>
+  <string name="status_bar_date_format">MMM d</string>
+  <string name="status_bar_date_format_lock">MMM d, E</string>
+  <string name="usb_mode_notification">USB Depolama</string>
+  <string name="usb_mode_dont_ask">Tekrar sorma</string>
+  <string name="usb_mode_mount_storage_title">USB depolamayı aç</string>
+  <string name="mount_storage">Tak</string>
+  <string name="dismount_storage">Çıkar</string>
+  <string name="move_data_to_sdcard_title">Verileri SD karta taşı</string>
+  <string name="move_data_to_sdcard_message">Ekran alıntıları, resimler, sesler ve diğer veriler daha sağlıklı ve kararlı çalışmaları için SD karta taşınacak.</string>
+  <string name="user_guide_for_notification">Yeni bildirim alındı，durum çubuğunu çekerek görebilirsiniz</string>
+  <string name="user_guide_for_toggle">Kısayol listesi yatay olarak kaydırılabilir</string>
+  <string name="user_guide_for_toggle_list">Kısayolları düzenlemek için tıklayın</string>
+  <string name="user_guide_for_call">Arama ekranına dönmek için, durum çubuğunu çekerek arama bildirimi tıklatın.</string>
+  <string name="return_to_incall_screen">Aramaya dönmek için tıklayın</string>
+  <string name="call_status_dialing">Aranıyor</string>
+</resources>

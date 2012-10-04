@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_label">Status Bar</string>
+  <string name="status_bar_clear_all_button">Καθαρισμός</string>
+  <string name="status_bar_no_notifications_title">Χωρίς ειδοποιήσεις</string>
+  <string name="status_bar_ongoing_events_title">Τρέχουσες</string>
+  <string name="status_bar_latest_events_title">Ειδοποιήσεις</string>
+  <string name="battery_low_title">Παρακαλώ συνδέστε το φορτιστή</string>
+  <string name="battery_low_subtitle">Η μπαταρία είναι σε χαμηλά επίπεδα:</string>
+  <string name="battery_low_percent_format">Απομένει %d%% ή λιγότερο.</string>
+  <string name="battery_low_why">Χρήση μπαταρίας</string>
+  <string name="call_status_dialing">Κλήση</string>
+  <string name="usb_accessory_permission_prompt">Να επιτρέπεται στην εφαρμογή %1$s να έχει πρόσβαση στη συσκευή USB;</string>
+  <string name="usb_device_confirm_prompt">Άνοιγμα του %1$s όταν αυτή η συσκευή USB συνδέετε;</string>
+  <string name="usb_accessory_confirm_prompt">Άνοιγμα του %1$s όταν αυτή η συσκευή USB συνδέετε;</string>
+  <string name="usb_accessory_uri_prompt">Καμία εγκατεστημένη εφαρμογή δεν δουλεύει με αυτή τη συσκευή USB. Μάθετε περισσότερα γι αυτή τη συσκευή στο %1$s</string>
+  <string name="title_usb_accessory">Συσκευή USB</string>
+  <string name="label_view">Προβολή</string>
+  <string name="always_use_accessory">Να γίνεται πάντα χρήση αυτής της συσκευής USB</string>
+  <string name="tab_notifications_lable">Ειδοποιήσεις</string>
+  <string name="tab_toggles_lable">Διακόπτες</string>
+  <string name="status_bar_time_format_12">h:mma</string>
+  <string name="status_bar_time_format_24">HH:mm</string>
+  <string name="status_bar_date_format">MMM d,</string>
+  <string name="status_bar_date_format_lock">E, MMM d</string>
+  <string name="usb_mode_notification">Σύνδεση κάρτας SD</string>
+  <string name="usb_mode_dont_ask">Χωρίς ερώτηση ξανά</string>
+  <string name="usb_mode_mount_storage_title">Σύνδεση κάρτας SD</string>
+  <string name="mount_storage">Σύνδεση αποθ. χώρου</string>
+  <string name="dismount_storage">Αποσύνδεση αποθ. χώρου</string>
+  <string name="move_data_to_sdcard_title">Μετακίνηση δεδομένων στην κάρτα SD</string>
+  <string name="move_data_to_sdcard_message">Εικόνες και φωτογραφίες θα μεταφερθούν στην κάρτα SD για να ελευθερωθεί χώρος στην εσωτερική μνήμη.</string>
+  <string name="return_to_incall_screen">Click to return to call</string>
+  <string name="user_guide_for_notification">Ελήφθη μια νέα ειδοποίηση，κατεβάστε τη μπάρα ειδοποιήσεων για λεπτομέρειες</string>
+  <string name="user_guide_for_toggle">Η λίστα διακοπτών μπορεί να εμφανιστεί και οριζόντια</string>
+  <string name="user_guide_for_toggle_list">Κάντε κλικ εδώ για να επξεργαστείτε τη λίστα διακοπτών</string>
+  <string name="user_guide_for_call">To back to the phone UI, you can drag down the status bar and click the calling notification</string>
+</resources>

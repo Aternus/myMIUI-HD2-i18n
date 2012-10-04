@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_label">Nastavitve računa in sinhronizacije</string>
+  <string name="sync_settings">Nastavitve računa in sinhronizacije</string>
+  <string name="sync_too_many_deletes">Omejitev brisanja je presežena</string>
+  <string name="background_data">Podatki v ozadju</string>
+  <string name="background_data_summary">Programi lahko kadar koli sinhronizirajo, pošiljajo in sprejemajo podatke</string>
+  <string name="background_data_dialog_title">Pozor</string>
+  <string name="background_data_dialog_message">Z onemogočanjem podatkov v ozadju se podaljša življenjska doba baterije in zmanjša poraba podatkov. Nekateri programi lahko še vedno uporabljajo podatkovno povezavo v ozadju.</string>
+  <string name="sync_automatically">Samodejna sinhronizacija</string>
+  <string name="sync_automatically_summary">Programi samodejno sinhronizirajo podatke</string>
+  <string name="settings_backup">Nastavitve varnostnega kopiranja</string>
+  <string name="settings_backup_summary">Varnostno kopiranje nastavitev</string>
+  <string name="sync_menu_sync_now">Sinhroniziraj</string>
+  <string name="sync_menu_sync_cancel">Prekliči sinhronizacijo</string>
+  <string name="sync_one_time_sync">Pritisnite, če želite sinhronizirati\n%1$s</string>
+  <string name="sync_gmail">Gmail</string>
+  <string name="sync_calendar">Koledar</string>
+  <string name="sync_contacts">Stiki</string>
+  <string name="sync_too_many_deletes_desc">Izbrisanih je bilo %1$d elementov za %2$s pri računu %3$s. Kaj želite storiti?</string>
+  <string name="sync_really_delete">Izbriši elemente.</string>
+  <string name="sync_undo_deletes">Razveljavi brisanje.</string>
+  <string name="sync_do_nothing">Zaenkrat ne stori ničesar.</string>
+  <string name="sync_is_failing">Pri sinhronizaciji je prišlo do težav. Kmalu bo spet na voljo.</string>
+  <string name="sync_plug"><font fgcolor="#ffffffff">Dobrodošli v storitvi Google Sync!</font> \nGooglov način sinhronizacije podatkov, s katerim lahko dostopate do stikov, koledarskih vnosov in drugih podatkov ne glede na lokacijo.</string>
+  <string name="header_application_sync_settings">Nastavitve sinhronizacije programov</string>
+  <string name="header_manage_accounts">Upravljanje računov</string>
+  <string name="header_manage_default_accounts">Privzet račun</string>
+  <string name="header_general_sync_settings">Splošne nastavitve sinhronizacije</string>
+  <string name="sync_enabled">Sinhronizacija je VKLOPLJENA</string>
+  <string name="sync_disabled">Sinhronizacija je IZKLOPLJENA</string>
+  <string name="sync_error">Napaka pri sinhronizaciji</string>
+  <string name="add_account_label">Dodaj račun</string>
+  <string name="header_data_and_synchronization">Podatki in sinhronizacija</string>
+  <string name="preference_change_password_title">Spremeni geslo</string>
+  <string name="header_account_settings">Nastavitve računa</string>
+  <string name="remove_account_label">Odstrani račun</string>
+  <string name="header_add_an_account">Dodajanje računa</string>
+  <string name="finish_button_label">Dokončaj</string>
+  <string name="really_remove_account_title">Odstrani račun</string>
+  <string name="really_remove_account_message">Ali ste prepričani, da želite odstraniti ta račun? S tem boste iz telefona izbrisali tudi vsa sporočila, stike in druge podatke, ki jih račun vsebuje. \nŽelite nadaljevati?</string>
+  <string name="remove_account_failed">Ta račun uporabljajo nekateri programi. Odstranite ga lahko samo, če obnovite tovarniško privzete nastavitve telefona (s tem boste izbrisali tudi vse osebne podatke). To lahko storite v razdelku »Zasebnost« programa »Nastavitve«.</string>
+  <string name="provider_label">Potisne naročnine</string>
+  <string name="sync_item_title">Sinhroniziraj %s</string>
+  <string name="cant_sync_dialog_title">Ročna sinhronizacija ni mogoča</string>
+  <string name="cant_sync_dialog_message">Sinhronizacija za ta element je trenutno onemogočena. Če želite spremeniti nastavitev, vklopite podatke v ozadju in samodejno sinhronizacijo.</string>
+</resources>

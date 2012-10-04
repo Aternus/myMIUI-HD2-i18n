@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Superuser</string>
+  <string name="app_name_request">בקשת superuser</string>
+  <string name="permlab_respond">להגיב על בקשות superuser</string>
+  <string name="permdesc_respond">מאפשר ליישום להגיב לבקשות עבור גישת superuser</string>
+  <string name="su_original">מקורי</string>
+  <string name="warning">אזהרה</string>
+  <string name="malicious_app_found">ביישום %s נמצאה בקשת רשות להגיב לבקשות Superuser. סביר להניח כי יישום זה הוא זדוני ומנסה להעניק גישת superuser ללא ידיעתך. מומלץ להסיר אותו עכשיו.</string>
+  <string name="malicious_app_notification_ticker">יישום שעלול להיות זדוני זוהה</string>
+  <string name="malicious_app_notification_text">%s יכול להיות זדוני.</string>
+  <string name="uninstall">הסר</string>
+  <string name="no">לא</string>
+  <string name="tab_apps">יישומים</string>
+  <string name="tab_log">יומן</string>
+  <string name="allow">אפשר</string>
+  <string name="forget">שכח</string>
+  <string name="cancel">בטל</string>
+  <string name="deny">דחה</string>
+  <string name="remember">זכור</string>
+  <string name="uid">(זיהוי משתמש: %d)</string>
+  <string name="request" formatted="false">%s כמו %s (זיהוי משתמש: %d)</string>
+  <string name="unknown">שם לא ידוע</string>
+  <string name="allowed">מאופשר</string>
+  <string name="denied">נדחה</string>
+  <string name="created">נוצר</string>
+  <string name="empty_apps">אין יישומים ברשימה</string>
+  <string name="pref_category_log_title">לוג</string>
+  <string name="pref_clear_log">נקה יומן</string>
+  <string name="notification_text">ל%s הוענקו הרשאות Superuser</string>
+  <string name="permission_message">\u0020Messages</string>
+  <string name="permission_root">\u0020Root</string>
+  <string name="permission">הרשאות:</string>
+  <string name="permission_message_summary">אושר לגישה להודעות</string>
+  <string name="permission_root_summary">אושרו הרשאות רוט</string>
+  <string name="app_details">מידע על ישום</string>
+  <string name="app_manage">נהל ישום</string>
+  <string name="app_detail_info">גירסא：%s</string>
+  <string name="permission_manage">נהל הרשאות</string>
+  <string name="forbidden">נדחה</string>
+  <string name="ask">שאל</string>
+  <string name="permssion_detail">%s הרשאות</string>
+  <string name="clear_log_message">הרשאות ימחקו</string>
+  <string name="success_clear_log">הרשאות נמחקו בהצלחה</string>
+  <string name="enable_authority_message">מנהל הרשאות הופעל</string>
+  <string name="confirm_disable_authority">בהפסקת הרשאות לא יתאפשר פיקוח על ישומים זדוניים בטוח לבטל ?</string>
+  <string name="ask_for_root_permission_message">%s מבקש הרשאות לרוט, מסוכן לאשר השאות, בטוח לתת הרשאות ליישום?</string>
+</resources>

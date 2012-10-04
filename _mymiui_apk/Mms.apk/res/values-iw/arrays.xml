@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="prefEntries_ringtone_repeat">
+    <item>פעם אחת</item>
+    <item>פעמיים</item>
+    <item>3 פעמים</item>
+    <item>5 פעמים</item>
+    <item>10 פעמים</item>
+  </string-array>
+  <string-array name="select_dialog_items">
+    <item>1 שניות</item>
+    <item>2 שניות</item>
+    <item>3 שניות</item>
+    <item>4 שניות</item>
+    <item>5 שניות</item>
+    <item>6 שניות</item>
+    <item>7 שניות</item>
+    <item>8 שניות</item>
+    <item>9 שניות</item>
+    <item>10 שניות</item>
+    <item>אחר…</item>
+  </string-array>
+</resources>

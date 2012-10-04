@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="prefEntries_ringtone_repeat">
+    <item>1-krat</item>
+    <item>2-krat</item>
+    <item>3-krat</item>
+    <item>5-krat</item>
+    <item>10-krat</item>
+  </string-array>
+  <string-array name="select_dialog_items">
+    <item>1 sekunda</item>
+    <item>2 sekundi</item>
+    <item>3 sekunde</item>
+    <item>4 sekunde</item>
+    <item>5 sekund</item>
+    <item>6 sekund</item>
+    <item>7 sekund</item>
+    <item>8 sekund</item>
+    <item>9 sekund</item>
+    <item>10 sekund</item>
+    <item>Drugo...</item>
+  </string-array>
+  <string-array name="prefEntries_vibrateWhen">
+    <item>Vedno</item>
+    <item>Samo v tihem načinu</item>
+    <item>Nikoli</item>
+  </string-array>
+</resources>

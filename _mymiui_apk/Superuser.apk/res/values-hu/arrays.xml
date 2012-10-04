@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="pref_tap_action_entries">
+    <item>Alkalmazás részletei</item>
+    <item>Elfelejt</item>
+    <item>Állapot váltása</item>
+  </string-array>
+  <string-array name="pref_status_icon_type_entries">
+    <item>Pont</item>
+    <item>Hangulatjel</item>
+  </string-array>
+  <string-array name="pref_date_format_entries">
+    <item>Rendszer alapértelmezett</item>
+    <item>12/31/2010</item>
+    <item>31/12/2010</item>
+    <item>2010/12/31</item>
+  </string-array>
+  <string-array name="pref_notification_entries">
+    <item>Figyelmeztetés</item>
+    <item>Értesítés</item>
+  </string-array>
+</resources>

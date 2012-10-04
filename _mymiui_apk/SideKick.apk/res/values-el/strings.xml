@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sidekick_activity_label">SideKick</string>
+  <string name="menu_preferences">Ρυθμίσεις αναζήτησης</string>
+  <string name="menu_history">Ιστορικό αναζήτησης</string>
+  <string name="search_hint">Αναζήτηση...</string>
+  <string name="change_search_setting">Αλλαγή ρυθμίσεων αναζήτησης</string>
+  <string name="search_web">Αναζήτηση στον Ιστό</string>
+  <string name="search_recent_hint">Πρόσφατες αναζητήσεις</string>
+  <string name="search_no_result_hint">Δε βρέθηκαν αποτελέσματα για το \"%s\".</string>
+  <string name="search_no_result_hint_suggistion">Συμβουλές αναζήτησης:</string>
+  <string name="search_no_result_hint_line1">Έλεγχος για σωστή ορθογραφία</string>
+  <string name="search_no_result_hint_line2">Με άλλη λέξη στην αναζήτηση</string>
+  <string name="search_no_result_hint_line3">Δοκιμάστε με πιο γενικές λέξεις</string>
+  <string name="history_delete_hint">Πατήστε εκτεταμένα για αφαίρεση του στοιχείου απο το ιστορικό</string>
+  <string name="search_sources">Ρυθμίσεις αναζήτησης</string>
+  <string name="search_sources_summary">Αναζήτηση για περιεχόμενο στην συσκευή</string>
+  <string name="input_history">Ιστορικό αναζήτησης</string>
+  <string name="delete_input_history">Διαγραφή όλου του ιστορικού;</string>
+  <string name="search_result_header_hint_search">Σύνολο %d αποτελεσμάτων ταιριάζει στην αναζήτησή σας</string>
+  <string name="search_result_header_hint_recent">Σύνολο %d αποτελεσμάτων ταιριάζει στην αναζήτησή σας</string>
+  <string name="search_threshold_title">Μέγιστα αποτελέσματα ανα πηγή</string>
+  <string name="search_threshold_infinite">Απεριόριστα</string>
+  <string name="search_threshold_ten">10</string>
+  <string name="search_threshold_thirty">30</string>
+  <string name="search_engine_title">Επιλογή μηχανής αναζήτησης</string>
+  <string name="search_engine_google">Google</string>
+  <string name="search_engine_baidu">Baidu</string>
+  <string name="search_history_today">Σήμερα</string>
+  <string name="search_history_yesterday">Χθες</string>
+  <string name="default_web_search_engine_google">http://www.google.gr/m/search?q=</string>
+  <string name="default_web_search_engine_baidu">http://m.baidu.com/ssid=0/from=0/bd_page_type=1/s?word=</string>
+  <string name="recent_dialog_buttonAppKiller_summary">Απελευθερώθηκαν %1$s μνήμης, διαθέσιμη τώρα: %2$s</string>
+  <string name="recent_dialog_buttonAppKiller">Τερματισμός</string>
+  <string name="recent_dialog_buttonTaskManager">Διαχ.Εφαρμ.</string>
+</resources>

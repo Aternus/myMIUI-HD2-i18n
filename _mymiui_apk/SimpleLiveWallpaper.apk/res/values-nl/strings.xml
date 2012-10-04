@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="clock_settings">Polar klok instellingen</string>
+  <string name="palette">Kleuren pallet</string>
+  <string name="palette_black_c">Zwart Gat (dynamisch)</string>
+  <string name="palette_gray">Ijzer</string>
+  <string name="palette_halloween">Pompoen taart</string>
+  <string name="palette_matrix">Groen scherm</string>
+  <string name="palette_oceanic">Blauw Laser</string>
+  <string name="palette_violet">Middernacht</string>
+  <string name="palette_white_c">Pool beer (dynamisch)</string>
+  <string name="palette_zenburn">Buitenardse Fruit Salade</string>
+  <string name="show_seconds">Toon seconden</string>
+  <string name="variable_line_width">Vary ring widths</string>
+  <string name="wallpaper_clock">Polar klok</string>
+  <string name="wallpaper_clock_author">Google</string>
+  <string name="wallpaper_clock_desc">Presents the date and time as clockwise arcs: month, day, hour, minute, and second.</string>
+  <string name="wallpaper_fall">Water</string>
+  <string name="wallpaper_fall_author">Google</string>
+  <string name="wallpaper_fall_desc">Autumn leaves tumble&lt;br&gt; To the rippling pond below:&lt;br&gt; Liquid background Zen</string>
+  <string name="wallpaper_galaxy">Galaxy</string>
+  <string name="wallpaper_galaxy_author">Google</string>
+  <string name="wallpaper_galaxy_desc">Een melkweg gemaakt met langzaam dwarrelende sterren.</string>
+  <string name="wallpaper_grass">Gras</string>
+  <string name="wallpaper_grass_author">Google</string>
+  <string name="wallpaper_grass_desc">Grassprietjes golven zachtjes in de voor een dag of nachtelijke hemel.</string>
+  <string name="wallpaper_nexus">Nexus</string>
+  <string name="wallpaper_nexus_author">Google</string>
+  <string name="wallpaper_nexus_desc">A peek inside the neural network.</string>
+  <string name="wallpaper_walkaround">Zien Door</string>
+  <string name="wallpaper_walkaround_author">Google</string>
+  <string name="wallpaper_walkaround_desc">Zien door je telefoon en overal lopen zonder risico op een ongeluk.</string>
+  <string name="wallpapers">Android Live Wallpapers</string>
+</resources>

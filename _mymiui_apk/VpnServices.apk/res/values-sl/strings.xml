@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_label">Storitve VPN</string>
+  <string name="vpn_notification_title_connected">VPN profila %s je povezan</string>
+  <string name="vpn_notification_title_disconnected">VPN profila %s je izklopljen</string>
+  <string name="vpn_notification_hint_disconnected">Dotaknite se, če želite preklopiti v navidezno zasebno omrežje.</string>
+</resources>

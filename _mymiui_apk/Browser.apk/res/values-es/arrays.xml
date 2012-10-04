@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="pref_content_plugins_choices">
+    <item>Siempre encendido</item>
+    <item>En la demanda</item>
+    <item>Apagado</item>
+  </string-array>
+  <string-array name="pref_text_size_choices">
+    <item>Diminuto</item>
+    <item>Pequeño</item>
+    <item>Normal</item>
+    <item>Grandes</item>
+    <item>Enorme</item>
+  </string-array>
+  <string-array name="pref_default_zoom_choices">
+    <item>Ahora</item>
+    <item>Medio</item>
+    <item>Cerrar</item>
+  </string-array>
+</resources>

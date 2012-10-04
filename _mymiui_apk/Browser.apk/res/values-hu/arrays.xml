@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="bookmark_control_items">
+    <item>Új mappa létrehozása</item>
+    <item>Új könyvjelző hozzáadása</item>
+    <item>Könyvjelzők importálása</item>
+    <item>Könyvjelzők exportálása</item>
+  </string-array>
+  <string-array name="not_found_page_titles">
+    <item>A weblap nem található</item>
+  </string-array>
+  <string-array name="pref_load_images_choice">
+    <item>Engedélyezés</item>
+    <item>Tiltás</item>
+    <item>Engedélyezés WiFi-n</item>
+  </string-array>
+  <string-array name="pref_volume_setting_choice">
+    <item>Alapértelmezett</item>
+    <item>Oldal görgetése</item>
+    <item>Váltás Tab</item>
+  </string-array>
+  <string-array name="pref_volume_setting_enable_choice">
+    <item>Mindig alkalmaz</item>
+    <item>Ha nem szól a zene</item>
+  </string-array>
+  <string-array name="pref_reading_mode_choices">
+    <item>Automatikusan</item>
+    <item>Manuális</item>
+    <item>Bezárás</item>
+  </string-array>
+  <string-array name="pref_forum_mode_choices">
+    <item>Automatikus</item>
+    <item>Manuális</item>
+    <item>Bezárás</item>
+  </string-array>
+  <string-array name="pref_content_plugins_choices">
+    <item>Mindig</item>
+    <item>Soha</item>
+    <item>Ha igény van rá</item>
+  </string-array>
+  <string-array name="pref_text_size_choices">
+    <item>Kicsi</item>
+    <item>Normál</item>
+    <item>Nagy</item>
+    <item>Nagyobb</item>
+  </string-array>
+  <string-array name="pref_hide_buttons_in_fullscreen_choices">
+    <item>Mutat</item>
+    <item>Elrejt teljes kijelzőnél</item>
+    <item>Automatikus elrejtés</item>
+    <item>Soha ne jelenjen úszó gombok</item>
+  </string-array>
+  <string-array name="pref_hide_statusbar_choices">
+    <item>Mindig mutassa</item>
+    <item>Mindig rejtse el</item>
+    <item>Automatikus</item>
+  </string-array>
+  <string-array name="pref_simple_mode_choices">
+    <item>Letiltás</item>
+    <item>Engedélyezés</item>
+    <item>Engedélyezés 2G/3G-n</item>
+  </string-array>
+  <string-array name="pref_default_text_encoding_choices">
+    <item>Latin-1 (ISO-8859-1)</item>
+    <item>Unicode (UTF-8)</item>
+    <item>Simplified Chinese (GBK)</item>
+    <item>Triditional Chinese (Big5)</item>
+    <item>Japaness (ISO-2022-JP)</item>
+    <item>Japaness (SHIFT_JIS)</item>
+    <item>Japaness (EUC-JP)</item>
+  </string-array>
+  <string-array name="pref_default_zoom_choices">
+    <item>Messze</item>
+    <item>Közepes</item>
+    <item>Közel</item>
+  </string-array>
+  <string-array name="pref_user_agent_choices">
+    <item>Alap</item>
+    <item>Chrome</item>
+    <item>iPhone 3</item>
+    <item>iPhone 4</item>
+    <item>iPad</item>
+  </string-array>
+  <string-array name="pref_left_right_gesture_choices">
+    <item>Egyik sem</item>
+    <item>Menj vissza előre</item>
+    <item>Kapcsoló lapok</item>
+  </string-array>
+  <string-array name="pref_single_click_choices">
+    <item>Link a jelenlegi lapon</item>
+    <item>Link az új fülön</item>
+    <item>Link az új fülön a háttérben</item>
+  </string-array>
+  <string-array name="pref_long_click_choices">
+    <item>Megjelenítés a helyi menüben</item>
+    <item>Link az új fülön</item>
+    <item>Link az új fülön a háttérben</item>
+  </string-array>
+</resources>

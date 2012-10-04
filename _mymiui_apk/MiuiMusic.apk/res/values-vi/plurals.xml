@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <plurals name="Nsongs">
+    <item quantity="other">%d Bài</item>
+  </plurals>
+  <plurals name="Nalbums">
+    <item quantity="other">%d Album</item>
+    <item quantity="one">1 Album</item>
+  </plurals>
+  <plurals name="NNNtracksdeleted">
+    <item quantity="other">Đã xóa %d Bài</item>
+    <item quantity="one">Đã xóa 1 Bài</item>
+  </plurals>
+  <plurals name="NNNtrackstoplaylist">
+    <item quantity="other">%d Bài đã được thêm vào Danh mục phát</item>
+    <item quantity="one">1 Bài đã được thêm vào Danh mục phát</item>
+  </plurals>
+  <plurals name="NNNtrackstofavoriteplaylist">
+    <item quantity="other">%d Bài đã được thêm vào danh mục Ưa thích</item>
+    <item quantity="one">1 Bài đã được thêm vào danh mục Ưa thích</item>
+  </plurals>
+  <plurals name="Nsongscomp">
+    <item quantity="other">Tất cả %1$d Bài, đầu tiên %2$d trong đó</item>
+  </plurals>
+</resources>

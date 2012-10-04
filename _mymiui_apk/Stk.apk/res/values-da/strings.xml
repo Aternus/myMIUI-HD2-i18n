@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SIM Toolkit</string>
+  <string name="menu_end_session">Afslut session</string>
+  <string name="help">Hjællp</string>
+  <string name="menu_back">Tilbage</string>
+  <string name="service_name">Tjeneste navn</string>
+  <string name="stk_no_service">Ingen tjeneste tilgængelig</string>
+  <string name="button_ok">OK</string>
+  <string name="button_cancel">Annuller</string>
+  <string name="button_yes">Ja</string>
+  <string name="button_no">Nej</string>
+  <string name="alphabet">Alphabeter</string>
+  <string name="digits">Tal og tegn (0-9, *, #, +)</string>
+  <string name="default_call_setup_msg">Opkald igang…</string>
+  <string name="stk_app_state">Applikation tilstand</string>
+  <string name="enable_app">Aktiveret</string>
+  <string name="disable_app">Deaktiveret</string>
+</resources>

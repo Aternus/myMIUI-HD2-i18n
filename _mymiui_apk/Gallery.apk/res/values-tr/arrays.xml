@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="animation">
+    <item>Hiçbiri</item>
+    <item>Çapraz Solma</item>
+    <item>Arkaya Düşme</item>
+    <item>Sayfa Çevirme</item>
+    <item>Stack</item>
+    <item>Döndürme</item>
+    <item>Küp</item>
+    <item>Coverflow</item>
+  </string-array>
+</resources>

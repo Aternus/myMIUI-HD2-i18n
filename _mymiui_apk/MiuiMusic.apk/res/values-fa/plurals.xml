@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <plurals name="Nsongs">
+    <item quantity="other">%d آهنگ</item>
+  </plurals>
+  <plurals name="Nalbums">
+    <item quantity="other">%d آلبوم</item>
+    <item quantity="one">1 آلبوم</item>
+  </plurals>
+  <plurals name="NNNtracksdeleted">
+    <item quantity="other">حذف شد %d آهنگ</item>
+    <item quantity="one">حذف شد 1 آهنگ</item>
+  </plurals>
+  <plurals name="NNNtrackstoplaylist">
+    <item quantity="other">%d آهنگ به لیست پخش اضافه شدند</item>
+    <item quantity="one">1 آهنگ به لیست پخش اضافه شد</item>
+  </plurals>
+  <plurals name="NNNtrackstofavoriteplaylist">
+    <item quantity="other">%d آهنگ به لیست برگزیده ها اضافه شدند</item>
+    <item quantity="one">1 آهنگ به لیست برگزیده ها اضافه شد</item>
+  </plurals>
+  <plurals name="Nsongscomp">
+    <item quantity="other">مجموع %1$1$d آهنگ, که %2$2$d اول</item>
+  </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_label">Procurar Fornecedores de Aplicações</string>
+  <string name="search_label">Aplicações</string>
+  <string name="application_desc">Programa</string>
+  <string name="settings_description">Nomes dos programas instalados</string>
+</resources>

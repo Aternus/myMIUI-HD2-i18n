@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="dialer_click_entries">
+    <item>Звонок</item>
+    <item>Отправить SMS/MMS</item>
+    <item>Просмотр контакта</item>
+    <item>Блокировать</item>
+  </string-array>
+  <string-array name="clir_display_values">
+    <item>Связь по умолчанию</item>
+    <item>Спрятать номер</item>
+    <item>Показать номер</item>
+  </string-array>
+  <string-array name="cdma_system_select_choices">
+    <item>Только домашний</item>
+    <item>Автоматичски</item>
+  </string-array>
+  <string-array name="cdma_roaming_mode_choices">
+    <item>Только домашняя сеть</item>
+    <item>Связанные сети</item>
+    <item>Любая сеть</item>
+  </string-array>
+  <string-array name="dtmf_tone_entries">
+    <item>Нормальный</item>
+    <item>Длинный</item>
+  </string-array>
+</resources>

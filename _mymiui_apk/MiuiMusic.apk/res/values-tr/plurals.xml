@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <plurals name="Nsongs">
+    <item quantity="other">%d şarkı</item>
+  </plurals>
+  <plurals name="Nalbums">
+    <item quantity="other">%d albüm</item>
+    <item quantity="one">1 albüm</item>
+  </plurals>
+  <plurals name="NNNtracksdeleted">
+    <item quantity="other">\u0020Silinen şarkı %d .</item>
+    <item quantity="one">\u00201 Şarkı silindi.</item>
+  </plurals>
+  <plurals name="NNNtrackstoplaylist">
+    <item quantity="other">%d şarkı çalma listesine eklendi.</item>
+    <item quantity="one">\u00201 şarkı çalma listesine eklendi.</item>
+  </plurals>
+  <plurals name="NNNtrackstofavoriteplaylist">
+    <item quantity="other">%d şarkı favori listesine eklendi.</item>
+    <item quantity="one">\u0020 şarkı favori listesine ekledi.</item>
+  </plurals>
+  <plurals name="Nsongscomp">
+    <item quantity="other">Toplam %1$d şarkı, %2$d tanesi önce</item>
+  </plurals>
+</resources>

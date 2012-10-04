@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <plurals name="matches_found">
+    <item quantity="other">%d ujemanj</item>
+    <item quantity="zero">Ni zadetkov</item>
+    <item quantity="one">1 ujemanje</item>
+    <item quantity="few">%d ujemanj</item>
+  </plurals>
+</resources>

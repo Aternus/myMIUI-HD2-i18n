@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Installazione Certificati</string>
+  <string name="pick_file_title">Seleziona un certificato</string>
+  <string name="pkcs12_password_dialog_title">Estrazione dall\'archivio PKCS12</string>
+  <string name="extracting_pkcs12">Estrazione...</string>
+  <string name="pkcs12_file_password_dialog_title">Estrai da %s</string>
+  <string name="name_credential_dialog_title">Nome certificato</string>
+  <string name="credential_name">Nome certificato:</string>
+  <string name="credential_password">Inserisci la password per estrarre il certificato.</string>
+  <string name="credential_info">Il pacchetto contiene:</string>
+  <string name="p12_description">Certificati nell\'archivio PKCS12.</string>
+  <string name="one_userkey">Nessuna chiave utente</string>
+  <string name="one_usercrt">Un certificato utente</string>
+  <string name="one_cacrt">Un certificato CA</string>
+  <string name="n_cacrts">%d certificati CA</string>
+  <string name="password_error">Inserire la password corretta.</string>
+  <string name="password_empty_error">Inserire la password.</string>
+  <string name="name_empty_error">Inserire un nome.</string>
+  <string name="name_char_error">Inserire una nome contenente solo lettere e numeri.</string>
+  <string name="storage_error">Impossibile salvare il certificato. Premere OK per riprovare.</string>
+  <string name="unable_to_save_cert">Impossibile salvare il certificato. Le credenziali di salvataggio non sono corrette o inizializzate.</string>
+  <string name="cert_not_saved">Il certificato non è installato.</string>
+  <string name="no_cert_to_saved">Nessun certificato da installare.</string>
+  <string name="intent_parse_error">Impossibile analizzare: %s</string>
+  <string name="cert_is_added">%s è installato.</string>
+  <string name="cert_too_large_error">Installazione fallita. Il certificato è troppo grande.</string>
+  <string name="cert_missing_error">Installazione fallita. Impossibile trovare il certificato.</string>
+  <string name="cert_read_error">Installazione fallita. Certificato illeggibile.</string>
+  <string name="no_cert_file_found">Nessun certificato trovato sulla card SD.</string>
+  <string name="sdcard_not_present">SD card non presente.</string>
+</resources>

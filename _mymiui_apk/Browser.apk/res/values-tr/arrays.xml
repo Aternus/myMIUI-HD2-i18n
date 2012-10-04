@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="bookmark_control_items">
+    <item>Yeni klasör oluştur</item>
+    <item>Yeni yerimi oluştur</item>
+    <item>Yerimlerini içeri aktar</item>
+    <item>Yerimlerini dışa aktar</item>
+  </string-array>
+  <string-array name="not_found_page_titles">
+    <item>Sayfa bulunamadı</item>
+  </string-array>
+  <string-array name="pref_load_images_choice">
+    <item>Aktif</item>
+    <item>Pasif</item>
+    <item>Wi-Fi açıkken aktif</item>
+  </string-array>
+  <string-array name="pref_volume_setting_choice">
+    <item>Varsayılan</item>
+    <item>Sayfayı kaydır</item>
+    <item>Sekmelered geçiş yap</item>
+  </string-array>
+  <string-array name="pref_volume_setting_enable_choice">
+    <item>Always apply volume button setting</item>
+    <item>Apply only if no music playing</item>
+  </string-array>
+  <string-array name="pref_reading_mode_choices">
+    <item>Otomatik olarak gir</item>
+    <item>Elle gir</item>
+    <item>Kapalı</item>
+  </string-array>
+  <string-array name="pref_forum_mode_choices">
+    <item>Otomatik olarak gir</item>
+    <item>Elle gir</item>
+    <item>Kapalı</item>
+  </string-array>
+  <string-array name="pref_content_plugins_choices">
+    <item>Herzaman Açık</item>
+    <item>Herzaman Kapalı</item>
+    <item>Talep edildiğinde göster</item>
+  </string-array>
+  <string-array name="pref_text_size_choices">
+    <item>Küçük</item>
+    <item>Normal</item>
+    <item>Büyük</item>
+    <item>Kocaman</item>
+  </string-array>
+  <string-array name="pref_hide_buttons_in_fullscreen_choices">
+    <item>Göster</item>
+    <item>Tam ekranda ileri/geriyi gizle</item>
+    <item>Otomatik-Gizle</item>
+    <item>Hiç gösterme</item>
+  </string-array>
+  <string-array name="pref_hide_statusbar_choices">
+    <item>Durum çubuğunu herzaman göster</item>
+    <item>Durum çubuğunu herzaman gizle</item>
+    <item>Auto</item>
+  </string-array>
+  <string-array name="pref_simple_mode_choices">
+    <item>Devre dışı</item>
+    <item>Etkin</item>
+    <item>Wi-Fi kullanmadığında etkin</item>
+  </string-array>
+  <string-array name="pref_default_text_encoding_choices">
+    <item>Latin-1 (ISO-8859-1)</item>
+    <item>Unicode (UTF-8)</item>
+    <item>Simplified Chinese (GBK)</item>
+    <item>Traditional Chinese (Big5)</item>
+    <item>Japanese (ISO-2022-JP)</item>
+    <item>Japanese (SHIFT_JIS)</item>
+    <item>Japanese (EUC-JP)</item>
+  </string-array>
+  <string-array name="pref_default_zoom_choices">
+    <item>Uzak</item>
+    <item>Orta</item>
+    <item>Kapat</item>
+  </string-array>
+  <string-array name="pref_user_agent_choices">
+    <item>Default</item>
+    <item>Chrome Desktop</item>
+    <item>iPhone 3</item>
+    <item>iPhone 4</item>
+    <item>iPad</item>
+  </string-array>
+  <string-array name="pref_left_right_gesture_choices">
+    <item>Hiçbiri</item>
+    <item>İleri-geri git</item>
+    <item>Sekmelerde dolaş</item>
+  </string-array>
+  <string-array name="pref_single_click_choices">
+    <item>Linki bu sekmede aç</item>
+    <item>Linki yeni sekmede aç ve o sekmeye geç</item>
+    <item>Linki arkaplandaki yeni sekmede aç</item>
+  </string-array>
+  <string-array name="pref_long_click_choices">
+    <item>İçerik menüsünü göster</item>
+    <item>Linki yeni sekmede aç ve o sekmeye geç</item>
+    <item>Linki arkaplandaki yeni sekmede aç</item>
+  </string-array>
+</resources>

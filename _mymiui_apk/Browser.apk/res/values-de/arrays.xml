@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="bookmark_control_items">
+    <item>Ordner erstellen</item>
+    <item>Lesezeichen erstellen</item>
+    <item>Lesezeichen importieren</item>
+    <item>Lesezeichen exportieren</item>
+  </string-array>
+  <string-array name="not_found_page_titles">
+    <item>Webseite nicht gefunden</item>
+  </string-array>
+  <string-array name="pref_load_images_choice">
+    <item>Aktivieren</item>
+    <item>Deaktivieren</item>
+    <item>Bei Wlan aktivieren</item>
+  </string-array>
+  <string-array name="pref_volume_setting_choice">
+    <item>Standard</item>
+    <item>Scroll Seite</item>
+    <item>Tab wechseln</item>
+  </string-array>
+  <string-array name="pref_volume_setting_enable_choice">
+    <item>Bestätige immer Lautstärkeknopf Einstellung</item>
+    <item>Bestätige nur wenn keine Musik läuft</item>
+  </string-array>
+  <string-array name="pref_reading_mode_choices">
+    <item>Automatisch eingeben</item>
+    <item>Manuell eingeben</item>
+    <item>Aus</item>
+  </string-array>
+  <string-array name="pref_forum_mode_choices">
+    <item>Automatisch eingeben</item>
+    <item>Manuell eingeben</item>
+    <item>Off</item>
+  </string-array>
+  <string-array name="pref_content_plugins_choices">
+    <item>Immer An</item>
+    <item>Immer Aus</item>
+    <item>Bei Bedarf</item>
+  </string-array>
+  <string-array name="pref_text_size_choices">
+    <item>Klein</item>
+    <item>Normal</item>
+    <item>Groß</item>
+    <item>Größer</item>
+  </string-array>
+  <string-array name="pref_hide_buttons_in_fullscreen_choices">
+    <item>Zeigen</item>
+    <item>Verstecke vor/zurück im Vollbild Modus</item>
+    <item>Auto-Verstecken</item>
+    <item>Zeige nie floating Buttons</item>
+  </string-array>
+  <string-array name="pref_hide_statusbar_choices">
+    <item>Statusleiste immer sichtbar</item>
+    <item>Statusleiste immer versteckt</item>
+    <item>Auto</item>
+  </string-array>
+  <string-array name="pref_simple_mode_choices">
+    <item>Deaktiviert</item>
+    <item>Aktiviert</item>
+    <item>Bei nicht Wlan aktiviert</item>
+  </string-array>
+  <string-array name="pref_default_text_encoding_choices">
+    <item>Latin-1 (ISO-8859-1)</item>
+    <item>Unicode (UTF-8)</item>
+    <item>Simplified Chinese (GBK)</item>
+    <item>Traditional Chinese (Big5)</item>
+    <item>Japanese (ISO-2022-JP)</item>
+    <item>Japanese (SHIFT_JIS)</item>
+    <item>Japanese (EUC-JP)</item>
+  </string-array>
+  <string-array name="pref_default_zoom_choices">
+    <item>Weit</item>
+    <item>Medium</item>
+    <item>Nah</item>
+  </string-array>
+  <string-array name="pref_user_agent_choices">
+    <item>Standard</item>
+    <item>Chrome Desktop</item>
+    <item>iPhone 3</item>
+    <item>iPhone 4</item>
+    <item>iPad</item>
+  </string-array>
+  <string-array name="pref_left_right_gesture_choices">
+    <item>Keine</item>
+    <item>Gehe vor-zurück</item>
+    <item>Tabs wechseln</item>
+  </string-array>
+  <string-array name="pref_single_click_choices">
+    <item>Öffne Link im aktuellen Tab</item>
+    <item>Öffne Link in neuem Tab im Vordergrund</item>
+    <item>Öffne Link in neuem Tab im Hintergrund</item>
+  </string-array>
+  <string-array name="pref_long_click_choices">
+    <item>Zeige Kontext Menu</item>
+    <item>Öffne Link in neuem Tab im Vordergrund</item>
+    <item>Öffne Link in neuem Tab im Hintergrund</item>
+  </string-array>
+</resources>

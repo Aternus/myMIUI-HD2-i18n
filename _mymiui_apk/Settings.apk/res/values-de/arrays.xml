@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="timezone_filters">
+    <item>America</item>
+    <item>Europe</item>
+    <item>Africa</item>
+    <item>Asia</item>
+    <item>Australia</item>
+    <item>Pacific</item>
+    <item>All</item>
+  </string-array>
+  <string-array name="date_format_values">
+    <item>dd-MM-yyyy</item>
+    <item>MM-dd-yyyy</item>
+    <item>yyyy-MM-dd</item>
+  </string-array>
+  <string-array name="animations_entries">
+    <item>Aus</item>
+    <item>Mit</item>
+    <item>Alle</item>
+  </string-array>
+  <string-array name="animations_summaries">
+    <item>Keine Fenster-Animationen</item>
+    <item>Einige Fenster-Animationen</item>
+    <item>Alle Fenster-Animationen</item>
+  </string-array>
+  <string-array name="led_color_entries">
+    <item>Weiss (Standard)</item>
+    <item>Grün</item>
+    <item>Rot</item>
+    <item>Blau</item>
+    <item>Gelb</item>
+    <item>Cyan</item>
+    <item>Magenta</item>
+    <item>Pink</item>
+    <item>Orange</item>
+    <item>Sapphire</item>
+  </string-array>
+  <string-array name="led_freq_entries">
+    <item>Standard (9 Sek)</item>
+    <item>2 Sek</item>
+    <item>3 Sek</item>
+    <item>4 Sek</item>
+    <item>5 Sek</item>
+    <item>6 Sek</item>
+    <item>7 Sek</item>
+    <item>8 Sek</item>
+  </string-array>
+  <string-array name="screen_timeout_entries">
+    <item>30 Sek</item>
+    <item>1 Min</item>
+    <item>5 Min</item>
+    <item>10 Min</item>
+    <item>Aus</item>
+  </string-array>
+  <string-array name="tts_rate_entries">
+    <item>Sehr langsam</item>
+    <item>Langsam</item>
+    <item>Normal</item>
+    <item>Schnell</item>
+    <item>Sehr schnell</item>
+  </string-array>
+  <string-array name="tts_pitch_entries">
+    <item>Sehr langsam</item>
+    <item>Langsam</item>
+    <item>Normal</item>
+    <item>Hoch</item>
+    <item>Sehr hoch</item>
+  </string-array>
+  <string-array name="tts_lang_entries">
+    <item>American English</item>
+    <item>British English</item>
+    <item>French</item>
+    <item>German</item>
+    <item>Italian</item>
+    <item>Spanish</item>
+  </string-array>
+  <string-array name="tts_demo_strings">
+    <item>This is an example of speech synthesis in English.</item>
+    <item>This is an example of speech synthesis in English.</item>
+    <item>Voici un échantillon de synthèse vocale en français.</item>
+    <item>Dies ist ein Beispiel für Sprachsynthese in Deutsch.</item>
+    <item>Questo è un esempio di sintesi vocale in italiano.</item>
+    <item>Este es un ejemplo de síntesis de voz en español.</item>
+  </string-array>
+  <string-array name="wifi_wps_method">
+    <item>Push Button</item>
+    <item>Pin Nummer</item>
+  </string-array>
+  <string-array name="wifi_wps_ssid">
+    <item>Beliebige SSID</item>
+  </string-array>
+  <string-array name="wifi_status">
+    <item/>
+    <item>Scan…</item>
+    <item>Verbindung wird hergestellt…</item>
+    <item>Authentifizierung…</item>
+    <item>IP-Adresse wird abgerufen…</item>
+    <item>Verbunden</item>
+    <item>Angehalten</item>
+    <item>Verbindung wird getrennt…</item>
+    <item>Nicht verbunden</item>
+    <item>Nicht erfolgreich</item>
+  </string-array>
+  <string-array name="wifi_status_with_ssid">
+    <item/>
+    <item>Scan…</item>
+    <item>Verbindung mit %1$s wird hergestellt…</item>
+    <item>Authentifizierung mit %1$s…</item>
+    <item>IP-Adresse wird von %1$s abgerufen…</item>
+    <item>Verbunden mit %1$s</item>
+    <item>Angehalten</item>
+    <item>Verbindung abbauen mit %1$s…</item>
+    <item>Nicht verbunden</item>
+    <item>Nicht erfolgreich</item>
+  </string-array>
+  <string-array name="wifi_security">
+    <item>Open</item>
+    <item>WEP</item>
+    <item>WPA/WPA2 PSK</item>
+    <item>802.1x EAP</item>
+    <item>WAPI PSK</item>
+    <item>WAPI CERT</item>
+  </string-array>
+  <string-array name="wifi_ap_security">
+    <item>Open</item>
+    <item>WPA2 PSK</item>
+  </string-array>
+  <string-array name="wifi_wapi_psk_type">
+    <item>WAPI PSK ASCII</item>
+    <item>WAPI PSK hexadecimal</item>
+  </string-array>
+  <string-array name="wifi_eap_method">
+    <item>PEAP</item>
+    <item>TLS</item>
+    <item>TTLS</item>
+  </string-array>
+  <string-array name="wifi_signal">
+    <item>Schwach</item>
+    <item>Gut</item>
+    <item>OK</item>
+    <item>Ausgezeichnet</item>
+  </string-array>
+  <string-array name="wifi_sleep_policy_entries">
+    <item>Wenn Bildschirm sich abschaltet</item>
+    <item>Niemals, wenn im Netzbetrieb</item>
+    <item>Niemals</item>
+  </string-array>
+  <string-array name="battery_history_type_spinner">
+    <item>CPU-Verwendung</item>
+    <item>Netzwerknutzung</item>
+    <item>GPS-Verwendung</item>
+    <item>Sensornutzung</item>
+    <item>Verwendung im Teilwachzustand</item>
+    <item>Andere Verwendung</item>
+  </string-array>
+  <string-array name="battery_history_which_spinner">
+    <item>Seit dem letzten Ausstecken</item>
+    <item>Seit Start insgesamt</item>
+    <item>Insgesamt in Gesamtzeit</item>
+  </string-array>
+  <string-array name="usage_stats_display_order_types">
+    <item>Nutzungszeit</item>
+    <item>Startzähler</item>
+    <item>Name der Anwendung</item>
+  </string-array>
+  <string-array name="wifi_eap_entries">
+    <item>PEAP</item>
+    <item>TLS</item>
+    <item>TTLS</item>
+  </string-array>
+  <string-array name="wifi_phase2_entries">
+    <item>None</item>
+    <item>PAP</item>
+    <item>MSCHAP</item>
+    <item>MSCHAPV2</item>
+    <item>GTC</item>
+  </string-array>
+  <string-array name="emergency_tone_entries">
+    <item>Aus</item>
+    <item>Benachrichtigung</item>
+    <item>Vibration</item>
+  </string-array>
+  <string-array name="haptic_feedback_level_entries">
+    <item>Leicht</item>
+    <item>Mittel</item>
+    <item>Stark</item>
+  </string-array>
+  <string-array name="special_locale_names">
+    <item>Chinesich (Einfach)</item>
+    <item>Chinesich (Traditionell)</item>
+  </string-array>
+  <string-array name="apn_auth_entries">
+    <item>None</item>
+    <item>PAP</item>
+    <item>CHAP</item>
+    <item>PAP or CHAP</item>
+  </string-array>
+  <string-array name="app_install_location_entries">
+    <item>Interner Gerätespeicher</item>
+    <item>Austauschbare SD-Karte</item>
+    <item>Auswahl durch das System</item>
+  </string-array>
+  <string-array name="vibrate_entries">
+    <item>Immer</item>
+    <item>Nie</item>
+    <item>Nur im Lautlosmodus</item>
+    <item>Außer im Lautlosmodus</item>
+  </string-array>
+  <string-array name="battery_indicator_style_entries">
+    <item>Graphisch</item>
+    <item>Prozent</item>
+    <item>Top-Bar</item>
+  </string-array>
+  <string-array name="usage_screen_power_slices">
+    <item>Akt. Display Stromverbrauch</item>
+    <item>Stromverbrauch wenn Display aus</item>
+    <item>Stromverbrauch bei gedimmten Display</item>
+    <item>Stromverbrauch bei mittlerer Display Beleuchtung</item>
+    <item>Stromverbrauch bei heller Display Beleuchtung</item>
+    <item>Stromverbrauch bei voller Display Beleuchtung</item>
+  </string-array>
+  <string-array name="usage_radio_power_slices">
+    <item>Signalstärke 1</item>
+    <item>Signalstärke 2</item>
+    <item>Signalstärke 3</item>
+    <item>Signalstärke 4</item>
+    <item>Höchste Signalstärke</item>
+    <item>Signal-Suche</item>
+  </string-array>
+  <string-array name="usage_wifi_power_slices">
+    <item>Akt. WLan Stromverbrauch</item>
+    <item>WLan Transfer Stromverbrauch</item>
+  </string-array>
+  <string-array name="usage_bluetooth_power_slices">
+    <item>Akt. Bluetooth Stromverbrauch</item>
+    <item>Bluetooth Stromverbrauch</item>
+  </string-array>
+  <string-array name="usage_app_power_slices">
+    <item>Audio Power</item>
+    <item>Video Power</item>
+    <item>CPU Stromverbrauch</item>
+    <item>Daten Transfer Stromverbrauch</item>
+    <item>Sensor Stromverbrauch</item>
+  </string-array>
+  <string-array name="overscroll_mode_entries">
+    <item>Always flexible</item>
+    <item>Flexible if content full</item>
+    <item>No flexibility</item>
+  </string-array>
+  <string-array name="menu_style_entries">
+    <item>Ursprünglicher Stil</item>
+    <item>Neuer Stil</item>
+  </string-array>
+  <string-array name="led_color_entries_for_milestone">
+    <item>Grün (Standard)</item>
+    <item>Rot</item>
+    <item>Blau</item>
+    <item>Gelb</item>
+    <item>Cyan</item>
+    <item>Magenta</item>
+    <item>Orange</item>
+  </string-array>
+  <string-array name="entries_light_filter_window">
+    <item>10 s</item>
+    <item>20 s</item>
+    <item>30 s</item>
+    <item>40 s</item>
+    <item>50 s</item>
+    <item>60 s</item>
+  </string-array>
+  <string-array name="entries_light_filter_reset">
+    <item>Aus</item>
+    <item>400 Lux</item>
+    <item>500 Lux</item>
+    <item>600 Lux</item>
+    <item>700 Lux</item>
+    <item>800 Lux</item>
+    <item>900 Lux</item>
+    <item>1000 Lux</item>
+    <item>1500 Lux</item>
+    <item>2000 Lux</item>
+    <item>2500 Lux</item>
+  </string-array>
+  <string-array name="entries_light_filter_interval">
+    <item>0.5 s</item>
+    <item>1 s</item>
+    <item>2 s</item>
+    <item>5 s</item>
+    <item>10 s</item>
+  </string-array>
+  <string-array name="entries_light_levels_dim">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>8</item>
+    <item>10</item>
+    <item>12</item>
+    <item>14</item>
+    <item>16</item>
+    <item>18</item>
+    <item>20 (Standard)</item>
+    <item>22</item>
+    <item>24</item>
+    <item>26</item>
+  </string-array>
+</resources>

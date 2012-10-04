@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <plurals name="Nsongs">
+    <item quantity="other">%d Brani</item>
+  </plurals>
+  <plurals name="Nsongscomp">
+    <item quantity="other">Totale %1$d Brani, di cui %2$d Primo</item>
+  </plurals>
+  <plurals name="Nalbums">
+    <item quantity="other">%d Album</item>
+    <item quantity="one">1 Album</item>
+  </plurals>
+  <plurals name="NNNtracksdeleted">
+    <item quantity="other">Eliminati %d Brani.</item>
+    <item quantity="one">Eliminato 1 Brano.</item>
+  </plurals>
+  <plurals name="NNNtrackstoplaylist">
+    <item quantity="other">%d Brani aggiunti alla playlist.</item>
+    <item quantity="one">1 Brano aggiunto alla playlist.</item>
+  </plurals>
+  <plurals name="NNNtrackstofavoriteplaylist">
+    <item quantity="other">%d Brani aggiunti ai Preferiti.</item>
+    <item quantity="one">1 Brano aggiunto ai Preferiti.</item>
+  </plurals>
+</resources>

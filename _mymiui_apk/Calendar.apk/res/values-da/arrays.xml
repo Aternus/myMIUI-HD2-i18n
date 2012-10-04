@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="reminder_minutes_labels">
+    <item>1 minut</item>
+    <item>5 minutter</item>
+    <item>10 minutter</item>
+    <item>15 minutter</item>
+    <item>20 minutter</item>
+    <item>25 minutter</item>
+    <item>30 minutter</item>
+    <item>45 minutter</item>
+    <item>1 time</item>
+    <item>2 timer</item>
+    <item>3 timer</item>
+    <item>12 timer</item>
+    <item>24 timer</item>
+    <item>2 dage</item>
+    <item>1 uge</item>
+  </string-array>
+  <string-array name="timezone_labels">
+    <item>Marshalløerne</item>
+    <item>Midway atollen</item>
+    <item>Hawaii</item>
+    <item>Alaska</item>
+    <item>Pacifisk tid</item>
+    <item>Tijuana</item>
+    <item>Arizona</item>
+    <item>Chihuahua</item>
+    <item>Mountain Time</item>
+    <item>Central Amerika</item>
+    <item>Central Tid</item>
+    <item>Mexico City</item>
+    <item>Saskatchewan</item>
+    <item>Bogotá</item>
+    <item>Østlig tid</item>
+    <item>Venezuela</item>
+    <item>Atlantisk tid</item>
+    <item>Manaus</item>
+    <item>Santiago</item>
+    <item>Newfoundland</item>
+    <item>Brasilien</item>
+    <item>Buenos Aires</item>
+    <item>Grønland</item>
+    <item>Montevideo</item>
+    <item>Middelatlatisk tid</item>
+    <item>Azorerne</item>
+    <item>Kap Verde</item>
+    <item>Casablanca</item>
+    <item>London, Dublin</item>
+    <item>Amsterdam, Berlin</item>
+    <item>Beograd</item>
+    <item>Bruxelles</item>
+    <item>Sarajevo</item>
+    <item>Paris</item>
+    <item>Windhoek</item>
+    <item>Vestafrikansk tid</item>
+    <item>Amman, Jordan</item>
+    <item>Athen, Istanbul</item>
+    <item>Beirut, Libanon</item>
+    <item>Cairo</item>
+    <item>Helsinki</item>
+    <item>Jerusalem</item>
+    <item>Minsk</item>
+    <item>Harare</item>
+    <item>Baghdad</item>
+    <item>Moscow</item>
+    <item>Kuwait</item>
+    <item>Nairobi</item>
+    <item>Teheran</item>
+    <item>Baku</item>
+    <item>Tbilisi</item>
+    <item>Jerevan</item>
+    <item>Dubai</item>
+    <item>Kabul</item>
+    <item>Islamabad, Karachi</item>
+    <item>Ural\'sk</item>
+    <item>Jekaterinburg</item>
+    <item>Kolkata</item>
+    <item>Sri Lanka</item>
+    <item>Katmandu</item>
+    <item>Astana</item>
+    <item>Rangoon</item>
+    <item>Krasnojarsk</item>
+    <item>Bangkok</item>
+    <item>Beijing</item>
+    <item>HongKong</item>
+    <item>Irkutsk</item>
+    <item>Kuala Lumpur</item>
+    <item>Perth</item>
+    <item>Taipei</item>
+    <item>Seoul</item>
+    <item>Tokyo, Osaka</item>
+    <item>Jakutsk</item>
+    <item>Adelaide</item>
+    <item>Darwin</item>
+    <item>Brisbane</item>
+    <item>Hobart</item>
+    <item>Sydney, Canberra</item>
+    <item>Vladivostok</item>
+    <item>Guam</item>
+    <item>Magadan</item>
+    <item>Auckland</item>
+    <item>Fiji</item>
+    <item>Tonga</item>
+  </string-array>
+  <string-array name="preferences_default_reminder_labels">
+    <item>Ingen</item>
+    <item>1 minut</item>
+    <item>5 minutter</item>
+    <item>10 minutter</item>
+    <item>15 minutter</item>
+    <item>20 minutter</item>
+    <item>25 minutter</item>
+    <item>30 minutter</item>
+    <item>45 minutter</item>
+    <item>1 time</item>
+    <item>2 timer</item>
+    <item>3 timer</item>
+    <item>12 timer</item>
+    <item>24 timer</item>
+    <item>2 dage</item>
+    <item>1 uge</item>
+  </string-array>
+  <string-array name="preferences_alert_type_labels">
+    <item>Alarm</item>
+    <item>Statuslinie notifikation</item>
+    <item>Fra</item>
+  </string-array>
+  <string-array name="availability">
+    <item>Optaget</item>
+    <item>Tilgængelig</item>
+  </string-array>
+  <string-array name="visibility">
+    <item>Standard</item>
+    <item>Privat</item>
+    <item>Offentlig</item>
+  </string-array>
+  <string-array name="ordinal_labels">
+    <item>første</item>
+    <item>anden</item>
+    <item>tredje</item>
+    <item>fjerde</item>
+    <item>sidste</item>
+  </string-array>
+  <string-array name="response_labels1">
+    <item>(Ingen melding)</item>
+    <item>Ja</item>
+    <item>Måske</item>
+    <item>Nej</item>
+  </string-array>
+  <string-array name="response_labels2">
+    <item>Ja</item>
+    <item>Måske</item>
+    <item>Nej</item>
+  </string-array>
+  <string-array name="delete_repeating_labels">
+    <item>Kun denne begivenhed</item>
+    <item>Denne &amp; fremtidige begivenheder</item>
+    <item>Alle begivenheder</item>
+  </string-array>
+  <string-array name="delete_repeating_labels_no_selected">
+    <item>Denne &amp; fremtidige begivenheder</item>
+    <item>Alle begivenheder</item>
+  </string-array>
+  <string-array name="change_response_labels">
+    <item>Kun denne instans</item>
+    <item>Alle begivenheder i serien</item>
+  </string-array>
+  <string-array name="prefEntries_alerts_vibrateWhen">
+    <item>Altid</item>
+    <item>Kun når lydløs</item>
+    <item>Aldrig</item>
+  </string-array>
+</resources>

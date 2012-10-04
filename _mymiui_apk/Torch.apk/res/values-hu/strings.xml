@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Elemlámpa</string>
+  <string name="about">Névjegy:</string>
+  <string name="about_btn">Az Elemlámpa névjegye</string>
+  <string name="about_title">Névjegy</string>
+  <string name="about_close">Bezárás</string>
+  <string name="description">Az alkalmazás a kamera beépített ledjét használja.\n</string>
+  <string name="warning">Figyelmeztetés: Hosszú ideig tartó használat mellett a led túlmelegedhet.\n\nTeljes fényerőn \'Mindig bekapcsolva\' tesztelve lett fél órán keresztül, de a maradandó károsodás veszélye fennáll.\n</string>
+  <string name="license">Eredeti kódot programozta: Nexus One Torch, Ben Buxton, kiadva GPL alatt, v3.\nhttp://n1torch.googlecode.com/\n\nKöszönet David Prieto-nak az új dizájnért.\n\nMódosítást végezte: CyanogenMod, Steve Kondik.\n\n</string>
+  <string name="warning_label">Figyelmeztetés</string>
+  <string name="brightwarn">Teljes fényerőn tesztelve lett fél órán keresztül, de nagyon felmelegedett és 45 perc után átmenetileg villogni kezdett. A hosszú távú hatások ismeretlenek.\n\nA widget által még nem támogatott.\n\nKlikkeljen az \'Elfogadás\'-ra, amennyiben saját felelősségre használni szeretné.</string>
+  <string name="brightwarn_title">Erős fény \'Bekapcsolás\' gomb!!!</string>
+  <string name="brightwarn_negative">Nem köszönöm</string>
+  <string name="brightwarn_accept">Elfogadom</string>
+  <string name="label_on">Be</string>
+  <string name="label_off">Ki</string>
+  <string name="label_high">Erős fény</string>
+  <string name="label_strobe">Stroboszkóp</string>
+  <string name="label_frequency">Frekvencia: (húzd el a módosításhoz)</string>
+  <string name="widget_options">Általános beállítások</string>
+  <string name="setting_widget_bright">Elemlámpa widget</string>
+  <string name="setting_widget_strobe">Stroboszkóp</string>
+  <string name="setting_frequency_title">Stroboszkóp frekvencia</string>
+  <string name="setting_frequency_summary">Stroboszkóp frekvencia</string>
+  <string name="setting_frequency_dialog">Frekvencia</string>
+  <string name="setting_frequency_hz">Hz</string>
+  <string name="setting_add_widget">Widget hozzáadása</string>
+  <string name="not_torch_title">Elemlámpa bekapcsolva</string>
+  <string name="not_torch_summary">Elemlámba jelenleg bekapcsolva</string>
+  <string name="widget_label">Elemlámpa</string>
+  <string name="torch_message">Nyomja [icon] és a lámpa bekapcsolva marad</string>
+</resources>

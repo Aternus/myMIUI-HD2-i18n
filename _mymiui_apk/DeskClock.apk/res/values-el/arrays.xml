@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="alarm_set">
+    <item>Αυτή η αφύπνιση έχει οριστεί για λιγότερο από 1 λεπτό από τώρα.</item>
+    <item>Αυτή η αφύπνιση έχει οριστεί για %1$s από τώρα.</item>
+    <item>Αυτή η αφύπνιση έχει οριστεί για %2$s απο τώρα.</item>
+    <item>Αυτή η αφύπνιση έχει οριστεί για %1$s και %2$s απο τώρα.</item>
+    <item>Αυτή η αφύπνιση έχει οριστεί για %3$s απο τώρα.</item>
+    <item>Αυτή η αφύπνιση έχει οριστεί για %1$s και %3$s απο τώρα.</item>
+    <item>Αυτή η αφύπνιση έχει οριστεί για %2$s και %3$s απο τώρα.</item>
+    <item>Αυτή η αφύπνιση έχει οριστεί για %1$s, %2$s, και %3$s απο τώρα.</item>
+  </string-array>
+  <string-array name="snooze_duration_entries">
+    <item>5 λεπτά</item>
+    <item>10 λεπτά</item>
+    <item>15 λεπτά</item>
+    <item>20 λεπτά</item>
+    <item>25 λεπτά</item>
+    <item>30 λεπτά</item>
+  </string-array>
+  <string-array name="volume_button_setting_entries">
+    <item>Κανένα</item>
+    <item>Αναβολή</item>
+    <item>Παράβλεψη</item>
+  </string-array>
+</resources>

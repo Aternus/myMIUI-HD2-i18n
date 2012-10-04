@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">ניהול חשבון MIUI</string>
+  <string name="service_name">ניהול חשבון MIUI</string>
+  <string name="authenticator_label">MIUI</string>
+  <string name="logon">להתחבר</string>
+  <string name="nickname">שם / כינוי:</string>
+  <string name="username">שם משמתמש:</string>
+  <string name="password">סיסמא:</string>
+  <string name="registered_account">החשבון הינו רשום</string>
+  <string name="bad_username">שם המשתמש אינו נמצא או שפג תוקפו</string>
+  <string name="bad_verification">שגיאת הרשמה</string>
+  <string name="bad_authentication">שם משתמש או סיסמא אינם נכונים</string>
+  <string name="email_not_verified">הדואל של החשבון אינו אומת</string>
+  <string name="terms_not_agreed">הינך צריך להסכים עם התנאים שלנו על מנת להרשם</string>
+  <string name="account_deleted">החשבון נמחק</string>
+  <string name="account_disabled">החשבון מנותק</string>
+  <string name="service_disabled">השרות מנותק</string>
+  <string name="service_unavailable">השרות אינו זמין</string>
+  <string name="network_error">שגיאת התחברות לרשת, אנא בדוק אם שרות האינטרנט במכשירך מאושר</string>
+  <string name="unknown">שגיאה בלתי ידועה</string>
+  <string name="my_account">פרופיל ה-MIUI שלי</string>
+  <string name="must_input">שדה חובה</string>
+  <string name="loging_on">מחובר</string>
+</resources>

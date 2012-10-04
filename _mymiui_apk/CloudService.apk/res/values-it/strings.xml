@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">MIUI Account Manager</string>
+  <string name="service_name">MIUI Account Manager</string>
+  <string name="authenticator_label">MIUI</string>
+  <string name="logon">Login</string>
+  <string name="nickname">Nome / Alias:</string>
+  <string name="username">Username:</string>
+  <string name="password">Password:</string>
+  <string name="registered_account">L\'account è stato registrato</string>
+  <string name="bad_username">Username non trovato o non valido</string>
+  <string name="bad_verification">Errore registrazione</string>
+  <string name="bad_authentication">Username o password errate</string>
+  <string name="email_not_verified">Account email non ancora verificato</string>
+  <string name="terms_not_agreed">Devi dare il consenso ai termini per la registrazione</string>
+  <string name="account_deleted">Account eliminato</string>
+  <string name="account_disabled">Account disabilitato</string>
+  <string name="service_disabled">Servizio disabilitato</string>
+  <string name="service_unavailable">Servizio non disponibile</string>
+  <string name="network_error">Errore connessione di rete, verifica che il servizio sia attivo e disponibile</string>
+  <string name="unknown">Errore sconosciuto</string>
+  <string name="my_account">Profilo MIUI</string>
+  <string name="must_input">Campo necessario</string>
+  <string name="loging_on">Login in corso, attendere prego...</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_label">Vrstica stanja</string>
+  <string name="status_bar_clear_all_button">Počisti</string>
+  <string name="status_bar_no_notifications_title">Ni obvestil</string>
+  <string name="status_bar_ongoing_events_title">Trenutno</string>
+  <string name="status_bar_latest_events_title">Obvestila</string>
+  <string name="battery_low_title">Priključite napajalnik</string>
+  <string name="battery_low_subtitle">Baterija je skoraj prazna:</string>
+  <string name="battery_low_percent_format">Preostalo %d%% ali manj.</string>
+  <string name="battery_low_why">Uporaba baterije</string>
+  <string name="tab_notifications_lable">Obvestila</string>
+  <string name="tab_toggles_lable">Preklopniki</string>
+  <string name="status_bar_time_format_12">h:mma</string>
+  <string name="status_bar_time_format_24">HH:mm</string>
+  <string name="status_bar_date_format">EEE, d MMMM,</string>
+  <string name="status_bar_date_format_lock">EEE, d MMMM</string>
+  <string name="usb_accessory_permission_prompt">Dovolim aplikaciji %1$s dostop do USB pripomočka?</string>
+  <string name="usb_device_confirm_prompt">Odprem %1$s ko je USB naprava povezana?</string>
+  <string name="usb_accessory_confirm_prompt">Odprem %1$s ko je USB pripomoček povezan?</string>
+  <string name="usb_accessory_uri_prompt">Ni nameščene aplikacije za uporabo s tem USB pripomočkom. Preberite si več o tem pripomočku na %1$s</string>
+  <string name="title_usb_accessory">USB pripomoček</string>
+  <string name="label_view">Prikaži</string>
+  <string name="always_use_accessory">Privzeto uporabi za ta pripomoček USB</string>
+  <string name="usb_mode_notification">USB Storage</string>
+  <string name="usb_mode_dont_ask">Do not ask</string>
+  <string name="usb_mode_mount_storage_title">Open USB Storage</string>
+  <string name="mount_storage">Mount</string>
+  <string name="dismount_storage">Unmount</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="download_filters">
+    <item>Összes letöltés</item>
+    <item>Hálózat</item>
+    <item>Zene</item>
+    <item>Téma</item>
+    <item>Böngésző</item>
+  </string-array>
+</resources>

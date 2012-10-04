@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <plurals name="gadget_more_events">
+    <item quantity="other">%d več dogodkov</item>
+    <item quantity="one">še 1 dogodek</item>
+  </plurals>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="animation">
+    <item>Sin animation</item>
+    <item>Desvanecer</item>
+    <item>Esfera</item>
+    <item>Página</item>
+    <item>Cascada</item>
+    <item>Rotación</item>
+    <item>Cubo 3D</item>
+    <item>Flujo de Carátulas</item>
+  </string-array>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="pick_photo_values">
+    <item>Fotografiraj s kamero</item>
+    <item>Brskaj foto album</item>
+    <item>Sistemske fotografije</item>
+    <item>Izbriši</item>
+  </string-array>
+  <string-array name="pick_incoming_call_photo_values">
+    <item>Fotografiraj s kamero</item>
+    <item>Brskaj foto album</item>
+  </string-array>
+  <string-array name="edit_incoming_call_photo_values">
+    <item>Fotografiraj s kamero</item>
+    <item>Brskaj foto album</item>
+    <item>Uredi sliko</item>
+    <item>Izbriši</item>
+  </string-array>
+</resources>

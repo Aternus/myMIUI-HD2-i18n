@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="animation">
+    <item>Keine</item>
+    <item>Crossfade</item>
+    <item>Falldown</item>
+    <item>Seite</item>
+    <item>Stapel</item>
+    <item>Rotation</item>
+    <item>3D Box</item>
+    <item>Coverflow</item>
+  </string-array>
+</resources>

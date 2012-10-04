@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="animation">
+    <item>Χωρίς εφέ</item>
+    <item>Εξασθένιση</item>
+    <item>Dial</item>
+    <item>Σελίδα</item>
+    <item>Cascade</item>
+    <item>Περιστροφή</item>
+    <item>3D κύβος</item>
+    <item>Cover Flow</item>
+  </string-array>
+</resources>

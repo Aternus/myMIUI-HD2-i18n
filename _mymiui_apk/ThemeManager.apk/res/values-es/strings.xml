@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Temas</string>
+  <string name="theme_changing_dialog_title">Configurando el nuevo tema...</string>
+  <string name="theme_changed_message">Tema cambiado</string>
+  <string name="theme_changed_failed_message">No se pudo cambiar el tema</string>
+  <string name="theme_activity_lable">Temas</string>
+  <string name="component_category_title">Editar estilo actual</string>
+  <string name="backup_preference_title">Copia de seguridad del tema</string>
+  <string name="backup_theme_dialog_ok">OK</string>
+  <string name="backup_theme_dialog_message">La copia se guardará en:\nSDcard/MIUI/theme/\nCon el nombre “%1$s”</string>
+  <string name="backup_theme_progress_message">Guardando...</string>
+  <string name="backup_theme_success_message">Tema guardado</string>
+  <string name="theme_description_title_default">Predeterminado</string>
+  <string name="theme_description_title_customized">Personalizado</string>
+  <string name="theme_component_title_framework">Estilo del sistema</string>
+  <string name="theme_component_title_mms">Mensajes</string>
+  <string name="theme_component_title_wallpaper">F. de pantalla</string>
+  <string name="theme_component_title_lockwallpaper">F. de bloqueo</string>
+  <string name="theme_component_title_icon">Icono</string>
+  <string name="theme_component_title_boot_animation">Animación de inicio</string>
+  <string name="theme_component_title_boot_audio">Audio de inicio</string>
+  <string name="theme_component_title_font">Fuente</string>
+  <string name="theme_component_title_ringtone">Llamada</string>
+  <string name="theme_component_title_notification">Notificación</string>
+  <string name="theme_component_title_alarm">Alarma</string>
+  <string name="theme_component_title_contact">Teléfono</string>
+  <string name="theme_component_title_lockstyle">Bloqueo</string>
+  <string name="theme_component_title_statusbar">Barra de Estado</string>
+  <string name="theme_component_title_launcher">Escritorio</string>
+  <string name="theme_component_title_others">Otros</string>
+  <string name="theme_component_title_all">Temas</string>
+  <string name="apply_theme_no_select_message">Seleccione el módulo a aplicar</string>
+  <string name="theme_import">Importar de SD</string>
+  <string name="theme_select_others">Otros</string>
+  <string name="third_party_pickers_activity_title">Establecer %1$s</string>
+  <string name="wallpaper_settings">Fondos de Pantalla</string>
+  <string name="desktop_wallpaper">Fondo de Escritorio</string>
+  <string name="live_wallpaper">Fondos Animados</string>
+  <string name="lockscreen_wallpaper">Fondo de Bloqueo</string>
+  <string name="component_settings_title">Componentes del tema</string>
+  <string name="component_select_title">Elementos Seleccionados(%1$s)</string>
+  <string name="component_include_title">Elementos incluidos(%1$s)</string>
+  <string name="component_screen_title">Incluye Fondo de Pantalla</string>
+</resources>

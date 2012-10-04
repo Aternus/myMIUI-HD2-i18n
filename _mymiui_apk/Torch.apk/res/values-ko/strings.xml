@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">손전등</string>
+  <string name="about">안내:</string>
+  <string name="about_btn">손전등 안내</string>
+  <string name="about_title">안내</string>
+  <string name="about_close">닫기</string>
+  <string name="description">이 프로그램은 카메라의 LED를 조작합니다.\n</string>
+  <string name="warning">장시간 LED를 켜놓을 시 장치에 심각한 부하를 줄 수 있으니 주의 하세요.</string>
+  <string name="license">Original code from Nexus One Torch by Ben Buxton, released under the GPL, v3.\nhttp://n1torch.googlecode.com/\n\nThanks to David Prieto for new UI design.\n\nModified for CyanogenMod by Steve Kondik.\n\n</string>
+  <string name="warning_label">경고</string>
+  <string name="brightwarn">최고 밝기는 30분정도 테스트를 하였습니다.하지만 어느정도 발열이 발생합니다.\n최고밝기 위젯은 아직 지원하지 않습니다.\n사용을 원하시면 "허용"을 클릭해 주세요.</string>
+  <string name="brightwarn_title">Hi-brite \'On\' button!</string>
+  <string name="brightwarn_negative">거절</string>
+  <string name="brightwarn_accept">허용</string>
+  <string name="label_on">켜기</string>
+  <string name="label_off">끄기</string>
+  <string name="label_high">최고 밝기</string>
+  <string name="label_strobe">섬광</string>
+  <string name="label_frequency">주기: (슬라이드로 변경)</string>
+  <string name="widget_options">일반 옵션</string>
+  <string name="setting_widget_bright">최대밝기</string>
+  <string name="setting_widget_strobe">섬광등</string>
+  <string name="setting_frequency_title">섬광 주기</string>
+  <string name="setting_frequency_summary">섬광등의 깜빡임 주기</string>
+  <string name="setting_frequency_dialog">주기</string>
+  <string name="setting_frequency_hz">Hz</string>
+  <string name="setting_add_widget">위젯 추가</string>
+  <string name="not_torch_title">손전등 on</string>
+  <string name="not_torch_summary">손전등이 켜졌습니다</string>
+  <string name="widget_label">손전등</string>
+  <string name="torch_message">잠금화면에서 홈버튼을 길게 눌러서 손전등 기능을 바로 사용할 수 있습니다.</string>
+</resources>

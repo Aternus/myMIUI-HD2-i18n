@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Rekorder</string>
+  <string name="recording">Aufnahme</string>
+  <string name="recording_stopped">Aufnahme beendet</string>
+  <string name="storage_is_full">Speicher ist voll</string>
+  <string name="max_length_reached">Maximale Länge erreicht</string>
+  <string name="insert_sd_card">SD-Karte einlegen</string>
+  <string name="button_ok">OK</string>
+  <string name="timer_format" formatted="false">%02d:%02d</string>
+  <string name="audio_db_title_format">yyyy-MM-dd HH:mm:ss</string>
+  <string name="audio_db_artist_name">Ihre Aufnahmen</string>
+  <string name="audio_db_album_name">Audioaufnahmen</string>
+  <string name="audio_db_playlist_name">Meine Aufnahmen</string>
+  <string name="error_sdcard_access">Kein Zugriff auf SD-Karte möglich.</string>
+  <string name="error_app_internal">Interner Anwendungsfehler</string>
+  <string name="error_mediadb_new_record">Aufgenommenen Audioinhalt speichern</string>
+  <string name="default_record_name">Unbekannt</string>
+  <string name="menu_view_record_list">Zeige Aufnahmeliste</string>
+  <string name="menu_setting">Einstellungen</string>
+  <string name="delete_dialog_title">Aktuelle Aufnahme löschen?</string>
+  <string name="overwrite_dialog_title">%s existiert bereits. Wollen Sie es überschreiben?</string>
+  <string name="preferences_title">Einstellungen</string>
+  <string name="pref_title_record_type">Aufnahme Datei Typ</string>
+  <string name="prefDialogTitle_recordType">Datei Typ wählen</string>
+  <string name="prefDefault_recordType">audio/3gpp</string>
+  <string name="pref_title_enable_high_quality">Hohe Qualität</string>
+  <string name="pref_summary_enable_high_quality">Audio Dateien in hoher Qualität sind größer</string>
+  <string name="pref_title_enable_sound_effect">Sound Effekte</string>
+  <string name="pref_summary_enable_sound_effect">Sound Effekte bei dem Abspielen der Aufnahme</string>
+  <string name="notification_recording">Aufnahme</string>
+  <string name="notification_stopped">Aufnahme wurde gestoppt</string>
+</resources>

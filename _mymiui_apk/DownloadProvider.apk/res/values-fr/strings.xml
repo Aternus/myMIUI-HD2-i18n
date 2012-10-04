@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_label">Gestionnaire de téléchargement</string>
+  <string name="permlab_downloadManager">Accéder au gestionnaire de téléchargement.</string>
+  <string name="permdesc_downloadManager">Permet à l\'application d\'accéder au gestionnaire de téléchargement et de l\'utiliser pour télécharger des fichiers. Les applications malveillantes peuvent s\'en servir pour entraver les téléchargements et accéder aux informations personnelles.</string>
+  <string name="permlab_downloadManagerAdvanced">Fonctions avancées du gestionnaire de téléchargement.</string>
+  <string name="permdesc_downloadManagerAdvanced">Permet à l\'application d\'accéder aux fonctions avancées du gestionnaire de téléchargements. Des applications malveillantes peuvent utiliser cette option pour perturber les téléchargements et accéder à des informations personnelles.</string>
+  <string name="permlab_downloadCompletedIntent">Envoyer des notifications de téléchargement.</string>
+  <string name="permdesc_downloadCompletedIntent">Permet à l\'application d\'envoyer des notifications concernant les téléchargements effectués. Les applications malveillantes peuvent s\'en servir pour tromper les autres applications de téléchargement de fichiers.</string>
+  <string name="permlab_seeAllExternal">Voir tous les téléchargements effectués sur la carte SD</string>
+  <string name="permdesc_seeAllExternal">Permet à l\'application d\'afficher tous les téléchargements effectués sur la carte SD, quelle que soit l\'application de téléchargement utilisée.</string>
+  <string name="permlab_downloadCacheNonPurgeable">Réserver un espace dans le cache de téléchargement</string>
+  <string name="permdesc_downloadCacheNonPurgeable">Autorise l\'application à télécharger des fichiers dans le cache de téléchargement et empêche leur effacement automatique par le gestionnaire de téléchargement.</string>
+  <string name="permlab_downloadWithoutNotification">télécharger les fichiers sans m\'avertir</string>
+  <string name="permdesc_downloadWithoutNotification">Autorise l\'application à télécharger des fichiers via le gestionnaire de téléchargement sans afficher de notification à l\'utilisateur.</string>
+  <string name="permlab_accessAllDownloads">Accéder à tous les téléchargements système</string>
+  <string name="permdesc_accessAllDownloads">Permet à l\'application de connaître et de modifier tous les téléchargements initiés par les programmes du système.</string>
+  <string name="download_unknown_title">&lt;Sans_titre&gt;</string>
+  <string name="notification_filename_separator">,\u0020</string>
+  <string name="notification_filename_extras">\u0020et %d autres</string>
+  <string name="notification_download_complete">Téléchargement terminé.</string>
+  <string name="notification_download_failed">Échec du téléchargement</string>
+  <string name="notification_need_wifi_for_size">La taille du téléchargement nécessite une connexion Wi-Fi</string>
+  <string name="wifi_required_title">Téléchargement trop grand pour l\'opérateur de réseau</string>
+  <string name="wifi_required_body" formatted="false">Vous devez utiliser le WiFi pour terminer ce %s téléchargement. \n\n Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes connecté à un réseau WiFi.</string>
+  <string name="wifi_recommended_title">File d\'attente pour télécharger plus tard?</string>
+  <string name="wifi_recommended_body" formatted="false">Commencer à télécharger %s maintenant peut vider la batterie et / ou entraîner une utilisation excessive de votre connexion 3G, ce qui peut mener à des frais par votre opérateur de téléphonie mobile en fonction de votre forfait.\n\n Cliquer %s ci-dessous pour commencer ce téléchargement la prochaine fois que vous serez connecté à un réseau WiFi.</string>
+  <string name="button_queue_for_wifi">File d\'attente</string>
+  <string name="button_cancel_download">Annuler</string>
+  <string name="button_start_now">Démarrer</string>
+</resources>

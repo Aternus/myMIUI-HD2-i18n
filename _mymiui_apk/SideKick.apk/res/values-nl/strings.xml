@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="change_search_setting">Zoek instellingen wijzigen</string>
+  <string name="default_web_search_engine_baidu">http://www.bing.nl/search?q=</string>
+  <string name="default_web_search_engine_google">http://www.google.nl/m/search?q=</string>
+  <string name="delete_input_history">Alle zoekgeschiedenis wissen?</string>
+  <string name="history_delete_hint">Zoek geschiedenis wissen</string>
+  <string name="input_history">Zoek geschiedenis</string>
+  <string name="menu_history">Zoek geschiedenis</string>
+  <string name="menu_preferences">Zoek instellingen</string>
+  <string name="recent_dialog_buttonAppKiller">Sluit apps</string>
+  <string name="recent_dialog_buttonAppKiller_summary">Er is %1$s vrijgegeven \nBeschikbaar geheugen: %2$s</string>
+  <string name="recent_dialog_buttonTaskManager">Proccesen</string>
+  <string name="search_engine_baidu">Bing</string>
+  <string name="search_engine_google">Google</string>
+  <string name="search_engine_title">Selecteer zoekmachine</string>
+  <string name="search_hint">Zoeken op trefwoord</string>
+  <string name="search_history_today">Vandaag</string>
+  <string name="search_history_yesterday">Gisteren</string>
+  <string name="search_no_result_hint">Geen resultaten voor \"%s\"</string>
+  <string name="search_no_result_hint_line1">Controleer of alle woorden correct zijn gespeld</string>
+  <string name="search_no_result_hint_line2">Probeer het met een ander woord</string>
+  <string name="search_no_result_hint_line3">Probeer meer algemene woorden</string>
+  <string name="search_no_result_hint_suggistion">Aanbeveling:</string>
+  <string name="search_recent_hint">Recente zoekopdrachten</string>
+  <string name="search_result_header_hint_recent">%d gevonden in zoek geschiedenis</string>
+  <string name="search_result_header_hint_search">%d totale resultaten komen overeen met het zoekwoord</string>
+  <string name="search_sources">Zoek bronnen</string>
+  <string name="search_sources_summary">Kies naar wat voor inhoud te zoeken op mobiele telefoon</string>
+  <string name="search_threshold_infinite">Onbeperkt</string>
+  <string name="search_threshold_ten">10</string>
+  <string name="search_threshold_thirty">30</string>
+  <string name="search_threshold_title">Zoekresultaten per bron</string>
+  <string name="search_web">Web doorzoeken</string>
+  <string name="sidekick_activity_label">SideKick</string>
+</resources>

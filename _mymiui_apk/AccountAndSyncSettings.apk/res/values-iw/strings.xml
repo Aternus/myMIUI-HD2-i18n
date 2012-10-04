@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_label">הגדרות חשבון וסינכרון</string>
+  <string name="sync_settings">הגדרות חשבון וסינכרון</string>
+  <string name="sync_too_many_deletes">הגבלת מחיקת חריגים</string>
+  <string name="background_data">נתוני רקע</string>
+  <string name="background_data_summary">יישומים יכולים לסנכרן, לשלוח, ולקבל נתונים בכל עת</string>
+  <string name="background_data_dialog_title">שים לב!</string>
+  <string name="background_data_dialog_message">ביטול נתוני רקע מאריך את חיי הסוללה ומוריד את השימוש בתקשורת נתונים , יישומים מסוימים עשויים עדיין להשתמש בחיבור הנתונים ברקע.</string>
+  <string name="sync_automatically">סינכרון אוטומטי</string>
+  <string name="sync_automatically_summary">יישומים יסנכרנו מידע באופן אוטומטי</string>
+  <string name="settings_backup">גיבוי הגדרות</string>
+  <string name="settings_backup_summary">גיבוי ההגדרות שלי</string>
+  <string name="sync_menu_sync_now">סנכרן עכשיו</string>
+  <string name="sync_menu_sync_cancel">בטל סינכרון</string>
+  <string name="sync_one_time_sync">לחץ לסנכרן עכשיו\n%1$s</string>
+  <string name="sync_gmail">Gmail</string>
+  <string name="sync_calendar">לוח שנה</string>
+  <string name="sync_contacts">אנשי קשר</string>
+  <string name="sync_too_many_deletes_desc">ישנם %1$d פריטים שנמחקו עבור %2$s, חשבון %3$s. מה ברצונך לעשות?</string>
+  <string name="sync_really_delete">מחק את הפריטים.</string>
+  <string name="sync_undo_deletes">בטל את המחיקות.</string>
+  <string name="sync_do_nothing">אל תעשה כלום עכשיו.</string>
+  <string name="sync_is_failing">הסינכרון נתקל כעת בבעיות. הוא ינסה שוב בקרוב.</string>
+  <string name="sync_plug"><font fgcolor="#ffffffff">ברוך הבא לסינכרון Google!</font> oogle נותנת לך את הגישה לסנכרן את אנשי הקשר , הפגישות ועוד בכל מקום שבו אתה נמצא.\u0020</string>
+  <string name="header_application_sync_settings">הגדרות סינכרון יישומים</string>
+  <string name="header_manage_accounts">נהל חשבונות</string>
+  <string name="header_manage_default_accounts">Default account</string>
+  <string name="header_general_sync_settings">הגדרות סינכרון כלליות</string>
+  <string name="sync_enabled">סינכרון פעיל</string>
+  <string name="sync_disabled">סינכרון מופסק</string>
+  <string name="sync_error">שגיאה בסינכרון</string>
+  <string name="add_account_label">הוסף חשבון</string>
+  <string name="header_data_and_synchronization">נתונים וסינכרון</string>
+  <string name="preference_change_password_title">שנה סיסמא</string>
+  <string name="header_account_settings">הגדרות חשבון</string>
+  <string name="remove_account_label">הסר חשבון</string>
+  <string name="header_add_an_account">הוסף חשבון</string>
+  <string name="finish_button_label">סיום</string>
+  <string name="really_remove_account_title">הסר חשבון</string>
+  <string name="really_remove_account_message">האם ברצונך למחוק את החשבון זה? מחיקת החשבון זה תגרום למחיקה של ההודעות, אנשי הקשר ומידע נוסף ממכשירך. \nהאם להמשיך?</string>
+  <string name="remove_account_failed">חשבון זה נדרש על ידי יישומים מסוימים. אתה יכול להסיר אותו רק על ידי שחזור הטלפון לברירות המחדל של היצרן (אשר מוחקת את כל הנתונים האישיים שלך). תחת הגדרות יישומים -שמירה על פרטיות.</string>
+  <string name="provider_label">דחוף מנויים</string>
+  <string name="sync_item_title">סנכרן %s</string>
+  <string name="cant_sync_dialog_title">אין אפשרות לסינכרון ידני</string>
+  <string name="cant_sync_dialog_message">סינכרון עבור פריט זה אינו זמין כרגע. כדי לשנות את ההעדפות שלך, הפעל באופן זמני את נתוני הרקע ואת הסינכרון האוטומטי.</string>
+</resources>

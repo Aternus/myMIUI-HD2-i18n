@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="pref_content_plugins_choices">
+    <item>תמיד דלוק</item>
+    <item>לפי דרישה</item>
+    <item>כבוי</item>
+  </string-array>
+  <string-array name="pref_text_size_choices">
+    <item>זעיר</item>
+    <item>קטן</item>
+    <item>רגיל</item>
+    <item>גדול</item>
+    <item>ענק</item>
+  </string-array>
+  <string-array name="pref_default_zoom_choices">
+    <item>רחוק</item>
+    <item>בינוני</item>
+    <item>קרוב</item>
+  </string-array>
+</resources>

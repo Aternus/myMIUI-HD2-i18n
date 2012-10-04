@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="about">Over:</string>
+  <string name="about_btn">Over Lamp</string>
+  <string name="about_close">Dicht</string>
+  <string name="about_title">Over</string>
+  <string name="app_name">Lamp</string>
+  <string name="brightwarn">Volledige helderheid is met succes getest voor een 1/2 uur, maar werd behoorlijk warm en begon te flikkeren (tijdelijk) op 45 minuten. Lange termijn effecten zijn onbekend.\n\nDit wordt nog niet ondersteund op de widget.\n\nKlik \'Accepteren\' wanneer je het wilt gebruiken, op eigen risico.</string>
+  <string name="brightwarn_accept">Accepteren</string>
+  <string name="brightwarn_negative">Nee bedankt</string>
+  <string name="brightwarn_title">Hi-brite \'Aan\' toets!!!</string>
+  <string name="description">Dit programma manipuleert de camera LED.\n</string>
+  <string name="label_frequency">Frequentie: (schuif om te wijzigen)</string>
+  <string name="label_high">Hoge helderheid</string>
+  <string name="label_off">Uit</string>
+  <string name="label_on">Aan</string>
+  <string name="label_strobe">Strobe</string>
+  <string name="license">Originele code van Nexus One Torch door Ben Buxton, uitgebracht onder de GPL, v3.\nhttp://n1torch.googlecode.com/\n\nMet dank aan David Prieto voor het nieuwe UI-ontwerp.\n\nGemodificeerd voor CyanogenMod door Steve Kondik.\n\n</string>
+  <string name="not_torch_summary">Lamp momenteel aan</string>
+  <string name="not_torch_title">Lamp aan</string>
+  <string name="setting_add_widget">Widget toevoegen</string>
+  <string name="setting_frequency_dialog">Frequentie</string>
+  <string name="setting_frequency_hz">Hz</string>
+  <string name="setting_frequency_summary">Frequentie van strobe licht</string>
+  <string name="setting_frequency_title">Strobe frequentie</string>
+  <string name="setting_widget_bright">Bright widget</string>
+  <string name="setting_widget_strobe">Strobe flits</string>
+  <string name="torch_message">U kunt de zaklamp snel starten door het [icon] lang ingedrukt te houden in het lock screen</string>
+  <string name="warning">Waarschuwing: De LED aan laten voor een lange tijd kan oververhitting veroorzaken.\n\nVolledige helderheid \'altijd aan\' is getest voor een 1/2 uur, maar er is een risico dat de LED beschadigd raakt.\n</string>
+  <string name="warning_label">Waarschuwing</string>
+  <string name="widget_label">Lamp</string>
+  <string name="widget_options">Algemene opties</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="animation">
+    <item>없음</item>
+    <item>사라짐</item>
+    <item>떨어짐</item>
+    <item>넘김</item>
+    <item>쌓기</item>
+    <item>회전</item>
+    <item>3D 상자</item>
+    <item>덮어씌움</item>
+  </string-array>
+</resources>

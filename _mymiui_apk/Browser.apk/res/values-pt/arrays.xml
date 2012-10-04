@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="bookmark_control_items">
+    <item>Criar pasta</item>
+    <item>Criar favorito</item>
+    <item>Importar favoritos</item>
+    <item>Exportar favoritos</item>
+  </string-array>
+  <string-array name="not_found_page_titles">
+    <item>Não foi encontrada nenhuma página de net</item>
+  </string-array>
+  <string-array name="pref_load_images_choice">
+    <item>Ligado</item>
+    <item>Desligado</item>
+    <item>Ligar em Wi-Fi</item>
+  </string-array>
+  <string-array name="pref_volume_setting_choice">
+    <item>Padrão</item>
+    <item>Percorrer página</item>
+    <item>Mudar separador</item>
+  </string-array>
+  <string-array name="pref_volume_setting_enable_choice">
+    <item>Aplicar sempre a definição \ndo botão de volume</item>
+    <item>Aplicar apenas se não houver música a reproduzir</item>
+  </string-array>
+  <string-array name="pref_reading_mode_choices">
+    <item>Inserir automaticamente</item>
+    <item>Inserir manualmente</item>
+    <item>Desligado</item>
+  </string-array>
+  <string-array name="pref_forum_mode_choices">
+    <item>Inserir automaticamente</item>
+    <item>Inserir manualmente</item>
+    <item>Desligado</item>
+  </string-array>
+  <string-array name="pref_content_plugins_choices">
+    <item>Sempre ligado</item>
+    <item>Sempre desligado</item>
+    <item>Mostrar em processo</item>
+  </string-array>
+  <string-array name="pref_text_size_choices">
+    <item>Pequeno</item>
+    <item>Normal</item>
+    <item>Grande</item>
+    <item>Enorme</item>
+  </string-array>
+  <string-array name="pref_hide_buttons_in_fullscreen_choices">
+    <item>Mostrar</item>
+    <item>Ocultar Voltar-Seguinte no modo de ecrã total</item>
+    <item>Ocultar automaticamente</item>
+    <item>Não mostrar botões flutuantes</item>
+  </string-array>
+  <string-array name="pref_hide_statusbar_choices">
+    <item>Mostrar sempre barra de estado</item>
+    <item>Ocultar sempre barra de estado</item>
+    <item>Automático</item>
+  </string-array>
+  <string-array name="pref_simple_mode_choices">
+    <item>Desligar</item>
+    <item>Ligar</item>
+    <item>Ligar se Wi-Fi estiver desligado</item>
+  </string-array>
+  <string-array name="pref_default_text_encoding_choices">
+    <item>Latin-1 (ISO-8859-1)</item>
+    <item>Unicode (UTF-8)</item>
+    <item>Simplified Chinese (GBK)</item>
+    <item>Traditional Chinese (Big5)</item>
+    <item>Japanese (ISO-2022-JP)</item>
+    <item>Japanese (SHIFT_JIS)</item>
+    <item>Japanese (EUC-JP)</item>
+  </string-array>
+  <string-array name="pref_default_zoom_choices">
+    <item>Longe</item>
+    <item>Médio</item>
+    <item>Perto</item>
+  </string-array>
+  <string-array name="pref_user_agent_choices">
+    <item>Padrão</item>
+    <item>Chrome Desktop</item>
+    <item>iPhone 3</item>
+    <item>iPhone 4</item>
+    <item>iPad</item>
+  </string-array>
+  <string-array name="pref_left_right_gesture_choices">
+    <item>Nenhum</item>
+    <item>Voltar-Seguinte</item>
+    <item>Mudar separador</item>
+  </string-array>
+  <string-array name="pref_single_click_choices">
+    <item>Abrir link na aba atual</item>
+    <item>Abrir link num novo separador /ne alternar</item>
+    <item>Abrir link num novo separador /nem segundo plano</item>
+  </string-array>
+  <string-array name="pref_long_click_choices">
+    <item>Mostrar menu de contexto</item>
+    <item>Abrir link num novo separador /ne alternar</item>
+    <item>Abrir link num novo separador /nem segundo plano</item>
+  </string-array>
+</resources>

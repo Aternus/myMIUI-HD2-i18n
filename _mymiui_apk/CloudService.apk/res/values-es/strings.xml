@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Cuentas MIUI</string>
+  <string name="service_name">Gestor de Cuentas MIUI</string>
+  <string name="authenticator_label">MIUI</string>
+  <string name="logon">Ingresar</string>
+  <string name="nickname">Nombre / Alias:</string>
+  <string name="username">Usuario:</string>
+  <string name="password">Contraseña:</string>
+  <string name="registered_account">Se ha registrado la cuenta</string>
+  <string name="bad_username">El nombre de usuario no es válido</string>
+  <string name="bad_verification">Error en el registro</string>
+  <string name="bad_authentication">Usuario o contraseña incorrectos</string>
+  <string name="email_not_verified">La cuenta de Email no ha sido verificada</string>
+  <string name="terms_not_agreed">Debe aceptar los terminos y condiciones</string>
+  <string name="account_deleted">Cuenta eliminada</string>
+  <string name="account_disabled">Cuenta deshabilitada</string>
+  <string name="service_disabled">Servicio deshabilitado</string>
+  <string name="service_unavailable">Servicio no disponible</string>
+  <string name="network_error">Error de conexión, compruebe la disponibilidad de datos móviles</string>
+  <string name="unknown">Error desconocido</string>
+  <string name="my_account">Mi Cuenta MIUI</string>
+  <string name="must_input">Campo(s) necesario</string>
+  <string name="loging_on">Ingresando</string>
+</resources>

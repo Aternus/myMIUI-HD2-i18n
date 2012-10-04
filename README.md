@@ -1,2 +1,8 @@
-myMIUI-i18n
+myMIUI i18n Project
+===========
+
+Languages
+===========
+
+Contributors
 ===========

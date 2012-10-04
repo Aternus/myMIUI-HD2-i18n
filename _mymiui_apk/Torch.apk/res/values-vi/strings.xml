@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Đèn pin</string>
+  <string name="about">Thông tin:</string>
+  <string name="about_btn">Thông tin đèn pin</string>
+  <string name="about_title">Thông tin</string>
+  <string name="about_close">Đóng</string>
+  <string name="description">Ứng dụng này dùng đèn LED của máy ảnh.\n</string>
+  <string name="warning">Cảnh báo: Nếu để đèn LED sáng trong một thời gian dài có thể dẫn đến quá nóng cho đèn.\n\nSáng hết cỡ \'luôn bật\' đã được thử nghiệm chạy trong nửa giờ, nhưng có nguy cơ có thể làm hỏng LED.\n</string>
+  <string name="license">Mã gốc của ứng dụng này từ Nexus One Torch bởi Ben Buxton, phát hành dưới ủy quyền của GPL, v3.\nhttp://n1torch.googlecode.com/\n\nGửi lời cảm ơn đến David Prieto cho thiết kế giao diện tương tác.\n\nChỉnh sửa cho CyanogenMod bởi Steve Kondik.\n\n</string>
+  <string name="warning_label">Cảnh báo</string>
+  <string name="brightwarn">Mức độ sáng hết cỡ được thử nghiệm thành công trong nửa giờ, nhưng nó khá nóng và bắt đầu nhấp nháy (tạm thời) ở 45 phút. Chưa biết hậu quả lâu dài ra sao.\n\nHiện nay nó chưa được hỗ trợ để đua ra Widget.\n\nNhấp \'Chấp nhận\' nếu bạn muốn sủ dụng và tự chịu trách nhiệm nếu sảy ra hỏng hóc thiết bị của bạn.</string>
+  <string name="brightwarn_title">Hi-brite \'Bật\' phím!!!</string>
+  <string name="brightwarn_negative">Không, cảm ơn</string>
+  <string name="brightwarn_accept">Chấp nhận</string>
+  <string name="label_on">Bật</string>
+  <string name="label_off">Tắt</string>
+  <string name="label_high">Độ sáng cao</string>
+  <string name="label_strobe">Đèn nháy</string>
+  <string name="label_frequency">Tần số nháy: (trượt để thay đổi)</string>
+  <string name="widget_options">Tùy chọn tổng hợp</string>
+  <string name="setting_widget_bright">Sáng</string>
+  <string name="setting_widget_strobe">Đèn nháy chớp</string>
+  <string name="setting_frequency_title">Tần số nháy</string>
+  <string name="setting_frequency_summary">Tần số nháy của đèn nhấp nháy</string>
+  <string name="setting_frequency_dialog">Tần số</string>
+  <string name="setting_frequency_hz">Hz</string>
+  <string name="setting_add_widget">Thêm widget</string>
+  <string name="not_torch_title">Bật đèn pin</string>
+  <string name="not_torch_summary">Đèn pin đang sáng</string>
+  <string name="widget_label">Đèn Pin</string>
+  <string name="torch_message">Bạn có thể bật đèn pin bằng cách nhấn giữ phím [icon] khi màn hình đang khóa</string>
+</resources>

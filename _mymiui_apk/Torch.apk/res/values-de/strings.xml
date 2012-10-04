@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Lampe</string>
+  <string name="about">Über:</string>
+  <string name="about_btn">Über Lampe</string>
+  <string name="about_title">Über</string>
+  <string name="about_close">Schließen</string>
+  <string name="description">Dieses Programm manipuliert die Kamera LED.\n</string>
+  <string name="warning">Warning: Längeres benutzen der LED kann sie überhitzen.\n\nVolle Helligkeit \'immer an\' wurde eine halbe Stunde getestet, aber es besteht die Gefahr das die LED beschädigt wird.\n</string>
+  <string name="license">Original code from Nexus One Torch by Ben Buxton, released under the GPL, v3.\nhttp://n1torch.googlecode.com/\n\nThanks to David Prieto for new UI design.\n\nModified for CyanogenMod by Steve Kondik.\n\n</string>
+  <string name="warning_label">Warnung</string>
+  <string name="brightwarn">Volle Helligkeit wurde erfolgreich für 1 / 2 Stunde Betrieb getestet, wurde aber ziemlich heiß, und begann zu Flimmern (vorübergehend) nach 45 Minuten. Langfristige Auswirkungen sind nicht bekannt.\n\nDies ist nicht auf dem Widget unterstützt.\n\nDrücke \'Akzeptieren\' für Benutzen auf eigenes Risiko.</string>
+  <string name="brightwarn_title">Hi-brite \'A\' Knopf!!!</string>
+  <string name="brightwarn_negative">Nein, danke</string>
+  <string name="brightwarn_accept">Akzeptieren</string>
+  <string name="label_on">An</string>
+  <string name="label_off">Aus</string>
+  <string name="label_high">Hohe Helligkeit</string>
+  <string name="label_strobe">Stoboskop</string>
+  <string name="label_frequency">Frequenz: (ziehen zum ändern)</string>
+  <string name="widget_options">Allgemeine Optionen</string>
+  <string name="setting_widget_bright">Helligkeits Widget</string>
+  <string name="setting_widget_strobe">Strobe Flash</string>
+  <string name="setting_frequency_title">Strobe Frequenz</string>
+  <string name="setting_frequency_summary">Frequenz des Strobe Licht</string>
+  <string name="setting_frequency_dialog">Frequenz</string>
+  <string name="setting_frequency_hz">Hz</string>
+  <string name="setting_add_widget">Widget hinzufügen</string>
+  <string name="not_torch_title">Lampe an</string>
+  <string name="not_torch_summary">Lampe ist an</string>
+  <string name="widget_label">Lampe</string>
+  <string name="torch_message">Im Lockscreen [icon] gedrückt halten um die Lampe einzuschalten</string>
+</resources>

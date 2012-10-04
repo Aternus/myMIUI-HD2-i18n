@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="pick_photo_values">
+    <item>צלם תמונה</item>
+    <item>גלרייה</item>
+    <item>תמונות מערכת</item>
+    <item>שחזר ברירת מחדל</item>
+  </string-array>
+  <string-array name="pick_incoming_call_photo_values">
+    <item>צלם תמונה</item>
+    <item>גלרייה</item>
+  </string-array>
+  <string-array name="edit_incoming_call_photo_values">
+    <item>צלם תמונה</item>
+    <item>גלרייה</item>
+    <item>ערוך תמונה</item>
+    <item>מחק תמונה</item>
+  </string-array>
+</resources>

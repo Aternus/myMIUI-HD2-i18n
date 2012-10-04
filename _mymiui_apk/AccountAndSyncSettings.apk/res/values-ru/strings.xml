@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_label">Аккаунт и настройки синхронизации</string>
+  <string name="sync_settings">Аккаунты и настройки синхронизации</string>
+  <string name="sync_too_many_deletes">Превышен лимит удаляемых</string>
+  <string name="background_data">Фоновые данные</string>
+  <string name="background_data_summary">Приложения могут синхронизировать, передавать и получать данные в любое время</string>
+  <string name="background_data_dialog_title">Внимание</string>
+  <string name="background_data_dialog_message">Отключение фоновых данных продлевает срок службы батареи и снижает использование данных. Некоторые приложения могут по-прежнему использовать фоновую передачу данных.</string>
+  <string name="sync_automatically">Авто-синхронизация</string>
+  <string name="sync_automatically_summary">Приложения синхронизируют данные автоматически</string>
+  <string name="settings_backup">Сохранение настроек</string>
+  <string name="settings_backup_summary">Сохранить мои настройки</string>
+  <string name="sync_menu_sync_now">Синхр. сейчас</string>
+  <string name="sync_menu_sync_cancel">Отмена синхр.</string>
+  <string name="sync_one_time_sync">Нажмите для синхронизации \n%1$s</string>
+  <string name="sync_gmail">Gmail</string>
+  <string name="sync_calendar">Календарь</string>
+  <string name="sync_contacts">Контакты</string>
+  <string name="sync_too_many_deletes_desc">Есть %1$d удалённых элементов для %2$s, аккаунта %3$s. Что вы хотите сделать?</string>
+  <string name="sync_really_delete">Удалить элемент</string>
+  <string name="sync_undo_deletes">Вернуть удалённое</string>
+  <string name="sync_do_nothing">Сейчас ничего не делать</string>
+  <string name="sync_is_failing">Синхронизация в настоящее время испытывает проблемы. Скоро это будет исправлено.</string>
+  <string name="sync_plug"><font fgcolor="#ffffffff">Добро пожаловать в Google sync!</font> \n Google подход к синхронизации данных для доступа к контактам, еженедельнику и т.д. где-бы вы не находились. \u0020</string>
+  <string name="header_application_sync_settings">Приложение настройки синхронизации</string>
+  <string name="header_manage_accounts">Управление аккаунтами</string>
+  <string name="header_manage_default_accounts">Управление основным аккаунтом</string>
+  <string name="header_general_sync_settings">Основные настройки синхронизации</string>
+  <string name="sync_enabled">Синхр-ция вкл</string>
+  <string name="sync_disabled">Синхр-ция выкл</string>
+  <string name="sync_error">Ошибка синхр-ции</string>
+  <string name="add_account_label">Добавить аккаунт</string>
+  <string name="header_data_and_synchronization">Данные &amp; синхронизация</string>
+  <string name="preference_change_password_title">Смена пароля</string>
+  <string name="header_account_settings">Настройки аккаунта</string>
+  <string name="remove_account_label">Удалить</string>
+  <string name="header_add_an_account">Добавить в аккаунт</string>
+  <string name="finish_button_label">Закончить</string>
+  <string name="really_remove_account_title">Удалить аккаунт?</string>
+  <string name="really_remove_account_message">Вы действительно хотите удалить этот аккаунт? Удаление аккаунта повлечёт удаление всех его сообщений, контактов и других данных с телефона. \n Продолжить?</string>
+  <string name="remove_account_failed">Этот аккаунт требует некоторых приложений. Вы можете удалить его сбросив телефон к заводским установкам (которые удаляет все Ваши личные данные). Выполняется в согласуясь с настройками приложения, в соответствии с политикой безопасности.</string>
+  <string name="provider_label">Продвижение подписки</string>
+  <string name="sync_item_title">Синхр.%s</string>
+  <string name="cant_sync_dialog_title">Не возможна ручная синхр.</string>
+  <string name="cant_sync_dialog_message">Синхронизация для этого элемента в настоящее время отключена. Чтобы изменить настройки, временно включите фоновуцю передачу данных для автоматической синхронизации</string>
+</resources>

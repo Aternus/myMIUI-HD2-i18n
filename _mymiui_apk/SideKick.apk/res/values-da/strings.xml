@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sidekick_activity_label">SideKick Søger</string>
+  <string name="menu_preferences">Søgeindstillinger</string>
+  <string name="menu_history">Historik</string>
+  <string name="search_hint">Tast ord for at søge</string>
+  <string name="change_search_setting">Skift søgeindstillinger</string>
+  <string name="search_web">Søg</string>
+  <string name="search_recent_hint">Seneste søgning:</string>
+  <string name="search_no_result_hint">Din søgning \"%s\" gav ingen resultater.</string>
+  <string name="search_no_result_hint_suggistion">Tips til en mere præcis søgning:</string>
+  <string name="search_no_result_hint_line1">Kontroller alle ord er stavet korrekt</string>
+  <string name="search_no_result_hint_line2">Prøv en lignende sætning</string>
+  <string name="search_no_result_hint_line3">Prøv en bredere sætning</string>
+  <string name="history_delete_hint">Slet søgehistorik</string>
+  <string name="search_sources">Søgeindstillinger</string>
+  <string name="search_sources_summary">Inkluder data og information gemt på telefonen i søgninger</string>
+  <string name="input_history">Søgehistorik</string>
+  <string name="delete_input_history">Ryd søgehistorik?</string>
+  <string name="search_result_header_hint_search">Søgning gav %d resultater</string>
+  <string name="search_result_header_hint_recent">Søge resultater: o%d</string>
+  <string name="search_threshold_title">Maksimalt antal resultater for hver søgekilde</string>
+  <string name="search_threshold_infinite">Ubegrænset</string>
+  <string name="search_threshold_ten">10</string>
+  <string name="search_threshold_thirty">30</string>
+  <string name="search_engine_title">Vælg søgemaskine</string>
+  <string name="search_engine_google">Google</string>
+  <string name="search_engine_baidu">Bing</string>
+  <string name="search_history_today">Idag</string>
+  <string name="search_history_yesterday">Igår</string>
+  <string name="default_web_search_engine_google">http://www.google.com/m/search?q=</string>
+  <string name="default_web_search_engine_baidu">http://www.bing.com/search?q=</string>
+  <string name="recent_dialog_buttonAppKiller_summary">MIUI Appkiller frigjorte %1$s \nLedig Hukommelse: %2$s</string>
+  <string name="recent_dialog_buttonAppKiller">Afslut Apps</string>
+  <string name="recent_dialog_buttonTaskManager">Jobs</string>
+</resources>

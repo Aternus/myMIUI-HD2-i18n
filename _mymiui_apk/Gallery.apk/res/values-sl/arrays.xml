@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="animation">
+    <item>Nič</item>
+    <item>Križanje</item>
+    <item>Padanje</item>
+    <item>Prelistavanje</item>
+    <item>Obračanje</item>
+    <item>Vrtenje</item>
+    <item>Kocka</item>
+    <item>Tok ovitkov</item>
+  </string-array>
+</resources>

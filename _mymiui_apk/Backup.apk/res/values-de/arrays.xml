@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="backup_dialog_content_type">
+    <item>Wlan Daten</item>
+    <item>Alle Programme</item>
+  </string-array>
+  <string-array name="system_package_label">
+    <item>Galerie</item>
+    <item>Musik</item>
+    <item>Recorder</item>
+    <item>Browser</item>
+    <item>Kamera</item>
+    <item>Datei-Explorer</item>
+  </string-array>
+  <string-array name="system_data_label">
+    <item>Kontakte</item>
+    <item>Anruflisten</item>
+    <item>SMS</item>
+    <item>MMS</item>
+    <item>System Einstellungen</item>
+    <item>Wlan Einstellungen</item>
+    <item>Desktop Layout</item>
+    <item>Alarm Einstellungen</item>
+    <item>Notizen</item>
+    <item>Einstellungen für das Blockieren</item>
+    <item>Aktuelles Thema</item>
+    <item>Superuser</item>
+  </string-array>
+  <string-array name="app_type_desc">
+    <item>(Daten)</item>
+    <item>(Programme)</item>
+    <item>(Daten + Programme)</item>
+  </string-array>
+  <string-array name="cloud_data_label">
+    <item>Kontakte</item>
+    <item>Telefonlisten</item>
+    <item>SMS/MMS</item>
+    <item>Wlan Einstellungen</item>
+    <item>Notizen</item>
+  </string-array>
+  <string-array name="cloud_account_data">
+    <item>Kontakte</item>
+    <item>WLAN-Einstellungen</item>
+    <item>Hinweise</item>
+  </string-array>
+  <string-array name="cloud_sim_data">
+    <item>Anrufprotokolle</item>
+    <item>Nachrichten</item>
+  </string-array>
+</resources>

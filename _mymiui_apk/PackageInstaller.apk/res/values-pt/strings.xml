@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Instalador do pacote</string>
+  <string name="install">Instalar</string>
+  <string name="done">Concluído</string>
+  <string name="security_settings_desc">Permitir que esta aplicação:</string>
+  <string name="cancel">Cancelar</string>
+  <string name="unknown">Desconhecido</string>
+  <string name="installing">A instalar...</string>
+  <string name="install_done">Programa instalado</string>
+  <string name="install_confirm_question">Deseja instalar esta aplicação?</string>
+  <string name="install_failed">A aplicação não está instalada.</string>
+  <string name="install_failed_msg">Não foi possível instalar o %1$s neste telefone.</string>
+  <string name="launch">Abrir</string>
+  <string name="unknown_apps_dlg_title">Instalação bloqueada</string>
+  <string name="unknown_apps_dlg_text">Por razões de segurança, este telefone foi definido para proibir a instalação de aplicações não-oficiais. Pode levantar a proibição de instalar aplicações a partir de qualquer canal, mas este telefone e dados pessoais podem ser atacados por aplicações de fontes desconhecidas e deve assumir total responsabilidade pela escolha.\n\nTambém pode modificar através de Definições-&gt; Programas-&gt; Instalação e depuração-&gt; Fontes desconhecidas.</string>
+  <string name="ok">OK</string>
+  <string name="lift_ban">Levantar proibição</string>
+  <string name="settings">Definições</string>
+  <string name="manage_applications">Gerir programas</string>
+  <string name="dlg_app_replacement_title">Substituir aplicação</string>
+  <string name="dlg_app_replacement_statement">A aplicação que está a instalar irá substituir outra aplicação.\n\nTodos os dados de utilizador anteriores serão guardados.</string>
+  <string name="dlg_sys_app_replacement_statement">Esta é uma aplicação do sistema. Ainda deseja substituí-la?\n\nTodos os dados de utilizador anteriores serão guardados.</string>
+  <string name="out_of_space_dlg_title">Sem espaço</string>
+  <string name="out_of_space_dlg_text">Não foi possível instalar %1$s. Libere um pouco de espaço e tente novamente.</string>
+  <string name="dlg_ok">OK</string>
+  <string name="app_not_found_dlg_title">Programa não encontrado</string>
+  <string name="app_not_found_dlg_text">A aplicação não foi encontrada na lista de aplicações instaladas.</string>
+  <string name="uninstall_application_question">Desinstalar aplicação?</string>
+  <string name="uninstall_update_question">Desinstalar atualização?</string>
+  <string name="uninstall_application_text">Esta aplicação será desinstalada.</string>
+  <string name="uninstall_update_text">A atualização da aplicação será desinstalada. Ainda poderá usar a versão de fábrica da aplicação.</string>
+  <string name="uninstalling">A desinstalar...</string>
+  <string name="uninstall_done">Desinstalação concluída</string>
+  <string name="uninstall_failed">Falha na desinstalação</string>
+  <string name="uninstall_failed_msg">Não foi possível desinstalar %1$s</string>
+  <string name="uninstall_failed_retained_app_msg">Aplicação personalizada pelo operador, não pode ser desinstalada</string>
+  <string name="Parse_error_dlg_title">Erro de análise</string>
+  <string name="Parse_error_dlg_text">Há um problema com a análise do pacote.</string>
+</resources>

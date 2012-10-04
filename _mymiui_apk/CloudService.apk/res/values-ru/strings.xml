@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Менеджер аккаунтов MIUI</string>
+  <string name="service_name">Менеджер аккаунтов MIUI</string>
+  <string name="authenticator_label">MIUI</string>
+  <string name="logon">Войти</string>
+  <string name="nickname">Псевдоним</string>
+  <string name="username">Имя пользователя</string>
+  <string name="password">Пароль</string>
+  <string name="registered_account">Имя пользователя</string>
+  <string name="bad_username">Не верный формат имени</string>
+  <string name="bad_verification">Не верный формат регистрационных данных</string>
+  <string name="bad_authentication">Не верный пароль или имя пользователя</string>
+  <string name="email_not_verified">E-mail не проверен</string>
+  <string name="terms_not_agreed">Вы должны согласиться с условиями MIUI</string>
+  <string name="account_deleted">Учетная запись удалена</string>
+  <string name="account_disabled">Учетная запись заблокирована</string>
+  <string name="service_disabled">Служба остановлена</string>
+  <string name="service_unavailable">Служба недоступна</string>
+  <string name="network_error">Ошибка подключения к сети</string>
+  <string name="unknown">Неизвестная ошибка</string>
+  <string name="my_account">Моя учетная запись</string>
+  <string name="must_input">Необходимо</string>
+  <string name="loging_on">Ведение журнала</string>
+</resources>

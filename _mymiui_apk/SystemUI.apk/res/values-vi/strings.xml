@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_label">Thanh trạng thái</string>
+  <string name="status_bar_clear_all_button">Xóa</string>
+  <string name="status_bar_no_notifications_title">Không có thông báo</string>
+  <string name="status_bar_ongoing_events_title">Đang thực hiện</string>
+  <string name="status_bar_latest_events_title">Thông báo</string>
+  <string name="battery_low_title">Xin vui lòng cắm sạc</string>
+  <string name="battery_low_subtitle">Pin yếu:</string>
+  <string name="battery_low_percent_format">%d%% hoặc còn lại ít hơn.</string>
+  <string name="battery_low_why">Sử dụng Pin</string>
+  <string name="tab_notifications_lable">Thông báo</string>
+  <string name="tab_toggles_lable">Điều khiển</string>
+  <string name="status_bar_time_format_12">h:mma</string>
+  <string name="status_bar_time_format_24">HH:mm</string>
+  <string name="status_bar_date_format">d MMM,</string>
+  <string name="status_bar_date_format_lock">E, d MMM</string>
+  <string name="usb_accessory_permission_prompt">Cho phép ứng dụng %1$s sử dụng thiết bị USB?</string>
+  <string name="usb_device_confirm_prompt">Mở %1$s khi USB được kết nối?</string>
+  <string name="usb_accessory_confirm_prompt">Mở %1$s khi USB được kết nối?</string>
+  <string name="usb_accessory_uri_prompt">Không cài đặt được ứng dụng qua thiết bị USB. Đọc thêm thông tin ở %1$s</string>
+  <string name="title_usb_accessory">Thiết bị USB</string>
+  <string name="label_view">Xem</string>
+  <string name="always_use_accessory">Luôn sử dụng thiết bị USB</string>
+  <string name="usb_mode_notification">Gắn Thẻ nhớ</string>
+  <string name="usb_mode_dont_ask">Không hỏi lại nữa</string>
+  <string name="usb_mode_mount_storage_title">Gắn Thẻ nhớ</string>
+  <string name="mount_storage">Lắp bộ nhớ</string>
+  <string name="dismount_storage">Tháo bộ nhớ</string>
+  <string name="move_data_to_sdcard_title">Di chuyển dữ liệu đến thẻ nhớ</string>
+  <string name="move_data_to_sdcard_message">Ảnh chụp màn hình và hình ảnh sẽ được di chuyển đến thẻ nhớ để giải phóng bộ nhớ trong.</string>
+</resources>

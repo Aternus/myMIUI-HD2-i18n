@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_label">Barra di Stato</string>
+  <string name="status_bar_clear_all_button">Cancella</string>
+  <string name="status_bar_no_notifications_title">Nessuna notifica</string>
+  <string name="status_bar_ongoing_events_title">In Corso</string>
+  <string name="status_bar_latest_events_title">Notifiche</string>
+  <string name="battery_low_title">Collegare caricabatteria</string>
+  <string name="battery_low_subtitle">Batteria in diminuzione:</string>
+  <string name="battery_low_percent_format">%d%% circa rimanente.</string>
+  <string name="battery_low_why">Utilizzo batteria</string>
+  <string name="tab_notifications_lable">Notifiche</string>
+  <string name="tab_toggles_lable">Controlli</string>
+  <string name="status_bar_time_format_12">h:mma</string>
+  <string name="status_bar_time_format_24">HH:mm</string>
+  <string name="status_bar_date_format">d MMM</string>
+  <string name="status_bar_date_format_lock">E, d MMM</string>
+  <string name="usb_accessory_permission_prompt">Permettere all\'applicazione %1$s l\'accesso al terminale USB</string>
+  <string name="usb_device_confirm_prompt">Aprire %1$s questo terminale USB è connesso ?</string>
+  <string name="usb_accessory_confirm_prompt">Aprire %1$s questo terminale USB è connesso ?</string>
+  <string name="usb_accessory_uri_prompt">Nessuna delle applicazione installate funziona con questo terminale USB. Maggiori informazioni su questo device su %1$s</string>
+  <string name="title_usb_accessory">Terminali USB</string>
+  <string name="label_view">Visualizza</string>
+  <string name="always_use_accessory">Usa come predefinito per questo accessorio USB</string>
+  <string name="usb_mode_notification">Monta scheda SD</string>
+  <string name="usb_mode_dont_ask">Non chiedere più</string>
+  <string name="usb_mode_mount_storage_title">Monta scheda SD</string>
+  <string name="mount_storage">Monta archiviazione</string>
+  <string name="dismount_storage">Smonta archiviazione</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_label">Impostazioni Account e Sync</string>
+  <string name="sync_settings">Impostazioni Account e Sync</string>
+  <string name="sync_too_many_deletes">Limite cancellazione superato</string>
+  <string name="background_data">Dati in background</string>
+  <string name="background_data_summary">Le applicazioni possono sincronizzarsi, inviare e ricevere dati ogni volta</string>
+  <string name="background_data_dialog_title">Attenzione</string>
+  <string name="background_data_dialog_message">Disabilitare i dati in background aumenta l\'autonomia e si ha minore uso di dati. Alcune applicazioni potrebebro continuare ad usare dati in background.</string>
+  <string name="sync_automatically">Auto-sync</string>
+  <string name="sync_automatically_summary">Le applicazioni sincronizzano i dati automaticamente</string>
+  <string name="settings_backup">Backup impostazioni</string>
+  <string name="settings_backup_summary">Esegui il backup delle impostazioni</string>
+  <string name="sync_menu_sync_now">Sincronizza ora</string>
+  <string name="sync_menu_sync_cancel">Cancella sync</string>
+  <string name="sync_one_time_sync">Premi per sincronizzare ora\n%1$s</string>
+  <string name="sync_gmail">Gmail</string>
+  <string name="sync_calendar">Calendario</string>
+  <string name="sync_contacts">Contatti</string>
+  <string name="sync_too_many_deletes_desc">Ci sono %1$d elementi eliminati per %2$s, account %3$s. Cosa vuoi fare?</string>
+  <string name="sync_really_delete">Cancella elementi.</string>
+  <string name="sync_undo_deletes">Annulla le eliminazioni.</string>
+  <string name="sync_do_nothing">Non fare niente per ora.</string>
+  <string name="sync_is_failing">Problemi nella sincronizzazione. Sarà di nuovo disponibile presto.</string>
+  <string name="sync_plug"><font fgcolor="#ffffffff">Benvenuto nella sincronizzazione di Google!</font> \nA Google esegue la sincronizzazione dati per permettere l\' accesso ai contatti, ppuntamenti ed altro in qualunque posto vi troviate.\u0020</string>
+  <string name="header_application_sync_settings">Impostazioni sync applicazione</string>
+  <string name="header_manage_accounts">Gestisci gli account</string>
+  <string name="header_manage_default_accounts">Account predefinito</string>
+  <string name="header_general_sync_settings">Impostazioni generali sync</string>
+  <string name="sync_enabled">Sync ON</string>
+  <string name="sync_disabled">Sync OFF</string>
+  <string name="sync_error">Sync error</string>
+  <string name="add_account_label">Aggiungi account</string>
+  <string name="header_data_and_synchronization">Dati e sincronizzazioni</string>
+  <string name="preference_change_password_title">Cambia password</string>
+  <string name="header_account_settings">Impostazioni account</string>
+  <string name="remove_account_label">Elimina account</string>
+  <string name="header_add_an_account">Aggiungi account</string>
+  <string name="finish_button_label">Finito</string>
+  <string name="really_remove_account_title">Rimuovi account</string>
+  <string name="really_remove_account_message">Vuoi rimuovere davvero questo account? Rimuovendolo verranno cancellati dal telefono anche tutti i suoi messaggi, contatti e altro. \nProcedere?</string>
+  <string name="remove_account_failed">Questo account è richiesto da qualche applicazione. Puoi rimuoverlo ripristinando il telefono alle condizioni di fabbrica (cancellando anche tutti i dati personali). Puoi farlo da Impostazioni applicazioni, nel menu Backup Dati e impostazioni.</string>
+  <string name="provider_label">Spingi sottoscrizioni</string>
+  <string name="sync_item_title">Sync %s</string>
+  <string name="cant_sync_dialog_title">Impossibile syn manuale</string>
+  <string name="cant_sync_dialog_message">La sincronizzazione per questo elemento è disabilitata. Per cambiare l\' impostazione, attiva temporaneamente i dati in background e la sincronizzazione automatica.</string>
+</resources>

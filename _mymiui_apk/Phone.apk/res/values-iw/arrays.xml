@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="dialer_click_entries">
+    <item>חייג</item>
+    <item>שלח SMS/MMS</item>
+    <item>הצג איש קשר</item>
+    <item>התעלם</item>
+  </string-array>
+  <string-array name="auto_answer_pref_entries">
+    <item>ללא מענה אוטומטי</item>
+    <item>מענה מיידי</item>
+    <item>לאחר 5 שניות</item>
+  </string-array>
+  <string-array name="clir_display_values">
+    <item>ברירת מחדל</item>
+    <item>הסתר מספר</item>
+    <item>הצג מספר</item>
+  </string-array>
+  <string-array name="preferred_network_mode_choices">
+    <item>Global</item>
+    <item>EvDo only</item>
+    <item>CDMA w/o EvDo</item>
+    <item>CDMA / EvDo auto</item>
+    <item>GSM / WCDMA auto</item>
+    <item>WCDMA only</item>
+    <item>GSM only</item>
+    <item>GSM / WCDMA preferred</item>
+  </string-array>
+  <string-array name="list_language_entries">
+    <item>English</item>
+    <item>French</item>
+    <item>Spanish</item>
+    <item>Japanese</item>
+    <item>Korean</item>
+    <item>Chinese</item>
+    <item>Hebrew</item>
+  </string-array>
+  <string-array name="gsm_umts_network_preferences_choices">
+    <item>GSM/WCDMA (מצב אוטומטי)</item>
+    <item>WCDMA בלבד</item>
+    <item>GSM בלבד</item>
+    <item>GSM/WCDA (WCDMA מועדף)</item>
+  </string-array>
+  <string-array name="cdma_system_select_choices">
+    <item>ביתיות בלבד</item>
+    <item>אוטומטי</item>
+  </string-array>
+  <string-array name="cdma_roaming_mode_choices">
+    <item>רשתות ביתיות בלבד</item>
+    <item>רשתות סלולריות</item>
+    <item>כל רשת</item>
+  </string-array>
+  <string-array name="cdma_network_preferences_choices">
+    <item>CDMA/EvDo</item>
+    <item>CDMA only</item>
+    <item>EvDo only</item>
+  </string-array>
+  <string-array name="cdma_subscription_choices">
+    <item>RUIM/SIM</item>
+    <item>NV</item>
+  </string-array>
+  <string-array name="tty_mode_entries">
+    <item>TTY כבוי</item>
+    <item>TTY מלא</item>
+    <item>TTY HCO</item>
+    <item>TTY VCO</item>
+  </string-array>
+  <string-array name="dtmf_tone_entries">
+    <item>רגיל</item>
+    <item>ארוך</item>
+  </string-array>
+</resources>

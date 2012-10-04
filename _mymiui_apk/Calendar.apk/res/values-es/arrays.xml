@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="reminder_minutes_labels">
+    <item>1 minuto</item>
+    <item>5 minutos</item>
+    <item>10 minutos</item>
+    <item>15 minutos</item>
+    <item>20 minutos</item>
+    <item>25 minutos</item>
+    <item>30 minutos</item>
+    <item>45 minutos</item>
+    <item>1 hora</item>
+    <item>2 horas</item>
+    <item>3 horas</item>
+    <item>12 horas</item>
+    <item>24 horas</item>
+    <item>2 días</item>
+    <item>1 semana</item>
+  </string-array>
+  <string-array name="timezone_labels">
+    <item>Islas Marshall</item>
+    <item>Isla Midway</item>
+    <item>Hawaii</item>
+    <item>Alaska</item>
+    <item>Hora del Pacífico</item>
+    <item>Tijuana</item>
+    <item>Arizona</item>
+    <item>Chihuahua</item>
+    <item>Hora de Montaña</item>
+    <item>America Central</item>
+    <item>Hora Central</item>
+    <item>Mexico</item>
+    <item>Saskatchewan</item>
+    <item>Bogota</item>
+    <item>Hora del Este</item>
+    <item>Venezuela</item>
+    <item>Hora del Atlántico</item>
+    <item>Manaos</item>
+    <item>Santiago</item>
+    <item>Newfoundland</item>
+    <item>Brasilia</item>
+    <item>Buenos Aires</item>
+    <item>Greenland</item>
+    <item>Montevideo</item>
+    <item>Atlántico Medio</item>
+    <item>Azores</item>
+    <item>Cabo Verde</item>
+    <item>Casablanca</item>
+    <item>Londres, Dublin</item>
+    <item>Amsterdam, Berlin</item>
+    <item>Belgrado</item>
+    <item>Bruselas</item>
+    <item>Sarajevo</item>
+    <item>Paris</item>
+    <item>Windhoek</item>
+    <item>Africa Oeste</item>
+    <item>Amman, Jordania</item>
+    <item>Atenas, Estanbul</item>
+    <item>Beirut, Líbano</item>
+    <item>Cairo</item>
+    <item>Helsinki</item>
+    <item>Jerusalén</item>
+    <item>Minsk</item>
+    <item>Harare</item>
+    <item>Baghdad</item>
+    <item>Moscú</item>
+    <item>Kuwait</item>
+    <item>Nairobi</item>
+    <item>Tehran</item>
+    <item>Baku</item>
+    <item>Tbilisi</item>
+    <item>Yerevan</item>
+    <item>Dubai</item>
+    <item>Kabul</item>
+    <item>Islamabad, Karachi</item>
+    <item>Urales</item>
+    <item>Yekaterinburg</item>
+    <item>Kolkata</item>
+    <item>Sri Lanka</item>
+    <item>Kathmandu</item>
+    <item>Astana</item>
+    <item>Yangon</item>
+    <item>Krasnoyarsk</item>
+    <item>Bangkok</item>
+    <item>Beijing</item>
+    <item>Hong Kong</item>
+    <item>Irkutsk</item>
+    <item>Kuala Lumpur</item>
+    <item>Perth</item>
+    <item>Taipei</item>
+    <item>Seoul</item>
+    <item>Tokyo, Osaka</item>
+    <item>Yakutsk</item>
+    <item>Adelaide</item>
+    <item>Darwin</item>
+    <item>Brisbane</item>
+    <item>Hobart</item>
+    <item>Sydney, Canberra</item>
+    <item>Vladivostok</item>
+    <item>Guam</item>
+    <item>Magadan</item>
+    <item>Auckland</item>
+    <item>Fiji</item>
+    <item>Tonga</item>
+  </string-array>
+  <string-array name="preferences_default_reminder_labels">
+    <item>Ninguno</item>
+    <item>1 minuto</item>
+    <item>5 minutos</item>
+    <item>10 minutos</item>
+    <item>15 minutos</item>
+    <item>20 minutos</item>
+    <item>25 minutos</item>
+    <item>30 minutos</item>
+    <item>45 minutos</item>
+    <item>1 hora</item>
+    <item>2 horas</item>
+    <item>3 horas</item>
+    <item>12 horas</item>
+    <item>24 horas</item>
+    <item>2 días</item>
+    <item>1 semana</item>
+  </string-array>
+  <string-array name="preferences_alert_type_labels">
+    <item>Alerta</item>
+    <item>Notificación</item>
+    <item>Desconectado</item>
+  </string-array>
+  <string-array name="availability">
+    <item>Ocupado</item>
+    <item>Disponible</item>
+  </string-array>
+  <string-array name="visibility">
+    <item>Predeterminado</item>
+    <item>Privado</item>
+    <item>Público</item>
+  </string-array>
+  <string-array name="ordinal_labels">
+    <item>primer</item>
+    <item>segundo</item>
+    <item>tercer</item>
+    <item>cuarto</item>
+    <item>último</item>
+  </string-array>
+  <string-array name="response_labels1">
+    <item>(No responde)</item>
+    <item>Sí</item>
+    <item>Quizás</item>
+    <item>No</item>
+  </string-array>
+  <string-array name="response_labels2">
+    <item>Sí</item>
+    <item>Quizás</item>
+    <item>No</item>
+  </string-array>
+  <string-array name="delete_repeating_labels">
+    <item>Solo este evento</item>
+    <item>Este evento y eventos futuros</item>
+    <item>Todos los eventos</item>
+  </string-array>
+  <string-array name="delete_repeating_labels_no_selected">
+    <item>Esto &amp; eventos futuros</item>
+    <item>Todos los eventos</item>
+  </string-array>
+  <string-array name="change_response_labels">
+    <item>Este y otros eventos posteriores</item>
+    <item>Todos los eventos</item>
+  </string-array>
+  <string-array name="prefEntries_alerts_vibrateWhen">
+    <item>Siempre</item>
+    <item>Solo en modo silencio</item>
+    <item>Nunca</item>
+  </string-array>
+</resources>

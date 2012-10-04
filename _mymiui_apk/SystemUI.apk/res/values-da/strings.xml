@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_label">Statuslinie</string>
+  <string name="status_bar_clear_all_button">Ryd</string>
+  <string name="status_bar_no_notifications_title">Ingen notifikationer</string>
+  <string name="status_bar_ongoing_events_title">Kørende</string>
+  <string name="status_bar_latest_events_title">Notifikationer</string>
+  <string name="battery_low_title">Tilslut oplader</string>
+  <string name="battery_low_subtitle">Batteriniveau er ved at være lavt:</string>
+  <string name="battery_low_percent_format">%d%% eller mindre tilbage.</string>
+  <string name="battery_low_why">Batteriforbrug</string>
+  <string name="usb_accessory_permission_prompt">Tillad applikationen %1$s at få adgang til USB tilbehøret?</string>
+  <string name="usb_device_confirm_prompt">Åben %1$s når denne USB enhed tilsluttes?</string>
+  <string name="usb_accessory_confirm_prompt">Åben %1$s når dette USB tilbehør tilsluttes?</string>
+  <string name="usb_accessory_uri_prompt">Ingen installeret applikation fungerer med dette USB tilbehør. Lær mere om dette tilbehør ved %1$s</string>
+  <string name="title_usb_accessory">USB tilbehør</string>
+  <string name="label_view">Vis</string>
+  <string name="always_use_accessory">Anvend som standard for dette USB tilbehør</string>
+  <string name="tab_notifications_lable">Notifikationer</string>
+  <string name="tab_toggles_lable">Tænd og sluk</string>
+  <string name="status_bar_time_format_12">h:mma</string>
+  <string name="status_bar_time_format_24">HH:mm</string>
+  <string name="status_bar_date_format">EEEE, d. MMMM,</string>
+  <string name="status_bar_date_format_lock">EEEE, d. MMMM</string>
+  <string name="usb_mode_notification">USB Lager</string>
+  <string name="usb_mode_dont_ask">Spørg ikke igen</string>
+  <string name="usb_mode_mount_storage_title">Aktiver USB Lager</string>
+  <string name="mount_storage">Ja</string>
+  <string name="dismount_storage">Nej</string>
+  <string name="move_data_to_sdcard_title">Flyt data til SD-Kort</string>
+  <string name="move_data_to_sdcard_message">Skærmbilleder, billeder, lyd og andre data vil flyttes permanent til SD-Kort for at gøre brugergrænsefladen mere flydende.</string>
+  <string name="user_guide_for_notification">Ny notifikation, træk statusmenuen ned for at se detaljer</string>
+  <string name="user_guide_for_toggle">Tænd og sluk knapperne kan rulles sidelæns</string>
+  <string name="user_guide_for_toggle_list">Tryk her for at redigere tænd og sluk knapperne</string>
+  <string name="user_guide_for_call">For at vende tilbage til opkaldslisten kan du trække statusmenuen ned og klikke på opkaldsnotifikationen</string>
+  <string name="return_to_incall_screen">Tryk for at vende tilbage til opkald</string>
+  <string name="call_status_dialing">Ringer op</string>
+</resources>

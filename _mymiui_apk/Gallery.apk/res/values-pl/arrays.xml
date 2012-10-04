@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="animation">
+    <item>Brak</item>
+    <item>Przenikanie krzyżowe</item>
+    <item>Opadanie</item>
+    <item>Kartka</item>
+    <item>Stos</item>
+    <item>Obrót</item>
+    <item>Kostka</item>
+    <item>Coverflow</item>
+  </string-array>
+</resources>

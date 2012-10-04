@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Upravitelj MIUI računa</string>
+  <string name="service_name">Upravitelj MIUI računa</string>
+  <string name="authenticator_label">MIUI</string>
+  <string name="logon">Prijava</string>
+  <string name="nickname">Ime / Vzdevek:</string>
+  <string name="username">Uporabniško ime:</string>
+  <string name="password">Geslo:</string>
+  <string name="registered_account">Račun je bil registriran</string>
+  <string name="bad_username">Uporabniško ime ni bilo najdeno ali pa je neveljavno</string>
+  <string name="bad_verification">Napaka pri registraciji</string>
+  <string name="bad_authentication">Uporabniško ime ali geslo neveljavno</string>
+  <string name="email_not_verified">E-poštni račun še ni potrjen</string>
+  <string name="terms_not_agreed">Za registracijo se morate strinjati z našimi pravili</string>
+  <string name="account_deleted">Račun izbrisan</string>
+  <string name="account_disabled">Račun onemogočen</string>
+  <string name="service_disabled">Servis onemogočen</string>
+  <string name="service_unavailable">Servis nedosegljiv</string>
+  <string name="network_error">Napaka pri povezavi, prosimo preverite če je vaša mobilna povezava aktivna in dostopna</string>
+  <string name="unknown">Neznana napaka</string>
+  <string name="my_account">Moj MIUI profil</string>
+  <string name="must_input">Obvezna polja</string>
+  <string name="loging_on">Prijavljanje...</string>
+</resources>

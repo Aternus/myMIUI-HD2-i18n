@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_label">سرویس های وی.پی.ان</string>
+  <string name="vpn_notification_title_connected">%s وی.پی.ان وصل شد</string>
+  <string name="vpn_notification_title_disconnected">%s وی.پی.ان قطع شد</string>
+  <string name="vpn_notification_hint_disconnected">برای اتصال مجدد به وی.پی.ان لمس کنید.</string>
+</resources>

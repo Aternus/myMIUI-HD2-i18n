@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sidekick_activity_label">SideKick</string>
+  <string name="menu_preferences">Ustawienia wyszukiwania</string>
+  <string name="menu_history">Historia</string>
+  <string name="search_hint">Wpisz by wyszukać</string>
+  <string name="change_search_setting">Zmień ustawienia wyszukiwania</string>
+  <string name="search_web">Szukaj</string>
+  <string name="search_recent_hint">Historia:</string>
+  <string name="search_no_result_hint">Fraza \"%s\" nie została znaleziona.</string>
+  <string name="search_no_result_hint_suggistion">Wskazówki dla dokładniejszego wyszukiwania:</string>
+  <string name="search_no_result_hint_line1">Sprawdź czy nie popełniłeś literówek</string>
+  <string name="search_no_result_hint_line2">Spróbuj podobnego wyrażenia</string>
+  <string name="search_no_result_hint_line3">Spróbuj ogólniejszego wyrażenia</string>
+  <string name="history_delete_hint">Usuń historię wyszukiwania</string>
+  <string name="search_sources">Ustawienia wyszukiwania</string>
+  <string name="search_sources_summary">Wszystkie dane w telefonie są przeszukiwane</string>
+  <string name="input_history">Historia wyszukiwania</string>
+  <string name="delete_input_history">Wyczyścić historię wyszukiwania?</string>
+  <string name="search_result_header_hint_search">%d wynik(ów)</string>
+  <string name="search_result_header_hint_recent">Wynik: o%d</string>
+  <string name="search_threshold_title">Maksymalna ilość wyników wyszukiwania dla każdego źródła</string>
+  <string name="search_threshold_infinite">Bez limitu</string>
+  <string name="search_threshold_ten">10</string>
+  <string name="search_threshold_thirty">30</string>
+  <string name="search_engine_title">Wybierz silnik wyszukiwarki</string>
+  <string name="search_engine_google">Google</string>
+  <string name="search_engine_baidu">Bing</string>
+  <string name="search_history_today">Dzisiaj</string>
+  <string name="search_history_yesterday">Wczoraj</string>
+  <string name="default_web_search_engine_google">http://www.google.com/m/search?q=</string>
+  <string name="default_web_search_engine_baidu">http://www.bing.com/search?q=</string>
+  <string name="recent_dialog_buttonAppKiller_summary">MIUI AppKiller uwolnił: %1$s \nDostępna pamięć: %2$s</string>
+  <string name="recent_dialog_buttonAppKiller">Zakończ</string>
+  <string name="recent_dialog_buttonTaskManager">Aplikacje</string>
+</resources>

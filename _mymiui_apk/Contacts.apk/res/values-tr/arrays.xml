@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="pick_photo_values">
+    <item>Fotoğraf Çekin</item>
+    <item>Galeriden seç</item>
+    <item>Fotoğraf Koleksiyonu</item>
+    <item>Sil</item>
+  </string-array>
+  <string-array name="pick_incoming_call_photo_values">
+    <item>Fotoğraf çek</item>
+    <item>Galeriden seç</item>
+  </string-array>
+  <string-array name="edit_incoming_call_photo_values">
+    <item>Fotoğraf çekin</item>
+    <item>Galeriden seçin</item>
+    <item>Tam ekran resmini düzenle</item>
+    <item>Sil</item>
+  </string-array>
+  <string-array name="click_shortcut_entries">
+    <item>Kişiyi Ara</item>
+    <item>Kişileri gör</item>
+    <item>Kişi resmini göster</item>
+  </string-array>
+</resources>

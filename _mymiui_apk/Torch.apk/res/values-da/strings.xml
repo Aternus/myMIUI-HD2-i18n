@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="flashDevice">/sys/class/leds/flashlight/brightness</string>
+  <string name="app_name">Lommelygte</string>
+  <string name="about">Om:</string>
+  <string name="about_btn">Om Lommelygte</string>
+  <string name="about_title">Om</string>
+  <string name="about_close">Luk</string>
+  <string name="description">Dette program manipulerer kameralyset.\n</string>
+  <string name="warning">Advarsel: Ved at lade lyset være tændt længe, øges risikoen for overophedning.\n\nFuld lysstyrke \'altid tændt\' er testet ved kørsel i 1/2 time, men der er stadig risiko for beskadigelse af lyset.\n</string>
+  <string name="license">Original code from Nexus One Torch by Ben Buxton, released under the GPL, v3.\nhttp://n1torch.googlecode.com/\n\nThanks to David Prieto for new UI design.\n\nModified for CyanogenMod by Steve Kondik.\n\n</string>
+  <string name="warning_label">Advarsel</string>
+  <string name="brightwarn">Fuld lysstyrke test på 1/2 time er lykkedes, men blev ret varm og begyndte at flimre (midlertidigt) ved 45 mins. Langtidseffekt er ukendt.\n\nDette er endnu ikke understøttet af denne widget.\n\nTryk \'Acceptér\' hvis du vil bruge det på egen risiko.</string>
+  <string name="brightwarn_title">Hi-brite \'Tænd\' knap!!!</string>
+  <string name="brightwarn_negative">Nej tak</string>
+  <string name="brightwarn_accept">Acceptér</string>
+  <string name="label_on">Til</string>
+  <string name="label_off">Fra</string>
+  <string name="label_high">Høj lysstyrke</string>
+  <string name="label_strobe">Strobe</string>
+  <string name="label_frequency">Frekvens: (træk for at ændre)</string>
+  <string name="widget_options">Generelle indstillinger</string>
+  <string name="setting_widget_bright">Bright widget</string>
+  <string name="setting_widget_strobe">Strobe blink</string>
+  <string name="setting_frequency_title">Strobe frekvens</string>
+  <string name="setting_frequency_summary">Frekvens af strobe lys</string>
+  <string name="setting_frequency_dialog">Frekvens</string>
+  <string name="setting_frequency_hz">Hz</string>
+  <string name="setting_add_widget">Tilføj widget</string>
+  <string name="not_torch_title">Lommelygte tændt</string>
+  <string name="not_torch_summary">Tommelygte er tændt</string>
+  <string name="widget_label">Lommelygte</string>
+  <string name="torch_message">Du kan tænde lommelygten hurtigt ved at holde [icon] nede på låseskærmen</string>
+</resources>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="timezone_filters">
+    <item>Amerika</item>
+    <item>Avrupa</item>
+    <item>Afrika</item>
+    <item>Asya</item>
+    <item>Avustralya</item>
+    <item>Pasifik</item>
+    <item>Hepsi</item>
+  </string-array>
+  <string-array name="date_format_titles">
+    <item>Yıl-Ay-Gün</item>
+    <item>Ay-Gün-Yıl</item>
+    <item>Gün-Ay-Yıl</item>
+  </string-array>
+  <string-array name="animations_entries">
+    <item>Kapalı</item>
+    <item>Dengeli</item>
+    <item>Tüm</item>
+  </string-array>
+  <string-array name="access_control_privacy_mode_entries">
+    <item>Free Mode</item>
+    <item>Password Protected</item>
+  </string-array>
+  <string-array name="access_control_app_entries">
+    <item>Free Mode</item>
+    <item>Hide Desktop Icons</item>
+    <item>Password Protected</item>
+  </string-array>
+  <string-array name="animations_summaries">
+    <item>Hiçbir canlandırmalar gösterilmez</item>
+    <item>Bazı canlandırmalar gösterilir</item>
+    <item>Tüm canlandırmalar gösterilir</item>
+  </string-array>
+  <string-array name="led_color_entries">
+    <item>Beyaz (default)</item>
+    <item>Yeşil</item>
+    <item>Kırmızı</item>
+    <item>Mavi</item>
+    <item>Sarı</item>
+    <item>Mor</item>
+    <item>Morumsu kırmızı</item>
+    <item>Pembe</item>
+    <item>Turuncu</item>
+    <item>Safir</item>
+  </string-array>
+  <string-array name="led_freq_entries">
+    <item>2 saniye</item>
+    <item>3 saniye</item>
+    <item>4 saniye</item>
+    <item>5 saniye</item>
+    <item>6 saniye</item>
+    <item>7 saniye</item>
+    <item>8 saniye</item>
+    <item>9 saniye</item>
+  </string-array>
+  <string-array name="screen_timeout_entries">
+    <item>30s</item>
+    <item>1dk</item>
+    <item>5dk</item>
+    <item>10dk</item>
+    <item>Kapalı</item>
+  </string-array>
+  <string-array name="tts_rate_entries">
+    <item>Çok yavaş</item>
+    <item>Yavaş</item>
+    <item>Normal</item>
+    <item>Hızlı</item>
+    <item>Çok hızlı</item>
+  </string-array>
+  <string-array name="tts_pitch_entries">
+    <item>Çok düşük</item>
+    <item>Düşük</item>
+    <item>Normal</item>
+    <item>Yüksek</item>
+    <item>Çok yüksek</item>
+  </string-array>
+  <string-array name="tts_lang_entries">
+    <item>American English</item>
+    <item>British English</item>
+    <item>French</item>
+    <item>German</item>
+    <item>Italian</item>
+    <item>Spanish</item>
+  </string-array>
+  <string-array name="tts_demo_strings">
+    <item>This is an example of speech synthesis in English.</item>
+    <item>This is an example of speech synthesis in English.</item>
+    <item>Voici un échantillon de synthèse vocale en français.</item>
+    <item>Dies ist ein Beispiel für Sprachsynthese in Deutsch.</item>
+    <item>Questo è un esempio di sintesi vocale in italiano.</item>
+    <item>Este es un ejemplo de síntesis de voz en español.</item>
+  </string-array>
+  <string-array name="wifi_wps_method">
+    <item>Push Button</item>
+    <item>Pin Number</item>
+  </string-array>
+  <string-array name="wifi_wps_ssid">
+    <item>Any ssid</item>
+  </string-array>
+  <string-array name="wifi_status">
+    <item/>
+    <item>Taranıyor...</item>
+    <item>Bağlanıyor...</item>
+    <item>Kimlik doğrulanıyor...</item>
+    <item>IP adresi alınıyor...</item>
+    <item>Bağlandı</item>
+    <item>Askıya alındı</item>
+    <item>Bağlantı kesiliyor...</item>
+    <item>Bağlantı kesildi</item>
+    <item>Başarısız</item>
+  </string-array>
+  <string-array name="wifi_status_with_ssid">
+    <item/>
+    <item>Taranıyor...</item>
+    <item>%1$s ağına bağlanıyor...</item>
+    <item>%1$s ağında kimlik doğrulanıyor...</item>
+    <item>%1$s ağında IP alınıyor...</item>
+    <item>%1$s ağına bağlandı</item>
+    <item>Askıya alındı</item>
+    <item>%1$s ağı ile bağlantı kesiliyor...</item>
+    <item>Bağlantı kesildi</item>
+    <item>Başarısız</item>
+  </string-array>
+  <string-array name="wifi_security">
+    <item>Açık</item>
+    <item>WEP</item>
+    <item>WPA/WPA2 PSK</item>
+    <item>802.1x EAP</item>
+    <item>WAPI PSK</item>
+    <item>WAPI CERT</item>
+  </string-array>
+  <string-array name="wifi_ap_security">
+    <item>Açık</item>
+    <item>WPA2 PSK</item>
+  </string-array>
+  <string-array name="wifi_wapi_psk_type">
+    <item>WAPI PSK ASCII</item>
+    <item>WAPI PSK hexadecimal</item>
+  </string-array>
+  <string-array name="wifi_eap_method">
+    <item>PEAP</item>
+    <item>TLS</item>
+    <item>TTLS</item>
+  </string-array>
+  <string-array name="bluetooth_visibility_timeout_entries">
+    <item>2 Dakika</item>
+    <item>5 Dakika</item>
+    <item>1 Saat</item>
+    <item>Hiçbir zaman</item>
+  </string-array>
+  <string-array name="wifi_signal">
+    <item>Düşük</item>
+    <item>Yeterli</item>
+    <item>İyi</item>
+    <item>Mükemmel</item>
+  </string-array>
+  <string-array name="wifi_sleep_policy_entries">
+    <item>Ekran kapandığında</item>
+    <item>Takılı olduğunda hiçbir zaman</item>
+    <item>Hiçbir zaman</item>
+  </string-array>
+  <string-array name="battery_history_type_spinner">
+    <item>İşlemci Kullanımı</item>
+    <item>Ağ Kullanımı</item>
+    <item>GPS Kullanımı</item>
+    <item>Sensör Kullanımı</item>
+    <item>Kısmi uyandırma kullanımı</item>
+    <item>Diğer kullanım</item>
+  </string-array>
+  <string-array name="battery_history_which_spinner">
+    <item>Fişten çıkarılmadan bu yana</item>
+    <item>Açılmadan bu yana</item>
+    <item>Toplamda tüm zaman</item>
+  </string-array>
+  <string-array name="usage_stats_display_order_types">
+    <item>Kullanım zamanı</item>
+    <item>Açılma sayısı</item>
+    <item>Uygulama adı</item>
+  </string-array>
+  <string-array name="wifi_eap_entries">
+    <item>PEAP</item>
+    <item>TLS</item>
+    <item>TTLS</item>
+  </string-array>
+  <string-array name="wifi_phase2_entries">
+    <item>None</item>
+    <item>PAP</item>
+    <item>MSCHAP</item>
+    <item>MSCHAPV2</item>
+    <item>GTC</item>
+  </string-array>
+  <string-array name="emergency_tone_entries">
+    <item>Kapalı</item>
+    <item>Alarm</item>
+    <item>Titreşim</item>
+  </string-array>
+  <string-array name="haptic_feedback_level_entries">
+    <item>Hafif</item>
+    <item>Normal</item>
+    <item>Güçlü</item>
+  </string-array>
+  <string-array name="special_locale_names">
+    <item>Chinese (Simplified)</item>
+    <item>Chinese (Traditional)</item>
+  </string-array>
+  <string-array name="apn_auth_entries">
+    <item>None</item>
+    <item>PAP</item>
+    <item>CHAP</item>
+    <item>PAP or CHAP</item>
+  </string-array>
+  <string-array name="app_install_location_entries">
+    <item>Dahili Depolama</item>
+    <item>Çıkarılabilir SD kart</item>
+    <item>Kararı sisteme bırak</item>
+  </string-array>
+  <string-array name="vibrate_entries">
+    <item>Her zaman</item>
+    <item>Hiçbir zaman</item>
+    <item>Sadece sessiz modda</item>
+    <item>Sadece sessiz modda değilken</item>
+  </string-array>
+  <string-array name="battery_indicator_style_entries">
+    <item>Bar grafik</item>
+    <item>Yüzde</item>
+    <item>Üst-Bar</item>
+  </string-array>
+  <string-array name="usage_screen_power_slices">
+    <item>1.Signal power grid</item>
+    <item>2. Signal power grid</item>
+    <item>3. Signal power grid</item>
+    <item>4. Signal power grid</item>
+    <item>Cell signal power</item>
+    <item>Radio power usage</item>
+  </string-array>
+  <string-array name="usage_radio_power_slices">
+    <item>1.Signal power grid</item>
+    <item>2. Signal power grid</item>
+    <item>3. Signal power grid</item>
+    <item>4. Signal power grid</item>
+    <item>Cell signal power</item>
+    <item>Radio power usage</item>
+  </string-array>
+  <string-array name="usage_wifi_power_slices">
+    <item>Wifi güç kullanımını göster</item>
+    <item>Wifi güç kullanımı</item>
+  </string-array>
+  <string-array name="usage_bluetooth_power_slices">
+    <item>Bluetooth güç kullanımını göster</item>
+    <item>Bluetooth güç kullanımı</item>
+  </string-array>
+  <string-array name="usage_app_power_slices">
+    <item>Audio power usage</item>
+    <item>Video power usage</item>
+    <item>CPU power usage</item>
+    <item>APN power usage</item>
+    <item>Sensor power usage</item>
+  </string-array>
+  <string-array name="led_color_entries_for_milestone">
+    <item>Yeşil (Varsayılan)</item>
+    <item>Kırmızı</item>
+    <item>Mavi</item>
+    <item>Sarı</item>
+    <item>Gökyüzü</item>
+    <item>Mor</item>
+    <item>Turuncu</item>
+  </string-array>
+  <string-array name="led_color_entries_for_mione">
+    <item>Mavi</item>
+    <item>Kırmızı</item>
+    <item>Yeşil</item>
+    <item>Pembe</item>
+    <item>Menekşe</item>
+    <item>Mor</item>
+    <item>Açık yeşil</item>
+    <item>Mavi</item>
+    <item>Safir</item>
+  </string-array>
+  <string-array name="entries_light_filter_window">
+    <item>10 s</item>
+    <item>20 s</item>
+    <item>30 s</item>
+    <item>40 s</item>
+    <item>50 s</item>
+    <item>60 s</item>
+  </string-array>
+  <string-array name="entries_light_filter_reset">
+    <item>Kapalı</item>
+    <item>400 lüks</item>
+    <item>500 lüks</item>
+    <item>600 lüks</item>
+    <item>700 lüks</item>
+    <item>800 lüks</item>
+    <item>900 lüks</item>
+    <item>1000 lüks</item>
+    <item>1500 lüks</item>
+    <item>2000 lüks</item>
+    <item>2500 lüks</item>
+  </string-array>
+  <string-array name="entries_light_filter_interval">
+    <item>0.5 s</item>
+    <item>1 s</item>
+    <item>2 s</item>
+    <item>5 s</item>
+    <item>10 s</item>
+  </string-array>
+  <string-array name="entries_light_levels_dim">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>8</item>
+    <item>10</item>
+    <item>12</item>
+    <item>14</item>
+    <item>16</item>
+    <item>18</item>
+    <item>20 (varsayılan)</item>
+    <item>22</item>
+    <item>24</item>
+    <item>26</item>
+  </string-array>
+</resources>

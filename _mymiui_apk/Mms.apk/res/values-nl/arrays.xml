@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="prefEntries_ringtone_repeat">
+    <item>Niet</item>
+    <item>2 maal</item>
+    <item>3 maal</item>
+    <item>5 maal</item>
+    <item>10 maal</item>
+  </string-array>
+  <string-array name="contact_entries">
+    <item>Naam</item>
+    <item>Nickname</item>
+    <item>Telefoon</item>
+    <item>Mail</item>
+    <item>Bedrijf</item>
+    <item>IM</item>
+    <item>VOIP</item>
+    <item>Verjaardag</item>
+    <item>Website</item>
+    <item>Adres</item>
+    <item>Opmerkingen</item>
+  </string-array>
+  <string-array name="select_dialog_items">
+    <item>1 seconde</item>
+    <item>2 seconden</item>
+    <item>3 seconden</item>
+    <item>4 seconden</item>
+    <item>5 seconden</item>
+    <item>6 seconden</item>
+    <item>7 seconden</item>
+    <item>8 seconden</item>
+    <item>9 seconden</item>
+    <item>10 seconden</item>
+    <item>Anders…</item>
+  </string-array>
+</resources>

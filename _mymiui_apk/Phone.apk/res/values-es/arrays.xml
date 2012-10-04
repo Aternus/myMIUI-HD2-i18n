@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="dialer_click_entries">
+    <item>Llamar</item>
+    <item>Enviar SMS/MMS</item>
+    <item>Mostrar contactos</item>
+    <item>Ignorar</item>
+  </string-array>
+  <string-array name="auto_answer_pref_entries">
+    <item>No auto answer</item>
+    <item>Answer immediately</item>
+    <item>5 secondss delay</item>
+  </string-array>
+  <string-array name="clir_display_values">
+    <item>Valor predeterminado de red</item>
+    <item>Ocultar número</item>
+    <item>Mostrar número</item>
+  </string-array>
+  <string-array name="preferred_network_mode_choices">
+    <item>Global</item>
+    <item>Sólo EvDo</item>
+    <item>CDMA w/o EvDo</item>
+    <item>CDMA / EvDo (Modo automático)</item>
+    <item>GSM / WCDMA (Modo automático)</item>
+    <item>Sólo WCDMA</item>
+    <item>Sólo GSM</item>
+    <item>GSM / WCDMA preferido</item>
+  </string-array>
+  <string-array name="list_language_entries">
+    <item>Ingles</item>
+    <item>Frances</item>
+    <item>Español</item>
+    <item>Japones</item>
+    <item>Koreano</item>
+    <item>Chino</item>
+    <item>Hebreo</item>
+  </string-array>
+  <string-array name="gsm_umts_network_preferences_choices">
+    <item>GSM/WCDMA (modo automático)</item>
+    <item>Sólo WCDMA</item>
+    <item>Sólo GSM</item>
+    <item>GSM/WCDA (WCDMA preferido)</item>
+  </string-array>
+  <string-array name="cdma_system_select_choices">
+    <item>Solo sistema doméstico</item>
+    <item>Automático</item>
+  </string-array>
+  <string-array name="cdma_roaming_mode_choices">
+    <item>Solo redes domésticas</item>
+    <item>Redes afiliadas</item>
+    <item>Cualquier red</item>
+  </string-array>
+  <string-array name="cdma_network_preferences_choices">
+    <item>CDMA/EvDo</item>
+    <item>Sólo CDMA</item>
+    <item>Sólo EvDo</item>
+  </string-array>
+  <string-array name="tty_mode_entries">
+    <item>TTY desactivado</item>
+    <item>Modo TTY completo</item>
+    <item>TTY HCO</item>
+    <item>TTY VCO</item>
+  </string-array>
+  <string-array name="dtmf_tone_entries">
+    <item>Normal</item>
+    <item>Largo</item>
+  </string-array>
+  <string-array name="subscription_choices">
+    <item>RUIM/SIM</item>
+    <item>NV</item>
+  </string-array>
+</resources>

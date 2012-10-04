@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="prefEntries_ringtone_repeat">
+    <item>1 x</item>
+    <item>2 x</item>
+    <item>3 x</item>
+    <item>5 x</item>
+    <item>10 x</item>
+  </string-array>
+  <string-array name="contact_entries">
+    <item>Name</item>
+    <item>Nickname</item>
+    <item>Telefon</item>
+    <item>Email</item>
+    <item>Firma</item>
+    <item>Nachrichten</item>
+    <item>VoIP</item>
+    <item>Geburtstag</item>
+    <item>Webseite</item>
+    <item>Adresse</item>
+    <item>Notizen</item>
+  </string-array>
+  <string-array name="select_dialog_items">
+    <item>1 sekunde</item>
+    <item>2 sekunden</item>
+    <item>3 sekunden</item>
+    <item>4 sekunden</item>
+    <item>5 sekunden</item>
+    <item>6 sekunden</item>
+    <item>7 sekunden</item>
+    <item>8 sekunden</item>
+    <item>9 sekunden</item>
+    <item>10 sekunden</item>
+    <item>Andere...</item>
+  </string-array>
+</resources>

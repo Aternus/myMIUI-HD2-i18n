@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_label">VPN Hizmetleri</string>
+  <string name="vpn_notification_title_connected">%s VPN bağlı</string>
+  <string name="vpn_notification_title_disconnected">%s Vpn bağlantısı kesildi.</string>
+  <string name="vpn_notification_hint_disconnected">VPN\'e yeniden bağlanmak için dokun.</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_label">Állapotsor</string>
+  <string name="status_bar_clear_all_button">Törlés</string>
+  <string name="status_bar_no_notifications_title">Nincs értesítés</string>
+  <string name="status_bar_ongoing_events_title">Folyamatban van</string>
+  <string name="status_bar_latest_events_title">Értesítések</string>
+  <string name="battery_low_title">Kérjük, csatlakoztassa a töltőt</string>
+  <string name="battery_low_subtitle">Akkufeszültség alacsony:</string>
+  <string name="battery_low_percent_format">%d%% vagy kevesebb maradt.</string>
+  <string name="battery_low_why">Akkumulátorhasználat</string>
+  <string name="tab_notifications_lable">Értesítések</string>
+  <string name="tab_toggles_lable">Kapcsolók</string>
+  <string name="status_bar_time_format_12">h:mma</string>
+  <string name="status_bar_time_format_24">HH:mm</string>
+  <string name="status_bar_date_format">MMM d. (E)</string>
+  <string name="status_bar_date_format_lock">MMM d. (E)</string>
+  <string name="usb_accessory_permission_prompt">Megengedi a %1$s alkalmazásnak, hogy hozzáférjen az USB eszközhöz?</string>
+  <string name="usb_device_confirm_prompt">Nyissa meg %1$s, mikor ez az USB eszköz csatlakoztatva van?</string>
+  <string name="usb_accessory_confirm_prompt">Nyissa meg %1$s, mikor ez az USB eszköz csatlakoztatva van?</string>
+  <string name="usb_accessory_uri_prompt">Egyik telepített alkalmazás sem tudja használni ezt az USB eszközt. Tudjon meg többet erről az eszközről: %1$s</string>
+  <string name="title_usb_accessory">USB eszközök</string>
+  <string name="label_view">Megtekint</string>
+  <string name="always_use_accessory">Mindig ezt az USB eszközt használja</string>
+  <string name="usb_mode_notification">USB háttértár</string>
+  <string name="usb_mode_dont_ask">Ne kérdezze újra</string>
+  <string name="usb_mode_mount_storage_title">USB háttértár megnyitása</string>
+  <string name="mount_storage">Felcsatolás</string>
+  <string name="dismount_storage">Csak töltés</string>
+  <string name="move_data_to_sdcard_title">Adat áthelyezése az SD kártyára</string>
+  <string name="move_data_to_sdcard_message">Képernyőképek és fényképek is át lesznek helyezve az SD kártyára a több szbad internál memória miatt.</string>
+  <string name="user_guide_for_notification">Új értesítés érkezett, megnézheti az állapotsor lehúzásával</string>
+  <string name="user_guide_for_toggle">További kapcsolók elérhetők vízszintes görgetéssel</string>
+  <string name="user_guide_for_toggle_list">Klikk ide a kapcsolók testreszabásához</string>
+  <string name="user_guide_for_call">Nem fogadott hívást megnézheti az állapotsor lehúzásával</string>
+</resources>

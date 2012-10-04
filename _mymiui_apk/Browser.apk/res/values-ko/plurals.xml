@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <plurals name="matches_found">
+    <item quantity="other">검색결과 %d개</item>
+    <item quantity="zero">검색결과 없음</item>
+    <item quantity="one">검색결과 1개</item>
+    <item quantity="few">검색결과 %d개</item>
+  </plurals>
+</resources>

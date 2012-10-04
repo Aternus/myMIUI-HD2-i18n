@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <plurals name="Nsongs">
+    <item quantity="other">%d dal</item>
+  </plurals>
+  <plurals name="Nsongscomp">
+    <item quantity="other">Összesen %1$d dal, amelyből %2$d a(z) első</item>
+  </plurals>
+  <plurals name="Nalbums">
+    <item quantity="other">%d Album</item>
+    <item quantity="one">1 Album</item>
+  </plurals>
+  <plurals name="NNNtracksdeleted">
+    <item quantity="other">%d dalt törölt</item>
+    <item quantity="one">1 dalt törölt</item>
+  </plurals>
+  <plurals name="NNNtrackstoplaylist">
+    <item quantity="other">%d dalt adott hozzá a lejátszási listához</item>
+    <item quantity="one">1 dalt adott hozzá a lejátszási listához</item>
+  </plurals>
+  <plurals name="NNNtrackstofavoriteplaylist">
+    <item quantity="other">%d dalt adott hozzá a kedvencekhez</item>
+    <item quantity="one">1 dalt adott hozzá a kedvencekhez</item>
+  </plurals>
+</resources>

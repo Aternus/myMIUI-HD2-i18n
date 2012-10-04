@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="animation">
+    <item>Không</item>
+    <item>Mờ dần</item>
+    <item>Rơi xuống</item>
+    <item>Lật trang</item>
+    <item>Thay thế</item>
+    <item>Xoay</item>
+    <item>Khối hộp xoay</item>
+    <item>Chảy</item>
+  </string-array>
+</resources>

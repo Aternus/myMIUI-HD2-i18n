@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="voiceDialer">Wybieranie głosowe</string>
+  <string name="tool_tip_title">Czy wiesz, że…</string>
+  <string name="tool_tip_message">Naciśnięcie zielonego guzika powoduje wybieranie telefoniczne</string>
+  <string name="examples">\u0020Przykład: <b> \n\"Dzwoni John\" \n\"Dzowń do Johna do domu, …\" \n\"Dzwoń na pocztę\" \n\"Wybierz (866) 555 0123\" \n\"Dial 911, 811, …\" \n\"Dial +44 7333 444 555\" \n\"Redial\" \n\"Open Calendar\" </b>\u0020</string>
+  <string name="title">Wybieranie głosowe</string>
+  <string name="bluetooth_title">Bezprzewodowe wybieranie głosowe</string>
+  <string name="initializing">Uruchomienie.</string>
+  <string name="listening">Słuchanie…</string>
+  <string name="please_try_again">Proszę spróbować ponownie.</string>
+  <string name="failure">Brak</string>
+  <string name="recognition_error">Możesz także spróbować ponownie uruchomić telefon.</string>
+  <string name="headset_connection_lost">Połączenie z zestawem słuchawkowym utracone.</string>
+  <string name="at_home">\u0020w domu</string>
+  <string name="on_mobile">\u0020kiedy mobilny</string>
+  <string name="at_work">\u0020w pracy</string>
+  <string name="at_other">\u0020w innych</string>
+  <string name="logging_enabled">Wybieranie głosowe jest włączone.</string>
+  <string name="logging_disabled">Wybieranie głosowe jest wyłączone.</string>
+  <string name="speak_now_tts">Rozmawiaj teraz.</string>
+  <string name="no_results_tts">Brak wyników, spróbuj ponownie.</string>
+  <string name="invalid_choice_tts">Błędny wybór.</string>
+  <string name="goodbye_tts">Do widzenia.</string>
+</resources>

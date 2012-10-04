@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_label">Status Bar</string>
+  <string name="status_bar_clear_all_button">Löschen</string>
+  <string name="status_bar_no_notifications_title">Keine Benachrichtigungen</string>
+  <string name="status_bar_ongoing_events_title">Laufenden</string>
+  <string name="status_bar_latest_events_title">Benachrichtigungen</string>
+  <string name="battery_low_title">Bitte Ladegerät anschließen</string>
+  <string name="battery_low_subtitle">Niedriger Akkustand:</string>
+  <string name="battery_low_percent_format">%d%% oder weniger verbleiben.</string>
+  <string name="battery_low_why">Akku-Nutzung</string>
+  <string name="tab_notifications_lable">Hinweise</string>
+  <string name="tab_toggles_lable">Schalter</string>
+  <string name="status_bar_time_format_12">h:mma</string>
+  <string name="status_bar_time_format_24">HH:mm</string>
+  <string name="status_bar_date_format">EEEE, d MMMM,</string>
+  <string name="status_bar_date_format_lock">EEEE, d MMMM</string>
+  <string name="usb_accessory_permission_prompt">Dem App %1$s Zugriff auf das USB Gerät erlauben?</string>
+  <string name="usb_device_confirm_prompt">%1$s öffnen, wenn dieses USB Gerät angeschlossen ist?</string>
+  <string name="usb_accessory_confirm_prompt">%1$s öffnen, wenn dieses USB Gerät angeschlossen ist?</string>
+  <string name="usb_accessory_uri_prompt">Kein App für dieses USB Gerät gefunden. Erfahren Sie mehr über dieses Gerät auf %1$s</string>
+  <string name="title_usb_accessory">USB Gerät</string>
+  <string name="label_view">Zeige</string>
+  <string name="always_use_accessory">Immer dieses USB-Gerät benutzen</string>
+  <string name="usb_mode_notification">USB-Speicher</string>
+  <string name="usb_mode_dont_ask">Nicht mehr fragen</string>
+  <string name="usb_mode_mount_storage_title">Speicher aktivieren</string>
+  <string name="mount_storage">Aktivieren</string>
+  <string name="dismount_storage">Deaktivieren</string>
+</resources>

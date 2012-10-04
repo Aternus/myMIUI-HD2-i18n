@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sidekick_activity_label">SideKick</string>
+  <string name="menu_preferences">Keresési beállítások</string>
+  <string name="menu_history">Keresési előzmények</string>
+  <string name="search_hint">Írja be a kucsszavakat</string>
+  <string name="change_search_setting">Keresési beállítások megváltoztatása</string>
+  <string name="search_web">Keresés a weben</string>
+  <string name="search_recent_hint">Legutóbbi keresések</string>
+  <string name="search_no_result_hint">Nincs találat a(z) \"%skifejezésre.</string>
+  <string name="search_no_result_hint_suggistion">Keresési tippek:</string>
+  <string name="search_no_result_hint_line1">Ellenőrizze, hogy a szavakat helyesen írta be</string>
+  <string name="search_no_result_hint_line2">Próbáljon meg egy másik kulcsszóra a keresni</string>
+  <string name="search_no_result_hint_line3">Próbálkozzon több általános kulcsszóval</string>
+  <string name="history_delete_hint">Érintse meg hosszan a tételt a törléshez</string>
+  <string name="search_sources">Keresési beállítások</string>
+  <string name="search_sources_summary">Válassza ki a tartalmat amit keresni kíván a készüléken</string>
+  <string name="input_history">Keresési előzmények</string>
+  <string name="delete_input_history">Keresési előzmények törlése</string>
+  <string name="search_result_header_hint_search">Összesen %d találat felelt meg a keresésnek</string>
+  <string name="search_result_header_hint_recent">Összesen %d találat felelt meg a keresésnek</string>
+  <string name="search_threshold_title">Maximális keresési eredmények forrásonként</string>
+  <string name="search_threshold_infinite">Végtelen</string>
+  <string name="search_threshold_ten">10</string>
+  <string name="search_threshold_thirty">30</string>
+  <string name="search_engine_title">Válassza ki a keresőmotort</string>
+  <string name="search_engine_google">Google</string>
+  <string name="search_engine_baidu">Baidu</string>
+  <string name="search_history_today">Ma</string>
+  <string name="search_history_yesterday">Tegnap</string>
+  <string name="default_web_search_engine_google">http://www.google.com/m/search?q=</string>
+  <string name="default_web_search_engine_baidu">http://m.baidu.com/ssid=0/from=0/bd_page_type=1/s?word=</string>
+  <string name="recent_dialog_buttonAppKiller_summary">Felszabadult %1$s memória\nÖsszes memória: %2$s</string>
+  <string name="recent_dialog_buttonAppKiller">Alkalmazások leállítása</string>
+  <string name="recent_dialog_buttonTaskManager">Alkalmazások kezelése</string>
+</resources>

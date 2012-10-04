@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="timezone_filters">
+    <item>América</item>
+    <item>Europa</item>
+    <item>África</item>
+    <item>Asia</item>
+    <item>Australia</item>
+    <item>Pacifico</item>
+    <item>Todas</item>
+  </string-array>
+  <string-array name="animations_entries">
+    <item>0%</item>
+    <item>50%</item>
+    <item>100%</item>
+  </string-array>
+  <string-array name="animations_summaries">
+    <item>Las animaciones no se muestran en la ventana</item>
+    <item>Algunas animaciones se muestran en la ventana</item>
+    <item>Todas animaciones se muestran en la ventana</item>
+  </string-array>
+  <string-array name="led_color_entries">
+    <item>Blanco (Por defecto)</item>
+    <item>Verde</item>
+    <item>Rojo</item>
+    <item>Azul</item>
+    <item>Amarillo</item>
+    <item>Cyan</item>
+    <item>Magenta</item>
+    <item>Rosa</item>
+    <item>Naranja</item>
+    <item>Celeste</item>
+  </string-array>
+  <string-array name="led_freq_entries">
+    <item>9 segundos (Por defecto)</item>
+    <item>2 Segundos</item>
+    <item>3 Segundos</item>
+    <item>4 Segundos</item>
+    <item>5 Segundos</item>
+    <item>6 Segundos</item>
+    <item>7 Segundos</item>
+    <item>8 Segundos</item>
+  </string-array>
+  <string-array name="screen_timeout_entries">
+    <item>30s</item>
+    <item>1m</item>
+    <item>5m</item>
+    <item>10m</item>
+    <item>Inf</item>
+  </string-array>
+  <string-array name="tts_rate_entries">
+    <item>Muy despacio</item>
+    <item>Despacio</item>
+    <item>Normal</item>
+    <item>Rápido</item>
+    <item>Muy Rápido</item>
+  </string-array>
+  <string-array name="tts_pitch_entries">
+    <item>Muy bajo</item>
+    <item>Bajo</item>
+    <item>Normal</item>
+    <item>Alto</item>
+    <item>Muy Alto</item>
+  </string-array>
+  <string-array name="tts_lang_entries">
+    <item>Inglés Americano</item>
+    <item>Inglés Inglaterra</item>
+    <item>Frances</item>
+    <item>Aleman</item>
+    <item>Italiano</item>
+    <item>Español</item>
+  </string-array>
+  <string-array name="tts_demo_strings">
+    <item>This is an example of speech synthesis in English.</item>
+    <item>This is an example of speech synthesis in English.</item>
+    <item>Voici un échantillon de synthèse vocale en français.</item>
+    <item>Dies ist ein Beispiel für Sprachsynthese in Deutsch.</item>
+    <item>Questo è un esempio di sintesi vocale in italiano.</item>
+    <item>Este es un ejemplo de síntesis de voz en español.</item>
+  </string-array>
+  <string-array name="wifi_wps_method">
+    <item>PBC</item>
+    <item>Número Pin</item>
+  </string-array>
+  <string-array name="wifi_wps_ssid">
+    <item>Cualquier ssid</item>
+  </string-array>
+  <string-array name="wifi_status">
+    <item/>
+    <item>Escaneando...</item>
+    <item>Conectando...</item>
+    <item>Autentificando…</item>
+    <item>Obteniendo dirección IP…</item>
+    <item>Conectado</item>
+    <item>Suspendido</item>
+    <item>Desconectando...</item>
+    <item>Desconectado</item>
+    <item>Con error</item>
+  </string-array>
+  <string-array name="wifi_status_with_ssid">
+    <item/>
+    <item>Escaneando...</item>
+    <item>Conectando a %1$s...</item>
+    <item>Autentificando con %1$s…</item>
+    <item>Obteniendo dirección IP de %1$s…</item>
+    <item>Conectado a %1$s</item>
+    <item>Suspendido</item>
+    <item>Desconectando de %1$s...</item>
+    <item>Desconectado</item>
+    <item>Con error</item>
+  </string-array>
+  <string-array name="wifi_security">
+    <item>Abierta</item>
+    <item>WEP</item>
+    <item>WPA/WPA2 PSK</item>
+    <item>802.1x EAP</item>
+    <item>WAPI PSK</item>
+    <item>WAPI CERT</item>
+  </string-array>
+  <string-array name="wifi_ap_security">
+    <item>Open</item>
+    <item>WPA2 PSK</item>
+  </string-array>
+  <string-array name="wifi_wapi_psk_type">
+    <item>WAPI PSK ASCII</item>
+    <item>WAPI PSK hexadecimal</item>
+  </string-array>
+  <string-array name="wifi_eap_method">
+    <item>PEAP</item>
+    <item>TLS</item>
+    <item>TTLS</item>
+  </string-array>
+  <string-array name="wifi_signal">
+    <item>Mala</item>
+    <item>Aceptable</item>
+    <item>Buena</item>
+    <item>Excelente</item>
+  </string-array>
+  <string-array name="wifi_sleep_policy_entries">
+    <item>Cuando la pantalla se apaga</item>
+    <item>Nunca mientras esté conectado</item>
+    <item>Nunca</item>
+  </string-array>
+  <string-array name="battery_history_type_spinner">
+    <item>Uso de la CPU</item>
+    <item>Uso de la RED</item>
+    <item>Uso del GPS</item>
+    <item>Sensor de uso</item>
+    <item>Tras el uso parcial</item>
+    <item>Otros usos</item>
+  </string-array>
+  <string-array name="battery_history_which_spinner">
+    <item>Desde el pasado desconectado</item>
+    <item>Total desde el arranque</item>
+    <item>Total de todos los tiempos</item>
+  </string-array>
+  <string-array name="usage_stats_display_order_types">
+    <item>Tiempo de Uso</item>
+    <item>Lanzar la cuenta</item>
+    <item>Nombre de la aplicación</item>
+  </string-array>
+  <string-array name="wifi_eap_entries">
+    <item>PEAP</item>
+    <item>TLS</item>
+    <item>TTLS</item>
+  </string-array>
+  <string-array name="wifi_phase2_entries">
+    <item>Ninguna</item>
+    <item>PAP</item>
+    <item>MSCHAP</item>
+    <item>MSCHAPV2</item>
+    <item>GTC</item>
+  </string-array>
+  <string-array name="emergency_tone_entries">
+    <item>Desconectado</item>
+    <item>Alerta</item>
+    <item>Vibración</item>
+  </string-array>
+  <string-array name="special_locale_codes">
+    <item>es</item>
+    <item>zh_TW</item>
+    <item>es_ES</item>
+  </string-array>
+  <string-array name="special_locale_names">
+    <item>Cosa</item>
+    <item>Chino (Tradicional)</item>
+    <item>Español (España)</item>
+  </string-array>
+  <string-array name="apn_auth_entries">
+    <item>None</item>
+    <item>PAP</item>
+    <item>CHAP</item>
+    <item>PAP or CHAP</item>
+  </string-array>
+  <string-array name="apn_auth_values">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+  </string-array>
+  <string-array name="app_install_location_entries">
+    <item>Dispositivo de almacenamiento interno</item>
+    <item>Tarjeta SD extraible</item>
+    <item>Deje que el sistema decida</item>
+  </string-array>
+  <string-array name="app_install_location_values">
+    <item>dispositivo</item>
+    <item>sdcard</item>
+    <item>auto</item>
+  </string-array>
+  <string-array name="vibrate_entries">
+    <item>Siempre</item>
+    <item>Nunca</item>
+    <item>Sólo en modo silencio</item>
+    <item>Sólo cuando no está en modo silencio</item>
+  </string-array>
+  <string-array name="battery_indicator_style_entries">
+    <item>Gráficamente</item>
+    <item>Porcentaje</item>
+    <item>En la barra</item>
+  </string-array>
+  <string-array name="usage_screen_power_slices">
+    <item>Pantalla Activa</item>
+    <item>Pantalla Apagada</item>
+    <item>Pantalla Off</item>
+    <item>Brillo</item>
+    <item>Brillo Medio</item>
+    <item>Brillo Alto</item>
+  </string-array>
+  <string-array name="usage_radio_power_slices">
+    <item>1 celda batería</item>
+    <item>2 celdas batería</item>
+    <item>3 celdas batería</item>
+    <item>4 celdas batería</item>
+    <item>Batería Completa</item>
+    <item>Búsqueda Red</item>
+  </string-array>
+  <string-array name="usage_wifi_power_slices">
+    <item>Red Wifi</item>
+    <item>Wifi Activo</item>
+  </string-array>
+  <string-array name="usage_bluetooth_power_slices">
+    <item>Bluetooth</item>
+    <item>Bluetooth activo</item>
+  </string-array>
+  <string-array name="usage_app_power_slices">
+    <item>Audio</item>
+    <item>Video</item>
+    <item>CPU</item>
+    <item>Transmisión Datos</item>
+    <item>Sensor</item>
+  </string-array>
+  <string-array name="overscroll_mode_entries">
+    <item>Siempre flexible</item>
+    <item>Contenidos a través de horarios flexibles</item>
+    <item>No hay flexibilidad</item>
+  </string-array>
+  <string-array name="menu_style_entries">
+    <item>Cuadrícula original</item>
+    <item>Nueva lista</item>
+  </string-array>
+  <string-array name="led_color_entries_for_milestone">
+    <item>Verde (por defecto)</item>
+    <item>Rojo</item>
+    <item>Azul</item>
+    <item>Amarillo</item>
+    <item>Cian</item>
+    <item>Morado</item>
+    <item>Naranja</item>
+  </string-array>
+</resources>

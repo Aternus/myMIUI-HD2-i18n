@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="equalizer_presents">
+    <item>Κανονικό</item>
+    <item>Κλασσική</item>
+    <item>Χορευτική</item>
+    <item>Χαλαρή</item>
+    <item>Μέταλ</item>
+    <item>Χιπ χοπ</item>
+    <item>Τζαζ</item>
+    <item>Ποπ</item>
+    <item>Ροκ</item>
+  </string-array>
+</resources>

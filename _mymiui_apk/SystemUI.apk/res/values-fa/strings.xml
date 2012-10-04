@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_label">نوار وضعیت</string>
+  <string name="status_bar_clear_all_button">پاک کردن</string>
+  <string name="status_bar_no_notifications_title">بدون اعلان</string>
+  <string name="status_bar_ongoing_events_title">ارسال</string>
+  <string name="status_bar_latest_events_title">اعلان ها</string>
+  <string name="battery_low_title">لطفا شارژر را وصل کنید</string>
+  <string name="battery_low_subtitle">باتری کم شده است:</string>
+  <string name="battery_low_percent_format">%d%% یا کمتر باقی مانده.</string>
+  <string name="battery_low_why">مصرف باتری</string>
+  <string name="usb_accessory_permission_prompt">به برنامه  %1$s اجازه استفاده از یواس بی میدهید؟</string>
+  <string name="usb_device_confirm_prompt">%1$s را اجرا کن وقتی دستگاه یواس بی وصل میشود؟</string>
+  <string name="usb_accessory_confirm_prompt">%1$s را اجرا کن وقتی دستگاه یواس بی وصل میشود؟</string>
+  <string name="usb_accessory_uri_prompt">هیچ یک از برنامه های نصب شده با این وسیله کار نمیکنند. بیشتر در مورد این دستگاه بیاموزید.%1$s</string>
+  <string name="title_usb_accessory">لوازم جانبی یواس بی</string>
+  <string name="label_view">نمایش</string>
+  <string name="always_use_accessory">همیشه از این دستگاه استفاده کن</string>
+  <string name="tab_notifications_lable">اعلان ها</string>
+  <string name="tab_toggles_lable">ابزارها</string>
+  <string name="status_bar_time_format_12">h:mma</string>
+  <string name="status_bar_time_format_24">HH:mm</string>
+  <string name="status_bar_date_format">MMM d</string>
+  <string name="status_bar_date_format_lock">E, MMM d</string>
+  <string name="usb_mode_notification">اتصال کارت حافظه</string>
+  <string name="usb_mode_dont_ask">دوباره نپرس</string>
+  <string name="usb_mode_mount_storage_title">اتصال کارت حافظه به صورت رسانه</string>
+  <string name="mount_storage">کارت حافظه</string>
+  <string name="dismount_storage">فقط شارژ</string>
+  <string name="move_data_to_sdcard_title">انتقال دیتا به کارت حافظه</string>
+  <string name="move_data_to_sdcard_message">تصاویر و عکس به کارت حافظه منتقل خواهد شد برای آزاد کردن حافظه داخلی بیشتر.</string>
+  <string name="user_guide_for_notification">یک اعلان جدید رسیده است، برای مشاهده آن نوار وضعیت را به سمت پایین بکشید</string>
+  <string name="user_guide_for_toggle">لیست ابزارها می تواند به صورت افقی حرکت کند</string>
+  <string name="user_guide_for_toggle_list">برای سفارشی کردن لیست ابزارها اینجا را کلیک کنید</string>
+  <string name="user_guide_for_call">برای برگشتن به رابط تماس نوار وضعیت را به سمت پایین کشیده و روی اعلان تماس کلیک کنید</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Recorder</string>
+  <string name="recording">Enregistrement</string>
+  <string name="recording_stopped">Enregistrement arrêté</string>
+  <string name="storage_is_full">Le stockage est plein</string>
+  <string name="max_length_reached">Longueur maximale atteinte</string>
+  <string name="insert_sd_card">Insérez une carte SD</string>
+  <string name="button_ok">OK</string>
+  <string name="timer_format" formatted="false">%02d:%02d</string>
+  <string name="audio_db_title_format">dd-MM-yyyy HH:mm:ss</string>
+  <string name="audio_db_artist_name">Vos enregistrements</string>
+  <string name="audio_db_album_name">Enregistrements audio</string>
+  <string name="audio_db_playlist_name">Mes enregistrements</string>
+  <string name="error_sdcard_access">Impossible d\'accéder à la carte SD</string>
+  <string name="error_app_internal">Erreur d\'application interne</string>
+  <string name="error_mediadb_new_record">Impossible de sauver l\'enregistrement audio</string>
+  <string name="default_record_name">Enregistrement</string>
+  <string name="menu_view_record_list">Liste des enregistrements</string>
+  <string name="menu_setting">Paramètres</string>
+  <string name="delete_dialog_title">Supprimer l\'enregistrement en cours?</string>
+  <string name="overwrite_dialog_title">%s existe déjà.\nDo vous souhaitez le remplacer?</string>
+  <string name="preferences_title">Réglages</string>
+  <string name="pref_title_record_type">Codec d\'enregistrement</string>
+  <string name="prefDialogTitle_recordType">Sélectionnez un codec</string>
+  <string name="prefDefault_recordType">audio/amr</string>
+  <string name="pref_title_enable_high_quality">Haute qualité</string>
+  <string name="pref_summary_enable_high_quality">L\'enregistrements de haute qualité va prendre plus d\'espace</string>
+  <string name="pref_title_enable_sound_effect">Activer l\'effet sonore</string>
+  <string name="pref_summary_enable_sound_effect">Appliquer des effets sonores sur un enregistrement</string>
+  <string name="notification_recording">Enregistrement</string>
+  <string name="notification_stopped">Enregistrement stoppé</string>
+  <string name="notification_warning">Espace faible(moins de %d minutes)...</string>
+  <string name="record_list">Liste enregistrement</string>
+  <string name="sd_card_not_available">Carte SD non disponible</string>
+  <string name="call_record">Enregistrement d\'appel</string>
+  <string name="open_file_explorer">Ouvrir l\'explorateur de fichiers</string>
+  <string name="no_file">Pas d\'enregistrement</string>
+  <string name="mark_now">(Actuel)</string>
+  <string name="second">%d seconde</string>
+  <string name="minute">%d minute</string>
+  <string name="hour">%d heure</string>
+  <string name="call_record_or">ou</string>
+  <string name="dialog_play">Jouer</string>
+  <string name="dialog_send">Envoie</string>
+  <string name="dialog_delete">Supprimer</string>
+  <string name="alert_message_delete_record">Voulez-vous supprimer les enregistrements sélectionnés?</string>
+</resources>

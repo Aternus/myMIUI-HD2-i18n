@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_label">Barra de Estado</string>
+  <string name="status_bar_clear_all_button">Borrar</string>
+  <string name="status_bar_no_notifications_title">No hay notificaciones</string>
+  <string name="status_bar_ongoing_events_title">Notificaciones</string>
+  <string name="status_bar_latest_events_title">Notificaciones</string>
+  <string name="battery_low_title">Por favor conecte el cargador</string>
+  <string name="battery_low_subtitle">La batería se está agotando:</string>
+  <string name="battery_low_percent_format">%d%% o menos restante.</string>
+  <string name="battery_low_why">Uso de la batería</string>
+  <string name="tab_notifications_lable">Avisos</string>
+  <string name="tab_toggles_lable">Ajustes</string>
+  <string name="status_bar_time_format_12">h:mma</string>
+  <string name="status_bar_time_format_24">HH:mm</string>
+  <string name="status_bar_date_format">d MMM</string>
+  <string name="status_bar_date_format_lock">E, d MMM</string>
+  <string name="usb_accessory_permission_prompt">¿Permitir a la aplicación %1$s acceder a accesorios USb?</string>
+  <string name="usb_device_confirm_prompt">¿Abrir %1$s cuando conecte este dispositivo USB?</string>
+  <string name="usb_accessory_confirm_prompt">Abrir %1$s cuando conecte este dispositivo USB?</string>
+  <string name="usb_accessory_uri_prompt">No hay aplicaciones instaladas que funcionen con este dispositivo USB. Conozca más sobre este dispositivo en %1$s</string>
+  <string name="title_usb_accessory">Accesorios USB</string>
+  <string name="label_view">Ver</string>
+  <string name="always_use_accessory">Usar por defecto para este accesorio USB</string>
+  <string name="usb_mode_notification">Almacenamiento USB</string>
+  <string name="usb_mode_dont_ask">No preguntar la próxima vez</string>
+  <string name="usb_mode_mount_storage_title">¿Activar almacenamiento USB?</string>
+  <string name="mount_storage">Activar</string>
+  <string name="dismount_storage">Desactivar</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sidekick_activity_label">سایدکیک</string>
+  <string name="menu_preferences">تنظیمات جستجو</string>
+  <string name="menu_history">پیشینه جستجو</string>
+  <string name="search_hint">برای جستجو کلمات کلیدی را وارد کنید</string>
+  <string name="change_search_setting">تغییر تنظیمات جست و جو</string>
+  <string name="search_web">جستجو در اینترنت</string>
+  <string name="search_recent_hint">اخیرا جستجو شده</string>
+  <string name="search_no_result_hint">هیچ رکوردی برای \"%s\" یافت نشد.</string>
+  <string name="search_no_result_hint_suggistion">نکاتی برای جستجو:</string>
+  <string name="search_no_result_hint_line1">از املای درست کلمه مطئن شوید</string>
+  <string name="search_no_result_hint_line2">با یک کلمه ی کلیدی دیگر جستجو کنید</string>
+  <string name="search_no_result_hint_line3">کلمات عمومی تر را جستجو کنید</string>
+  <string name="history_delete_hint">روی یک آیتم به صورت طولانی تپ کنید تا حذف شود</string>
+  <string name="search_sources">تنظیمات جست وجو</string>
+  <string name="search_sources_summary">موءلفه های جستجو را انتخاب کیند</string>
+  <string name="input_history">پیشینه جستجو</string>
+  <string name="delete_input_history">پیشینه جستجو را پاک کن</string>
+  <string name="search_result_header_hint_search">%d مورد مشابه یافت شد</string>
+  <string name="search_result_header_hint_recent">%d مورد مشابه یافت شد</string>
+  <string name="search_threshold_title">حداکثر مقدار قابل جستجو در هر منبع</string>
+  <string name="search_threshold_infinite">بینهایت</string>
+  <string name="search_threshold_ten">10</string>
+  <string name="search_threshold_thirty">30</string>
+  <string name="search_engine_title">انتخاب موتور جستجو</string>
+  <string name="search_engine_google">گوگل</string>
+  <string name="search_engine_baidu">بایدو</string>
+  <string name="search_history_today">امروز</string>
+  <string name="search_history_yesterday">دیروز</string>
+  <string name="default_web_search_engine_google">http://www.google.com/m/search?q=</string>
+  <string name="default_web_search_engine_baidu">http://m.baidu.com/ssid=0/from=0/bd_page_type=1/s?word=</string>
+  <string name="recent_dialog_buttonAppKiller_summary">App Killer recovered %1$s of memory\nMemory available: %2$s</string>
+  <string name="recent_dialog_buttonAppKiller">متوقف کننده برنامه</string>
+  <string name="recent_dialog_buttonTaskManager">مدیریت نرم افزار ها</string>
+</resources>

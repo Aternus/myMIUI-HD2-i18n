@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Φακός</string>
+  <string name="about">Περί:</string>
+  <string name="about_btn">Σχετικά με το Φακό</string>
+  <string name="about_title">Περί</string>
+  <string name="about_close">Κλείσιμο</string>
+  <string name="description">Αυτή η εφαρμογή χειρίζεται το φλας της κάμερας.\n</string>
+  <string name="warning">Προσοχή: Η αρκετή χρήση του LED μπορεί να το υπερθερμάνει.\n\n Η πλήρης φωτεινότητα \'always on\' έχει ελεγχθεί για 1/2 ώρα, αλλά υπάρχει ρίσκο καταστροφής του LED.\n</string>
+  <string name="license">Original code from Nexus One Torch by Ben Buxton, released under the GPL, v3.\nhttp://n1torch.googlecode.com/\n\nThanks to David Prieto for new UI design.\n\nModified for CyanogenMod by Steve Kondik.\n\n</string>
+  <string name="warning_label">Προσοχή</string>
+  <string name="brightwarn">Η πλήρης φωτεινότητα έχει ελεγχθεί για 1/2 ώρα λειτουργίας, αλλά ζεστάθηκε υπερβολικά και άρχισε να τρεμοπαίζει στα 45 λεπτά. Τα μακροχρόνια φαινόμενα δεν είναι γνωστά.\n\nThis is not supported on the widget yet.\n\nClick \'Accept\' if you want to use it at your own risk.</string>
+  <string name="brightwarn_title">Hi-brite \'On\' button!!!</string>
+  <string name="brightwarn_negative">Όχι ευχαριστώ</string>
+  <string name="brightwarn_accept">Αποδοχή</string>
+  <string name="label_on">On</string>
+  <string name="label_off">Off</string>
+  <string name="label_high">High brightness</string>
+  <string name="label_strobe">Στρόμπος</string>
+  <string name="label_frequency">Συχνότητα: (σύερετε για αλλαγή)</string>
+  <string name="widget_options">Γενικές επιλογές</string>
+  <string name="setting_widget_bright">Bright widget</string>
+  <string name="setting_widget_strobe">Στρόμπος</string>
+  <string name="setting_frequency_title">Συχνότητα στρόμπου</string>
+  <string name="setting_frequency_summary">Συχνότητα στρόμπου</string>
+  <string name="setting_frequency_dialog">Συχνότητα</string>
+  <string name="setting_frequency_hz">Hz</string>
+  <string name="setting_add_widget">Προσθήκη widget</string>
+  <string name="not_torch_title">Φακός ενεργός</string>
+  <string name="not_torch_summary">Ο φακός είναι αναμένος</string>
+  <string name="widget_label">Φακός</string>
+  <string name="torch_message">Κρατήστε πατημένο το [icon] για να κάνετε χρήση του φακού</string>
+</resources>

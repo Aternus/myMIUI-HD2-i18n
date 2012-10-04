@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="equalizer_presents">
+    <item>Bình thường</item>
+    <item>Cổ điển</item>
+    <item>Sôi động</item>
+    <item>Sâu lắng</item>
+    <item>Âm cao</item>
+    <item>Âm trầm</item>
+    <item>Du dương</item>
+    <item>Nhạc nhẹ</item>
+    <item>Dồn dập</item>
+  </string-array>
+</resources>

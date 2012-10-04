@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="animation">
+    <item>Ingen</item>
+    <item>Kryds Fade</item>
+    <item>Fald Ned</item>
+    <item>Vend Side</item>
+    <item>Stable</item>
+    <item>Roter</item>
+    <item>Kube</item>
+    <item>Coverflow</item>
+  </string-array>
+</resources>

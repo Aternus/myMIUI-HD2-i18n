@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <plurals name="Nsongs">
+    <item quantity="other">%d Sange</item>
+  </plurals>
+  <plurals name="Nsongscomp">
+    <item quantity="other">Totalt %1$d Sange, af hvilke %2$d Først</item>
+  </plurals>
+  <plurals name="Nalbums">
+    <item quantity="other">%d Album</item>
+    <item quantity="one">1 Album</item>
+  </plurals>
+  <plurals name="NNNtracksdeleted">
+    <item quantity="other">Slettede %d Sange.</item>
+    <item quantity="one">Slettede 1 Sang.</item>
+  </plurals>
+  <plurals name="NNNtrackstoplaylist">
+    <item quantity="other">%d Sange tilføjet til playliste.</item>
+    <item quantity="one">1 Sang tilføjet til playliste.</item>
+  </plurals>
+  <plurals name="NNNtrackstofavoriteplaylist">
+    <item quantity="other">%d Sange tilføjet til favoritter.</item>
+    <item quantity="one">1 Sang tilføjet til favoritter.</item>
+  </plurals>
+</resources>

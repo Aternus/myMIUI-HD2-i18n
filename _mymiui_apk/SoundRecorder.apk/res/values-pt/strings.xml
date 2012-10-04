@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Gravador</string>
+  <string name="recording">A gravar...</string>
+  <string name="recording_stopped">Gravação interrompida</string>
+  <string name="storage_is_full">O armazenamento está cheio</string>
+  <string name="max_length_reached">Tamanho máximo atingido</string>
+  <string name="insert_sd_card">Insira um cartão SD</string>
+  <string name="button_ok">OK</string>
+  <string name="timer_format" formatted="false">%02d:%02d</string>
+  <string name="audio_db_title_format">dd-MM-yyyy HH:mm:ss</string>
+  <string name="audio_db_artist_name">Suas gravações</string>
+  <string name="audio_db_album_name">Gravações de áudio</string>
+  <string name="audio_db_playlist_name">Minhas gravações</string>
+  <string name="error_sdcard_access">Não é possível aceder ao armazenamento interno ou externo</string>
+  <string name="error_app_internal">Erro interno da aplicação</string>
+  <string name="error_mediadb_new_record">Não é possível guardar o áudio gravado</string>
+  <string name="default_record_name">Registo sem título</string>
+  <string name="menu_view_record_list">Ver lista de registos</string>
+  <string name="menu_setting">Definições</string>
+  <string name="delete_dialog_title">Deseja apagar o registo atual?</string>
+  <string name="overwrite_dialog_title">%s já existe. Deseja substituí-lo?</string>
+  <string name="preferences_title">Definições</string>
+  <string name="pref_title_record_type">Gravar tipo de ficheiro</string>
+  <string name="prefDialogTitle_recordType">Selecione o tipo de ficheiro</string>
+  <string name="prefDefault_recordType">audio/amr</string>
+  <string name="pref_title_enable_high_quality">Ativar alta qualidade</string>
+  <string name="pref_summary_enable_high_quality">O ficheiro de áudio com alta qualidade pode ser maior</string>
+  <string name="pref_title_enable_sound_effect">Ativar efeito de som</string>
+  <string name="pref_summary_enable_sound_effect">Reproduzir efeito sonoro quando o estado é alterado</string>
+  <string name="notification_recording">A gravar...</string>
+  <string name="notification_stopped">A gravação foi interrompida</string>
+  <string name="notification_warning">Pouco espaço (menos de %d minutos)</string>
+  <string name="record_list">Lista de gravações</string>
+  <string name="sd_card_not_available">Cartão SD indisponível</string>
+  <string name="call_record">Gravação de chamada</string>
+  <string name="open_file_explorer">Abrir explorador de ficheiro</string>
+  <string name="no_file">Sem registos</string>
+  <string name="mark_now">(Atual)</string>
+  <string name="second">%d segundos</string>
+  <string name="minute">%d minutos</string>
+  <string name="hour">%d horas</string>
+  <string name="call_record_or">ou</string>
+  <string name="dialog_play">Play</string>
+  <string name="dialog_send">Enviar</string>
+  <string name="dialog_delete">Apagar</string>
+  <string name="alert_message_delete_record">Quer apagar este registo?</string>
+</resources>

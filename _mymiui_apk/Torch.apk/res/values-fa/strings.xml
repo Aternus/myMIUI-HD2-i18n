@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">چراغ قوه</string>
+  <string name="about">درباره:</string>
+  <string name="about_btn">درباره چراغ قوه</string>
+  <string name="about_title">درباره</string>
+  <string name="about_close">بستن</string>
+  <string name="description">این برنامه از فلش دوربین استفاده میکند.\n</string>
+  <string name="warning">اخطار: روشن ماندن فلش برای مدت طولانی ممکن است دما را بیش از حد بالا ببرد.\n\nروشنایی کامل \'همیشه روشن\'تست شده برای یک تا دو ساعت, اما امکان آسیب رسیدن به چراغ وجود دارد.\n</string>
+  <string name="license">Original code from Nexus One Torch by Ben Buxton, released under the GPL, v3.\nhttp://n1torch.googlecode.com/\n\nThanks to David Prieto for new UI design.\n\nModified for CyanogenMod by Steve Kondik.\n\n</string>
+  <string name="warning_label">اخطار</string>
+  <string name="brightwarn">روشنایی کامل برای 1 تا 2 ساعت با موفقیت تست شد, اما دما بسیار بالا میرود, . اثرات طولانی مدت نامعلوم است.\n\nهنوز برای استفاده از ویجت آماده نیست.\n\لمس کنید \'قبول\'</string>
+  <string name="brightwarn_title">روشنایی زیاد \'روشن\' دکمه!!!</string>
+  <string name="brightwarn_negative">خیر متشکرم</string>
+  <string name="brightwarn_accept">قبول</string>
+  <string name="label_on">روشن</string>
+  <string name="label_off">خاموش</string>
+  <string name="label_high">روشنایی زیاد</string>
+  <string name="label_strobe">انعکاسی</string>
+  <string name="label_frequency">فرکانس: (برای تغییر بکشید)</string>
+  <string name="widget_options">تنظیمات عمومی</string>
+  <string name="setting_widget_bright">ویجت نور</string>
+  <string name="setting_widget_strobe">فلش انعکاسی</string>
+  <string name="setting_frequency_title">فرکانس انعکاس</string>
+  <string name="setting_frequency_summary">فرکانس نور انعکاسی</string>
+  <string name="setting_frequency_dialog">فرکانس</string>
+  <string name="setting_frequency_hz">هرتز</string>
+  <string name="setting_add_widget">افزودن ویجت</string>
+  <string name="not_torch_title">چراغ قوه روشن</string>
+  <string name="not_torch_summary">چراغ در حال حاضر روشن است</string>
+  <string name="widget_label">چراغ قوه</string>
+  <string name="torch_message">[icon] را در صفحه ی قفل نگه دارید تا از چراغ استفاده کنید</string>
+</resources>

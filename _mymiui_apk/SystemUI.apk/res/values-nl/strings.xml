@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="always_use_accessory">Gebruik als standaard voor deze USB-accessoire</string>
+  <string name="app_label">Statusbalk</string>
+  <string name="battery_low_percent_format">%d%% of minder</string>
+  <string name="battery_low_subtitle">Batterij is bijna leeg:</string>
+  <string name="battery_low_title">Sluit lader aan</string>
+  <string name="battery_low_why">Batterij gebruik</string>
+  <string name="call_status_dialing">Bellen</string>
+  <string name="dismount_storage">Niet koppelen</string>
+  <string name="label_view">Toon</string>
+  <string name="mount_storage">Koppelen</string>
+  <string name="move_data_to_sdcard_message">Verplaatst data als screenshot, afbeeldingen enz. van intern geheugen naar SD-kaart. Voor dagelijks gebruik is het beter om de SD-kaart steeds in de telefoon te houden.</string>
+  <string name="move_data_to_sdcard_title">Data naar SD kaar verplaatsen</string>
+  <string name="return_to_incall_screen">Klik om terug te keren naar de oproep</string>
+  <string name="status_bar_clear_all_button">Wissen</string>
+  <string name="status_bar_date_format">EEE, d MMMM,</string>
+  <string name="status_bar_date_format_lock">EEEE, d MMMM</string>
+  <string name="status_bar_latest_events_title">Meldingen</string>
+  <string name="status_bar_no_notifications_title">Geen meldingen</string>
+  <string name="status_bar_ongoing_events_title">Lopende</string>
+  <string name="status_bar_time_format_12">h:mma</string>
+  <string name="status_bar_time_format_24">HH:mm</string>
+  <string name="tab_notifications_lable">Meldingen</string>
+  <string name="tab_toggles_lable">Schakelaars</string>
+  <string name="title_usb_accessory">USB accessoire</string>
+  <string name="usb_accessory_confirm_prompt">Open %1$s wanneer dit USB-accessoire is aangesloten?</string>
+  <string name="usb_accessory_permission_prompt">Applicatie %1$s toestaan om toegang tot de USB-accessoire te krijgen?</string>
+  <string name="usb_accessory_uri_prompt">Geen geïnstalleerde applicatie die werkt met deze USB-accessoire. Leer meer over deze accessoire op %1$s</string>
+  <string name="usb_device_confirm_prompt">Open %1$s wanneer dit USB apparaat is aangesloten?</string>
+  <string name="usb_mode_dont_ask">Niet meer vragen</string>
+  <string name="usb_mode_mount_storage_title">USB opslag</string>
+  <string name="usb_mode_notification">USB Opslag</string>
+  <string name="user_guide_for_call">Om terug te gaan naar de telefoon, sleept u de statusbalk naar beneden en klikt de oproep melding</string>
+  <string name="user_guide_for_notification">U hebt een nieuwe melding ontvangen.Sleep de statusbalk naar beneden voor details</string>
+  <string name="user_guide_for_toggle">De schakelaars lijst kan horizontaal geschoven worden</string>
+  <string name="user_guide_for_toggle_list">Klik hier om de schakelaarlijst aan te passen</string>
+</resources>

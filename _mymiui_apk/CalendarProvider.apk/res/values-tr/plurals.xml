@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <plurals name="gadget_more_events">
+    <item quantity="other">%d daha fazla etkinlik</item>
+    <item quantity="one">1 etkinlik daha</item>
+  </plurals>
+</resources>

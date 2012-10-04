@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Superusuario</string>
+  <string name="app_name_request">Petición superusuario</string>
+  <string name="permlab_respond">responder a peticiones de superusuario</string>
+  <string name="permdesc_respond">Permite que la aplicación responda a peticiones de superusuario</string>
+  <string name="su_original">original</string>
+  <string name="warning">Alerta</string>
+  <string name="malicious_app_found">El paquete %s esta pidiendo permisos para responder a peticiones de superusuario. Probablemente sea una aplicación maliciosa que quiere dar permisos sin que ud lo sepa. Se recomienda que la desinstale ahora.</string>
+  <string name="malicious_app_notification_ticker">Aplicación potencialmente maliciosa detectada</string>
+  <string name="malicious_app_notification_text">%s puede ser maliciosa.</string>
+  <string name="uninstall">Desinstalar</string>
+  <string name="no">No</string>
+  <string name="tab_apps">Apps</string>
+  <string name="tab_log">Registro</string>
+  <string name="allow">Permitir</string>
+  <string name="forget">Borrar</string>
+  <string name="cancel">Cancelar</string>
+  <string name="deny">Denegar</string>
+  <string name="remember">Recordar</string>
+  <string name="uid">(uid: %d)</string>
+  <string name="request" formatted="false">%s es %s (uid: %d)</string>
+  <string name="unknown">Desconocida</string>
+  <string name="allowed">Permitidas</string>
+  <string name="denied">Denegadas</string>
+  <string name="created">Creadas</string>
+  <string name="empty_apps">No hay apps en la lista</string>
+  <string name="pref_category_log_title">Registro</string>
+  <string name="pref_clear_log">Borrar registro</string>
+  <string name="notification_text">%s ha obtenido permisos de Superusuario</string>
+  <string name="permission_message">Mensajes</string>
+  <string name="permission_root">ROOT</string>
+  <string name="permission">Permiso:</string>
+  <string name="permission_message_summary">Puede enviar mensajes</string>
+  <string name="permission_root_summary">Permisos ROOT</string>
+  <string name="app_details">Detalles del programa</string>
+  <string name="app_manage">Gestionar programas</string>
+  <string name="app_detail_info">Versión: %s</string>
+  <string name="permission_manage">Gestión de permisos</string>
+  <string name="forbidden">Prohibido</string>
+  <string name="ask">Preguntado</string>
+  <string name="permssion_detail">permiso %s</string>
+  <string name="clear_log_message">Borrar registro</string>
+  <string name="success_clear_log">El registro ha sido borrado exitosamente</string>
+  <string name="enable_authority_message">Gestión de derechos activada</string>
+  <string name="confirm_disable_authority">Si desactiva la gestión de derechos no podrá controlar las acciones del software malicioso. ¿Desea continuar?</string>
+  <string name="ask_for_root_permission_message">%s está solicitando permisos ROOT. Esto podría ser peligroso, ¿desea otorgarle dichos permisos?</string>
+</resources>

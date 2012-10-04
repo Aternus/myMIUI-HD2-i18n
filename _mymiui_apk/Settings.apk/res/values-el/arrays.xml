@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="timezone_filters">
+    <item>Αμερική</item>
+    <item>Ευρώπη</item>
+    <item>Αφρική</item>
+    <item>Ασία</item>
+    <item>Αυστραλία</item>
+    <item>Ειρηνικός</item>
+    <item>Όλες</item>
+  </string-array>
+  <string-array name="date_format_titles">
+    <item>Έτος-Μήνας-Ημέρα</item>
+    <item>Μήνας-Ημέρα-Έτος</item>
+    <item>Ημέρα-Μήνας-Έτος</item>
+  </string-array>
+  <string-array name="animations_entries">
+    <item>Όχι</item>
+    <item>Λίγα</item>
+    <item>Όλα</item>
+  </string-array>
+  <string-array name="access_control_privacy_mode_entries">
+    <item>Μη προστατευμένο</item>
+    <item>Προστατευμένο</item>
+  </string-array>
+  <string-array name="access_control_app_entries">
+    <item>Μη προστατευμένο</item>
+    <item>Απόκρυψη εικονιδίου εφαρμογής</item>
+    <item>Προστασία με κωδικό</item>
+  </string-array>
+  <string-array name="animations_summaries">
+    <item>Δεν εμφανίζονται εφέ</item>
+    <item>Εμφανίζονται μερικά εφέ</item>
+    <item>Εμφανίζονται όλα τα εφέ</item>
+  </string-array>
+  <string-array name="led_color_entries">
+    <item>Λευκό (Προεπιλογή)</item>
+    <item>Πράσινο</item>
+    <item>Ερυθρό</item>
+    <item>Μπλε</item>
+    <item>Κίτρινο</item>
+    <item>Κυανό</item>
+    <item>Μωβ</item>
+    <item>Ροζ</item>
+    <item>Πορτοκαλί</item>
+    <item>Γαλάζιο</item>
+  </string-array>
+  <string-array name="led_freq_entries">
+    <item>Προεπιλογή(9δευ)</item>
+    <item>2 δευτερόλεπτα</item>
+    <item>3 δευτερόλεπτα</item>
+    <item>4 δευτερόλεπτα</item>
+    <item>5 δευτερόλεπτα</item>
+    <item>6 δευτερόλεπτα</item>
+    <item>7 δευτερόλεπτα</item>
+    <item>8 δευτερόλεπτα</item>
+  </string-array>
+  <string-array name="screen_timeout_entries">
+    <item>30δ</item>
+    <item>1λ</item>
+    <item>5λ</item>
+    <item>10λ</item>
+    <item>όχι</item>
+  </string-array>
+  <string-array name="tts_rate_entries">
+    <item>Πολύ αργό</item>
+    <item>Αργό</item>
+    <item>Κανονικό</item>
+    <item>Γρήγορο</item>
+    <item>Πολύ γρήγορο</item>
+  </string-array>
+  <string-array name="tts_pitch_entries">
+    <item>Πολύ χαμηλό</item>
+    <item>Χαμηλό</item>
+    <item>Κανονικό</item>
+    <item>Υψηλό</item>
+    <item>Πολύ υψηλό</item>
+  </string-array>
+  <string-array name="tts_lang_entries">
+    <item>American English</item>
+    <item>British English</item>
+    <item>French</item>
+    <item>German</item>
+    <item>Italian</item>
+    <item>Spanish</item>
+  </string-array>
+  <string-array name="tts_demo_strings">
+    <item>This is an example of speech synthesis in English.</item>
+    <item>This is an example of speech synthesis in English.</item>
+    <item>Voici un échantillon de synthèse vocale en français.</item>
+    <item>Dies ist ein Beispiel für Sprachsynthese in Deutsch.</item>
+    <item>Questo è un esempio di sintesi vocale in italiano.</item>
+    <item>Este es un ejemplo de síntesis de voz en español.</item>
+  </string-array>
+  <string-array name="wifi_wps_method">
+    <item>Push Button</item>
+    <item>Pin Number</item>
+  </string-array>
+  <string-array name="wifi_wps_ssid">
+    <item>Any ssid</item>
+  </string-array>
+  <string-array name="wifi_status">
+    <item/>
+    <item>Σάρωση…</item>
+    <item>Σύνδεση…</item>
+    <item>Έλεγχος…</item>
+    <item>Λήψη διέθυνσης IP…</item>
+    <item>Συνδέθηκε</item>
+    <item>Suspended</item>
+    <item>Αποσύνδεση…</item>
+    <item>Αποσυνδέθηκε</item>
+    <item>Αποτυχία</item>
+  </string-array>
+  <string-array name="wifi_status_with_ssid">
+    <item/>
+    <item>Σάρωση…</item>
+    <item>Σύνδεση στο %1$s…</item>
+    <item>Έλεγχος ταυτότητας με το %1$s…</item>
+    <item>Λήψη διεύθυνσης IP απο %1$s…</item>
+    <item>Συνδέθηκε στο %1$s</item>
+    <item>Suspended</item>
+    <item>Αποσύνδεση απο το %1$s…</item>
+    <item>Αποσυνδέθηκε</item>
+    <item>Αποτυχία</item>
+  </string-array>
+  <string-array name="wifi_security">
+    <item>Ανοιχτό</item>
+    <item>WEP</item>
+    <item>WPA/WPA2 PSK</item>
+    <item>802.1x EAP</item>
+    <item>WAPI PSK</item>
+    <item>WAPI CERT</item>
+  </string-array>
+  <string-array name="wifi_ap_security">
+    <item>Ανοιχτό</item>
+    <item>WPA2 PSK</item>
+  </string-array>
+  <string-array name="wifi_wapi_psk_type">
+    <item>WAPI PSK ASCII</item>
+    <item>WAPI PSK hexadecimal</item>
+  </string-array>
+  <string-array name="wifi_eap_method">
+    <item>PEAP</item>
+    <item>TLS</item>
+    <item>TTLS</item>
+  </string-array>
+  <string-array name="bluetooth_visibility_timeout_entries">
+    <item>2 λεπτά</item>
+    <item>5 λεπτά</item>
+    <item>1 ώρα</item>
+    <item>ποτέ</item>
+  </string-array>
+  <string-array name="wifi_signal">
+    <item>Χαμηλό</item>
+    <item>Ικανοποιητικό</item>
+    <item>Καλό</item>
+    <item>Εξαιρετικό</item>
+  </string-array>
+  <string-array name="wifi_sleep_policy_entries">
+    <item>Όταν κλείνει η οθόνη</item>
+    <item>Ποτέ όταν είναι συνδεδεμένο</item>
+    <item>Ποτέ</item>
+  </string-array>
+  <string-array name="battery_history_type_spinner">
+    <item>Χρήση CPU</item>
+    <item>Χρήση δικτύου</item>
+    <item>Χρήση GPS</item>
+    <item>Χρήση αισθητήρα</item>
+    <item>Partial wake usage</item>
+    <item>Άλλη χρήση</item>
+  </string-array>
+  <string-array name="battery_history_which_spinner">
+    <item>Απο την τελευταία αποσύνδεση</item>
+    <item>Σύνολο απο την εκκίνηση</item>
+    <item>Γενικό σύνολο</item>
+  </string-array>
+  <string-array name="usage_stats_display_order_types">
+    <item>Χρόνος χρήσης</item>
+    <item>Αριθμός εκκινήσεων</item>
+    <item>Όνομα εφαρμογής</item>
+  </string-array>
+  <string-array name="wifi_eap_entries">
+    <item>PEAP</item>
+    <item>TLS</item>
+    <item>TTLS</item>
+  </string-array>
+  <string-array name="wifi_phase2_entries">
+    <item>Κανένα</item>
+    <item>PAP</item>
+    <item>MSCHAP</item>
+    <item>MSCHAPV2</item>
+    <item>GTC</item>
+  </string-array>
+  <string-array name="emergency_tone_entries">
+    <item>Χωρίς</item>
+    <item>Ειδοποίηση</item>
+    <item>Δόνηση</item>
+  </string-array>
+  <string-array name="haptic_feedback_level_entries">
+    <item>Αδύναμο</item>
+    <item>Κανονικό</item>
+    <item>Ισχυρό</item>
+  </string-array>
+  <string-array name="special_locale_names">
+    <item>中文 (简体)</item>
+    <item>中文 (繁體)</item>
+  </string-array>
+  <string-array name="apn_auth_entries">
+    <item>Κανένα</item>
+    <item>PAP</item>
+    <item>CHAP</item>
+    <item>PAP ή CHAP</item>
+  </string-array>
+  <string-array name="app_install_location_entries">
+    <item>Εσωτερικός χώρος αποθήκευσης</item>
+    <item>Αφαιρούμενη κάρτα SD</item>
+    <item>Αποφασίζει το σύστημα</item>
+  </string-array>
+  <string-array name="vibrate_entries">
+    <item>Πάντα</item>
+    <item>Ποτέ</item>
+    <item>Μόνο κατά τη σίγαση</item>
+    <item>Μόνο εκτός σίγασης</item>
+  </string-array>
+  <string-array name="battery_indicator_style_entries">
+    <item>Γραφικός δείκτης</item>
+    <item>Ποσοστό</item>
+    <item>Μπάρα</item>
+  </string-array>
+  <string-array name="usage_screen_power_slices">
+    <item>Open Screen power usage</item>
+    <item>Power usage when screen is idle</item>
+    <item>Power usage with a dim lit screen</item>
+    <item>Power usage with a medium lit screen</item>
+    <item>Power usage with a bright lit screen</item>
+    <item>Power usage with a fully lit screen</item>
+  </string-array>
+  <string-array name="usage_radio_power_slices">
+    <item>1 A Cell signal power</item>
+    <item>2 Cell signal power</item>
+    <item>3 Signal power grid</item>
+    <item>4 Cell signal power</item>
+    <item>Cell signal power over</item>
+    <item>Search for the signal power</item>
+  </string-array>
+  <string-array name="usage_wifi_power_slices">
+    <item>Άνοιγμα κατανάλωσης ενέργειας Wifi</item>
+    <item>Κατανάλωση ενέργειας μεταφοράς δεδομένων Wifi</item>
+  </string-array>
+  <string-array name="usage_bluetooth_power_slices">
+    <item>Άνοιγμα κατανάλωσης ενέργειας Bluetooth</item>
+    <item>Κατανάλωση ενέργειας Bluetooth</item>
+  </string-array>
+  <string-array name="usage_app_power_slices">
+    <item>Κατανάλωση ενέργειας ήχου</item>
+    <item>Κατανάλωση βίντεο</item>
+    <item>Κατανάλωση ενέργειας CPU</item>
+    <item>Κατανάλωση ενέργειας μεταφοράς δεδομένων</item>
+    <item>Κατανάλωση ενέργειας αισθητήρα</item>
+  </string-array>
+  <string-array name="overscroll_mode_entries">
+    <item>Πάντα ελαστικό</item>
+    <item>Ελαστικο αν είναι γεμάτο το περιεχόμενο</item>
+    <item>Χωρίς ελαστικότητα</item>
+  </string-array>
+  <string-array name="menu_style_entries">
+    <item>Πλέγμα</item>
+    <item>Λίστα</item>
+  </string-array>
+  <string-array name="led_color_entries_for_milestone">
+    <item>Πράσινο(Προεπιλογή)</item>
+    <item>Ερυθρό</item>
+    <item>Μπλε</item>
+    <item>Κιτρινο</item>
+    <item>Κυανό</item>
+    <item>Μωβ</item>
+    <item>Πορτοκαλί</item>
+  </string-array>
+  <string-array name="led_color_entries_for_mione">
+    <item>Blue</item>
+    <item>Red</item>
+    <item>Green</item>
+    <item>Pink</item>
+    <item>Violet</item>
+    <item>Purple</item>
+    <item>Emerald</item>
+    <item>Cyan</item>
+    <item>Sapphire</item>
+  </string-array>
+  <string-array name="entries_light_filter_window">
+    <item>10 s</item>
+    <item>20 s</item>
+    <item>30 s</item>
+    <item>40 s</item>
+    <item>50 s</item>
+    <item>60 s</item>
+  </string-array>
+  <string-array name="entries_light_filter_reset">
+    <item>Disabled</item>
+    <item>400 lux</item>
+    <item>500 lux</item>
+    <item>600 lux</item>
+    <item>700 lux</item>
+    <item>800 lux</item>
+    <item>900 lux</item>
+    <item>1000 lux</item>
+    <item>1500 lux</item>
+    <item>2000 lux</item>
+    <item>2500 lux</item>
+  </string-array>
+  <string-array name="entries_light_filter_interval">
+    <item>0.5 s</item>
+    <item>1 s</item>
+    <item>2 s</item>
+    <item>5 s</item>
+    <item>10 s</item>
+  </string-array>
+  <string-array name="entries_light_levels_dim">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>8</item>
+    <item>10</item>
+    <item>12</item>
+    <item>14</item>
+    <item>16</item>
+    <item>18</item>
+    <item>20 (default)</item>
+    <item>22</item>
+    <item>24</item>
+    <item>26</item>
+  </string-array>
+</resources>

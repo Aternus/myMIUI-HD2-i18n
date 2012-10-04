@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sidekick_activity_label">Tìm kiếm</string>
+  <string name="menu_preferences">Thiết lập Tìm kiếm</string>
+  <string name="menu_history">Lịch sử</string>
+  <string name="search_hint">Nhập từ để tìm kiếm</string>
+  <string name="change_search_setting">Thay đổi thiết lập tìm kiếm</string>
+  <string name="search_web">Tìm kiếm</string>
+  <string name="search_recent_hint">Lịch sử gần đây:</string>
+  <string name="search_no_result_hint">Không có kết quả nào được tìm thấy cho \"%s\".</string>
+  <string name="search_no_result_hint_suggistion">Gợi ý cho một tìm kiếm chính xác hơn:</string>
+  <string name="search_no_result_hint_line1">Kiểm tra lại các từ xem có đúng chính tả</string>
+  <string name="search_no_result_hint_line2">Hãy thử với một cụm từ khác trong tìm kiếm của bạn</string>
+  <string name="search_no_result_hint_line3">Hãy thử với cụm từ khóa tổng quát hơ</string>
+  <string name="history_delete_hint">Xóa lịch sử tìm kiếm</string>
+  <string name="search_sources">Thiết lập Tìm kiếm</string>
+  <string name="search_sources_summary">Tìm kiếm bao gồm cả các dữ liệu thông tin lưu trữ trên điện thoại của bạn</string>
+  <string name="input_history">Lịch sử tìm kiếm</string>
+  <string name="delete_input_history">Xóa lịch sử Tìm kiếm?</string>
+  <string name="search_result_header_hint_search">Tất cả có %d kết quả(s) phù hợp với tìm kiếm của bạn</string>
+  <string name="search_result_header_hint_recent">Tất cả có %d kết quả(s) phù hợp với tìm kiếm của bạn</string>
+  <string name="search_threshold_title">Số lượng tìm kiếm nhiều nhất ở mỗi nguồn</string>
+  <string name="search_threshold_infinite">Không giới hạn</string>
+  <string name="search_threshold_ten">10</string>
+  <string name="search_threshold_thirty">30</string>
+  <string name="search_engine_title">Chọn Ứng dụng tìm kiếm</string>
+  <string name="search_engine_google">Google</string>
+  <string name="search_engine_baidu">Bing</string>
+  <string name="default_web_search_engine_google">http://www.google.com/m/search?q=</string>
+  <string name="default_web_search_engine_baidu">http://www.bing.com/search?q=</string>
+  <string name="recent_dialog_buttonAppKiller_summary">Đã giải phóng %1$s cho bộ nhớ \nhiện nay bộ nhớ còn trống: %2$s</string>
+  <string name="recent_dialog_buttonAppKiller">Đóng ứng dụng</string>
+  <string name="recent_dialog_buttonTaskManager">Quản lý</string>
+</resources>

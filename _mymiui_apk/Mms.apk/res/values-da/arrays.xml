@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="prefEntries_ringtone_repeat">
+    <item>1 gang</item>
+    <item>2 gange</item>
+    <item>3 gange</item>
+    <item>5 gange</item>
+    <item>10 gange</item>
+  </string-array>
+  <string-array name="contact_entries">
+    <item>Navn</item>
+    <item>Kaldenavn</item>
+    <item>Telefon</item>
+    <item>Email</item>
+    <item>Firma</item>
+    <item>IM</item>
+    <item>VOIP</item>
+    <item>Fødselsdag</item>
+    <item>Hjemmeside</item>
+    <item>Adresse</item>
+    <item>Bemærkninger</item>
+  </string-array>
+  <string-array name="select_dialog_items">
+    <item>1 sekund</item>
+    <item>2 sekunder</item>
+    <item>3 sekunder</item>
+    <item>4 sekunder</item>
+    <item>5 sekunder</item>
+    <item>6 sekunder</item>
+    <item>7 sekunder</item>
+    <item>8 sekunder</item>
+    <item>9 sekunder</item>
+    <item>10 sekunder</item>
+    <item>Andet...</item>
+  </string-array>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="pref_content_plugins_choices">
+    <item>Sempre su</item>
+    <item>Su richiesta</item>
+    <item>Fuori</item>
+  </string-array>
+  <string-array name="pref_text_size_choices">
+    <item>Piccino</item>
+    <item>Piccolo</item>
+    <item>Normale</item>
+    <item>Grande</item>
+    <item>Enorme</item>
+  </string-array>
+  <string-array name="pref_default_zoom_choices">
+    <item>Lontano</item>
+    <item>Medium</item>
+    <item>Chiudi</item>
+  </string-array>
+</resources>

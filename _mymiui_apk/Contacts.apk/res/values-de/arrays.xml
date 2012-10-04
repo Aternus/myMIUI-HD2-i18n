@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="pick_photo_values">
+    <item>Kamera</item>
+    <item>Galerie</item>
+    <item>Benutzerbild</item>
+    <item>Zurücksetzen</item>
+  </string-array>
+  <string-array name="pick_incoming_call_photo_values">
+    <item>Kamera</item>
+    <item>Galerie</item>
+  </string-array>
+  <string-array name="edit_incoming_call_photo_values">
+    <item>Kamera</item>
+    <item>Galerie</item>
+    <item>Bildgröße ändern</item>
+    <item>Löschen</item>
+  </string-array>
+</resources>

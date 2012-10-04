@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="animation">
+    <item>Aucune</item>
+    <item>Fondu</item>
+    <item>Rotation</item>
+    <item>Page</item>
+    <item>Cascade</item>
+    <item>Rotation</item>
+    <item>Cube 3D</item>
+    <item>Fondu recouvrant</item>
+  </string-array>
+</resources>

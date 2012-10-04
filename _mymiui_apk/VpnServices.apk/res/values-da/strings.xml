@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_label">VPN Tjenester</string>
+  <string name="vpn_notification_title_connected">%s VPN forbundet</string>
+  <string name="vpn_notification_title_disconnected">%s VPN afbrudt</string>
+  <string name="vpn_notification_hint_disconnected">Tryk for igen at forbinde til VPN.</string>
+</resources>
