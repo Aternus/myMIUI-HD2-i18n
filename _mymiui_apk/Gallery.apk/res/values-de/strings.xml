@@ -2,7 +2,7 @@
 <resources>
   <string name="app_name">Galerie</string>
   <string name="support_gif_animation">GIF-Animationen</string>
-  <string name="support_gif_animation_summary">Zeigt Animierte Gif-Bilder.Das kann sich auf die Leistung auswirken und verbraucht mehr Speicher.</string>
+  <string name="support_gif_animation_summary">Zeigt animierte Gif-Bilder.Das kann sich auf die Leistung auswirken und verbraucht mehr Speicher.</string>
   <string name="filter_small_image">Kleine Bilder filtern</string>
   <string name="image_size_threshold">Minimale Bildgröße(Kb)</string>
   <string name="image_size_threshold_summary">Alle Bilder die kleiner sind werden gefiltert</string>
