@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string-array name="timezone_filters">
-    <item>America</item>
-    <item>Europe</item>
-    <item>Africa</item>
+    <item>Amerika</item>
+    <item>Europa</item>
+    <item>Afrika</item>
     <item>Asia</item>
-    <item>Australia</item>
+    <item>Australien</item>
     <item>Pacific</item>
-    <item>All</item>
+    <item>Alle</item>
   </string-array>
   <string-array name="date_format_values">
     <item>dd-MM-yyyy</item>
@@ -71,7 +71,7 @@
     <item>American English</item>
     <item>British English</item>
     <item>French</item>
-    <item>German</item>
+    <item>Deutsch</item>
     <item>Italian</item>
     <item>Spanish</item>
   </string-array>
