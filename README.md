@@ -26,12 +26,12 @@
 
 ## Quick Reference - Useful Git Commands:
 ```
-* __git pull__               - Issue this command prior to doing anything to your REPO. This keeps it up to date with the remote repository.
-* __git add .__              - Issue this command from the ROOT of your REPO prior to pushing. This looks for any untracked files and adds them.
-* __git commit -m "Msg"__    - Run this after the above command. This will stage your changes into a ready to push message.
-                             - Type a helpful short message explaining what you changed.
-* __git push__               - Assuming you set up the repos correctly. This will push your changes LIVE to YOUR REPO.
-* __git status__             - This will let you know of your current git status.
+git pull               - Issue this command prior to doing anything to your REPO. This keeps it up to date with the remote repository.
+git add .              - Issue this command from the ROOT of your REPO prior to pushing. This looks for any untracked files and adds them.
+git commit -m "Msg"    - Run this after the above command. This will stage your changes into a ready to push message.
+                       - Type a helpful short message explaining what you changed.
+git push               - Assuming you set up the repos correctly. This will push your changes LIVE to YOUR REPO.
+git status             - This will let you know of your current git status.
 ```
 
 ## How to Translate
