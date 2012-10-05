@@ -8,7 +8,7 @@
   <string name="name_credential_dialog_title">Zertifikat benennen</string>
   <string name="credential_name">Zertifikatname:</string>
   <string name="credential_password">Geben Sie das Passwort ein, um die Zertifikate zu extrahieren.</string>
-  <string name="credential_info">Das Paket enthält Folgendes:</string>
+  <string name="credential_info">Das Paket enthält folgendes:</string>
   <string name="p12_description">Zertifikate im PKCS12-Keystore</string>
   <string name="one_userkey">ein Nutzerschlüssel</string>
   <string name="one_usercrt">ein Nutzerzertifikat</string>
