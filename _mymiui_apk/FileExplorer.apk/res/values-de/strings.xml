@@ -68,7 +68,7 @@
   <string name="added_favorite">Zu den Favoriten hinzugefügt</string>
   <string name="removed_favorite">Aus Favoriten entfernt</string>
   <string name="fail_to_create_folder">Ordner kann nicht erstellt werden. Ordner existiert bereits.</string>
-  <string name="fail_to_rename">Ordner oder Datei konnte nicht umgenannt werden.</string>
+  <string name="fail_to_rename">Ordner oder Datei konnte nicht umbenannt werden.</string>
   <string name="enable_sd_card">Aktiviere SD-Karte</string>
   <string name="start_server">Starte Service</string>
   <string name="stop_server">Stoppe Service</string>
