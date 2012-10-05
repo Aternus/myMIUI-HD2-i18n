@@ -48,7 +48,7 @@
     <item>Zeigen</item>
     <item>Verstecke vor/zurück im Vollbild Modus</item>
     <item>Auto-Verstecken</item>
-    <item>Zeige nie floating Buttons</item>
+    <item>Zeige nie schwebende Buttons</item>
   </string-array>
   <string-array name="pref_hide_statusbar_choices">
     <item>Statusleiste immer sichtbar</item>
