@@ -76,7 +76,7 @@ git remote add source https://github.com/Aternus/myMIUI-HD2-i18n.git
 ```
 
 ### Step 5a - Translating - Core Concepts
-In order to perform translations there are coupld core concepts we'll have to understand:
+In order to perform translations there are coupld core concepts you'll have to understand:
 
 * Inside every APK there is a __"res"__ folder which includes all the resources from that APK.
 
@@ -105,17 +105,17 @@ If a resource is missing from the APK, the OS will try to load it from framework
 
 
 ### Step 5b - Translating APKs
-Now that we understand the basic concept of translations for Android, we can get to work.  
+Now that you understand the basic concept of translations for Android, we can get to work.  
 Inside __/_mymiui_apk__ & __/_mymiui_framework__ you will find the folders with the names of the APK files, inside each of these should reside a __"res"__ folder.  
 Inside is the __"res"__ folder most of the folders required for the translation have already been created,  
 __if not__, please create the folder according to __your language and region__.
 
-In general, to translate the APK you need to edit the files residing inside the folder with the __resource type__ of __"values"__.  
-Although rare, but at times you will be required to translate __"raw"__ and __"drawable"__ resource types.  
+In general, to translate the APK you'll need to edit the files residing inside the folder with the __resource type__ of __"values"__.  
+Although rare, but at times you'll be required to translate __"raw"__ and __"drawable"__ resource types.  
 Its best to look at an already translated APK for more information and better understanding.
 
 ### Step 6 - Saving Changes & Commiting
-After you've finished making the required changes, you will have to add the changed files to the stagin index and commit the changes to the repository.
+After you've finished making the required changes, you'll have to add the changed files to the staging index and commit the changes to the repository.
 ```
 git add .
 git commit -m "Message decribing what you've changed"
@@ -126,21 +126,19 @@ After you've finished your working session, its a good idea to share your work w
 ```
 git push origin master
 ```
-Now that you have the new commits on GitHub its time to go to browse to GitHub and make a __"Pull Request"__ to the source myMIUI REPO.  
+Now that you have the new commits on GitHub its time to open your GitHub account and make a __"Pull Request"__ to the source myMIUI REPO.  
 After getting your request, I will review the changes and merge them to the __myMIUI-HD2-i18n source REPO__.
 
 ### Step 8 - Being up-to-date with myMIUI-HD2-i18n source REPO
-An important concept to grasp with Git is that its a distributed version control system,  
+An important concept to grasp with Git is that it's a distributed version control system,  
 which means you are responsible to stay up to date with what happens with the __source REPO__.  
 Before working on any files, I strongly suggest pulling the latest changes from the source REPO.
 ```
 git pull source
 ```
 
-
-
+### Credits
 Credits to the original guide on [Learning how to Translate MIUI](https://docs.google.com/document/d/1H8DoN6nnbsOGB_fauBiCcpyB4OAIEHjqEiJX322v45Y/edit).
-
 
 
 #####################################################################
