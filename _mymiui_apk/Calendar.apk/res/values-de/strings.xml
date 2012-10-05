@@ -18,8 +18,8 @@
   <string name="month_view">Monat</string>
   <string name="event_view">Termin anzeigen</string>
   <string name="event_create">Neuer Termin</string>
-  <string name="event_edit">Termin Bearbeiten</string>
-  <string name="event_delete">Termin Löschen</string>
+  <string name="event_edit">Termin bearbeiten</string>
+  <string name="event_delete">Termin löschen</string>
   <string name="goto_today">Heute</string>
   <string name="menu_select_calendars">Kalender</string>
   <string name="menu_preferences">Einstellungen</string>
@@ -77,8 +77,8 @@
   <string name="save_label">Fertig</string>
   <string name="discard_label">Abbrechen</string>
   <string name="import_label">Importieren</string>
-  <string name="snooze_all_label">Später Erinnern</string>
-  <string name="dismiss_all_label">Alle Bestätigen</string>
+  <string name="snooze_all_label">Später erinnern</string>
+  <string name="dismiss_all_label">Alle bestätigen</string>
   <string name="does_not_repeat">Einmaliger Termin</string>
   <string name="daily">Täglich</string>
   <string name="every_weekday">Jeden Werktag (Mo-Fr)</string>
