@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="home_indicator">bottom_point</string>
-  <string name="wallpaper_scrolling">all</string>
+  <string name="home_indicator">Unterer Punkt</string>
+  <string name="wallpaper_scrolling">Alles</string>
   <string name="sharedUserId"/>
   <string name="process"/>
   <string name="application_name">Übersicht</string>
@@ -30,7 +30,7 @@
   <string name="permdesc_read_settings">Ermöglicht einer Anwendung, die Einstellungen und Shortcuts auf der Startseite zu lesen.</string>
   <string name="permlab_write_settings">Einstellungen und Shortcuts für Startseite schreiben</string>
   <string name="permdesc_write_settings">Ermöglicht einer Anwendung, die Einstellungen und Shortcuts auf der Startseite zu ändern.</string>
-  <string name="start_activity_failed">Failed to start, please try again</string>
+  <string name="start_activity_failed">Nicht gestartet, bitte nochmal versuchen</string>
   <string name="gadget_error_text">Problem beim Laden des Widgets</string>
   <string name="menu_edit">Editieren</string>
   <string name="menu_sort">Sortiere Desktop Icons</string>
@@ -61,7 +61,7 @@
   <string name="pref_render_in_truecolor_title">Hochauflösende Grafiken</string>
   <string name="pref_render_in_truecolor_summary">Dies kann zu einer höheren CPU-Auslastung führen.</string>
   <string name="pref_enable_drawing_cache_title">Grafik Cache</string>
-  <string name="pref_enable_drawing_cache_summary">Turn off to free up memory, will cause some lag</string>
+  <string name="pref_enable_drawing_cache_summary">Abschalten für mehr freien Speicherplatz, kann zu Verzögerungen führen</string>
   <string name="pref_icon_shadow_title">Icon Schatten</string>
   <string name="pref_icon_shadow_summary">Desktop Icon Schatten An / Aus</string>
   <string name="pref_screen_transformation_type_title">Übergangseffekte</string>

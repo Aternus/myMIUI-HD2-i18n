@@ -13,7 +13,7 @@
   <string name="bt_enable_cancel">Abbrechen</string>
   <string name="bt_enable_ok">Aktivieren</string>
   <string name="incoming_file_confirm_title">Dateiübertragung</string>
-  <string name="incoming_file_confirm_content">\"%1$s\" möchte Ihnen %2$s (%3$s) senden. \n\n Datei annehmen?</string>
+  <string name="incoming_file_confirm_content">\"%1$s\" möchte Ihnen %2$s (%3$s) senden.  Datei annehmen?</string>
   <string name="incoming_file_confirm_cancel">Ablehnen</string>
   <string name="incoming_file_confirm_ok">Akzeptieren</string>
   <string name="incoming_file_confirm_timeout_ok">OK</string>
@@ -74,7 +74,7 @@
   <string name="status_forbidden">Diese Übertragung wird durch das Zielgerät verhindert.</string>
   <string name="status_canceled">Diese Übertragung wurde vom Nutzer abgebrochen.</string>
   <string name="status_file_error">Speicherproblem</string>
-  <string name="status_no_sd_card">Keine Kein USB-Speicher.</string>
+  <string name="status_no_sd_card">Kein USB-Speicher.</string>
   <string name="status_connection_error">Verbindungsfehler</string>
   <string name="status_protocol_error">Die Anfrage kann nicht richtig verarbeitet werden.</string>
   <string name="status_unknown_error">Unbekannter Fehler</string>

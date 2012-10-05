@@ -37,7 +37,7 @@
   <string name="pref_camera_picturesize">Bild Größe</string>
   <string name="pref_picturesize_M">MB</string>
   <string name="pref_picturesize_10K">0K</string>
-  <string name="pref_picturesize_fullscreen">Fullscreen</string>
+  <string name="pref_picturesize_fullscreen">Vollbild</string>
   <string name="pref_camera_jpegquality">Bild Qualität</string>
   <string name="pref_camera_jpegquality_superfine">Extrafein</string>
   <string name="pref_camera_jpegquality_fine">Fein</string>
@@ -59,7 +59,7 @@
   <string name="pref_camera_focusmode_macro">Makro</string>
   <string name="pref_camera_focusmode_fixed">Fest</string>
   <string name="pref_camera_focusmode_edof">EDOF</string>
-  <string name="pref_camera_focusmode_continuous_video">Video Ständig</string>
+  <string name="pref_camera_focusmode_continuous_video">Video ständig</string>
   <string name="flash_auto">Auto</string>
   <string name="flash_on">An</string>
   <string name="flash_off">Aus</string>

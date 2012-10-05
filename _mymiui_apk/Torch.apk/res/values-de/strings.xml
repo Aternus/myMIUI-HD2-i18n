@@ -16,7 +16,7 @@
   <string name="label_on">An</string>
   <string name="label_off">Aus</string>
   <string name="label_high">Hohe Helligkeit</string>
-  <string name="label_strobe">Stoboskop</string>
+  <string name="label_strobe">Stroboskop</string>
   <string name="label_frequency">Frequenz: (ziehen zum ändern)</string>
   <string name="widget_options">Allgemeine Optionen</string>
   <string name="setting_widget_bright">Helligkeits Widget</string>
