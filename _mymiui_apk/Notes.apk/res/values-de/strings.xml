@@ -4,7 +4,7 @@
   <string name="app_widget2x2">Notizen 2x2</string>
   <string name="app_widget4x4">Notizen 4x4</string>
   <string name="widget_havenot_content">Keine passende Notiz gefunden, klicken um eine zu erstellen.</string>
-  <string name="widget_under_visit_mode">Privat Modus.Notizen werden nicht angezeigt</string>
+  <string name="widget_under_visit_mode">Privat Modus. Notizen werden nicht angezeigt</string>
   <string name="notelist_string_info">...</string>
   <string name="notelist_menu_new">Neu</string>
   <string name="noteedit_use_alert_time_error">Zeit setzen fehlgeschlagen</string>
@@ -91,7 +91,7 @@
   <string name="button_check">Alle</string>
   <string name="button_check_none">Keine</string>
   <string name="button_move">Verschieben</string>
-  <string name="call_record_folder_name">Call record</string>
+  <string name="call_record_folder_name">Aufnahmen</string>
   <string name="hint_foler_name">Name eingeben</string>
   <string name="search_label">Suche Notizen</string>
   <string name="search_hint">Suche Notizen</string>
