@@ -3,10 +3,10 @@
   <string name="sidekick_activity_label">SideKick</string>
   <string name="menu_preferences">Einstellungen</string>
   <string name="menu_history">Verlauf</string>
-  <string name="search_hint">Such-begriff eingeben</string>
+  <string name="search_hint">Suchbegriff eingeben</string>
   <string name="change_search_setting">Sucheinstellungen ändern</string>
   <string name="search_web">Web durchsuchen</string>
-  <string name="search_recent_hint">Zuletzt Gesucht</string>
+  <string name="search_recent_hint">Zuletzt gesucht</string>
   <string name="search_no_result_hint">Kein Ergebniss für \"%s\".</string>
   <string name="search_no_result_hint_suggistion">Suche Tips:</string>
   <string name="search_no_result_hint_line1">Vergewissern Sie sich, dass alle Wörter richtig geschrieben sind</string>
