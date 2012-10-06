@@ -170,7 +170,8 @@ Credits to the original guide on [Learning how to Translate MIUI](https://docs.g
 
 ## How to Translate
 
-__NOTE:__ the full list of locales is available at the URL specified inside the source "en.lang" file.
+__NOTE:__ the full list of locales is available at __/_aroma_langs__.  
+__NOTE²:__ you should use "en.lang" as the source file.
 
 Translate all strings which appear to the __right__ to the equal sign (=)
 
@@ -179,8 +180,8 @@ text_next=Next __becomes__ text_next=Next_in_your_language
 
 __NOTES:__
 
-* in the string there might be styling and new line characters.
-* a new line character is represented by a backslash (\)
-* styling characters are similar to HTML/XML tags. they begin with a <tag> and end with a </tag> (where tag is the actual styling attribute)
-* you don't need to translate the styling characters!
-* you don't need to touch the new line characters!
+* In the string, there might be styling and new line characters.
+* A new line character is represented by a backslash (\).
+* Styling characters are similar to HTML/XML tags. They begin with a <tag> and end with a </tag> (where tag is the actual styling attribute).
+* You don't need to translate the styling characters!
+* You don't need to alter the new line characters!
