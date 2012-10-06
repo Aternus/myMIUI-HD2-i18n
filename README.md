@@ -70,9 +70,10 @@ git remote add source https://github.com/Aternus/myMIUI-HD2-i18n.git
 ### Step 4 - File Structure
 ```
 /_aroma_langs           - myMIUI AROMA Installer Language Files
-/_crowdin               - Crowdin Source as seen in MIUI 2.4.20
 /_mymiui_apk            - myMIUI APK Language Files
 /_mymiui_framework      - myMIUI Framework Language Files
+/_sources_crowdin               - Crowdin Translated Sources as seen in MIUI 2.4.20
+/_sources_MIUI               - MIUI Sources as seen in MIUI 2.4.20
 ```
 
 ### Step 5a - Translating - Core Concepts
