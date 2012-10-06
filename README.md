@@ -137,11 +137,11 @@ Before working on any files, I strongly suggest pulling the latest changes from 
 git pull source
 ```
 
-### Credits
+## Credits
 Credits to the original guide on [Learning how to Translate MIUI](https://docs.google.com/document/d/1H8DoN6nnbsOGB_fauBiCcpyB4OAIEHjqEiJX322v45Y/edit).
 
-
 #####################################################################
+.     
 
 # myMIUI AROMA Installer i18n
 
