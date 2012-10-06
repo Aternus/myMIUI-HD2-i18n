@@ -118,7 +118,7 @@ Its best to look at an already translated APK for more information and better un
 After you've finished making the required changes, you'll have to add the changed files to the staging index and commit the changes to the repository.
 ```
 git add .
-git commit -m "Message decribing what you've changed"
+git commit -m "Message describing what you've changed"
 ```
 
 ### Step 7 - Pushing (Uploading) your changes to GitHub & Sharing your changes
