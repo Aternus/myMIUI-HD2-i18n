@@ -154,7 +154,7 @@
   <string name="fail_reason_too_long_filename">Der Dateiname ist zu lang (\"%s\")</string>
   <string name="exporting_contact_list_title">Kontaktdaten werden exportiert.</string>
   <string name="exporting_contact_list_message">Exportiere Kontakt-Daten nach \"%s\"</string>
-  <string name="fail_reason_could_not_initialize_exporter">Could not initialize the exporter: \"%s\"</string>
+  <string name="fail_reason_could_not_initialize_exporter">Export konnte nicht initialisiert werden: \"%s\"</string>
   <string name="fail_reason_error_occurred_during_export">Fehler beim Export: \"%s\"</string>
   <string name="composer_failed_to_get_database_infomation">Fehler bei der Ermittlung von Datenbank-Informationen</string>
   <string name="composer_has_no_exportable_contact">Es ist kein exportierbarer Kontakt vorhanden. Falls sich Kontakte auf Ihrem Telefon befinden, ist das Exportieren der Kontakte möglicherweise durch einen Datenanbieter gesperrt.</string>
@@ -413,7 +413,7 @@
   <string name="birthday_picker_reminder">Geburtstagserinnerung</string>
   <string name="birthday_remind">Geburtstagserinnerung</string>
   <string name="birthday_remind_notify" formatted="false">Heute ist %s %s Glückwünsche und Geschenk nicht vergessen.</string>
-  <string name="birthday_remind_3days_notify" formatted="false">3Tage bis %s %s Karte und Geschenk nicht vergessen</string>
+  <string name="birthday_remind_3days_notify" formatted="false">3 Tage bis %s %s Karte und Geschenk nicht vergessen</string>
   <string name="dialer_empty_text_no_call_log">Keine Einträge</string>
   <string name="dialer_empty_text_no_search_result">Keine Treffer</string>
   <string name="menu_remove_duplicate">Lösche doppelte Kontakte</string>

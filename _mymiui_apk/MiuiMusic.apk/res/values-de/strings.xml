@@ -15,8 +15,8 @@
   <string name="delete_confirm_button_text">OK</string>
   <string name="enter_batch_edit">Alle</string>
   <string name="exit_batch_edit">Keine</string>
-  <string name="edit_artist_name">Künstler Name ändern</string>
-  <string name="edit_album_name">Album Titel ändern</string>
+  <string name="edit_artist_name">Künstlernamen ändern</string>
+  <string name="edit_album_name">Albumtitel ändern</string>
   <string name="edit_all_songs_id3_msg">ID3 Informationen der ausgewählten Lieder wird bearbeitet</string>
   <string name="edit_all_songs_id3_backgroud">Ändere ID3 Informationen der ausgwählten Lieder</string>
   <string name="scanning">Durchsuche USB-Speicher...</string>
@@ -43,7 +43,7 @@
   <string name="add_to_playlist">Zur Wiedergabeliste hinzufügen</string>
   <string name="add_to_favorite">Zu Favoriten</string>
   <string name="delete_from_favorite">Favorit löschen</string>
-  <string name="queue">Queue</string>
+  <string name="queue">Warteschlange</string>
   <string name="new_playlist">Neue Wiedergabeliste</string>
   <string name="new_playlist_name_template">Neue Wiedergabeliste %d</string>
   <string name="context_menu_status_online">Online</string>
@@ -123,7 +123,7 @@
   <string name="screen_bright_wake_summary">Displaybeleuchtung eingeschaltet lassen</string>
   <string name="shake_summary">Schütteln zum Lied wechseln</string>
   <string name="shake_sensitivity_summary">Schüttel Empfindlichkeit</string>
-  <string name="shake_sensitivity_helper">Schüttel Links für höhere und Rechts für niedrigere Empfindlichkeit.</string>
+  <string name="shake_sensitivity_helper">Schüttle links für höhere und rechts für niedrigere Empfindlichkeit.</string>
   <string name="keep_quit_location_summary">Letzte Wiedergabestelle speichern</string>
   <string name="fade_effect_summary">Überblenden zwischen jedem Lied</string>
   <string name="stop_when_wifi_disconnect">WLAN-Verbindung unterbrochen. Ändern sie die Einstellungen, wenn über das \'Mobile-Netzwerk\' Online-Musik konsumiert werden darf.</string>
@@ -194,7 +194,7 @@
   <string name="id3_edit_failed">ID3 Tag ändern fehlgeschlagen</string>
   <string name="meta_empty">Lied Info´s nicht verfügbar</string>
   <string name="albumPickerNotFoundText">Album Selector nicht gefunden</string>
-  <string name="lyricPickerNotFoundText">Lyric Picker nicht intalliert.</string>
+  <string name="lyricPickerNotFoundText">Lyric Picker nicht installiert.</string>
   <string name="save">Speichern</string>
   <string name="lyric_download">Download Lyrics</string>
   <string name="lrc_searching">Suche nach Lied-Text…</string>

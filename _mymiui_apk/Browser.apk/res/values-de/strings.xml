@@ -13,7 +13,7 @@
   <string name="bookmark_url">URL</string>
   <string name="bookmark_folder">Ordner</string>
   <string name="bookmark_folderpicker_header">Ordner auswählen</string>
-  <string name="night_mode_desc">Erzwinge Anti-Farbe auf Webseite.</string>
+  <string name="night_mode_desc">Erzwinge Nachtmodus auf Webseite.</string>
   <string name="menu_brightness_adjust">Helligkeit</string>
   <string name="save">OK</string>
   <string name="back">Zurück</string>
@@ -73,7 +73,7 @@
   <string name="pref_content_homepage">Setze Home Page</string>
   <string name="pref_privacy_clear_cache">Lösche Cache</string>
   <string name="pref_privacy_clear_cache_summary">Lösche den Lokalen Cache und Datenbank.</string>
-  <string name="pref_privacy_clear_cache_dlg">Hiermit löschen sie den Lokalen Cache und Datenbänke.</string>
+  <string name="pref_privacy_clear_cache_dlg">Hiermit löschen sie den lokalen Cache und Datenbänke.</string>
   <string name="pref_privacy_clear_cookies">Lösche Cookies</string>
   <string name="pref_privacy_clear_cookies_summary">Lösche alle Browser Cookies.</string>
   <string name="pref_privacy_clear_cookies_dlg">Hiermit löschen Sie alle Cookies.</string>
@@ -112,9 +112,9 @@
   <string name="pref_about_message2">Copyright ©2011 MIUI.COM</string>
   <string name="pref_about_message3">Alle Rechte vorbehalten</string>
   <string name="pref_always_show_tabbar">Zeige immer Tabs</string>
-  <string name="pref_always_show_tabbar_summary">Zum leichten Fenster wechseln.</string>
+  <string name="pref_always_show_tabbar_summary">Zum letzten Fenster wechseln.</string>
   <string name="pref_show_tabbar_in_loading">Zeige Tabs beim Laden</string>
-  <string name="pref_hide_buttons_in_fullscreen">Schwebende Knöpfe</string>
+  <string name="pref_hide_buttons_in_fullscreen">Schwebende Buttons</string>
   <string name="pref_simple_mode">Bandbreiten Sparmodus</string>
   <string name="pref_hide_status_bar_always">Status Leiste</string>
   <string name="pre_set_full_screen">Vollbild Kontrolle</string>
@@ -192,7 +192,7 @@
   <string name="webpage_notitle">Unbenannte Seite</string>
   <string name="tip_enter_full_screen_mode">Drücken Sie den Knopf unten rechts um den Vollbildmodus zu verlassen.</string>
   <string name="email_subject">MIUI Browser Feedback</string>
-  <string name="email_body">Webseiten Feedback: \n%s\n Hinterlassen sie ein Feedback: \n\n</string>
+  <string name="email_body">Webseiten Feedback: Hinterlassen sie ein Feedback: </string>
   <string name="submit">Bestätigen</string>
   <string name="homepage_title">Home</string>
   <string name="reading_cached">%d gespeicherte Seiten.</string>
@@ -278,14 +278,14 @@
   <string name="website_edit_failed_message">Bearbeitung der Seite fehlgeschlagen!</string>
   <string name="cannot_enter_full_screen">Vollbildmodus nicht möglich</string>
   <string name="exit_text_selection">Textauswahl beenden</string>
-  <string name="download_no_application_title">Cannot open file</string>
-  <string name="switch_to_fullscreen_mode">Click here to switch to full screen mode</string>
-  <string name="switch_to_reading_mode">Click here to switch to reading mode</string>
-  <string name="permlab_downloadCompletedIntent">send download message</string>
-  <string name="permdesc_downloadCompletedIntent">permit to send download-completed message to application</string>
+  <string name="download_no_application_title">Kann Datei nicht öffnen</string>
+  <string name="switch_to_fullscreen_mode">Hier klicken für Vollbildmodus</string>
+  <string name="switch_to_reading_mode">Hier klicken für Lesemodus</string>
+  <string name="permlab_downloadCompletedIntent">Sende Download Nachricht</string>
+  <string name="permdesc_downloadCompletedIntent">Erlaube das Senden der Downloadmeldung an eine App</string>
   <string name="download_unknown_title">&lt;no title&gt;</string>
   <string name="notification_filename_separator">,\u0020</string>
   <string name="notification_filename_extras">\u0020and %d download</string>
-  <string name="notification_download_complete">Download completed</string>
-  <string name="notification_download_failed">download failed</string>
+  <string name="notification_download_complete">Download vollständig</string>
+  <string name="notification_download_failed">Download abgebrochen</string>
 </resources>
