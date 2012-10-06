@@ -170,8 +170,7 @@ Credits to the original guide on [Learning how to Translate MIUI](https://docs.g
 
 ## How to Translate
 
-__NOTE:__ the full list of locales is available at __/_aroma_langs__.  
-__NOTE²:__ you should use "en.lang" as the source file.
+__NOTE:__ The full list of locales is available at __/_aroma_langs__, you should use "en.lang" as the source file.
 
 Translate all strings which appear to the __right__ to the equal sign (=)
 
