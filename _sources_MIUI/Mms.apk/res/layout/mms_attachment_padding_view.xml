@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/attachment_padding_view" android:background="@null" android:focusable="false" android:visibility="gone" android:clickable="false" android:longClickable="false" android:layout_width="@dimen/mms_attachment_padding_width" android:layout_height="@dimen/mms_attachment_padding_height"/>

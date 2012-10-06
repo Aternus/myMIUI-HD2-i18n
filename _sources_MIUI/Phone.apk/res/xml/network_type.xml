@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" android:title="@string/prefered_network_type_title">
+  <RadioButtonPreferenceCategory android:title="@string/preferred_network_mode_cdma" android:key="network_type_list_cdma">
+    <RadioButtonPreference android:title="@string/preferred_network_type_entries_auto" android:key="4"/>
+  </RadioButtonPreferenceCategory>
+  <RadioButtonPreferenceCategory android:title="@string/preferred_network_mode_gsm_umts" android:key="network_type_list_gsm_umts">
+    <RadioButtonPreference android:title="@string/preferred_network_type_entries_3g_preferred" android:key="0"/>
+    <RadioButtonPreference android:title="@string/preferred_network_type_entries_only_2g" android:key="1"/>
+    <RadioButtonPreference android:title="@string/preferred_network_type_entries_only_3g" android:key="2"/>
+  </RadioButtonPreferenceCategory>
+</PreferenceScreen>

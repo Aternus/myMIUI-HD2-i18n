@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:icon="@drawable/ic_sort" android:id="@id/sort" android:title="@string/menu_item_sort">
+    <menu>
+      <item android:id="@id/sort_by_name"/>
+      <item android:id="@id/sort_by_name_reverse"/>
+      <item android:id="@id/sort_by_time"/>
+      <item android:id="@id/sort_by_time_reverse"/>
+      <item android:id="@id/sort_by_freq"/>
+      <item android:id="@id/sort_by_freq_reverse"/>
+    </menu>
+  </item>
+  <item android:icon="@drawable/ic_refresh" android:id="@id/rescan_sdcard" android:title="@string/rescan_sdcard"/>
+  <item android:icon="@drawable/ic_setting" android:id="@id/set_preference" android:title="@string/global_setting"/>
+</menu>

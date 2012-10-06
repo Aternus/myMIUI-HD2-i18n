@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@id/toggle_bookmark" android:title="@string/cancel_bookmark"/>
+  <item android:id="@id/toggle_hidden" android:title="@string/add_hidden"/>
+  <item android:id="@id/reset_cover" android:title="@string/reset_folder_cover"/>
+  <item android:id="@id/delete" android:title="@string/delete"/>
+</menu>

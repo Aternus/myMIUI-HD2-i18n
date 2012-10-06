@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.ui.widget.ReadOnlyContactEditorView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+  <include android:id="@id/edit_photo" layout="@layout/item_photo_editor"/>
+  <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/read_only_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip"/>
+  <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0px"/>
+  <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:id="@id/read_only_warning" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginTop="13.0dip" android:layout_marginBottom="13.0dip" android:drawableLeft="@*android:drawable/ic_dialog_alert" android:drawablePadding="10.0dip"/>
+  <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0px"/>
+  <LinearLayout android:orientation="vertical" android:id="@id/sect_general" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+</com.android.contacts.ui.widget.ReadOnlyContactEditorView>

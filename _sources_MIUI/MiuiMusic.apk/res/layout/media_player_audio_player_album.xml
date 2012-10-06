@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/album_wrap" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <ImageView android:id="@id/default_album_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/audio_player_default_show_bg" android:scaleType="fitStart" android:layout_alignParentBottom="true"/>
+  <SpectrumVisualizer android:gravity="center" android:id="@id/spectrum_visualizer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:sliding_dot_bar="@drawable/sliding_panel_visualization_dot_bar" android:sliding_panel="@drawable/sliding_panel_visualization_bg"/>
+  <RelativeLayout android:id="@id/album_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/spectrum_visualizer">
+    <LinearLayout android:id="@id/download_status_wrap" android:background="@drawable/download_goto_bg_selector" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_centerHorizontal="true">
+      <ImageView android:layout_gravity="center_vertical" android:id="@id/download_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center"/>
+      <ProgressBar android:layout_gravity="center_vertical" android:id="@id/download_in_progress" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:scaleType="center" android:indeterminateOnly="true" style="@android:style/Widget.ProgressBar.Inverse"/>
+      <TextView android:textColor="@color/audio_player_album_download_text" android:gravity="left|center" android:id="@id/download_status" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:layout_alignParentRight="true"/>
+    </LinearLayout>
+    <ImageView android:id="@id/playing_album" android:layout_width="222.0dip" android:layout_height="225.0dip" android:scaleType="fitXY" android:layout_below="@id/download_status_wrap" android:layout_centerHorizontal="true"/>
+    <ImageView android:id="@id/playing_album_project" android:layout_width="222.0dip" android:layout_height="@dimen/album_project_height" android:scaleType="fitXY" android:layout_below="@id/playing_album" android:layout_alignLeft="@id/playing_album"/>
+    <ImageView android:id="@id/album_mask" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/audio_player_playing_album_mask" android:scaleType="fitStart" android:layout_below="@id/download_status_wrap" android:layout_centerHorizontal="true"/>
+  </RelativeLayout>
+</RelativeLayout>

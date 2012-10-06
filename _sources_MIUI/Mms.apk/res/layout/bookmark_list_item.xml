@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@id/bookmark_list_item" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@*android:style/LargeListItem">
+  <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginBottom="7.0dip">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+      <ImageView android:id="@id/attachment_pic" android:background="@null" android:visibility="gone" android:layout_width="@dimen/mms_attachment_pic_width" android:layout_height="@dimen/mms_attachment_pic_height"/>
+      <ImageView android:id="@id/attachment_card" android:background="@drawable/message_attachment_card_list" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      <ImageView android:id="@id/attachment_audio" android:background="@drawable/message_attachment_audio_list" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      <ImageView android:id="@id/attachment_video" android:background="@drawable/message_attachment_video_list" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      <ImageView android:id="@id/attachment_default" android:background="@drawable/message_attachment_default_list" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      <TextView android:autoLink="all" android:linksClickable="false" android:id="@id/message_body" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_weight="1.0" android:lineSpacingMultiplier="1.2" style="@style/TextAppearanceBookmarkChild.Primary"/>
+    </LinearLayout>
+    <TextView android:id="@*android:attr/theme" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" style="@style/TextAppearanceBookmarkChild.Secondary"/>
+  </LinearLayout>
+</LinearLayout>

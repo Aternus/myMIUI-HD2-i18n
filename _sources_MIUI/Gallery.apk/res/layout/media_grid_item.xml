@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+  <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/image_frame" android:background="@drawable/folder_view_thumb_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.android.gallery.view.AutoFitImageView android:layout_gravity="center" android:id="@id/folder_item_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop"/>
+    <ImageView android:layout_gravity="center" android:id="@id/selected_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/folder_view_thumb_selected_cover" android:scaleType="centerCrop"/>
+    <CheckBox android:layout_gravity="bottom|right|center" android:id="@id/item_checkable" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:button="@drawable/btn_check"/>
+  </FrameLayout>
+  <TextView android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/thumb_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="90.0dip" android:singleLine="true" style="@style/InformationItemTitleStyle"/>
+</LinearLayout>

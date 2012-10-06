@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="UpDownActivity" parent="@*android:style/Animation.Activity">
+    <item name="android:activityOpenEnterAnimation">@*android:anim/push_up_in</item>
+    <item name="android:activityOpenExitAnimation">@*android:anim/fade_out</item>
+    <item name="android:activityCloseEnterAnimation">@null</item>
+    <item name="android:activityCloseExitAnimation">@*android:anim/push_down_out</item>
+  </style>
+  <style name="NewAccount">
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowAnimationStyle">@style/UpDownActivity</item>
+  </style>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mms.ui.AttachmentEditor xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/attachment_editor" android:layout_width="fill_parent" android:layout_height="wrap_content">
+  <EditText android:id="@id/subject" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/subject_hint" android:singleLine="true" android:maxLength="40" android:capitalize="sentences" android:autoText="true"/>
+  <ViewStub android:id="@id/image_attachment_view_portrait_stub" android:layout="@layout/image_attachment_view_portrait" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+  <ViewStub android:id="@id/video_attachment_view_portrait_stub" android:layout="@layout/video_attachment_view_portrait" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+  <ViewStub android:id="@id/audio_attachment_view_portrait_stub" android:layout="@layout/audio_attachment_view_portrait" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+  <ViewStub android:id="@id/slideshow_attachment_view_portrait_stub" android:layout="@layout/slideshow_attachment_view_portrait" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+  <ViewStub android:id="@id/image_attachment_view_landscape_stub" android:layout="@layout/image_attachment_view_landscape" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+  <ViewStub android:id="@id/video_attachment_view_landscape_stub" android:layout="@layout/video_attachment_view_landscape" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+  <ViewStub android:id="@id/audio_attachment_view_landscape_stub" android:layout="@layout/audio_attachment_view_landscape" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+  <ViewStub android:id="@id/slideshow_attachment_view_landscape_stub" android:layout="@layout/slideshow_attachment_view_landscape" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+</com.android.mms.ui.AttachmentEditor>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageTextButton xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/click" android:text="@string/theme_select_others" android:drawableLeft="@drawable/picker" android:drawablePadding="10.0dip" style="@*android:style/BottomButtonBar"/>

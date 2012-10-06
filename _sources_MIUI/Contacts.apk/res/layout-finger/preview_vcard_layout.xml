@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <ViewSwitcher android:id="@id/switcher" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/card_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+      <include layout="@layout/list_header"/>
+      <ListView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:fastScrollEnabled="true" style="@*android:style/Widget.ListView.NoDivider"/>
+      <include layout="@layout/contacts_list_buttons"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/card_root_view" android:background="@*android:drawable/settings_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+      <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/banner" android:background="@drawable/list_header_background" android:layout_width="fill_parent" android:layout_height="145.0px">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/photo" android:background="@*android:drawable/quickcontact_badge_big" android:layout_width="75.0dip" android:layout_height="75.0dip"/>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_weight="1.0">
+          <TextView android:textAppearance="@*android:style/TextAppearance.ListView.PrimaryItem" android:textSize="24.0sp" android:textStyle="bold" android:textColor="@*android:color/title_text_color" android:ellipsize="end" android:id="@id/vcard_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+          <TextView android:textAppearance="@*android:style/TextAppearance.ListView.SecondaryItem" android:textColor="@*android:color/tab_text_color" android:ellipsize="end" android:id="@id/vcard_item_company" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+          <TextView android:textAppearance="@*android:style/TextAppearance.ListView.SecondaryItem" android:textColor="@*android:color/tab_text_color" android:ellipsize="end" android:id="@id/vcard_item_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        </LinearLayout>
+      </LinearLayout>
+      <ListView android:id="@id/sect_general" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:fastScrollEnabled="true" style="@*android:style/Widget.ListView.NoDivider"/>
+      <LinearLayout android:layout_gravity="center_vertical" android:id="@id/import_single_vcard" android:layout_alignParentBottom="true" style="@*android:style/BottomButtonBar">
+        <Button android:gravity="center" android:id="@id/btn_import_single" android:text="@string/import_preview_vcard" android:drawablePadding="10.0dip" style="@*android:style/BottomButton.Left"/>
+        <Button android:gravity="center" android:id="@id/btn_cancel" android:text="@string/btn_cancel" android:drawablePadding="10.0dip" style="@*android:style/BottomButton.Right"/>
+      </LinearLayout>
+    </LinearLayout>
+  </ViewSwitcher>
+</FrameLayout>

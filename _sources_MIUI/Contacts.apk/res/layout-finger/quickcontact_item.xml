@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.ui.widget.CheckableImageView xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/quickcontact_slider_btn" android:focusable="true" android:clickable="true" android:layout_width="160.0px" android:layout_height="wrap_content">
+  <ImageView android:id="@id/quickcontact_image" android:layout_width="34.0px" android:layout_height="34.0px" android:scaleType="centerInside"/>
+  <TextView android:textAppearance="@*android:style/TextAppearance.UnderIcon" android:id="@id/quickcontact_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+</com.android.contacts.ui.widget.CheckableImageView>

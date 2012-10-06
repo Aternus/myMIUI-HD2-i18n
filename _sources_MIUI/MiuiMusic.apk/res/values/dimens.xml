@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="normal_height">50.0dip</dimen>
+  <dimen name="media_player_header_height">50.0dip</dimen>
+  <dimen name="media_player_padding">10.0dip</dimen>
+  <dimen name="main_title_text_size">24.0dip</dimen>
+  <dimen name="album_project_height">50.0dip</dimen>
+  <dimen name="drawer_tab_height">67.0dip</dimen>
+  <dimen name="drawer_bar_height">79.0dip</dimen>
+  <dimen name="toast_padding_bottom_height">55.0dip</dimen>
+  <dimen name="drawer_bar_top_project">-12.0dip</dimen>
+  <dimen name="drawer_bar_bottom_project">0.0dip</dimen>
+  <dimen name="drawer_bar_gradual_change">1.0dip</dimen>
+  <dimen name="status_bar_height">25.0dip</dimen>
+  <dimen name="lyric_line_extra_spacing">24.0dip</dimen>
+  <dimen name="lyric_line_extra_spacing_neg">-4.0dip</dimen>
+  <dimen name="widget_4x1_size">62.0dip</dimen>
+  <dimen name="alphabet_scroller_padding_top">34.0dip</dimen>
+  <dimen name="alphabet_scroller_overlay_size">86.0dip</dimen>
+  <dimen name="alphabet_scroller_width">32.0dip</dimen>
+  <dimen name="download_bar_top_margin_for_854">20.0dip</dimen>
+  <dimen name="download_bar_bottom_margin_for_854">15.0dip</dimen>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/setting_title">
+  <CheckBoxPreference android:title="@string/pref_root_permission_title" android:key="pref_open_root_permissain" android:summary="@string/pref_root_permission_summary" android:defaultValue="false"/>
+</PreferenceScreen>

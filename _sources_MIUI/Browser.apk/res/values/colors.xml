@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="transparent">#00000000</color>
+  <color name="white">#ffffffff</color>
+  <color name="black">#ff000000</color>
+  <color name="red">#ffff0000</color>
+  <color name="grey">#ff888888</color>
+  <color name="miren_green">#ff7fa87f</color>
+  <color name="dialog_divider">#70002833</color>
+  <color name="dialog_background">#38001422</color>
+  <color name="bookmark_text">#ff425e76</color>
+  <color name="bookmark_background_blue">#ffdde4ea</color>
+  <color name="bookmark_folder_background">#ffe3e8ee</color>
+  <color name="rss_bottom_text">#ff425e76</color>
+  <color name="rss_detail_bottom">#ff336699</color>
+  <color name="search_engine_selection_item_bg">#ffeef3f7</color>
+  <color name="username_edit">#ff000000</color>
+  <color name="password_edit">#ff000000</color>
+  <color name="ssl_text_label">#ffffffff</color>
+  <color name="ssl_text_value">#ffffffff</color>
+  <color name="file_picker_new_folder">#ff0066cc</color>
+  <color name="geolocation_permissions_prompt_background">#ffdddddd</color>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/bottombar_bg" android:padding="3.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_bar_height" android:inAnimation="@anim/in_anim" android:outAnimation="@anim/out_anim">
+  <Button android:id="@id/folder_view_btn_delete" android:background="@drawable/folder_btn_delete" android:text="@string/delete" style="@style/MultiSelectActionButton"/>
+  <Button android:id="@id/folder_view_btn_send" android:background="@drawable/bottom_btn_bg" android:text="@string/send" style="@style/MultiSelectActionButton"/>
+  <Button android:id="@id/folder_view_btn_select_mask" android:background="@drawable/bottom_btn_bg" android:text="@string/select_all" style="@style/MultiSelectActionButton"/>
+</LinearLayout>

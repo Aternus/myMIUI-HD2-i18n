@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <include layout="@layout/list_header"/>
+  <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+    <include layout="@layout/contacts_list_list_view"/>
+    <include layout="@layout/contacts_list_empty"/>
+  </LinearLayout>
+  <com.android.contacts.ui.ContactDeleteButtonBar android:id="@id/list_delete_btn_bar" android:visibility="gone" style="@*android:style/BottomButtonBar">
+    <ImageTextButton android:id="@id/btn_delete" android:text="@string/remove" android:drawableLeft="@drawable/dialer_delete" android:drawablePadding="5.0dip" style="@*android:style/BottomButton.Left"/>
+    <Button android:id="@id/btn_check" android:text="@string/check_all" style="@*android:style/BottomButton.Right"/>
+    <Button android:id="@id/btn_cancel" android:text="@string/btn_cancel" style="@*android:style/BottomButton.Right"/>
+  </com.android.contacts.ui.ContactDeleteButtonBar>
+</LinearLayout>

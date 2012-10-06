@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="WindowTitleSecondary" parent="@*android:style/WindowTitle">
+    <item name="android:textSize">12.0sp</item>
+    <item name="android:textColor">#e6ffffff</item>
+  </style>
+  <style name="ListItemSecondaryFailed" parent="@*android:style/TextAppearance.ListView.SecondaryItem">
+    <item name="android:textColor">#ffff0000</item>
+  </style>
+</resources>

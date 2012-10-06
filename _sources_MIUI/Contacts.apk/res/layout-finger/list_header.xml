@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/list_header" android:background="@*android:drawable/titlebar_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="80.0px">
+  <TextView android:textAppearance="@*android:style/TextAppearance.WindowTitle" android:id="@id/main_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0px" android:text="@string/contactsList"/>
+  <TextView android:textAppearance="@*android:style/TextAppearance.WindowTitle" android:id="@id/sub_header" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0px" android:text="@string/contactsList" android:layout_weight="1.0"/>
+  <ImageView android:id="@id/header_action" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*android:drawable/list_header_add"/>
+</LinearLayout>

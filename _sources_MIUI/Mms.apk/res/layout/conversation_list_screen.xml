@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@*android:id/empty" android:background="@drawable/conversation_list_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/conversation_list_empty_image"/>
+    <TextView android:textSize="@*android:dimen/normal_text_size" android:textColor="?android:textColorSecondary" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/conversation_list_empty_text"/>
+  </LinearLayout>
+  <EditableListView android:scrollbarStyle="insideOverlay" android:id="@id/list" android:background="@drawable/conversation_list_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@null" android:layout_weight="1.0" android:fastScrollEnabled="true" android:drawSelectorOnNothing="true" style="@*android:style/Widget.ListView.NoDivider"/>
+  <com.android.mms.ui.ConversationListViewButtonBar android:id="@id/list_btn_bar" android:visibility="gone" style="@*android:style/BottomButtonBar">
+    <ImageTextButton android:id="@id/btn_delete" android:text="@string/remove" android:drawableLeft="@drawable/delete" android:drawablePadding="5.0dip" style="@*android:style/BottomButton.Left"/>
+    <Button android:id="@id/btn_check" android:text="@string/check_all" style="@*android:style/BottomButton.Right"/>
+  </com.android.mms.ui.ConversationListViewButtonBar>
+</LinearLayout>

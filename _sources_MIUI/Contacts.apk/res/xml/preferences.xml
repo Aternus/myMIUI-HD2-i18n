@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory android:title="@string/pref_import_and_export_title">
+    <PreferenceScreen android:title="@string/pref_title_import" android:key="pref_key_import_contact"/>
+    <PreferenceScreen android:title="@string/pref_title_export" android:key="pref_key_export_contact"/>
+  </PreferenceCategory>
+  <PreferenceCategory android:title="@string/pref_contacts_photo_title">
+    <CheckBoxPreference android:title="@string/pref_enable_contact_photo" android:key="pref_key_enable_contact_photo" android:defaultValue="true"/>
+    <PreferenceScreen android:title="@string/pref_batch_set_contacts_photo" android:key="pref_key_batch_set_contacts_photo">
+      <intent android:targetPackage="com.android.contacts" android:action="android.intent.action.MAIN" android:targetClass="com.android.contacts.ui.PhotoTabActivity"/>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/pref_batch_remove_contacts_photo" android:key="pref_key_batch_remove_contacts_photo">
+      <intent android:targetPackage="com.android.contacts" android:action="android.intent.action.MAIN" android:targetClass="com.android.contacts.ui.PhotoTabActivity"/>
+    </PreferenceScreen>
+  </PreferenceCategory>
+  <PreferenceCategory android:title="@string/pref_contacts_photo_title">
+    <PreferenceScreen android:title="@string/menu_remove_duplicate" android:key="pref_key_remove_duplicate"/>
+    <ListPreference android:entries="@array/click_shortcut_entries" android:title="@string/pref_click_shortcut_title" android:key="pref_click_shortcut" android:defaultValue="2" android:dialogTitle="@string/pref_click_shortcut_title" android:entryValues="@array/click_shortcut_values"/>
+    <PreferenceScreen android:title="@string/pref_wipe_data" android:key="pref_key_wipe_data"/>
+    <PreferenceScreen android:title="@string/pref_key_rebuild_t9_index_title" android:key="pref_key_rebuild_t9_index" android:summary="@string/pref_key_rebuild_t9_index_message"/>
+  </PreferenceCategory>
+</PreferenceScreen>

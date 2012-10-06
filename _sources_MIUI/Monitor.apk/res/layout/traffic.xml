@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@*android:drawable/settings_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+      <TextView android:id="@id/duration" style="@*android:style/Widget.TextView.ListSeparator"/>
+      <ScreenView android:id="@id/traffic_detail_screens" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip"/>
+      <LinearLayout android:gravity="center_vertical" android:background="@*android:drawable/preference_first_item" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center_vertical" android:id="@id/title_enable_monitor" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@*android:style/TextAppearance.Preference.PrimaryItem"/>
+        <SlidingButton android:id="@id/btn_enable_monitor" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      </LinearLayout>
+      <LinearLayout android:orientation="vertical" android:id="@id/ll_traffic_setting_panel" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/set_traffic" layout="@layout/dialog_traffic_setting_item"/>
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_traffic_status_panel" android:background="@*android:drawable/preference_item" android:layout_width="fill_parent" android:layout_height="wrap_content">
+          <com.android.monitor.TrafficStatusBar android:id="@id/traffic_status_bar" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginTop="2.0dip"/>
+          <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/tv_traffic_used" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@*android:style/TextAppearance.Preference.SecondaryItem"/>
+            <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+              <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/traffic_available_sign"/>
+              <TextView android:id="@id/tv_traffic_unused" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@*android:style/TextAppearance.Preference.SecondaryItem"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+              <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/traffic_threshold_sign"/>
+              <TextView android:gravity="right" android:id="@id/tv_traffic_threshold" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@*android:style/TextAppearance.Preference.SecondaryItem"/>
+            </LinearLayout>
+          </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:background="@*android:drawable/preference_item" android:layout_width="fill_parent" android:layout_height="wrap_content">
+          <TextView android:gravity="center_vertical" android:id="@id/title_auto_turn_off_mobile" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/auto_turn_off_mobile" android:layout_weight="1.0" style="@*android:style/TextAppearance.Preference.PrimaryItem"/>
+          <SlidingButton android:id="@id/btn_auto_turn_off_mobile" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <include android:id="@id/monitor_start_date" layout="@layout/dialog_traffic_setting_item"/>
+        <include android:id="@id/adjust_unsed_traffic" layout="@layout/dialog_traffic_setting_item"/>
+      </LinearLayout>
+    </LinearLayout>
+  </ScrollView>
+</LinearLayout>

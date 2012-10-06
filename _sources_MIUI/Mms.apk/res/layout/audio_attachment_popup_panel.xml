@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FloatPanelView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+  <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@*android:id/panel" android:background="@*android:drawable/textview_panel_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:id="@id/play_audio_button" android:text="@string/play" style="@*android:style/TextViewFloatPanelButton"/>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*android:drawable/textview_panel_separator"/>
+    <TextView android:id="@id/replace_audio_button" android:text="@string/replace" style="@*android:style/TextViewFloatPanelButton"/>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*android:drawable/textview_panel_separator"/>
+    <TextView android:id="@id/remove_audio_button" android:text="@string/remove" style="@*android:style/TextViewFloatPanelButton"/>
+  </LinearLayout>
+  <ImageView android:id="@*android:id/arrow_up" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*android:drawable/textview_panel_arrow_up"/>
+  <ImageView android:id="@*android:id/arrow_down" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*android:drawable/textview_panel_arrow_down"/>
+</FloatPanelView>

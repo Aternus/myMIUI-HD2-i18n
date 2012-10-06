@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="36" android:versionName="2.0" package="com.android.gallery">
+  <application android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/app_name" android:icon="@drawable/logo" android:name=".app.GalleryApplication">
+    <activity android:label="@string/app_name" android:name=".ui.MainActivity" android:screenOrientation="portrait">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.GET_CONTENT"/>
+        <category android:name="android.intent.category.OPENABLE"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <data android:mimeType="image/*"/>
+        <data android:mimeType="video/*"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.PICK"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <data android:mimeType="image/*"/>
+        <data android:mimeType="video/*"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.PICK"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <data android:mimeType="vnd.android.cursor.dir/image"/>
+      </intent-filter>
+      <intent-filter android:label="@string/wallpaper_set">
+        <action android:name="android.intent.action.SET_WALLPAPER"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+      <intent-filter android:label="@string/lockscreen_set">
+        <action android:name="android.intent.action.SET_LOCKSCREEN_WALLPAPER"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+    </activity>
+    <activity android:name=".ui.PhotoFramePicker" android:screenOrientation="portrait">
+      <intent-filter>
+        <action android:name="android.intent.action.PHOTO_FRAME_PICK"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+    </activity>
+    <activity android:name="com.miui.android.resourcebrowser.ResourceDetailActivity"/>
+    <activity android:name=".ui.TabFavoriteActivity"/>
+    <activity android:name=".ui.TabAllFoldersActivity"/>
+    <activity android:name=".ui.TabFolderTreeActivity"/>
+    <activity android:label="@string/global_setting" android:name=".ui.GalleryPreferenceActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+    </activity>
+    <activity android:name=".ui.FolderViewActivity" android:screenOrientation="portrait">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+    </activity>
+    <activity android:name=".ui.SingleViewActivity" android:configChanges="orientation">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <data android:mimeType="image/*" android:scheme="content"/>
+        <data android:mimeType="image/*" android:scheme="file"/>
+        <data android:mimeType="vnd.android.cursor.dir/image" android:scheme="content"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="com.cooliris.media.action.REVIEW"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <data android:mimeType="image/*" android:scheme="content"/>
+        <data android:mimeType="image/*" android:scheme="file"/>
+        <data android:mimeType="video/*" android:scheme="content"/>
+        <data android:mimeType="video/*" android:scheme="file"/>
+      </intent-filter>
+    </activity>
+    <activity android:label="@string/app_name" android:name=".ui.CropImage" android:configChanges="keyboardHidden|orientation">
+      <intent-filter android:label="@string/app_name">
+        <action android:name="com.android.camera.action.CROP"/>
+        <action android:name="android.intent.action.CROP_SET_WALLPAPER"/>
+        <action android:name="android.intent.action.CROP_SET_LOCKSCREEN_WALLPAPER"/>
+        <data android:mimeType="image/*" android:scheme="content"/>
+        <data android:mimeType="image/*" android:scheme="file"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <category android:name="android.intent.category.ALTERNATIVE"/>
+        <category android:name="android.intent.category.SELECTED_ALTERNATIVE"/>
+      </intent-filter>
+    </activity>
+    <activity android:theme="@*android:style/Theme.Black.NoTitleBar.Fullscreen" android:label="@string/movie_view_label" android:name=".ui.MovieView" android:screenOrientation="sensor" android:configChanges="keyboardHidden|orientation">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <category android:name="android.intent.category.BROWSABLE"/>
+        <data android:scheme="rtsp"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <data android:mimeType="video/*"/>
+        <data android:mimeType="application/sdp"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <category android:name="android.intent.category.BROWSABLE"/>
+        <data android:scheme="http"/>
+        <data android:mimeType="video/mpeg4"/>
+        <data android:mimeType="video/mp4"/>
+        <data android:mimeType="video/3gp"/>
+        <data android:mimeType="video/3gpp"/>
+        <data android:mimeType="video/3gpp2"/>
+      </intent-filter>
+    </activity>
+    <receiver android:label="MIUIReceiver" android:name=".app.SystemReceiver" android:enabled="true" android:exported="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MEDIA_SCANNER_FINISHED"/>
+        <action android:name="android.intent.action.MEDIA_SCANNER_STARTED"/>
+        <action android:name="android.intent.action.MEDIA_SCANNER_SCAN_FILE"/>
+        <data android:scheme="file"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.MEDIA_MOUNTED"/>
+        <action android:name="android.intent.action.MEDIA_UNMOUNTED"/>
+        <action android:name="android.intent.action.MEDIA_EJECT"/>
+        <data android:scheme="file"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.PRIVACY_MODE_CHANGED"/>
+      </intent-filter>
+    </receiver>
+    <activity android:name=".ui.PhotoAppWidgetConfigure22">
+      <intent-filter>
+        <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+      </intent-filter>
+    </activity>
+    <activity android:name=".ui.PhotoAppWidgetConfigure24">
+      <intent-filter>
+        <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+      </intent-filter>
+    </activity>
+    <activity android:name=".ui.PhotoAppWidgetConfigure44">
+      <intent-filter>
+        <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+      </intent-filter>
+    </activity>
+    <activity android:theme="@*android:style/Theme.NoDisplay" android:name=".ui.PhotoAppWidgetBind" android:permission="android.permission.BIND_APPWIDGET" android:exported="true"/>
+  </application>
+  <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+  <uses-permission android:name="android.permission.WAKE_LOCK"/>
+  <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES"/>
+</manifest>

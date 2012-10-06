@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <include layout="@layout/fw_title_panel"/>
+    <include layout="@layout/fw_listview"/>
+    <include layout="@layout/fw_log_list_empty_ms"/>
+  </LinearLayout>
+  <include layout="@layout/fw_delete_bar"/>
+</FrameLayout>

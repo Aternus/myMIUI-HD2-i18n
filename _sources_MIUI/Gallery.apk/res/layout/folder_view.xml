@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <ViewSwitcher android:id="@id/header_switcher" android:background="@drawable/title_bg" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" android:inAnimation="@*android:anim/fade_in" android:outAnimation="@*android:anim/fade_out">
+    <include android:id="@id/header_normal_layout" layout="@layout/header_normal"/>
+    <include android:id="@id/header_selection_layout" layout="@layout/header_selection"/>
+  </ViewSwitcher>
+  <GridView android:id="@id/folder_gridview" android:background="@drawable/folder_view_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="@*android:color/transparent" android:cacheColorHint="@*android:color/transparent" android:numColumns="3" android:layout_weight="1.0"/>
+  <TextView android:textSize="15.0dip" android:textColor="@*android:color/darker_gray" android:layout_gravity="center" android:id="@id/folder_content_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_files"/>
+  <include android:id="@id/folder_bottom_edit_layout" layout="@layout/folder_bottom_edit"/>
+</LinearLayout>

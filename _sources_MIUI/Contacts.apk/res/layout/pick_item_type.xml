@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/items" android:layout_width="wrap_content" android:layout_height="wrap_content">
+  <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/add_more_type" android:background="@drawable/add_more_left_top" android:layout_width="wrap_content" android:layout_height="wrap_content">
+      <ImageView android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      <TextView android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@*android:style/TextAppearance.UnderIcon"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/add_more_type" android:background="@drawable/add_more_center_top" android:layout_width="wrap_content" android:layout_height="wrap_content">
+      <ImageView android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      <TextView android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@*android:style/TextAppearance.UnderIcon"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/add_more_type" android:background="@drawable/add_more_center_top" android:layout_width="wrap_content" android:layout_height="wrap_content">
+      <ImageView android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      <TextView android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@*android:style/TextAppearance.UnderIcon"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/add_more_type" android:background="@drawable/add_more_right_top" android:layout_width="wrap_content" android:layout_height="wrap_content">
+      <ImageView android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      <TextView android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@*android:style/TextAppearance.UnderIcon"/>
+    </LinearLayout>
+  </LinearLayout>
+  <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/add_more_type" android:background="@drawable/add_more_left_center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+      <ImageView android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      <TextView android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@*android:style/TextAppearance.UnderIcon"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/add_more_type" android:background="@drawable/add_more_center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+      <ImageView android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      <TextView android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@*android:style/TextAppearance.UnderIcon"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/add_more_type" android:background="@drawable/add_more_center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+      <ImageView android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      <TextView android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@*android:style/TextAppearance.UnderIcon"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/add_more_type" android:background="@drawable/add_more_right_center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+      <ImageView android:gravity="center" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      <TextView android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@*android:style/TextAppearance.UnderIcon"/>
+    </LinearLayout>
+  </LinearLayout>
+  <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/add_more_type" android:background="@drawable/add_more_left_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+      <ImageView android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      <TextView android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@*android:style/TextAppearance.UnderIcon"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/add_more_type" android:background="@drawable/add_more_center_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+      <ImageView android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      <TextView android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@*android:style/TextAppearance.UnderIcon"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/add_more_type" android:background="@drawable/add_more_center_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+      <ImageView android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      <TextView android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@*android:style/TextAppearance.UnderIcon"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/add_more_type" android:background="@drawable/add_more_right_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+      <ImageView android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      <TextView android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@*android:style/TextAppearance.UnderIcon"/>
+    </LinearLayout>
+  </LinearLayout>
+</LinearLayout>

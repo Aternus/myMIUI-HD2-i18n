@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/pc_connection_settings_title">
+  <PreferenceCategory android:title="@string/default_usb_mode" android:key="usb_mode">
+    <CheckBoxPreference android:title="@string/usb_mode_mount_storage" android:key="mount_storage"/>
+    <CheckBoxPreference android:title="@string/ask_user_usb_mode" android:key="ask_user"/>
+  </PreferenceCategory>
+</PreferenceScreen>

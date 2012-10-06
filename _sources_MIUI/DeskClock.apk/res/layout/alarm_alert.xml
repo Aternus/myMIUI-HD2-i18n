@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@*android:drawable/popup_common" android:layout_width="wrap_content" android:layout_height="wrap_content">
+  <LinearLayout android:orientation="vertical" android:id="@id/topPanel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/title_template" android:layout_width="fill_parent" android:layout_height="wrap_content">
+      <ImageView android:id="@id/icon" android:layout_width="43.299988dip" android:layout_height="43.299988dip" android:src="@*android:drawable/ic_dialog_time_big" android:scaleType="fitCenter"/>
+      <TextView android:ellipsize="end" android:gravity="center" android:id="@id/alertTitle" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.6999817dip" android:layout_marginBottom="-2.6999817dip" android:singleLine="true" style="?android:attr/textAppearanceSmall"/>
+    </LinearLayout>
+  </LinearLayout>
+  <com.android.deskclock.DigitalClock android:gravity="center_horizontal" android:baselineAligned="true" style="@style/clock">
+    <TextView android:textSize="64.0sp" android:textColor="?android:textColorPrimary" android:id="@id/timeDisplay" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:textColor="?android:textColorPrimary" android:id="@id/am_pm" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+  </com.android.deskclock.DigitalClock>
+  <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/buttonPanel" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+      <Button android:id="@id/snooze" android:text="@string/alarm_alert_snooze_text" style="@*android:style/BottomButton.Left"/>
+      <Button android:id="@id/dismiss" android:text="@string/alarm_alert_dismiss_text" style="@*android:style/BottomButton.Secondary"/>
+    </LinearLayout>
+  </LinearLayout>
+</LinearLayout>

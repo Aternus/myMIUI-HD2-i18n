@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <include layout="@layout/media_player_header"/>
+  <EditableListView android:id="@*android:id/list" android:fadingEdge="none" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:cacheColorHint="@*android:color/transparent" android:layout_below="@id/media_player_head" android:fastScrollEnabled="true" style="@style/NoDividerLystViewStyle"/>
+  <RelativeLayout android:id="@id/online_status_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/media_player_head">
+    <include layout="@layout/media_player_online_status_bar"/>
+  </RelativeLayout>
+</RelativeLayout>

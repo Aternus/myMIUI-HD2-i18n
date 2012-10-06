@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" android:versionCode="1" android:versionName="1.0" package="com.miui.fmradio">
+  <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+  <uses-permission android:name="android.permission.WAKE_LOCK"/>
+  <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+  <uses-permission android:name="android.permission.VIBRATE"/>
+  <application android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/app_name" android:icon="@drawable/appicon" android:taskAffinity="android.task.fmradio">
+    <provider android:name="FMDataProvider" android:authorities="com.miui.provider.fmradio"/>
+    <activity android:label="@string/app_name" android:name=".FMRadioMain" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="locale|keyboardHidden|orientation|fontScale">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <service android:name="FMRadioPlayerService"/>
+    <receiver android:name="MediaButtonIntentReceiver">
+      <intent-filter android:priority="1">
+        <action android:name="android.intent.action.MEDIA_BUTTON"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>

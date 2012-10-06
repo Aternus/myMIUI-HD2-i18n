@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <ListView android:id="@*android:id/list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:cacheColorHint="@null" android:divider="@*android:color/transparent" android:dividerHeight="0.0dip" android:layout_weight="1.0" android:drawSelectorOnNothing="true"/>
+  <LinearLayout android:id="@id/buttons" style="@*android:style/BottomButtonBar">
+    <Button android:id="@id/button_done" android:text="@string/button_done" style="@*android:style/BottomButton.Left"/>
+    <Button android:id="@id/button_cancel" android:text="@string/button_cancel" style="@*android:style/BottomButton.Right"/>
+  </LinearLayout>
+</LinearLayout>

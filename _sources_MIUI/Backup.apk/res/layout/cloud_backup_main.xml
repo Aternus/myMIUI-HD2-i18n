@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/logout_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cloud_backup_hint" style="@*android:style/TextAppearance.Medium"/>
+    <Button android:gravity="center" android:layout_gravity="center" android:id="@id/login_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cloud_backup_login"/>
+  </LinearLayout>
+  <LinearLayout android:orientation="vertical" android:id="@id/login_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <ExpandableListView android:id="@id/data_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:fastScrollEnabled="true" style="@*android:style/Widget.ListView.NoDivider"/>
+    <LinearLayout style="@*android:style/BottomButtonBar">
+      <Button android:id="@id/backup_now" android:text="@string/cloud_backup" style="@*android:style/BottomButton.Left"/>
+      <Button android:id="@id/restore_data" android:text="@string/cloud_restore" style="@*android:style/BottomButton.Right"/>
+    </LinearLayout>
+  </LinearLayout>
+</FrameLayout>

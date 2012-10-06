@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/list_searcb_box" android:layout_width="fill_parent" android:layout_height="wrap_content">
+  <view android:textSize="14.0sp" android:textColor="@*android:color/black" android:textColorHint="@color/search_hint" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/search_src_text" android:background="@drawable/contact_list_search_bg" android:layout_width="fill_parent" android:layout_height="75.0px" android:singleLine="true" android:freezesText="true" android:drawableRight="@drawable/contact_list_clear" android:inputType="textNoSuggestions" android:imeOptions="flagNoExtractUi" class="com.android.contacts.SearchEditText"/>
+  <include layout="@layout/list_create_new"/>
+  <include layout="@layout/miliao_card"/>
+</LinearLayout>

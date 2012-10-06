@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+  <Button android:id="@id/backup_button" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/backup_preference_title" style="@*android:style/Widget.Button.Bar"/>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.player.ui.view.OnlineMusicItem xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="bottom" android:orientation="vertical" android:background="@drawable/list_item_background_selector" android:layout_width="fill_parent" android:layout_height="@dimen/normal_height" android:baselineAligned="false">
+  <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:ignoreGravity="@id/icon">
+    <include layout="@layout/media_player_track_list_item_common"/>
+  </RelativeLayout>
+</com.miui.player.ui.view.OnlineMusicItem>

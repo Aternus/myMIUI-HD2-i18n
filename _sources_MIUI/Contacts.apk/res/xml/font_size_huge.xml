@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MIUI_Theme_Values>
+  <dimen name="list_primary_text_size" package="android">22sp</dimen>
+  <dimen name="list_secondary_text_size" package="android">17sp</dimen>
+</MIUI_Theme_Values>

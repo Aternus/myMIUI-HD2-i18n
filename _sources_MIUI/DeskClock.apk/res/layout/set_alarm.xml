@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <ListView android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="false" android:layout_weight="1.0"/>
+  <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@*android:style/BottomButtonBar">
+    <Button android:id="@id/alarm_save" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/done" android:layout_weight="1.0" style="@*android:style/BottomButton.Left"/>
+    <Button android:id="@id/alarm_revert" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/revert" android:layout_weight="1.0" style="@*android:style/BottomButton.Middle"/>
+    <Button android:id="@id/alarm_delete" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/delete" android:layout_weight="1.0" style="@*android:style/BottomButton.Right"/>
+  </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.ExpandedView xmlns:android="http://schemas.android.com/apk/res/android">
+  <include android:id="@id/expended_notifications" layout="@layout/status_bar_expanded_notifications"/>
+  <ViewStub android:id="@id/expended_toggles" android:layout="@layout/status_bar_expanded_toggles" android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+</com.android.systemui.statusbar.ExpandedView>

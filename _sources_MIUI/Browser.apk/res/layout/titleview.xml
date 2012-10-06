@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+  <RelativeLayout android:id="@id/RelativeLayoutTop" android:background="@drawable/top_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="62.0px">
+    <HorizontalScrollView android:id="@id/TabScrollView" android:scrollbars="none" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/ImageButtonAddNewTab" android:layout_alignParentLeft="true"/>
+    <ImageButton android:id="@id/ImageButtonAddNewTab" android:background="@drawable/browser_search_label_add" android:layout_width="36.666992dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+  </RelativeLayout>
+  <LinearLayout android:id="@id/LinearLayoutSplitBar" android:background="@drawable/index_top_bg" android:layout_width="fill_parent" android:layout_height="8.0px"/>
+  <LinearLayout android:orientation="vertical" android:id="@id/UrlTitleBarLinearLayout" android:layout_width="fill_parent" android:layout_height="74.0px"/>
+</LinearLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textAppearance="?android:textAppearanceMedium" android:textColor="#ffffffff" android:gravity="right" android:id="@id/battery" android:shadowColor="#c0000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" android:drawablePadding="6.0dip"/>

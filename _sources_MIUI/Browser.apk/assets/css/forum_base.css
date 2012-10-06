@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ margin:0; padding:0; font-size:18px; color:#333333; font-family:Arial, Helvetica, sans-serif;}
+body button{background:url(../images/bbs_button.png) no-repeat;padding:6px 13px 6px 13px;color:#ffffff;border:0;}
+
+a{ text-decoration:none; color:#0066cc}
+ul{ margin:0; padding:0; list-style:none}
+.top{ background:#3383b7 url(../images/top-bg.gif) repeat-x 0 100%; padding:10px; text-align:left;color:#fff; overflow:hidden;zoom:1}
+.top a{ color:#fff; display:block;float:left; margin-right:10px;font-style:normal }
+.top li{display:inline;}
+.top span{float:left;margin-right:10px}
+.top2{ background:#fff; padding:10px; padding-left:10px; color:#333333;}
+.top2 span{ margin:0 10px}
+.top2 span.nowselected{ margin:0}
+.accessbar{background:url(../images/pbg.gif) repeat-x; height:46px; line-height:46px; padding-left:10px; padding-right:10px; border-bottom:1px solid #bed1db;}
+.accessbar .r select{ font-size:20px; margin-left:10px; width:50px;}
+.accessbar .r a{margin-right:10px;}
+.accessbar .newBtn a{background:url(../images/bbs_button.png) no-repeat;padding:6px 13px 6px 13px;color:#ffffff}
+.accessbar .replyBtn a{background:url(../images/bbs_button.png) no-repeat;padding:6px 13px 6px 13px;color:#ffffff}
+
+.r{ float:right}
+
+.title-bar{ padding:10px; border-bottom:1px solid #bed1db; background:#d8e8f5; padding-left:10px; padding-right:10px; }
+.title-bar a.ico0{ display:block; background:url(../images/ico0.gif) no-repeat; width:17px; height:10px; float:right; margin-top:20px;}
+.title-bar select {font-size:20px; margin-left:10px; width:50px;}
+
+ul.ul-list{}
+ul.ul-list li { padding:10px; border-bottom:1px solid #bed1db; word-wrap:break-word; overflow-x:hidden}
+ul.ul-list .icon{width:23px; height:100%; margin-right:5px; float:left ;display:inline;}
+ul.ul-list .icon img{ max-width:100%;}
+ul.ul-list .info{font-size:15px;}
+ul.ul-list .info a{font-style:normal; color:#999999;margin-right:5px;}
+ul.ul-list em{font-style:normal;}
+.todayNum {color:#999}
+.todayNum strong{color:#ff9900}
+
+span.gray{ color:#999}
+span.orange{ color:#ff9900}
+.fi{ margin:0 10px;}
+.jump{ margin-top:12px}
+.info{ padding-top:4px}
+
+ul.bbscon{}
+ul.bbscon li{ padding-bottom:10px;}
+.userbar{ background:#e5f0f8; border-top:1px solid #c6e0f4; padding:12px; overflow:hidden; zoom:1;font-size:15px}
+ul.bbscon .photo{ float:left;}
+ul.bbscon .userinfo{ margin-left:80px;}
+ul.bbscon .username{ margin-right:10px}
+ul.bbscon .username .uid{color:#0066ff; margin-right:5px;}
+ul.bbscon .userlevel{ color:#999}
+ul.bbscon .floor{ float:right;color:#999999}
+ul.bbscon .floor em{font-style:normal;}
+ul.bbscon .con-body{ padding:10px; word-wrap:break-word;}
+ul.bbscon .con-body img{ display:block; margin:10px 0; max-width:100%;}
+ul.bbscon .con-body .quote{ background:#eeeeee; padding:3px; font-size:15px;}
+ul.bbscon .user-toolbar{ text-align:center; padding-bottom:10px;}
+ul.bbscon .user-toolbar a{ margin:0 10px}
+ul.bbscon .user-toolbar a.u{ margin-right:0;}
+ul.bbscon .user-toolbar a.d{ margin-right:0; margin-left:20px}
+ul.bbscon .relay{ padding-left:10px;}
+
+.login-box{ padding:10px}
+.login-box span{display:block;}
+.login-box input{ width:99%;margin-bottom:10px;margin-right:10px;border:1px solid #bed1db;font-size:16px;height:32px;}
+.loginBtn {margin-left:10px;margin-bottom:75px;}
+.loginMsg{padding:10px; font-size:16px;}
+.loginMsg h1{font-size:20px;}
+
+.posting {padding:10px;}
+.posting span{display:block;}
+.posting div{ padding-bottom:4px;}
+.posting input{width:99%;margin-bottom:10px;margin-right:10px:border:1px solid #bed1db;display:block}
+.posting textarea{width:99%;height:150px;border:1px solid #bed1db;display:block}
+.postingBtn {margin-left:10px;margin-bottom:75px;}
+
+.fastpost {padding:10px;}
+.fastpost textarea{width:99%;height:60px;border:1px solid #bed1db;display:block}
+.fastpostBtn {margin-left:10px;}
+
+.alert {padding:10px;}
+
+.feedback{margin-bottom:75px;text-align:center}
+.feedback .devider{background:#e5f0f8; border-top:1px solid #c6e0f4; height:10px;line-height:10px;display:block;}
+.feedback p{color:#999999;}
+
+.fast_login {background:#eeeeee; display:none;left:10px;top:60px;width:100%;padding:10px;}
+.fast_login input{ width:95%;margin-bottom:10px;margin-right:10px;border:1px solid #bed1db;font-size:16px;height:32px;}
+
+.search {padding:10px}
+.search_result {padding:10px}
+.search_result .result_string {font-size:16px;}
+.search_result .emfont {font-color:#0000ff;}
+.search_result select{ font-size:20px; margin-left:10px; width:50px;}
+
+
+
+
+
+
+
+
+
+
+

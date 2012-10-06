@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/list_item_background_selector" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textColor="@color/item_title_text" android:gravity="center" android:id="@id/online_search_hint" android:layout_width="fill_parent" android:layout_height="@dimen/normal_height"/>
+</LinearLayout>

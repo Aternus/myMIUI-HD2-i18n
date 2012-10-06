@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+  <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <include android:id="@id/app_snippet" layout="@layout/app_details"/>
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:id="@id/center_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/installing" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+    <ProgressBar android:id="@id/progress_bar" android:paddingLeft="16.0dip" android:paddingTop="24.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="100" android:layout_below="@id/center_text" style="?android:attr/progressBarStyleHorizontal"/>
+    <LinearLayout android:id="@id/buttons_panel" android:layout_alignParentBottom="true" style="@*android:style/BottomButtonBar">
+      <Button android:id="@id/launch_button" android:text="@string/launch" style="@*android:style/BottomButton.Left"/>
+      <Button android:id="@id/done_button" android:text="@string/done" style="@*android:style/BottomButton.Right"/>
+    </LinearLayout>
+  </RelativeLayout>
+</ScrollView>

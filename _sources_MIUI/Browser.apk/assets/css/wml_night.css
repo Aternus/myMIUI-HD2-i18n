@@ -1,0 +1,225 @@
+/* ***** BEGIN LICENSE BLOCK *****
+ * Version: NPL 1.1/GPL 2.0/LGPL 2.1
+ *
+ * The contents of this file are subject to the Netscape Public License
+ * Version 1.1 (the "License"); you may not use this file except in
+ * compliance with the License. You may obtain a copy of the License at
+ * http://www.mozilla.org/NPL/
+ *
+ * Software distributed under the License is distributed on an "AS IS" basis,
+ * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+ * for the specific language governing rights and limitations under the
+ * License.
+ *
+ *
+ * The Original Code is CSS style sheet for Wireless Markup Language emulation
+ *
+ * Contributor(s):
+ *      Raoul Nakhmanson-Kulish <manko@zhurnal.ru>
+ *      Matthew Wilson <matthew@mjwilson.demon.co.uk>
+ *
+ * Alternatively, the contents of this file may be used under the terms of
+ * either the GNU General Public License Version 2 or later (the "GPL"), or 
+ * the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+ * in which case the provisions of the GPL or the LGPL are applicable instead
+ * of those above. If you wish to allow use of your version of this file only
+ * under the terms of either the GPL or the LGPL, and not to allow others to
+ * use your version of this file under the terms of the NPL, indicate your
+ * decision by deleting the provisions above and replace them with the notice
+ * and other provisions required by the GPL or the LGPL. If you do not delete
+ * the provisions above, a recipient may use your version of this file under
+ * the terms of any one of the NPL, the GPL or the LGPL.
+ *
+ * ***** END LICENSE BLOCK ***** */
+
+html,body {
+    background-color:#222222;
+    color:#999999;
+    font-size: 20px;
+    line-height:25px;
+    margin:0;
+    padding:0;
+}
+
+input {
+    background: #3a3a3a;
+    border: 1px solid #5c5c5c;
+    color: #999999;
+}
+
+a:link {
+	color: #336699;
+	text-decoration: none;
+}
+
+a:hover {
+	background:#2a466f;
+	color:#4c84bb;
+	text-decoration: none;
+}
+
+a:visited {
+	color:#224466;
+	text-decoration: none;
+}
+
+button{
+	background: none;
+	border: none;
+	color: #336699;
+	padding: 0;
+	text-decoration: none;
+}
+
+button:hover {
+	background:#2a466f;
+	color:#4c84bb;
+	text-decoration: none;
+}
+
+button:visited {
+	color:#224466;
+	text-decoration: none;
+}
+
+div.critical {
+    background-color: #00FFFF;
+    color: black;
+    font-weight: bold;
+    font-size: larger;    
+}
+
+div.card {    
+    float:left;
+    clear:both;      
+    color:#999999;    
+    width: 100%;
+}
+
+div.innercard{
+    margin: 0 0.5em 2pt 0.5em;
+}
+
+h1{
+	padding:10px 0px 10px 0.5em;
+	margin:0px 0px 0px 0px;
+    font-size:1.1em;
+    width:auto;
+    background-color:#3a3a3a;
+    color:#999999;
+}
+
+div.do {
+    width:auto;
+    background-color:#3a3a3a;
+    margin:0;
+    text-align:center;    
+}
+
+
+div.p_nowrap {
+    white-space:nowrap;
+}
+
+div.p{
+	margin: 0.5em 0 0 0;
+}
+
+button.dobutton{
+    height:2.1em;
+    padding:0px 0.2em 1px 0.2em;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+}
+
+span.sign{
+    background-color:#222222;
+    color:#999999;
+    border:1px solid #5c5c5c;
+    -moz-border-radius:100%;
+}
+
+span.prev{
+    padding-right:2px;
+    color:#336699;
+    background-color:#222222;
+}
+
+span.help{
+    color:＃000000;
+    font-weight:bold;
+    padding-left:0.2em;
+    padding-right:0.4em;
+}
+
+span.accept{
+    font-weight:bold;
+    font-style:italic;
+    color:rgb(255,97,255);
+    padding-left:0;
+    padding-right:0.5em;
+}
+
+span.reset{
+    color:#336699;
+    background-color:#222222;
+    padding-left:0.2em;
+    padding-right:0.3em;
+    
+}
+
+span.delete{
+    color:rgb(0,0,0);
+    background-color:rgb(0,255,255);
+    border-color:rgb(0,255,255);
+    padding-left:0.2em;
+    padding-right:0.3em;
+    
+}
+
+span.options{
+    color:InfoText;
+    background-color:#2a466f;
+    padding-left:0.3em;
+    padding-right:0.3em;
+}
+
+span.refresh{
+    color:#336699;
+    background-color:#222222;
+    padding-left:0.2em;
+    padding-right:0.2em;
+}
+
+span.b {
+    font-weight: bolder;
+}
+
+span.i {
+    font-style: italic;
+}
+span.u {
+    text-decoration: underline;
+}
+
+form {
+    display: inline;
+    margin:0;
+}
+
+*[accesskey]:before {
+    content:attr(accesskey);
+    background-color:#222222;
+    color:#336699;
+    text-decoration:none;
+    padding:0.1em 0.4em 0.1em 0.4em;
+    -moz-border-radius:100%;
+}
+
+.warning {
+    background-color: #2a466f;
+    color: #4c84bb;
+    font-style: italic;
+    padding: 0em 0.5em;
+    margin: 0em -0.5em;
+}

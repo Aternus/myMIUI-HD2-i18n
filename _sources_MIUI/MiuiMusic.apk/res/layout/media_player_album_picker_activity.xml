@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <include layout="@layout/media_player_sd_error"/>
+  <include android:id="@id/media_player_head" layout="@layout/media_player_header"/>
+  <GridView android:textSize="18.0sp" android:id="@id/list" android:fadingEdge="none" android:alwaysDrawnWithCache="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/local_album_mask_on" android:cacheColorHint="@*android:color/transparent" android:numColumns="3" android:layout_below="@id/media_player_head" android:fastScrollEnabled="true"/>
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phone="http://schemas.android.com/apk/res/com.android.phone" android:title="@string/call_settings">
+  <PreferenceCategory android:title="@string/phone_call_pref_title">
+    <PreferenceScreen android:title="@string/answer_features_setting_title" android:summary="@string/answer_features_setting_summary">
+      <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.AnswerFeaturesSetting"/>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/auto_answer_pref_title">
+      <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.AutoAnswerSetting"/>
+    </PreferenceScreen>
+    <EditTextPreference android:minLines="2" android:title="@string/predefined_hangup_sms_title" android:key="predefined_hangup_sms" android:summary="@string/predefined_hangup_sms_summary"/>
+  </PreferenceCategory>
+  <PreferenceCategory android:title="@string/pref_dialer_list_title" android:key="pref_dialer_list">
+    <ListPreference android:entries="@array/dialer_click_entries" android:title="@string/dialer_click_pref_title" android:key="dialer_click_pref" android:defaultValue="0" android:dialogTitle="@string/dialer_click_pref_title" android:entryValues="@array/dialer_click_values"/>
+    <CheckBoxPreference android:persistent="false" android:title="@string/show_quick_contact_badge_title" android:key="show_quick_contact_badge" android:defaultValue="true"/>
+    <CheckBoxPreference android:persistent="true" android:title="@string/auto_dialpad_pref_title" android:key="button_auto_dialpad" android:defaultValue="true"/>
+  </PreferenceCategory>
+  <PreferenceCategory android:title="@string/pref_outgoing_call_title">
+    <PreferenceScreen android:title="@string/auto_ip_setting">
+      <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.AutoIpSetting"/>
+    </PreferenceScreen>
+    <CheckBoxPreference android:title="@string/auto_redial_pref_title" android:key="auto_redial_pref" android:summary="@string/auto_redial_pref_summary" android:defaultValue="false"/>
+  </PreferenceCategory>
+  <PreferenceCategory android:title="@string/other_settings">
+    <CheckBoxPreference android:title="@string/auto_record_call_title" android:key="pref_key_auto_record_call" android:summary="@string/auto_record_call_summary" android:defaultValue="false"/>
+    <CheckBoxPreference android:title="@string/call_recording_notification" android:key="pref_key_call_recording_notification" android:summary="@string/call_recording_notification_summary" android:defaultValue="true"/>
+    <ListPreference android:entries="@array/connect_disconnect_vibrate_entries" android:title="@string/connect_disconnect_vibrate_title" android:key="pref_key_connect_disconnect_vibrate" android:summary="@string/connect_disconnect_vibrate_summary" android:defaultValue="100" android:dialogTitle="@string/connect_disconnect_vibrate_title" android:entryValues="@array/connect_disconnect_vibrate_entry_values"/>
+    <CheckBoxPreference android:persistent="false" android:title="@string/dual_microphone_enable_title" android:key="dual_microphone" android:summaryOn="@string/dual_microphone_enable_summary_on" android:summaryOff="@string/dual_microphone_enable_summary_off"/>
+    <CheckBoxPreference android:persistent="false" android:title="@string/enable_telocation_title" android:key="enable_telocation" android:defaultValue="true"/>
+    <PreferenceScreen android:title="@string/pref_custom_location_title" android:summary="@string/pref_custom_location_summary" android:dependency="enable_telocation">
+      <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.CustomLocationActivity"/>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/pref_more_settings_title">
+      <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.CallFeaturesMoreSetting"/>
+    </PreferenceScreen>
+  </PreferenceCategory>
+</PreferenceScreen>

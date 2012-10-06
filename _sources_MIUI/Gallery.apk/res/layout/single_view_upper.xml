@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:layout_gravity="top" android:orientation="horizontal" android:background="@drawable/single_view_menu_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@*android:dimen/status_bar_height">
+  <ImageView android:id="@id/single_view_send" android:src="@drawable/single_view_send" style="@style/SingleViewUpperButton"/>
+  <ImageView android:id="@id/single_view_apply" android:src="@drawable/single_view_apply" style="@style/SingleViewUpperButton"/>
+  <ImageView android:id="@id/single_view_edit" android:src="@drawable/single_view_edit" style="@style/SingleViewUpperButton"/>
+  <ImageView android:id="@id/single_view_delete" android:src="@drawable/single_view_delete" style="@style/SingleViewUpperButton"/>
+</LinearLayout>

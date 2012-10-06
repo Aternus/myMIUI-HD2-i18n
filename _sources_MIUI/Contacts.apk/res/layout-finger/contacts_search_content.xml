@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/pinned_header_list_layout" android:background="@color/translucent_search_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <include android:id="@id/searchView" layout="@layout/search_bar"/>
+  <EditableListView android:id="@*android:id/list" android:background="@*android:color/background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fastScrollEnabled="true"/>
+  <View android:id="@*android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+</LinearLayout>

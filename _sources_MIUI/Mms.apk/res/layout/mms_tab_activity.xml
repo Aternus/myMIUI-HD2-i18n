@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android" android:id="@*android:id/tabhost" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <TabWidget android:id="@*android:id/tabs" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+    <FrameLayout android:id="@*android:id/tabcontent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0"/>
+    <ImageTextButton android:id="@id/new_message" android:text="@string/new_message" android:drawableLeft="@drawable/compose_new_message" android:drawablePadding="10.0dip" style="@*android:style/BottomButtonBar"/>
+  </LinearLayout>
+</TabHost>

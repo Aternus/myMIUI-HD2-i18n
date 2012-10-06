@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="fw_log_title_primary_text_color">#ffffffff</color>
+  <color name="fw_log_title_secondary_text_color">#80ffffff</color>
+</resources>

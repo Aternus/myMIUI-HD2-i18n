@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="english_ime_name">Android-näppäimistö</string>
+  <string name="english_ime_settings">Android-näppäimistön asetukset</string>
+  <string name="english_ime_input_options">Syöttövalinnat</string>
+  <string name="vibrate_on_keypress">Käytä värinää näppäimiä painettaessa</string>
+  <string name="sound_on_keypress">Toista ääni näppäimiä painettaessa</string>
+  <string name="popup_on_keypress">Ponnahdusikkuna painalluksella</string>
+  <string name="hit_correction">Korjaa kirjoitusvirheet</string>
+  <string name="hit_correction_summary">Ota syöttövirheen korjaus käyttöön</string>
+  <string name="hit_correction_land">Vaakasuunnan syöttövirheet</string>
+  <string name="hit_correction_land_summary">Ota syöttövirheen korjaus käyttöön</string>
+  <string name="auto_correction">Sanaehdotukset</string>
+  <string name="auto_correction_summary">Korjaa edellinen sana automaattisesti</string>
+  <string name="prediction">Sanaehdotukset</string>
+  <string name="prediction_category">Sanaehdotusasetukset</string>
+  <string name="prediction_summary">Ota automaattinen täydennys käyttöön kirjoitettaessa</string>
+  <string name="auto_complete_dialog_title">Automaattinen täydennys</string>
+  <string name="prediction_landscape">Suurenna tekstikenttää</string>
+  <string name="prediction_landscape_summary">Piilota sanaehdotukset vaakasuuntaisessa näkymässä</string>
+  <string name="auto_cap">Automaattiset isot kirjaimet</string>
+  <string name="auto_cap_summary">Aloittaa lauseet isolla kirjaimella</string>
+  <string name="auto_punctuate">Automaattiset välimerkit</string>
+  <string name="auto_punctuate_summary"/>
+  <string name="quick_fixes">Pikakorjaukset</string>
+  <string name="quick_fixes_summary">Korjaa yleiset kirjoitusvirheet</string>
+  <string name="show_suggestions">Näytä ehdotukset</string>
+  <string name="show_suggestions_summary">Näytä sanaehdotukset kirjoitettaessa</string>
+  <string name="auto_complete">Automaattinen täydennys</string>
+  <string name="auto_complete_summary">Välilyönti ja välimerkki lisäävät automaattisesti korostetun sanan</string>
+  <string name="prefs_settings_key">Näytä asetukset-näppäin</string>
+  <string name="settings_key_mode_auto_name">Automaattinen</string>
+  <string name="settings_key_mode_always_show_name">Näytä aina</string>
+  <string name="settings_key_mode_always_hide_name">Piilota aina</string>
+  <string name="bigram_suggestion">Bigram-ehdotukset</string>
+  <string name="bigram_suggestion_summary">Paranna ehdotusta aiemman sanan avulla</string>
+  <string name="added_word">%s : Tallennettu</string>
+  <string name="tip_long_press">Näet aksenttimerkit (ø, ö jne.) pitämällä näppäintä painettuna.</string>
+  <string name="tip_dismiss">Voit sulkea näppäimistön milloin tahansa painamalla Takaisin-painiketta ↶</string>
+  <string name="tip_access_symbols">Käytä numeroita ja symboleita</string>
+  <string name="tip_add_to_dictionary">Lisää vasemmanpuoleinen sana sanakirjaan pitämällä sitä painettuna</string>
+  <string name="touch_to_continue">Jatka koskettamalla tätä vihjettä »</string>
+  <string name="touch_to_finish">Sulje tämä vihje ja aloita kirjoittaa koskettamalla tätä!</string>
+  <string name="tip_to_open_keyboard">
+    <b>Näppäimistö avautuu, kun kosketat tekstikenttää</b>
+  </string>
+  <string name="tip_to_view_accents">
+    <b>"Näytä aksenttimerkit pitämällä näppäintä painettuna
+(ø, ö, ô, ó ja niin edelleen"</b>
+  </string>
+  <string name="tip_to_open_symbols">
+    <b>Vaihda numeroihin ja symboleihin koskettamalla tätä näppäintä</b>
+  </string>
+  <string name="tip_to_close_symbols">
+    <b>Siirry takaisin kirjaimiin koskettamalla tätä näppäintä uudelleen</b>
+  </string>
+  <string name="tip_to_launch_settings">
+    <b>Muuta näppäimistön asetuksia, kuten automaattista täydentämistä, pitämällä tätä näppäintä painettuna</b>
+  </string>
+  <string name="tip_to_start_typing">
+    <b>Kokeile!</b>
+  </string>
+  <string name="label_go_key">Siirry</string>
+  <string name="label_next_key">Seuraava</string>
+  <string name="label_done_key">Valmis</string>
+  <string name="label_send_key">Lähetä</string>
+  <string name="label_symbol_key">\?123</string>
+  <string name="label_phone_key">123</string>
+  <string name="label_alpha_key">ABC</string>
+  <string name="label_alt_key">ALT</string>
+  <string name="voice_warning_title">Äänisyöte</string>
+  <string name="voice_warning_locale_not_supported">Äänisyötettä ei vielä tueta kielelläsi, mutta voit käyttää sitä englanniksi.</string>
+  <string name="voice_warning_may_not_understand">Äänisyöte on kokeellinen Googlen puheentunnistusta käyttävä ominaisuus.</string>
+  <string name="voice_warning_how_to_turn_off">Siirry näppäimistön asetuksiin poistaaksesi äänisyötteen käytöstä.</string>
+  <string name="voice_hint_dialog_message">"Käytä äänisyötettä painamalla mikrofonipainiketta tai liu'uttamalla sormeasi näytön näppäimistön poikki."</string>
+  <string name="voice_listening">Puhu nyt</string>
+  <string name="voice_working">Työstetään</string>
+  <string name="voice_initializing"/>
+  <string name="voice_error">Virhe. Yritä uudelleen.</string>
+  <string name="voice_network_error">Ei yhteyttä</string>
+  <string name="voice_too_much_speech">Virhe, liikaa puhetta.</string>
+  <string name="voice_audio_error">Ääniongelma</string>
+  <string name="voice_server_error">Palvelinvirhe</string>
+  <string name="voice_speech_timeout">Puhetta ei kuulu</string>
+  <string name="voice_no_match">Ei vastineita</string>
+  <string name="voice_not_installed">Äänihakua ei asennettu</string>
+  <string name="voice_swipe_hint"><b>Vihje:</b>" liu'uta sormea näppäimistöllä ja puhu"</string>
+  <string name="voice_punctuation_hint"><b>Vihje:</b> kokeile seuraavalla kerralla puhua välimerkit, kuten \"period\" (piste), \"comma\" (pilkku) tai \"question mark\" (kysymysmerkki).</string>
+  <string name="cancel">Peruuta</string>
+  <string name="ok">OK</string>
+  <string name="voice_input">Äänisyöte</string>
+  <string name="auto_submit">Lähetä automaattisesti puheen jälkeen</string>
+  <string name="auto_submit_summary">Paina automaattisesti enter-näppäintä tehdessäsi hakuja tai siirtyessäsi seuraavaan kenttään.</string>
+  <string name="open_the_keyboard"><font size="17"><b>"Avaa näppäimistö
+"</b></font><font size="3">"
+"</font>Kosketa tekstikenttää.</string>
+  <string name="close_the_keyboard"><font size="17"><b>"Sulje näppäimistö
+"</b></font><font size="3">"
+"</font>Paina Takaisin-näppäintä.</string>
+  <string name="touch_and_hold"><font size="17"><b>"Näet asetukset pitämällä näppäintä painettuna
+"</b></font><font size="3">"
+"</font>Käytä välimerkkejä ja aksenttimerkkejä.</string>
+  <string name="keyboard_settings"><font size="17"><b>"Näppäimistön asetukset
+"</b></font><font size="3">"
+"</font>Pidä painettuna<b>?123</b>-näppäintä.</string>
+  <string name="popular_domain_0">.com</string>
+  <string name="popular_domain_1">.net</string>
+  <string name="popular_domain_2">.org</string>
+  <string name="popular_domain_3">.gov</string>
+  <string name="popular_domain_4">.edu</string>
+  <string name="selectInputMethod">Valitse syöttötapa</string>
+  <string name="language_selection_title">Syöttökielet</string>
+  <string name="language_selection_summary">"Vaihda kieltä liu'uttamalla sormea välilyöntinäppäimellä"</string>
+  <string name="hint_add_to_dictionary">← Tallenna koskettamalla uudelleen</string>
+  <string name="has_dictionary">Sanakirja saatavilla</string>
+  <string name="prefs_enable_log">Ota käyttäjäpalaute käyttöön</string>
+  <string name="prefs_description_log">Auta parantamaan tätä syöttötavan muokkausohjelmaa lähettämällä automaattisesti käyttötietoja ja kaatumisraportteja Googlelle.</string>
+  <string name="prefs_enable_recorrection">Korjaa sanoja koskettamalla</string>
+  <string name="prefs_enable_recorrection_summary">Korjaa sanoja koskettamalla niitä</string>
+  <string name="keyboard_layout">Näppäimistön teema</string>
+  <string name="subtype_mode_keyboard">näppäimistö</string>
+  <string name="subtype_mode_voice">ääni</string>
+</resources>

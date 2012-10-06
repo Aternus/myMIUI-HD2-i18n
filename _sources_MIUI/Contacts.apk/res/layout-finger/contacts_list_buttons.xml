@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/btn_panel" android:visibility="gone" style="@*android:style/BottomButtonBar">
+  <Button android:id="@id/btn_done" android:text="@string/menu_done" style="@*android:style/BottomButton.Left"/>
+  <Button android:id="@id/btn_discard" android:text="@string/menu_doNotSave" style="@*android:style/BottomButton.Right"/>
+</LinearLayout>

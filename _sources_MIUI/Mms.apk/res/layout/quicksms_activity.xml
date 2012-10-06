@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+  <TextView android:textAppearance="@*android:style/TextAppearance.Large" android:ellipsize="end" android:id="@id/msg_sender" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+  <TextView android:textAppearance="@*android:style/TextAppearance.Medium" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@id/msg_sender_details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="8.0dip" android:singleLine="true"/>
+  <EditText android:textAppearance="@*android:style/TextAppearance.Medium" android:id="@id/msg_body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="4" android:inputType="textCapSentences|textAutoCorrect|textMultiLine" android:imeOptions="actionSend|flagNoEnterAction"/>
+</LinearLayout>

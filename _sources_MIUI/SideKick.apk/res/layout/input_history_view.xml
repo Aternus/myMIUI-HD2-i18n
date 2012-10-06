@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/input_history_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <FrameLayout android:gravity="top" android:background="@drawable/input_history_title" android:layout_width="fill_parent" android:layout_height="48.0dip">
+    <TextView android:textSize="22.0sp" android:textColor="@*android:color/white" android:layout_gravity="left|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/input_history"/>
+    <Button android:layout_gravity="right|center" android:id="@id/clear_button" android:background="@drawable/delete_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip"/>
+  </FrameLayout>
+  <FrameLayout android:background="@drawable/input_history_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <ExpandableListView android:id="@id/history_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:groupIndicator="@null" android:childDivider="@null" android:divider="@*android:color/transparent" android:dividerHeight="0.0dip" android:drawSelectorOnNothing="true"/>
+  </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ margin:0; padding:0; font-size:18px; color:#333333; font-family:Arial, Helvetica, sans-serif;}
+a {color:#0066cc; text-decoration: none;}
+
+#loading img{border:0;}
+
+.title {background:#eeeeee; padding:10px 10px 34px 10px;font-size:18px; line-height:25px; border-bottom:1px solid #d1d1d1; display:block;}
+.title .subtitle_left {color:#999999; float:left; font-size:13px; margin-top:4px;}
+.title .subtitle_right {float:right;margin-right:10px; font-size:13px; margin-top:4px;}
+
+.content {margin-top:0; padding:15px 10px 0 10px;line-height:27px; margin-bottom:20px; word-wrap:break-word;}
+.content img{min-width:10px; min-height:10px;border:1px solid #d1d1d1;}
+
+.footer {margin:0 0 40px 0;}
+.footer .buttons{padding:30px 10px 15px 10px;}
+.footer .buttons .btn_left{width:48%; height:30px;float:left;padding:0; position:relative;}
+.footer .buttons .btn_right{width:48%; height:30px;float:right; padding:0; position:relative;}
+.footer .buttons .btn_left span{width:100%; text-align:center;position:absolute;top:27%;left:10px;}
+.footer .buttons .btn_right span{width:100%; text-align:center;position:absolute;top:27%;left:0;}
+.footer .buttons .btn_left img{width:100%;}
+.footer .buttons .btn_right img{width:100%;}
+
+.footer .navigation{margin-top:40px; padding:5px 10px 0 10px; border-top:1px solid #d1d1d1; display:none;}
+.footer .navigation span{color:#999999; display:block; margin-top:10px;overflow:hidden; white-space:nowrap;}
+.footer .full_link{width:100%; margin-top:0px; padding:10px 0 10px 10px; padding-bottom:10px; text-align:left; color:#eeeeee; visibility:hidden;}

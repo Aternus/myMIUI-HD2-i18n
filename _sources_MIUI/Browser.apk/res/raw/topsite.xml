@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root ver="3">
+  <group index="1">
+    <item title="网易" url="http://3g.163.com"/>
+    <item title="网易邮箱" url="http://m.mail.163.com"/>
+    <item title="17173游戏网" url="http://wap.17173.com"/>
+  </group>
+  <group index="2">
+    <item title="21CN" url="http://3g.21cn.com"/>
+    <item title="2345网址导航" url="http://wap.2345.com"/>
+  </group>
+  <group index="3">
+    <item title="京东商城" url="http://m.360buy.com"/>
+  </group>
+  <group index="4">
+    <item title="4399小游戏在线" url="4399.com"/>
+  </group>
+  <group index="5">
+    <item title="51" url="http://wap.51.com"/>
+    <item title="56视频" url="56.com"/>
+    <item title="58同城网" url="http://wap.58.com"/>
+  </group>
+  <group index="a">
+    <item title="爱帮网" url="http://wap.aibang.com"/>
+    <item title="安居客" url="http://m.anjuke.com"/>
+    <item title="汽车之家" url="http://wap.autohome.com.cn"/>
+  </group>
+  <group index="b">
+    <item title="百度" url="http://m.baidu.com"/>
+    <item title="必应" url="http://m.bing.com"/>
+    <item title="百姓网" url="http://wap.baixing.com"/>
+  </group>
+  <group index="c">
+    <item title="cnBeta" url="http://m.cnbeta.com"/>
+    <item title="携程旅行网" url="http://wap.ctrip.com"/>
+    <item title="中华网" url="http://3g.china.com"/>
+  </group>
+  <group index="d">
+    <item title="大众点评网" url="http://wap.dianping.com"/>
+    <item title="豆瓣网" url="http://m.douban.com"/>
+    <item title="当当网" url="http://m.dangdang.com"/>
+    <item title="多玩游戏网" url="http://wap.duowan.com"/>
+  </group>
+  <group index="e">
+    <item title="东方财富网" url="http://wap.eastmoney.com"/>
+  </group>
+  <group index="f">
+    <item title="FT中文网" url="http://m.ftchinese.com"/>
+    <item title="中国移动飞信" url="http://wap.fetion.com.cn/im"/>
+    <item title="F团爱赴团" url="http://ftuan.com"/>
+  </group>
+  <group index="g">
+    <item title="谷歌" url="http://www.google.com.hk/wml/search?mrestrict=wml&amp;gl=CN&amp;hl=zh_CN"/>
+    <item title="赶集网" url="http://m.ganji.com"/>
+    <item title="谷歌音乐" url="http://www.google.cn/music/homepage?hl=zh-CN&amp;tab=wU"/>
+    <item title="机锋网" url="http://www.gfan.com"/>
+  </group>
+  <group index="h">
+    <item title="好123" url="http://wap.hao123.com"/>
+    <item title="红袖添香" url="http://wap.hongxiu.com"/>
+    <item title="和讯网" url="http://wap.hexun.com"/>
+  </group>
+  <group index="i">
+    <item title="凤凰网" url="http://3g.ifeng.com"/>
+    <item title="爱词霸" url="http://wap.iciba.com"/>
+  </group>
+  <group index="j">
+    <item title="金融界" url="http://m.jrj.com.cn"/>
+    <item title="卓越亚马逊" url="http://amazon.cn"/>
+    <item title="世纪佳缘交友网" url="http://wap.jiayuan.com"/>
+  </group>
+  <group index="k">
+    <item title="开心网" url="http://wap.kaixin001.com"/>
+    <item title="酷6" url="http://wap.ku6.com"/>
+    <item title="口碑网" url="http://wap.koubei.com"/>
+  </group>
+  <group index="m">
+    <item title="米聊" url="http://www.miliao.com"/>
+    <item title="猫扑网" url="http://3g.mop.com"/>
+    <item title="Mtime时光网" url="http://wap.mtime.com/index.aspx"/>
+    <item title="网易邮箱" url="http://m.mail.163.com"/>
+    <item title="百度MP3" url="http://mp3.baidu.com"/>
+    <item title="MIUI论坛" url="http://miui.com"/>
+    <item title="美团网" url="http://m.meituan.com"/>
+    <item title="满座网" url="http://www.manzuo.com"/>
+  </group>
+  <group index="n">
+    <item title="糯米网" url="http://m.nuomi.com"/>
+  </group>
+  <group index="o">
+        </group>
+  <group index="p">
+    <item title="太平洋电脑网" url="http://product.3g.pconline.com.cn"/>
+    <item title="泡泡网" url="http://wap.pcpop.com"/>
+    <item title="poco社区" url="http://m.poco.cn"/>
+  </group>
+  <group index="q">
+    <item title="腾讯QQ" url="http://3g.qq.com"/>
+    <item title="起点中文网" url="http://wap.qidian.com"/>
+    <item title="Qunar旅游搜索" url="http://m.qunar.com"/>
+    <item title="QQ空间" url="http://z.qq.com"/>
+  </group>
+  <group index="r">
+    <item title="人人网" url="http://3g.renren.com"/>
+  </group>
+  <group index="s">
+    <item title="新浪" url="3g.sina.com.cn"/>
+    <item title="搜狐" url="http://wap.sohu.com"/>
+    <item title="新浪体育" url="sports.sina.cn"/>
+    <item title="搜狗" url="http://wap.sogou.com"/>
+    <item title="搜房网" url="http://wap.soufun.com"/>
+  </group>
+  <group index="t">
+    <item title="天涯社区" url="http://3g.tianya.cn"/>
+    <item title="土豆" url="http://m.tudou.com"/>
+    <item title="新浪微博" url="http://t.sina.cn"/>
+    <item title="腾讯微博" url="http://t.3g.qq.com"/>
+    <item title="淘宝" url="http://m.taobao.com"/>
+    <item title="电玩巴士" url="http://wap.tgbus.com"/>
+  </group>
+  <group index="v">
+    <item title="凡客网" url="http://www.vancl.com"/>
+  </group>
+  <group index="w">
+    <item title="维基百科" url="http://zh.wikipedia.org/zh-cn/"/>
+    <item title="中国天气网" url="http://wap.weather.com.cn/wap"/>
+  </group>
+  <group index="x">
+    <item title="小米官网" url="http://www.xiaomi.com"/>
+    <item title="西祠胡同" url="http://www.xici.net"/>
+    <item title="爱卡汽车网" url="http://www.xcar.com.cn"/>
+  </group>
+  <group index="y">
+    <item title="优酷" url="http://3g.youku.com"/>
+    <item title="有道网" url="http://m.youdao.com"/>
+    <item title="天极网" url="http://wap.yesky.com"/>
+  </group>
+  <group index="z">
+    <item title="百度知道" url="http://wapiknow.baidu.com"/>
+    <item title="中关村在线" url="http://3g.zol.com.cn"/>
+    <item title="智联招聘" url="http://wap.zhaopin.com"/>
+    <item title="联合早报" url="http://wap.zaobao.com"/>
+  </group>
+</root>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@*android:style/ListItem">
+  <LinearLayout android:id="@id/bookmark_item" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="center" android:id="@id/ImageViewFolderItem" android:layout_width="46.0dip" android:layout_height="16.0dip" android:scaleType="fitCenter"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+      <TextView android:textAppearance="@*android:style/TextAppearance.ListView.PrimaryItem" android:id="@id/TextViewFolderItem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+      <TextView android:textAppearance="@*android:style/TextAppearance.ListView.SecondaryItem" android:id="@id/TextViewFolderItemUrl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+    </LinearLayout>
+    <ImageView android:id="@id/ImageViewFolderItem2" android:layout_width="46.0dip" android:layout_height="fill_parent" android:src="@drawable/add_bookmark" android:scaleType="centerInside"/>
+  </LinearLayout>
+</LinearLayout>

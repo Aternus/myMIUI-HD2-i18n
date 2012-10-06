@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditableListItem xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:id="@id/LayoutManager_Main" android:background="@drawable/list_item_normal_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+  <LinearLayout android:gravity="left|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <android.widget.QuickContactBadge android:layout_gravity="center" android:id="@id/dialer_list_contact_photo" android:background="@null" android:paddingTop="10.0px" android:paddingBottom="10.0px" android:layout_width="@dimen/list_item_photo_width" android:layout_height="85.0px" android:layout_marginRight="5.0dip" android:scaleType="fitXY"/>
+    <ImageView android:layout_gravity="center" android:id="@id/dialer_list_contact_big_icon" android:background="@null" android:visibility="gone" android:layout_width="@dimen/list_item_photo_width" android:layout_height="@dimen/list_item_photo_height" android:layout_marginRight="5.0dip" android:scaleType="fitXY"/>
+    <LinearLayout android:gravity="left|center" android:orientation="vertical" android:layout_width="1.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+      <LinearLayout android:gravity="left|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/dialer_list_contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@*android:style/TextAppearance.ListView.PrimaryItem"/>
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/dialer_list_contact_firewall" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/dialer_fire_wall" android:scaleType="center"/>
+        <TextView android:textSize="12.0sp" android:gravity="right|center" android:layout_gravity="right|center" android:id="@id/dialer_list_contact_hightlighted_number_name_pinyin" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:singleLine="true" android:layout_weight="1.0" style="@*android:style/TextAppearance.ListView.SecondaryItem"/>
+      </LinearLayout>
+      <LinearLayout android:gravity="left|center" android:orientation="horizontal" android:id="@id/dialer_list_contact_details" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/dialer_list_contact_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip"/>
+        <TextView android:textSize="12.0sp" android:id="@id/dialer_list_contact_call_record_time_details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@*android:style/TextAppearance.ListView.SecondaryItem"/>
+        <TextView android:textSize="12.0sp" android:layout_gravity="left" android:id="@id/dialer_list_contact_telocation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:singleLine="true" android:layout_weight="1.0" style="@*android:style/TextAppearance.ListView.SecondaryItem"/>
+      </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/dialer_list_contact_call_arrow_right" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@*android:drawable/arrow_right" android:scaleType="center"/>
+    <CheckBox android:layout_gravity="center" android:id="@*android:id/checkbox" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent"/>
+  </LinearLayout>
+</EditableListItem>

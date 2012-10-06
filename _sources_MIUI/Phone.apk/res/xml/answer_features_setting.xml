@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phone="http://schemas.android.com/apk/res/com.android.phone" android:title="@string/answer_features_setting_title">
+  <PreferenceCategory>
+    <CheckBoxPreference android:persistent="false" android:title="@string/turnover_mute_title" android:key="turnover_mute" android:defaultValue="false"/>
+    <CheckBoxPreference android:persistent="false" android:title="@string/handon_ringer_title" android:key="handon_ringer" android:summary="@string/handon_ringer_summary" android:defaultValue="false"/>
+    <CheckBoxPreference android:persistent="true" android:title="@string/enable_proximity_title" android:key="enable_proximity" android:summary="@string/enable_proximity_summary" android:defaultValue="true"/>
+    <CheckBoxPreference android:persistent="true" android:title="@string/enforce_proximity_title" android:key="enforce_proximity_during_ringing" android:summary="@string/enforce_proximity_summary" android:dependency="enable_proximity" android:defaultValue="true"/>
+  </PreferenceCategory>
+</PreferenceScreen>

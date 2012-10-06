@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:focusable="true" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/notification_item_divider_height">
+  <TextView android:textAppearance="@*android:style/TextAppearance.StatusBar.EventContent.Title" android:textColor="@*android:color/status_bar_event_title" android:gravity="left|center" android:id="@id/clear_all_button_old_style" android:background="@drawable/notification_item_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="64.0dip" android:text="@string/status_bar_clear_all_button" android:drawableLeft="@drawable/clear_notifications_button" android:drawablePadding="10.0dip"/>
+  <ScrollView android:id="@id/scroll" android:fadingEdge="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:overScrollMode="ifContentScrolls">
+    <com.android.systemui.statusbar.NotificationLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+      <LinearLayout android:gravity="center_vertical" android:id="@id/usb_mode_notification" android:background="@drawable/notification_item_bg" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <ImageView android:layout_width="@*android:dimen/notification_icon_size" android:layout_height="@*android:dimen/notification_icon_size" android:src="@drawable/usb_notifications_button" android:scaleType="fitCenter"/>
+        <TextView android:textAppearance="@*android:style/TextAppearance.StatusBar.EventContent.Title" android:ellipsize="marquee" android:paddingLeft="10.0dip" android:fadingEdge="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/usb_mode_notification" android:singleLine="true" android:layout_weight="1.0"/>
+        <SlidingButton android:id="@id/usb_mode_button" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip"/>
+      </LinearLayout>
+      <LinearLayout android:orientation="vertical" android:id="@id/ongoingItems" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+      <LinearLayout android:orientation="vertical" android:id="@id/latestItems" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+    </com.android.systemui.statusbar.NotificationLinearLayout>
+  </ScrollView>
+  <TextView android:textAppearance="@*android:style/TextAppearance.StatusBar.EventContent.Title" android:textColor="@*android:color/status_bar_event_title" android:gravity="left|center" android:id="@id/clear_all_button" android:background="@drawable/notification_item_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="64.0dip" android:text="@string/status_bar_clear_all_button" android:drawableLeft="@drawable/clear_notifications_button" android:drawablePadding="10.0dip"/>
+</LinearLayout>

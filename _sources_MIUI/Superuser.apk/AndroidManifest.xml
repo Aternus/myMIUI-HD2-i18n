@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="24" android:versionName="2.3.6" package="com.miui.uac">
+  <application android:label="@string/app_name" android:icon="@drawable/icon">
+    <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/app_name" android:name="Su">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <activity android:name="AppListActivity"/>
+    <activity android:label="@string/app_details" android:name="AppDetailsActivity"/>
+    <activity android:name="LogActivity"/>
+    <activity android:theme="@*android:style/Theme.Dialog.Alert" android:label="@string/app_name_request" android:name="SuRequest" android:taskAffinity="" android:excludeFromRecents="true" android:noHistory="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+    </activity>
+    <activity android:name="SuPreferences">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+    </activity>
+    <activity android:label="@string/menu_setting" android:name="SuperuserPreference"/>
+    <receiver android:name="SuRequestReceiver">
+      <intent-filter>
+        <action android:name="com.miui.uac.REQUEST"/>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="SuNotificationReceiver">
+      <intent-filter>
+        <action android:name="com.miui.uac.NOTIFICATION"/>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="UninstallReceiver">
+      <intent-filter>
+        <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+        <data android:scheme="package"/>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="InstallReceiver">
+      <intent-filter>
+        <action android:name="android.intent.action.PACKAGE_ADDED"/>
+        <data android:scheme="package"/>
+      </intent-filter>
+    </receiver>
+  </application>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  <uses-permission android:name="com.miui.uac.RESPOND"/>
+  <permission android:label="@string/permlab_respond" android:name="com.miui.uac.RESPOND" android:protectionLevel="signature" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:description="@string/permdesc_respond"/>
+</manifest>

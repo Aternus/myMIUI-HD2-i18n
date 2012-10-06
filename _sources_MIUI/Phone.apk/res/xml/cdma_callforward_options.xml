@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phone="http://schemas.android.com/apk/res/com.android.phone" android:title="@string/call_forwarding_settings">
+  <com.android.phone.CdmaCallForwardEditPreference android:hint="@string/call_forwarding_number_hint" android:singleLine="true" android:autoText="false" android:title="@string/labelCFU" android:key="button_cfu_key" android:dialogTitle="@string/labelCFU" phone:changeNumButtonText="@string/enable" phone:confirmMode="activation" phone:reason="unconditional"/>
+  <com.android.phone.CdmaCallForwardEditPreference android:hint="@string/call_forwarding_number_hint" android:singleLine="true" android:autoText="false" android:title="@string/labelCFB" android:key="button_cfb_key" android:dialogTitle="@string/labelCFB" phone:changeNumButtonText="@string/enable" phone:confirmMode="activation" phone:reason="busy"/>
+  <com.android.phone.CdmaCallForwardEditPreference android:hint="@string/call_forwarding_number_hint" android:singleLine="true" android:autoText="false" android:title="@string/labelCFNRy" android:key="button_cfnry_key" android:dialogTitle="@string/labelCFNRy" phone:changeNumButtonText="@string/enable" phone:confirmMode="activation" phone:reason="no_reply"/>
+  <com.android.phone.CdmaCallForwardEditPreference android:hint="@string/call_forwarding_number_hint" android:singleLine="true" android:autoText="false" android:title="@string/labelCFNRc" android:key="button_cfnrc_key" android:dialogTitle="@string/labelCFNRc" phone:changeNumButtonText="@string/enable" phone:confirmMode="activation" phone:reason="not_reachable"/>
+  <Preference android:title="@string/disable_all_cf">
+    <intent android:action="android.intent.action.CALL" android:data="tel:*730"/>
+  </Preference>
+</PreferenceScreen>

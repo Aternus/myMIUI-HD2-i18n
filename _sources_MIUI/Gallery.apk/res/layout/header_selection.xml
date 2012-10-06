@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+  <TextView android:textSize="16.0dip" android:textColor="@*android:color/white" android:ellipsize="end" android:gravity="left" android:id="@id/folder_selection_hint" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/select_photo_hint" android:singleLine="true" android:layout_weight="1.0"/>
+  <Button android:textSize="@dimen/button_text_size" android:textColor="@*android:color/white" android:id="@id/folder_cancel_selection" android:background="@drawable/title_btn_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/operation_cancel"/>
+</LinearLayout>

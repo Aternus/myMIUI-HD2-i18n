@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.sidekick.GroupSearchView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top" android:orientation="vertical" android:id="@id/search_container" android:background="@drawable/search_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <FrameLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="10.0dip">
+    <EditText android:textSize="15.0sp" android:textColorHint="#ff999999" android:ellipsize="end" android:layout_gravity="center" android:id="@id/search_src_text" android:background="@drawable/search_textfield_bg" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="7.0dip" android:layout_marginRight="7.0dip" android:hint="@string/search_hint" android:singleLine="true" android:drawableLeft="@drawable/search_icon" android:drawablePadding="2.0dip"/>
+    <ImageView android:layout_gravity="right|center" android:id="@id/search_clear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0dip" android:src="@drawable/search_clear"/>
+  </FrameLayout>
+  <com.android.sidekick.ResultView android:layout_gravity="center" android:orientation="vertical" android:id="@id/result_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <TextView android:textSize="14.0sp" android:textColor="#ff999999" android:gravity="left|center" android:id="@id/search_recent_hint" android:background="@drawable/hint_bg" android:paddingLeft="7.0dip" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="@string/search_recent_hint"/>
+    <TextView android:textSize="14.0sp" android:textColor="#ff333333" android:layout_gravity="center" android:id="@id/search_no_result_title" android:background="@drawable/hint_bg" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="false"/>
+    <LinearLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+      <com.android.sidekick.PinnedHeaderListView android:id="@id/result_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/list_item_selector" android:cacheColorHint="@*android:color/transparent" android:divider="@null" android:footerDividersEnabled="false"/>
+    </LinearLayout>
+  </com.android.sidekick.ResultView>
+</com.android.sidekick.GroupSearchView>

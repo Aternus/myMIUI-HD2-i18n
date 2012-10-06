@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/adjust_used_traffic_setting" android:layout_width="fill_parent" android:layout_height="wrap_content">
+  <EditText android:id="@id/et_input_used_traffic" android:background="@drawable/traffic_input" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/input_used_traffic" android:numeric="decimal"/>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/music_picker" android:background="@color/player_main_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <TextView android:textSize="19.0dip" android:textColor="@color/list_title_text" android:gravity="left|center" android:layout_gravity="left|center" android:background="@drawable/header_bg" android:paddingLeft="@dimen/media_player_padding" android:layout_width="fill_parent" android:layout_height="@dimen/normal_height" android:text="@string/tracks_title" android:singleLine="true" style="@style/TitleShadowStyle"/>
+  <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+    <ListView android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@*android:color/transparent" android:fastScrollEnabled="true" android:headerDividersEnabled="true" android:footerDividersEnabled="false" style="@style/NoDividerLystViewStyle"/>
+    <com.miui.player.ui.view.AlphabetScroller android:layout_gravity="top|right|center" android:id="@id/fast_scroller" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/alpha_list_scroll"/>
+  </FrameLayout>
+  <LinearLayout android:layout_gravity="bottom" android:id="@id/music_picker_bottom_commit" android:layout_width="fill_parent" android:layout_height="@dimen/drawer_tab_height">
+    <include layout="@layout/commit_bottom_2"/>
+  </LinearLayout>
+</LinearLayout>

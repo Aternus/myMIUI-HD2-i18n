@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="alternates_for_a"/>
+  <string name="alternates_for_e">3èéêë</string>
+  <string name="alternates_for_i">ìíîï8</string>
+  <string name="alternates_for_o">ö9</string>
+  <string name="alternates_for_u">ùúûü7</string>
+  <string name="alternates_for_s">§ß</string>
+  <string name="alternates_for_n">ñ</string>
+  <string name="alternates_for_c">ç</string>
+  <string name="alternates_for_y">ýÿ</string>
+  <string name="alternates_for_z">6</string>
+  <string name="english_ime_name">ანდროიდის კლავიატურა</string>
+  <string name="english_ime_settings">ანდროიდის კლავ. პარამეტრები</string>
+  <string name="english_ime_input_options">შეტანის პარამეტრები</string>
+  <string name="added_word">%s: დამახსოვრებულია</string>
+  <string name="label_go_key">მიდი</string>
+  <string name="label_next_key">შემდ.</string>
+  <string name="label_done_key">მორჩა</string>
+  <string name="label_send_key">გაუშვი</string>
+  <string name="label_symbol_key">\?123</string>
+  <string name="label_phone_key">123</string>
+  <string name="label_alpha_key">აბგ</string>
+  <string name="label_alt_key">ALT</string>
+  <string name="cancel">გაუქმება</string>
+  <string name="ok">კარგი</string>
+  <string name="popular_domain_0">.com</string>
+  <string name="popular_domain_1">.ge</string>
+  <string name="popular_domain_2">.org</string>
+  <string name="popular_domain_3">.gov</string>
+  <string name="popular_domain_4">.edu</string>
+  <string name="has_dictionary">სიტყვარი ხელმისაწვდომია</string>
+  <string name="prefs_enable_recorrection">სიტყვების შესწორება</string>
+  <string name="keyboard_layout">კლავ. გაფორმება</string>
+  <string name="subtype_mode_keyboard">კლავიატურა</string>
+  <string name="subtype_mode_voice">ენა</string>
+</resources>

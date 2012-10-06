@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@*android:style/WindowTitleBackground.Tall">
+    <TextView android:id="@id/progress_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@*android:style/WindowTitle"/>
+    <TextView android:id="@id/hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/backup_hint" android:singleLine="true" style="@style/WindowTitleSecondary"/>
+  </LinearLayout>
+  <ListView android:id="@id/contentsList" android:layout_width="fill_parent" android:layout_height="0.0dip" android:divider="@null" android:layout_weight="1.0" style="@*android:style/Widget.ListView.NoDivider"/>
+  <TextView android:layout_gravity="center" android:id="@id/contentEmpty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/backup_empty" android:layout_weight="1.0"/>
+  <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@*android:style/BottomButtonBar">
+    <Button android:id="@id/cancelButton" android:layout_marginLeft="48.0dip" android:layout_marginRight="48.0dip" android:text="@string/button_cancel" style="@*android:style/BottomButton.Middle"/>
+    <Button android:id="@id/okButton" android:layout_marginLeft="48.0dip" android:layout_marginRight="48.0dip" android:text="@string/button_finish" style="@*android:style/BottomButton.Middle"/>
+  </LinearLayout>
+</LinearLayout>
