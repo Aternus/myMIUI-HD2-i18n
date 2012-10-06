@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">DND</string>
-  <string name="firewall_settings_tab_title">Firewall</string>
+  <string name="firewall_settings_tab_title">Τοίχος προστασίας</string>
   <string name="black_white_list_tab_title">Μαύρη λίστα</string>
   <string name="call_log_tab_title">Μητρώο κλήσεων</string>
   <string name="mms_log_tab_title">Μηνύματα</string>
   <string name="fw_blacklist">Μαύρη λίστα</string>
   <string name="fw_whitelist">Επιτρεπόμενα</string>
-  <string name="enable_firewall">Ενεργοποίηση firewall</string>
+  <string name="enable_firewall">Ενεργοποίηση τοίχου προστασίας</string>
   <string name="fw_pattern_settings">Συνπεριφορά</string>
   <string name="fw_action_settings">Ρυθμίσεις</string>
   <string name="fw_time_settings">Ρυθμίσεις χρόνου</string>
@@ -59,8 +59,8 @@
   <string name="fw_menu_remove">Διαγραφή</string>
   <string name="confirm">OK</string>
   <string name="no">Άκυρο</string>
-  <string name="fw_clear_blacklist">Εκαθάρριση μαύρης λίστας</string>
-  <string name="fw_clear_whitelist">Εκαθάρριση λευκής λίστας</string>
+  <string name="fw_clear_blacklist">Εκκαθάριση μαύρης λίστας</string>
+  <string name="fw_clear_whitelist">Εκκαθάριση λευκής λίστας</string>
   <string name="fw_restore_ms">Επιστροφή στα μηνύματα</string>
   <string name="fw_ms" formatted="false">Χρόνος μηνύματος: %s (%d)</string>
   <string name="fw_call" formatted="false">Χρόνος κλήσης: %s (%d)</string>
@@ -80,7 +80,7 @@
   <string name="menu_edit">Επεξεργαστής</string>
   <string name="fw_add_keyword">Προσθήκη λέξεων-κλειδιά στην παρακολούθηση</string>
   <string name="fw_edit_keyword">Επεξεργασία λέξεων-κλειδιά</string>
-  <string name="fw_clear_all_keyword">Εκαθάρριση όλων</string>
+  <string name="fw_clear_all_keyword">Εκκαθάριση όλων</string>
   <string name="fw_add_keyword_existing">Λέξη κλειδί: %s υπάρχει ήδη</string>
   <string name="member_firewall_log" formatted="false">Αποκλεισμένο: Αριθμός %d λεπτομέρειες %d</string>
   <string name="clear_all_calllog">Καθαρισμός μητρώου</string>
@@ -110,6 +110,6 @@
   <string name="context_ms">Αποστολή SMS / MMS</string>
   <string name="context_new_contact">Νέα επαφή</string>
   <string name="context_add_contact">Προσθήκη σε υπάρχουσα επαφή</string>
-  <string name="check_all">Εκαθάρριση όλων</string>
+  <string name="check_all">Εκκαθάριση όλων</string>
   <string name="check_nothing">Αποεπιλογή όλων</string>
 </resources>
