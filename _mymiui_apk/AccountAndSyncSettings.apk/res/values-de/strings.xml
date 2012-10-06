@@ -77,7 +77,7 @@
   <string name="network_error">Netzwerk Verbindungsfehler</string>
   <string name="unknown">Unbekannter Fehler</string>
   <string name="sending_bind_request">Sende Anfrage</string>
-  <string name="bind_phone_dialog_title">Binde Telefon</string>
+  <string name="bind_phone_dialog_title">Telefon verbinden</string>
   <string name="bind_phone_dialog_message">Sie erhalten eine Nachricht um Ihren Account zu bestätigen, bitte klicken Sie den Link in der Nachricht</string>
   <string name="bind_email_dialog_title">Binde e-mail</string>
   <string name="bind_email_dialog_message">Sie erhalten eine E-Mail um Ihren Account zu bestätigen, bitte klicken sie den Link</string>
