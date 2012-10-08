@@ -131,7 +131,7 @@ An important concept to grasp with Git is that it's a distributed version contro
 which means you are responsible to stay up to date with what happens with the __source REPO__.  
 Before working on any files, I strongly suggest pulling the latest changes from the source REPO.
 ```
-git pull source
+git pull source master
 ```
 
 ## Credits

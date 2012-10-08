@@ -50,7 +50,7 @@
   <string name="mailbox_name_display_drafts">Concepten</string>
   <string name="mailbox_name_display_trash">Prullenbak</string>
   <string name="mailbox_name_display_sent">Verzenden</string>
-  <string name="mailbox_name_display_junk">Prullenbak/string>
+  <string name="mailbox_name_display_junk">Prullenbak</string>
   <string name="debug_version_fmt">Versie: %s</string>
   <string name="account_folder_list_separator_accounts">Accounts</string>
   <string name="account_folder_list_summary_inbox">Gecombineerde Inbox</string>
