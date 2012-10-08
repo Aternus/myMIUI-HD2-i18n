@@ -52,15 +52,11 @@ If you need more help on how to Fork a project, [click here](https://help.github
 ### Step 3 - Setting your environment (Linux/Cygwin/GitBash)
 __Replace any occurences of username with your username.__
 
-#### Make a working directory
+#### Make a working directory & Clone the forked REPO
 ```
 cd /
-mkdir "myMIUI-HD2-i18n"
-cd myMIUI-HD2-i18n
-```
-#### Clone the REPO you've just forked to your local directory
-```
 git clone https://github.com/username/myMIUI-HD2-i18n.git
+cd myMIUI-HD2-i18n
 ```
 #### Add the remote source REPO of myMIUI-HD2-i18n
 ```
