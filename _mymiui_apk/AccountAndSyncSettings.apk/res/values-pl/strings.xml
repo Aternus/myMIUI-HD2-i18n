@@ -12,17 +12,17 @@
   <string name="bad_token">Błąd tokena</string>
   <string name="bad_verification">Informacje rejestracyjne nie pasują</string>
   <string name="bind_dialog_button">Bind</string>
-  <string name="bind_email_dialog_message">You will receive an e-mail for verification of the account, please login to your e-mail and click the link to confirm binding</string>
-  <string name="bind_email_dialog_title">Bind e-mail</string>
-  <string name="bind_phone_dialog_message">Your phone will receive a text message to validate the account, please click the confirmation link within the message</string>
+  <string name="bind_email_dialog_message">Otrzymasz wiadomośc email w celu weryfikacji konta, prosimy o zalogowanie się na konto i kliknięcie w link aktywacyjny</string>
+  <string name="bind_email_dialog_title">Powiązany email</string>
+  <string name="bind_phone_dialog_message">Twój telefon otrzyma wiadomość tekstową w celu autoryzacji konta, prosimy o kliknięcie w link aktywacyjny, który otrzymasz</string>
   <string name="bind_phone_dialog_title">Powiązanie telefonu</string>
   <string name="cant_sync_dialog_message">Synchronizacja jest aktualnie wyłączona dla tego elementu. Aby zmienić preferencję, włącz tymczasowo dane w tle i synchronizację automatyczną.</string>
   <string name="cant_sync_dialog_title">Nie można zsynchronizować ręcznie</string>
-  <string name="disable_mitalk_dialog_message">Disabling MiTalk will mean not to be able to chat directly and sync MiTalk contacts, confirm you want to close the chat and contacts synchronization?</string>
-  <string name="disable_mitalk_dialog_title">Disable MiTalk synchronization</string>
+  <string name="disable_mitalk_dialog_message">Wyłączenie MiTalk spowoduje, że nie będziesz mógł bezpośrenio rozmawiać i synchronizować kontaktów MiTalk, na pewno chcesz zamknąć czat i synchronizację?</string>
+  <string name="disable_mitalk_dialog_title">Wyłącz synchronizację MiTalk</string>
   <string name="email_not_verified">Email nie został zweryfikowany</string>
-  <string name="enable_mitalk_dialog_message">MiTalk account and the current system account are conflicting, the data will be cleared and use MiTalk as default. Synchronize MiTalk?</string>
-  <string name="enable_mitalk_dialog_title">Synchronizing</string>
+  <string name="enable_mitalk_dialog_message">Konto MiTalk i obecne systemowe konto nie pasują do siebie, dane zostaną usunięte i MiTalk będzie używany domyślnie. Zsynchronizować MiTalk?</string>
+  <string name="enable_mitalk_dialog_title">Synchronizuję</string>
   <string name="finish_button_label">Zakończ</string>
   <string name="has_bound">Już istnieje</string>
   <string name="has_nick">Konto już posiada pseudonim</string>
@@ -92,8 +92,8 @@
   <string name="user_phone_format_error">Format numeru telefonu jest nieprawidłowy</string>
   <string name="user_phone_hint">Wpisz numer telefonu</string>
   <string name="user_phone_title">Powiąż numer telefonu</string>
-  <string name="user_unbind">unbind</string>
+  <string name="user_unbind">Usuń powiązanie</string>
   <string name="xiaomi_account">Konto Xiaomi</string>
-  <string name="xiaomi_remove_account_message">Deleting this account will also remove Millet service data, including Application Supermarket, M talk, etc. (Contacts, SMS, call log is retained). Are you sure to delete?</string>
+  <string name="xiaomi_remove_account_message">Usunięcie tego konta spowoduje także usunięcie danych Millet service, takich jak Application Supermarket, M talk, etc. (Kontakty, SMS, rejsstr połączeń pozostaną nienaruszone). Na pewno chcesz je usunąć?</string>
   <string name="xiaomi_remove_account_title">Usuń konto</string>
 </resources>
