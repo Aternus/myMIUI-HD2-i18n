@@ -156,8 +156,8 @@
   <string name="page_info_address">Adres:</string>
   <string name="page_info_view">Informacje witryny</string>
   <string name="password">Hasło</string>
-  <string name="permdesc_downloadCompletedIntent">permit to send download-completed message to application</string>
-  <string name="permlab_downloadCompletedIntent">send download message</string>
+  <string name="permdesc_downloadCompletedIntent">Zezwól na wysłanie informacji o ukończeniu pobierania do aplikacji</string>
+  <string name="permlab_downloadCompletedIntent">Wyślij wiadomość</string>
   <string name="play_video">odtwórz wideo</string>
   <string name="player_not_found">odtwarzacz nieznaleziony.</string>
   <string name="please_select_a_file_to_import">Wybierz plik</string>
