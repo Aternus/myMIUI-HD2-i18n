@@ -15,7 +15,7 @@
   <string name="bookmark_folderpicker_header">Vælg mappe</string>
   <string name="night_mode_desc">Tvinger "nat-tilstand" på hjemmesider.</string>
   <string name="menu_brightness_adjust">Lysstyrke</string>
-  <string name="save">OK</string>
+  <string name="save">Gem</string>
   <string name="back">Tilbage</string>
   <string name="ok">OK</string>
   <string name="cancel">Anuller</string>
@@ -105,7 +105,7 @@
   <string name="pref_overview_mode">Panorama tilstand</string>
   <string name="pref_overview_mode_summary">Vis hjemmesider i panorama tilstand.</string>
   <string name="pref_auto_enter_fullscreen">Smart Fuld-skærm</string>
-  <string name="pref_auto_enter_fullscreen_summary">Slå automatisk fuld-skærm tilstand fra og til.</string>
+  <string name="pref_auto_enter_fullscreen_summary">Slå automatisk fuldskærm tilstand fra og til.</string>
   <string name="pref_text_size_dialogtitle">Tekststørrelse</string>
   <string name="pref_about">Om MIUI Browser</string>
   <string name="pref_about_detail">MIUI Browser</string>
@@ -131,7 +131,7 @@
   <string name="download_no_sdcard_dlg_title">Intet SD-Kort</string>
   <string name="download_no_sdcard_dlg_msg">Kort skal være indsat og klar før download af %s</string>
   <string name="download_sdcard_busy_dlg_title">SD-Kort optaget</string>
-  <string name="download_sdcard_busy_dlg_msg">Kortet er optaget. Luk venligst for bug og prøv igen.</string>
+  <string name="download_sdcard_busy_dlg_msg">Kortet er optaget. Luk venligst for brug og prøv igen.</string>
   <string name="top_search_google">Google</string>
   <string name="top_search_baidu">Baidu</string>
   <string name="top_search_bing">Bing</string>
@@ -213,7 +213,7 @@
   <string name="export_bookmark_failure">Fejl! Bogmærker ikke eksporteret!</string>
   <string name="auto_data_backup">Automatisk Backup</string>
   <string name="auto_data_backup_summary">Automatisk browser data backup.</string>
-  <string name="one_key_export">One Key Backup</string>
+  <string name="one_key_export">Et tryk Backup</string>
   <string name="one_key_export_summary">Backup browser data til SD-Kortet.</string>
   <string name="one_key_export_message">Dette vil tage backup af browser data til SD-Kortet... (/sdcard/miui_browser/backups/)</string>
   <string name="one_key_import">One Key Importering</string>
