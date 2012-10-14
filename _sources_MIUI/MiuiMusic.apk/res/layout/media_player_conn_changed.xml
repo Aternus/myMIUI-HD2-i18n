@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+  <TextView android:textSize="14.0dip" android:textColor="@color/item_descript_text_n" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip"/>
+  <CheckBox android:textSize="14.0dip" android:textColor="@color/item_descript_text_n" android:gravity="left" android:id="@id/donot_ask_me_agaion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:checked="false" android:text="@string/donot_ask_me_agaion"/>
+</LinearLayout>

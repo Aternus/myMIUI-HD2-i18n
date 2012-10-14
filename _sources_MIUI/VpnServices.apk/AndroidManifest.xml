@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" android:versionCode="10" android:versionName="2.3.7" package="com.android.server.vpn">
+  <application android:label="@string/app_label">
+    <service android:name=".VpnServiceBinder" android:process=":remote">
+      <intent-filter>
+        <action android:name="android.net.vpn.IVpnService"/>
+        <action android:name="android.net.vpn.SERVICE"/>
+      </intent-filter>
+    </service>
+  </application>
+  <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/fw_pattern_settings">
+  <PreferenceCategory>
+    <RadioButtonPreference android:persistent="false" android:title="@string/opt_reject_blacklist" android:key="opt_reject_blacklist"/>
+    <RadioButtonPreference android:persistent="false" android:title="@string/opt_reject_blacklist_stranger" android:key="opt_reject_blacklist_stranger" android:summary="@string/opt_reject_blacklist_stranger_summary"/>
+    <RadioButtonPreference android:persistent="false" android:title="@string/opt_accept_whitelist" android:key="opt_accept_whitelist"/>
+    <RadioButtonPreference android:persistent="false" android:title="@string/opt_reject_all" android:key="opt_reject_all"/>
+  </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="bookmark_control_items">
+    <item>新建目录</item>
+    <item>新建收藏</item>
+    <item>导入收藏</item>
+    <item>导出收藏</item>
+  </string-array>
+  <string-array name="not_found_page_titles">
+    <item>找不到网页</item>
+  </string-array>
+  <string-array name="pref_load_images_choice">
+    <item>始终显示</item>
+    <item>不显示</item>
+    <item>仅在wifi下显示</item>
+  </string-array>
+  <string-array name="pref_volume_setting_choice">
+    <item>默认</item>
+    <item>滚动屏幕</item>
+    <item>切换网页标签</item>
+  </string-array>
+  <string-array name="pref_volume_setting_enable_choice">
+    <item>总是应用音量键设置</item>
+    <item>仅当没有音乐播放时应用</item>
+  </string-array>
+  <string-array name="barcon_operation_items">
+    <item>编辑</item>
+    <item>删除</item>
+  </string-array>
+  <string-array name="pref_reading_mode_choices">
+    <item>自动进入阅读模式</item>
+    <item>手动进入阅读模式</item>
+    <item>关闭阅读模式</item>
+  </string-array>
+  <string-array name="pref_forum_mode_choices">
+    <item>自动进入论坛模式</item>
+    <item>手动进入论坛模式</item>
+    <item>关闭论坛模式</item>
+  </string-array>
+  <string-array name="pref_content_plugins_choices">
+    <item>显示flash</item>
+    <item>不显示flash</item>
+    <item>点击后显示</item>
+  </string-array>
+  <string-array name="pref_text_size_choices">
+    <item>小</item>
+    <item>正常</item>
+    <item>大</item>
+    <item>更大</item>
+  </string-array>
+  <string-array name="pref_hide_buttons_in_fullscreen_choices">
+    <item>显示所有浮动按钮</item>
+    <item>全屏时隐藏前进后退</item>
+    <item>自动隐藏浮动按钮</item>
+    <item>永远不显示浮动按钮</item>
+  </string-array>
+  <string-array name="pref_hide_statusbar_choices">
+    <item>显示系统通知栏</item>
+    <item>隐藏系统通知栏</item>
+    <item>自动隐藏通知栏</item>
+  </string-array>
+  <string-array name="pref_hide_statusbar_values">
+    <item>ALWAYS_SHOW</item>
+    <item>ALWAYS_HIDE</item>
+    <item>AUTO</item>
+  </string-array>
+  <string-array name="pref_simple_mode_choices">
+    <item>关闭省流模式</item>
+    <item>开启省流模式</item>
+    <item>非WIFI时使用省流模式</item>
+  </string-array>
+  <string-array name="pref_default_text_encoding_choices">
+    <item>拉丁语-1 (ISO-8859-1)</item>
+    <item>Unicode (UTF-8)</item>
+    <item>中文 (GBK)</item>
+    <item>中文 (Big5)</item>
+    <item>日语 (ISO-2022-JP)</item>
+    <item>日语 (SHIFT_JIS)</item>
+    <item>日语 (EUC-JP)</item>
+  </string-array>
+  <string-array name="pref_default_zoom_choices">
+    <item>远</item>
+    <item>中</item>
+    <item>近</item>
+  </string-array>
+  <string-array name="pref_user_agent_choices">
+    <item>默认</item>
+    <item>Chrome桌面版</item>
+    <item>iPhone 3</item>
+    <item>iPhone 4</item>
+    <item>iPad</item>
+  </string-array>
+  <string-array name="pref_left_right_gesture_choices">
+    <item>默认</item>
+    <item>前进-后退</item>
+    <item>切换标签</item>
+  </string-array>
+  <string-array name="pref_single_click_choices">
+    <item>在当前标签中打开链接</item>
+    <item>在新标签中打开链接</item>
+    <item>在后台标签中打开链接</item>
+  </string-array>
+  <string-array name="pref_long_click_choices">
+    <item>显示菜单</item>
+    <item>在新标签中打开链接</item>
+    <item>在后台标签中打开链接</item>
+  </string-array>
+</resources>

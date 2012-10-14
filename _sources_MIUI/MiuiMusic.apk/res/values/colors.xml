@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="dragndrop_background">#55ffffff</color>
+  <color name="white_5_transparent">#0dffffff</color>
+  <color name="white_10_transparent">#15ffffff</color>
+  <color name="white_20_transparent">#30ffffff</color>
+  <color name="white_30_transparent">#55ffffff</color>
+  <color name="white_40_transparent">#66ffffff</color>
+  <color name="white_50_transparent">#80ffffff</color>
+  <color name="white_60_transparent">#a0ffffff</color>
+  <color name="white_70_transparent">#b0ffffff</color>
+  <color name="white_80_transparent">#d0ffffff</color>
+  <color name="black_30_transparent">#55000000</color>
+  <color name="black_40_transparent">#66000000</color>
+  <color name="black_50_transparent">#80000000</color>
+  <color name="black_70_transparent">#b0000000</color>
+  <color name="black_80_transparent">#d0000000</color>
+  <color name="black_90_transparent">#e6000000</color>
+  <color name="ringtone_picker_n">#ff333333</color>
+  <item type="color" name="ringtone_picker_p">@*android:color/white</item>
+  <color name="now_playing_bar_text_n">#ffffffff</color>
+  <color name="now_playing_bar_text_p">#ffffffff</color>
+  <item type="color" name="now_playing_bar_text_shadow">@color/black_90_transparent</item>
+  <item type="color" name="invalid_show_bar_text_shadow">@color/white_60_transparent</item>
+  <item type="color" name="now_playing_artist_name_text_n">@color/white_50_transparent</item>
+  <item type="color" name="now_playing_artist_name_text_p">@color/white_50_transparent</item>
+  <item type="color" name="time_indicator_text_n">@color/white_30_transparent</item>
+  <item type="color" name="time_indicator_text_p">@color/white_30_transparent</item>
+  <color name="commit_button_text_n">#ffffffff</color>
+  <color name="commit_button_text_p">#ffffffff</color>
+  <item type="color" name="tab_indicator_text_n">@color/white_50_transparent</item>
+  <color name="tab_indicator_text_p">#ffffffff</color>
+  <item type="color" name="tab_indicator_text_shadow">@color/black_90_transparent</item>
+  <item type="color" name="online_song_number_item_number_text_n">@*android:color/white</item>
+  <item type="color" name="online_song_number_item_number_text_p">@*android:color/white</item>
+  <color name="audio_player_bg">#ff0e0e0e</color>
+  <color name="player_main_bg">#fff7f7f7</color>
+  <color name="navigation_title_text_n">#ff0e0e0e</color>
+  <item type="color" name="navigation_title_text_p">@*android:color/white</item>
+  <color name="navigation_descript_text_n">#ff0c0c0c</color>
+  <item type="color" name="navigation_descript_text_p">@*android:color/white</item>
+  <color name="item_title_text_n">#ff313131</color>
+  <item type="color" name="item_title_text_p">@*android:color/white</item>
+  <item type="color" name="item_descript_text_n">@color/black_40_transparent</item>
+  <item type="color" name="item_descript_text_p">@*android:color/white</item>
+  <color name="item_nowplaying_title_text_n">#d0ffffff</color>
+  <color name="item_nowplaying_title_text_p">#d0ffffff</color>
+  <color name="item_nowplaying_descript_text_n">#80ffffff</color>
+  <color name="item_nowplaying_descript_text_p">#80ffffff</color>
+  <color name="list_title_text_n">#ffffffff</color>
+  <color name="list_title_text_p">#ffffffff</color>
+  <item type="color" name="header_shadow_color">@*android:color/white</item>
+  <color name="list_descript_text_n">#ffffffff</color>
+  <color name="list_descript_text_p">#ffffffff</color>
+  <color name="disable_descript_text">#501a1a1a</color>
+  <item type="color" name="widget_title_text_n">@*android:color/white</item>
+  <item type="color" name="widget_title_text_p">@*android:color/white</item>
+  <color name="audio_player_lyric_text_n">#4cffffff</color>
+  <color name="audio_player_lyric_text_p">#4cffffff</color>
+  <item type="color" name="audio_player_album_download_text_n">@color/white_70_transparent</item>
+  <item type="color" name="audio_player_album_download_text_p">@color/white_70_transparent</item>
+  <item type="color" name="audio_player_lyric_current_text_n">@*android:color/white</item>
+  <item type="color" name="audio_player_lyric_current_text_p">@*android:color/white</item>
+  <color name="audio_player_lyric_current_text_shadow">#ffffae00</color>
+  <item type="color" name="download_search_edit_text_n">@*android:color/background_dark</item>
+  <item type="color" name="download_search_edit_text_p">@*android:color/background_dark</item>
+  <item type="color" name="download_task_running_item_title_text_n">@*android:color/black</item>
+  <item type="color" name="download_task_running_item_title_text_p">@*android:color/white</item>
+  <color name="download_task_running_item_status_text_n">#ffababab</color>
+  <item type="color" name="download_task_running_item_status_text_p">@*android:color/white</item>
+  <color name="download_task_running_operation_item_text_n">#ff51565c</color>
+  <item type="color" name="download_task_running_operation_item_text_p">@*android:color/white</item>
+  <item type="color" name="download_task_listview_title_text_n">@*android:color/white</item>
+  <item type="color" name="download_task_listview_title_text_p">@*android:color/white</item>
+  <color name="track_context_menu_title">#ff313131</color>
+  <color name="track_context_menu_status">#ff8b909d</color>
+  <color name="track_context_menu_descript">#ff8b909d</color>
+  <color name="equalizer_save_unenabled">#ff51565c</color>
+  <item type="color" name="equalizer_save_enabled">@*android:color/white</item>
+  <color name="equalizer_curve">#ffffae00</color>
+  <color name="equalizer_curve_shadow">#ff9f4000</color>
+</resources>

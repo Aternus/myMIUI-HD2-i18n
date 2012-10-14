@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="wrap_content">
+  <TextView android:textSize="17.299988dip" android:textColor="@color/track_context_menu_title" android:gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200.0dip" android:singleLine="true" android:layout_centerHorizontal="true" style="@style/TitleShadowStyle"/>
+  <TextView android:textSize="12.0dip" android:textColor="@color/track_context_menu_status" android:gravity="center_vertical" android:id="@id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="2.0dip" android:layout_toRightOf="@id/title" android:layout_alignBottom="@id/title" style="@style/TitleShadowStyle"/>
+  <TextView android:textSize="12.0dip" android:textColor="@color/track_context_menu_descript" android:id="@id/descript" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/title" android:layout_centerHorizontal="true" style="@style/TitleShadowStyle"/>
+</RelativeLayout>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="at_home">\u0020in huis</string>
+  <string name="at_home">\u0020thuis</string>
   <string name="at_other">\u0020ergens anders</string>
-  <string name="at_work">\u0020op werk</string>
+  <string name="at_work">\u0020op het werk</string>
   <string name="bluetooth_title">Bluetooth Spraak Kiezer</string>
   <string name="examples">\u0020Voorbeelden: </string>
   <string name="failure">Mislukt</string>
@@ -15,7 +15,7 @@
   <string name="logging_enabled">Spraak kiezer logging ingeschakeld.</string>
   <string name="no_results_tts">Geen resultaten, probeer opnieuw.</string>
   <string name="on_mobile">\u0020op mobiel</string>
-  <string name="please_try_again">Probeer opnieuw.</string>
+  <string name="please_try_again">Graag opnieuw proberen.</string>
   <string name="recognition_error">Je kan proberen je telefoon opnieuw op te starten.</string>
   <string name="speak_now_tts">Spreek nu.</string>
   <string name="title">Spraak Kiezer</string>

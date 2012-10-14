@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@*android:id/empty" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+    <ImageView android:id="@id/title_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*android:drawable/sd_not_available"/>
+    <TextView android:gravity="center" android:id="@id/hint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@*android:string/sd_not_available" style="@*android:style/TextAppearance.Small"/>
+  </LinearLayout>
+  <ListView android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@*android:style/Widget.ListView.NoDivider"/>
+  <LinearLayout android:id="@id/bottom_panel" style="@*android:style/BottomButtonBar">
+    <Button android:id="@id/newBackup" android:layout_marginLeft="48.0dip" android:layout_marginRight="48.0dip" android:text="@string/button_backup" style="@*android:style/BottomButton.Middle"/>
+  </LinearLayout>
+  <LinearLayout android:id="@id/batch_delete_panel" android:visibility="gone" style="@*android:style/BottomButtonBar">
+    <ImageTextButton android:id="@id/btn_delete" android:text="@string/delete" android:drawableLeft="@drawable/delete_icon" android:drawablePadding="5.0dip" style="@*android:style/BottomButton.Left"/>
+    <Button android:id="@id/btn_cancel" android:text="@string/cancel" style="@*android:style/BottomButton.Right"/>
+  </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/delete_pop_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+  <Button android:id="@id/delete_confirm" android:background="@drawable/folder_btn_delete" android:text="@string/delete" style="@style/MultiSelectActionButton"/>
+  <Button android:id="@id/delete_cancel" android:background="@drawable/bottom_btn_bg" android:text="@*android:string/cancel" style="@style/MultiSelectActionButton"/>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.ui.widget.GenericEditorView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+  <ImageView android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/edit_label" android:paddingRight="10.0dip" android:layout_width="40.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip"/>
+  <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/edit_fields" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"/>
+  <ImageButton android:gravity="top" android:id="@id/edit_delete" android:background="@drawable/edit_contact_remove" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="9.0dip"/>
+</com.android.contacts.ui.widget.GenericEditorView>

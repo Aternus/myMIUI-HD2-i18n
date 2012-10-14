@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" android:versionCode="10" android:versionName="2.3.7" package="com.android.sidekick">
+  <uses-permission android:name="android.permission.GLOBAL_SEARCH"/>
+  <uses-permission android:name="android.permission.GET_TASKS"/>
+  <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+  <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+  <uses-permission android:name="android.permission.READ_SMS"/>
+  <uses-permission android:name="android.permission.READ_CONTACTS"/>
+  <uses-permission android:name="android.permission.GLOBAL_SEARCH"/>
+  <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
+  <application>
+    <activity android:theme="@style/ActivityWindowAttr" android:label="@string/sidekick_activity_label" android:name=".SideKickActivity" android:clearTaskOnLaunch="true" android:stateNotNeeded="true" android:excludeFromRecents="true" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|orientation|uiMode" android:noHistory="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.search.action.GLOBAL_SEARCH"/>
+        <action android:name="android.intent.action.SEARCH_LONG_PRESS"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+    </activity>
+    <activity android:label="@string/search_sources" android:name=".SearchableItemsSettings" android:excludeFromRecents="true" android:screenOrientation="portrait">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"/>
+      </intent-filter>
+    </activity>
+  </application>
+</manifest>

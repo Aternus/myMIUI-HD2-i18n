@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res/com.android.browser" android:title="@string/menu_settings">
+  <PreferenceCategory>
+    <CheckBoxPreference android:title="@string/menu_night_mode_on" android:key="night_mode" android:summary="@string/night_mode_desc" android:defaultValue="false"/>
+  </PreferenceCategory>
+  <PreferenceCategory>
+    <CheckBoxPreference android:title="@string/auto_brightness" android:key="auto_brightness" android:defaultValue="false"/>
+    <com.android.browser.ui.SeekBarPreference android:key="brightness" settings:leftIcon="@drawable/brightness_sub_selector" settings:rightIcon="@drawable/brightness_plus_selector"/>
+  </PreferenceCategory>
+</PreferenceScreen>

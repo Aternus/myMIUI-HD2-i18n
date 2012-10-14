@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <include layout="@layout/list_header"/>
+  <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+    <android.widget.SortableListView android:id="@*android:id/list" android:background="@drawable/contact_list_bg" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:fastScrollEnabled="true" android:drawSelectorOnNothing="true"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/group_empty" android:background="@*android:drawable/settings_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+      <ImageView android:id="@id/groupEmptyImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:src="@drawable/list_empty_image"/>
+      <TextView android:textAppearance="@*android:style/TextAppearance.ListView.SecondaryItem" android:gravity="center_horizontal" android:id="@id/groupEmptyText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/noGroupHelpText"/>
+      <LinearLayout android:gravity="center_vertical" android:id="@id/add_group" android:background="@*android:drawable/preference_one_item" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@*android:style/TextAppearance.ListView.PrimaryItem" android:id="@id/addContactText" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/create_new_group" android:layout_weight="1.0"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*android:drawable/arrow_right"/>
+      </LinearLayout>
+    </LinearLayout>
+  </FrameLayout>
+  <include layout="@layout/contacts_list_buttons"/>
+</LinearLayout>

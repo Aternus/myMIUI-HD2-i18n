@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.player.ui.view.AlphaFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/main_frame" android:alwaysDrawnWithCache="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <View android:layout_gravity="bottom" android:background="@color/player_main_bg" android:layout_width="fill_parent" android:layout_height="@dimen/drawer_bar_height"/>
+  <FrameLayout android:layout_gravity="top|left|center" android:id="@id/background_container" android:background="@color/player_main_bg" android:layout_width="fill_parent" android:layout_height="0.0dip"/>
+  <TextView android:textSize="17.299988dip" android:textColor="@color/now_playing_bar_text" android:gravity="top|center" android:layout_gravity="top|left|center" android:id="@id/title_bar" android:background="@drawable/audio_player_drawer_bar_bottom" android:paddingTop="20.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/drawer_bar_height" android:layout_marginTop="@dimen/drawer_bar_top_project" android:shadowColor="@color/now_playing_bar_text_shadow" style="@style/TitleShadowMarqueeStyle"/>
+  <LinearLayout android:layout_gravity="top|left|center" android:id="@id/drawer_bar" android:background="@drawable/audio_player_drawer_bar_bottom" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/drawer_bar_height">
+    <include layout="@layout/media_player_nowplaying"/>
+  </LinearLayout>
+  <FrameLayout android:layout_gravity="top|left|center" android:id="@id/drawer_container" android:layout_width="fill_parent" android:layout_height="0.0dip"/>
+  <com.miui.player.ui.view.BatchSelectionTrackView android:layout_gravity="bottom" android:id="@id/bottom_commit" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/drawer_tab_height">
+    <include layout="@layout/commit_bottom_2"/>
+  </com.miui.player.ui.view.BatchSelectionTrackView>
+  <include android:layout_gravity="bottom|center" android:id="@id/toast" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/toast_padding_bottom_height" layout="@*android:layout/transient_notification"/>
+</com.miui.player.ui.view.AlphaFrameLayout>

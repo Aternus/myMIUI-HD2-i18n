@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <LinearLayout android:gravity="center" android:id="@id/navigation_title" android:background="@drawable/titlebar_tabhost_bg" android:layout_width="fill_parent" android:layout_height="@dimen/media_player_header_height">
+    <include android:id="@id/navigation_title" layout="@layout/media_player_navigation_header"/>
+  </LinearLayout>
+  <RelativeLayout android:orientation="horizontal" android:id="@id/search_bar_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip" android:layout_below="@id/navigation_title">
+    <include layout="@layout/media_player_search_bar"/>
+  </RelativeLayout>
+  <RelativeLayout android:id="@id/online_status_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/navigation_title">
+    <include layout="@layout/media_player_online_status_bar"/>
+  </RelativeLayout>
+  <ListView android:id="@id/search_history_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/search_bar_id" style="@style/SearchHistoryListStyle"/>
+  <GridView android:id="@id/online_category_grid" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-2.0dip" android:listSelector="@*android:color/transparent" android:cacheColorHint="@*android:color/transparent" android:numColumns="2" android:layout_below="@id/search_bar_id"/>
+</RelativeLayout>

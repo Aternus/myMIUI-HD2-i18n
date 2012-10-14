@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="TextAppearanceFwGroup" parent="@*android:style/Widget.ExpandableListView.Header">
+    <item name="android:textSize">@*android:dimen/normal_text_size</item>
+  </style>
+  <style name="TextAppearanceFwChild.Primary" parent="@*android:style/TextAppearance.ListView.PrimaryItem">
+    <item name="android:textSize">@*android:dimen/normal_text_size</item>
+  </style>
+</resources>

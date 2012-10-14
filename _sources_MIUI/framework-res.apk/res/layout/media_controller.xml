@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/ic_media_controller_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+  <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <ImageButton android:id="@id/prev" style="@android:style/MediaButton.Previous"/>
+    <ImageButton android:id="@id/rew" style="@android:style/MediaButton.Rew"/>
+    <ImageButton android:id="@id/pause" style="@android:style/MediaButton.Play"/>
+    <ImageButton android:id="@id/ffwd" style="@android:style/MediaButton.Ffwd"/>
+    <ImageButton android:id="@id/next" style="@android:style/MediaButton.Next"/>
+  </LinearLayout>
+  <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-8.0dip">
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/time_current" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <SeekBar android:gravity="center_vertical" android:id="@id/mediacontroller_progress" android:paddingLeft="9.329987dip" android:paddingRight="9.329987dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:progressDrawable="@drawable/ic_media_progress_drawable" android:thumb="@drawable/ic_media_progress_thumb_selector" android:thumbOffset="15.0dip" android:layout_weight="1.0" android:layout_alignParentLeft="true" android:layout_alignParentRight="true"/>
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/time" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+  </LinearLayout>
+</LinearLayout>

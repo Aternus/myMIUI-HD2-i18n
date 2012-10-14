@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.phone.DTMFTwelveKeyDialerView xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:id="@id/non_drawer_dtmf_dialer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+  <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@id/background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+      <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:id="@id/one" android:background="@drawable/dialpad_1_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <Button android:id="@id/two" android:background="@drawable/dialpad_2_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <Button android:id="@id/three" android:background="@drawable/dialpad_3_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      </LinearLayout>
+      <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:id="@id/four" android:background="@drawable/dialpad_4_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <Button android:id="@id/five" android:background="@drawable/dialpad_5_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <Button android:id="@id/six" android:background="@drawable/dialpad_6_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      </LinearLayout>
+      <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:id="@id/seven" android:background="@drawable/dialpad_7_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <Button android:id="@id/eight" android:background="@drawable/dialpad_8_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <Button android:id="@id/nine" android:background="@drawable/dialpad_9_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      </LinearLayout>
+      <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:id="@id/star" android:background="@drawable/dialpad_star_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <Button android:id="@id/zero" android:background="@drawable/dialpad_0_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <Button android:id="@id/pound" android:background="@drawable/dialpad_pound_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@id/buttons" android:background="@drawable/dialer_buttons" android:layout_width="480.0px" android:layout_height="346.0px"/>
+  </FrameLayout>
+</com.android.phone.DTMFTwelveKeyDialerView>

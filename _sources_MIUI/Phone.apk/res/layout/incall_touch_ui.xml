@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <com.android.phone.InCallSlidingPanel android:id="@id/incomingCallWidget" android:background="@drawable/incall_sliding_panel_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+    <FrameLayout android:id="@id/incomingCallWidgetInCall" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+      <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="90.0dip">
+        <Button android:textSize="18.0sp" android:gravity="center" android:id="@id/answerButton" android:background="@drawable/incall_button_green" android:focusable="false" android:layout_width="150.0dip" android:layout_height="wrap_content" android:text="@string/answer" style="@style/TextStyle.RedButton"/>
+        <Button android:textSize="18.0sp" android:gravity="center" android:id="@id/ignoreButton" android:background="@drawable/incall_button_white" android:focusable="false" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/ignore" style="@style/TextStyle.Button"/>
+      </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/incomingCallWidgetMain" android:layout_width="fill_parent" android:layout_height="fill_parent">
+      <ImageView android:id="@id/inCallSlidingGreenBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/incall_sliding_bar_bg"/>
+      <ImageView android:id="@id/inCallSlidingBarLight" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/incall_sliding_bar_light"/>
+      <ImageView android:layout_gravity="top|center" android:id="@id/inCallSlidingHintAnim" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:src="@drawable/incall_sliding_panel_hint_anim"/>
+      <LinearLayout android:gravity="top|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/inCallSlidingBar" android:layout_width="wrap_content" android:layout_height="90.0dip">
+          <TextView android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sliding_down_hint" style="@style/TextStyle.SlidingBar"/>
+          <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/sliding_up_hint" style="@style/TextStyle.SlidingBar.Small"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+          <Button android:gravity="center" android:id="@id/rejectWithSmsButton" android:background="@drawable/incall_button_white" android:focusable="false" android:layout_width="250.0dip" android:layout_height="wrap_content" android:text="@string/hangup_sms" style="@style/TextStyle.Button"/>
+          <Button android:gravity="center" android:id="@id/rejectButton" android:background="@drawable/incall_button_red" android:focusable="false" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/hangup" style="@style/TextStyle.RedButton"/>
+        </LinearLayout>
+      </LinearLayout>
+    </FrameLayout>
+  </com.android.phone.InCallSlidingPanel>
+  <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/inCallControls" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true">
+    <include layout="@layout/non_drawer_dialpad"/>
+    <LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/inCallControlSixButtons" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+      <TextView android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/inCallRecordPrompt" android:background="@drawable/incall_prompt_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/call_recording_prompt" style="@style/TextStyle.InCallControlButton"/>
+      <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ToggleButton android:gravity="center" android:id="@id/muteButton" android:background="@drawable/incall_left_top_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="@string/onscreenMuteText" android:textOff="@string/onscreenMuteText" android:drawableTop="@drawable/ic_in_call_touch_mute" style="@style/TextStyle.InCallControlButton"/>
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+          <ToggleButton android:gravity="center" android:id="@id/holdButton" android:background="@drawable/incall_mid_top_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="@string/onscreenHoldText" android:textOff="@string/onscreenHoldText" android:drawableTop="@drawable/ic_in_call_touch_round_hold" style="@style/TextStyle.InCallControlButton"/>
+          <Button android:gravity="center" android:id="@id/swapButton" android:background="@drawable/incall_mid_top_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/onscreenSwapCallsText" android:drawableTop="@drawable/ic_in_call_touch_round_swap" style="@style/TextStyle.InCallControlButton"/>
+          <Button android:gravity="center" android:id="@id/cdmaMergeButton" android:background="@drawable/incall_mid_top_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/onscreenMergeCallsText" android:drawableTop="@drawable/ic_in_call_touch_round_merge_call" style="@style/TextStyle.InCallControlButton"/>
+          <Button android:gravity="center" android:id="@id/cdmaManageCallsButton" android:background="@drawable/incall_mid_top_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/onscreenManageCallsText" android:drawableTop="@drawable/ic_in_call_touch_round_swap" style="@style/TextStyle.InCallControlButton"/>
+        </FrameLayout>
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+          <Button android:gravity="center" android:id="@id/recordStartButton" android:background="@drawable/incall_right_top_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/onscreenCallRecord" android:drawableTop="@drawable/ic_in_call_touch_start_record" style="@style/TextStyle.InCallControlButton"/>
+          <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/recordStopButton" android:background="@drawable/incall_right_top_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_in_call_touch_stop_record"/>
+            <Chronometer android:textColor="#ffff0000" android:gravity="center" android:id="@id/callRecordTimer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_call_recording" style="@style/TextStyle.InCallControlButton"/>
+          </LinearLayout>
+        </FrameLayout>
+      </LinearLayout>
+      <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:gravity="center" android:id="@id/contactButton" android:background="@drawable/incall_left_bottom_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contactsIconLabel" android:drawableTop="@drawable/ic_in_call_touch_contact" style="@style/TextStyle.InCallControlButton"/>
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+          <Button android:gravity="center" android:id="@id/addButton" android:background="@drawable/incall_mid_bottom_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/onscreenAddCallText" android:drawableTop="@drawable/ic_in_call_touch_add_call" style="@style/TextStyle.InCallControlButton"/>
+          <Button android:gravity="center" android:id="@id/mergeButton" android:background="@drawable/incall_mid_bottom_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/onscreenMergeCallsText" android:drawableTop="@drawable/ic_in_call_touch_round_merge_call" style="@style/TextStyle.InCallControlButton"/>
+        </FrameLayout>
+        <Button android:gravity="center" android:id="@id/noteButton" android:background="@drawable/incall_right_bottom_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/onscreenNoteText" android:drawableTop="@drawable/ic_in_call_touch_note" style="@style/TextStyle.InCallControlButton"/>
+      </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/inCallControlVoiceDeviceButtons" android:background="@drawable/incall_voice_devices_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+      <ToggleButton android:id="@id/voiceDeviceBluetoothButton" android:background="@drawable/incall_button_voice_devices" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textOn="@string/onscreenVoiceDeviceBluetooth" android:textOff="@string/onscreenVoiceDeviceBluetooth" style="@style/TextStyle.InCallControlButton"/>
+      <ToggleButton android:id="@id/voiceDeviceHandsetOrHeadset" android:background="@drawable/incall_button_voice_devices" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:textOn="@string/onscreenVoiceDeviceHandset" android:textOff="@string/onscreenVoiceDeviceHandset" style="@style/TextStyle.InCallControlButton"/>
+      <ToggleButton android:id="@id/voiceDeviceSpeaker" android:background="@drawable/incall_button_voice_devices" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:textOn="@string/onscreenVoiceDeviceSpeaker" android:textOff="@string/onscreenVoiceDeviceSpeaker" style="@style/TextStyle.InCallControlButton"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/mainButtons" android:background="@drawable/incall_controls_main_buttons_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+      <LinearLayout android:gravity="top|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="116.0px" android:layout_marginTop="5.0px">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+          <ToggleButton android:id="@id/speakerButton" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="@string/onscreenSpeakerText" android:textOff="@string/onscreenSpeakerText" android:drawableTop="@drawable/ic_in_call_touch_speaker" style="@style/TextStyle.InCallControlButton"/>
+          <ToggleButton android:id="@id/voiceDevicesButton" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="@string/onscreenVoiceDevices" android:textOff="@string/onscreenVoiceDevices" android:drawableTop="@drawable/ic_in_call_touch_voice_devices" style="@style/TextStyle.InCallControlButton"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+          <ToggleButton android:id="@id/keyboardButton" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="@string/onscreenKeyboard" android:textOff="@string/onscreenKeyboard" android:drawableTop="@drawable/ic_in_call_touch_keyboard" style="@style/TextStyle.InCallControlButton"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+          <ToggleButton android:id="@id/moreButton" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="@string/onscreenMoreOn" android:textOff="@string/onscreenMoreOff" android:drawableTop="@drawable/ic_in_call_touch_more" style="@style/TextStyle.InCallControlButton"/>
+        </LinearLayout>
+      </LinearLayout>
+      <LinearLayout android:gravity="bottom|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="94.0px" android:layout_marginTop="2.0px">
+        <Button android:gravity="center" android:id="@id/endButton" android:background="@drawable/incall_button_red" android:layout_width="250.0dip" android:layout_height="wrap_content" android:text="@string/onscreenEndCallText" android:soundEffectsEnabled="false" style="@style/TextStyle.RedButton"/>
+      </LinearLayout>
+    </LinearLayout>
+  </LinearLayout>
+  <View android:id="@id/inCallControlsMask" android:background="#9f000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="236.0px" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+    <TextView android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bookmark_title"/>
+    <EditText android:gravity="fill_horizontal" android:id="@id/add_bookmark_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textCapSentences"/>
+    <TextView android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bookmark_url"/>
+    <EditText android:gravity="fill_horizontal" android:id="@id/add_bookmark_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/bookmark_url" android:inputType="textUri"/>
+    <LinearLayout android:orientation="vertical" android:id="@id/foldernames_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+      <TextView android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bookmark_folder"/>
+      <Spinner android:gravity="left" android:id="@id/add_bookmark_folderpicker" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+  </LinearLayout>
+</LinearLayout>

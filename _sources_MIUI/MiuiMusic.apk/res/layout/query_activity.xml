@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <RelativeLayout android:layout_gravity="top" android:id="@id/sd_error_wraper" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <include layout="@layout/media_player_sd_error"/>
+  </RelativeLayout>
+  <include layout="@layout/media_player_header"/>
+  <TextView android:gravity="left|center" android:id="@id/local_search_hint" android:paddingLeft="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/normal_height" android:text="@string/local_search_empty"/>
+  <View android:id="@id/result_header_separator" android:background="@drawable/local_picker_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0px"/>
+  <ListView android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@*android:color/transparent" android:fastScrollEnabled="true" style="@style/NoDividerLystViewStyle"/>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:icon="@*android:drawable/ic_menu_add" android:id="@id/menu_add_member" android:title="@string/menu_add_member" android:alphabeticShortcut="a"/>
+  <group android:id="@id/group_non_empty">
+    <item android:icon="@drawable/ic_menu_sms_group" android:id="@id/menu_group_sms" android:title="@string/menu_group_sms" android:alphabeticShortcut="c"/>
+    <item android:icon="@drawable/ic_menu_ringtone_group" android:id="@id/menu_group_ringtone" android:title="@string/menu_group_ringtone" android:alphabeticShortcut="t"/>
+    <item android:icon="@drawable/ic_menu_remove_group" android:id="@id/menu_remove_member" android:title="@string/menu_remove_member" android:alphabeticShortcut="r"/>
+  </group>
+</menu>

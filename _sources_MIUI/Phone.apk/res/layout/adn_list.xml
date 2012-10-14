@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/adnRoot" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/list_header" android:layout_width="fill_parent" android:layout_height="80.0px" style="@*android:style/WindowTitleBackground">
+    <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+      <TextView android:textAppearance="@*android:style/TextAppearance.WindowTitle" android:id="@id/main_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/simContacts_title"/>
+      <TextView android:textAppearance="@*android:style/TextAppearance.WindowTitle" android:id="@id/sub_header" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0px" android:layout_weight="1.0"/>
+    </LinearLayout>
+    <ImageView android:id="@id/header_action" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*android:drawable/list_header_add"/>
+  </LinearLayout>
+  <ListView android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:fastScrollEnabled="true" style="@*android:style/Widget.ListView.NoDivider"/>
+  <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@*android:color/preference_primary_text" android:gravity="center" android:id="@*android:id/empty" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/simContacts_emptyLoading" android:layout_weight="1.0"/>
+  <LinearLayout android:id="@id/btn_panel" android:visibility="gone" style="@*android:style/BottomButtonBar">
+    <Button android:id="@id/btn_done" android:text="@string/importAllSimEntries" style="@*android:style/BottomButton.Left"/>
+    <Button android:id="@id/btn_discard" android:text="@string/cancel" style="@*android:style/BottomButton.Right"/>
+  </LinearLayout>
+</LinearLayout>

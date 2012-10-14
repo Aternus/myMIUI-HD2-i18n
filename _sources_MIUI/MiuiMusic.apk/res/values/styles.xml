@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="MarqueeTextView">
+    <item name="android:ellipsize">marquee</item>
+    <item name="android:focusable">true</item>
+    <item name="android:focusableInTouchMode">true</item>
+    <item name="android:scrollHorizontally">true</item>
+    <item name="android:singleLine">true</item>
+    <item name="android:marqueeRepeatLimit">marquee_forever</item>
+  </style>
+  <style name="PickerTitleNameStyle">
+    <item name="android:textSize">@dimen/main_title_text_size</item>
+    <item name="android:textColor">@color/ringtone_picker</item>
+    <item name="android:gravity">center</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:singleLine">true</item>
+    <item name="android:shadowRadius">0.5</item>
+  </style>
+  <style name="SearchHistoryListStyle">
+    <item name="android:cacheColorHint">@*android:color/transparent</item>
+    <item name="android:divider">@null</item>
+  </style>
+  <style name="TitleShadowMarqueeStyle">
+    <item name="android:ellipsize">marquee</item>
+    <item name="android:focusable">true</item>
+    <item name="android:focusableInTouchMode">true</item>
+    <item name="android:scrollHorizontally">true</item>
+    <item name="android:singleLine">true</item>
+    <item name="android:shadowDx">0.5</item>
+    <item name="android:shadowDy">0.5</item>
+    <item name="android:marqueeRepeatLimit">marquee_forever</item>
+  </style>
+  <style name="TitleShadowStyle">
+    <item name="android:singleLine">true</item>
+    <item name="android:shadowDx">0.5</item>
+    <item name="android:shadowDy">0.5</item>
+  </style>
+  <style name="NavigationTitleShadowStyle">
+    <item name="android:textSize">15.0dip</item>
+    <item name="android:textColor">@color/navigation_title_text</item>
+    <item name="android:singleLine">true</item>
+    <item name="android:shadowDx">0.5</item>
+    <item name="android:shadowDy">0.5</item>
+  </style>
+  <style name="NavigationDescriptShadowStyle">
+    <item name="android:textSize">12.0dip</item>
+    <item name="android:textColor">@color/navigation_descript_text</item>
+    <item name="android:singleLine">true</item>
+    <item name="android:shadowDx">0.5</item>
+    <item name="android:shadowDy">0.5</item>
+  </style>
+  <style name="LyricCurrentLineShadowStyle">
+    <item name="android:shadowColor">@color/audio_player_lyric_current_text_shadow</item>
+    <item name="android:shadowDx">0.0</item>
+    <item name="android:shadowDy">0.0</item>
+    <item name="android:shadowRadius">10.0</item>
+  </style>
+  <style name="HeaderShadowStyle">
+    <item name="android:shadowColor">@color/header_shadow_color</item>
+    <item name="android:shadowDx">0.0</item>
+    <item name="android:shadowDy">1.0</item>
+    <item name="android:shadowRadius">0.01</item>
+  </style>
+  <style name="NoDividerLystViewStyle">
+    <item name="android:fadingEdge">none</item>
+    <item name="android:fadingEdgeLength">0.0dip</item>
+    <item name="android:listSelector">@null</item>
+    <item name="android:cacheColorHint">@null</item>
+    <item name="android:divider">@null</item>
+    <item name="android:dividerHeight">0.0dip</item>
+    <item name="android:headerDividersEnabled">false</item>
+    <item name="android:footerDividersEnabled">false</item>
+  </style>
+  <style name="EqualizerSeekBarStyle">
+    <item name="android:progressDrawable">@*android:color/transparent</item>
+    <item name="android:thumb">@drawable/equalizer_thumb</item>
+    <item name="android:thumbOffset">-3.0dip</item>
+  </style>
+</resources>

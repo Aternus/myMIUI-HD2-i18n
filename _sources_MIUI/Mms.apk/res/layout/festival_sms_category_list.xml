@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <ListView android:id="@*android:id/list" android:background="@drawable/conversation_list_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:cacheColorHint="@null" android:layout_weight="1.0" android:fastScrollEnabled="true" style="@*android:style/Widget.ListView.NoDivider"/>
+  <TextView android:textSize="@*android:dimen/normal_text_size" android:textColor="?android:textColorSecondary" android:gravity="center" android:id="@id/festival_sms_sdcard_unready" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/festival_sms_sdcard_unready" android:layout_weight="1.0"/>
+  <include layout="@layout/festival_sms_downloading_view"/>
+</LinearLayout>

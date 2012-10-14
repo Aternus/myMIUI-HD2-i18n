@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/navigation_main" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <LinearLayout android:gravity="center" android:id="@id/navigation_title" android:background="@drawable/titlebar_tabhost_bg" android:layout_width="fill_parent" android:layout_height="@dimen/media_player_header_height">
+    <include layout="@layout/media_player_navigation_header"/>
+  </LinearLayout>
+  <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+    <LinearLayout android:id="@id/first_row" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_below="@id/navigation_title">
+      <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/songtab" android:background="@drawable/navigation_bg_left_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/navigation_song"/>
+        <LinearLayout android:gravity="center" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+          <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tracks_title" style="@style/NavigationTitleShadowStyle"/>
+          <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/songtab_num" android:paddingLeft="2.0dip" android:paddingTop="2.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zero_count" style="@style/NavigationDescriptShadowStyle"/>
+        </LinearLayout>
+      </LinearLayout>
+      <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/artisttab" android:background="@drawable/navigation_bg_right_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/navigation_artist"/>
+        <LinearLayout android:gravity="center" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+          <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/to_artist" style="@style/NavigationTitleShadowStyle"/>
+          <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/arttisttab_num" android:paddingLeft="2.0dip" android:paddingTop="2.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zero_count" style="@style/NavigationDescriptShadowStyle"/>
+        </LinearLayout>
+      </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/second_row" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_below="@id/first_row">
+      <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/albumtab" android:background="@drawable/navigation_bg_left_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/navigation_album"/>
+        <LinearLayout android:gravity="center" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+          <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/to_album" style="@style/NavigationTitleShadowStyle"/>
+          <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/albumtab_num" android:paddingLeft="2.0dip" android:paddingTop="2.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zero_count" style="@style/NavigationDescriptShadowStyle"/>
+        </LinearLayout>
+      </LinearLayout>
+      <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/foldertab" android:background="@drawable/navigation_bg_right_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/navigation_folder"/>
+        <LinearLayout android:gravity="center" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+          <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/folder" style="@style/NavigationTitleShadowStyle"/>
+          <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/foldertab_num" android:paddingLeft="2.0dip" android:paddingTop="2.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zero_count" style="@style/NavigationDescriptShadowStyle"/>
+        </LinearLayout>
+      </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/third_row" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_below="@id/second_row">
+      <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/playlisttab" android:background="@drawable/navigation_bg_left_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/navigation_playlist"/>
+        <LinearLayout android:gravity="center" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+          <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/playlists_title" style="@style/NavigationTitleShadowStyle"/>
+          <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/playlisttab_num" android:paddingLeft="2.0dip" android:paddingTop="2.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zero_count" style="@style/NavigationDescriptShadowStyle"/>
+        </LinearLayout>
+      </LinearLayout>
+      <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/searchtab" android:background="@drawable/navigation_bg_right_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/navigation_search"/>
+        <LinearLayout android:gravity="center" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+          <TextView android:gravity="center" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/to_search" style="@style/NavigationTitleShadowStyle"/>
+        </LinearLayout>
+      </LinearLayout>
+    </LinearLayout>
+  </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@*android:id/empty" android:background="@*android:drawable/settings_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+  <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <ImageView android:id="@id/emptyImage" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:src="@drawable/list_empty_image"/>
+    <TextView android:textAppearance="@*android:style/TextAppearance.ListView.SecondaryItem" android:gravity="center_horizontal" android:id="@id/emptyText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/noContactHelpText"/>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/configAccounts" android:background="@*android:drawable/preference_top_item" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+      <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="@*android:style/TextAppearance.ListView.PrimaryItem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/noContactHelpTextAccounts"/>
+        <TextView android:textAppearance="@*android:style/TextAppearance.ListView.SecondaryItem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/noContactHelpTextAccountsInfo"/>
+      </LinearLayout>
+      <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*android:drawable/arrow_right"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/importXiaomiAccount" android:background="@*android:drawable/preference_item" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+      <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="@*android:style/TextAppearance.ListView.PrimaryItem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/noContactHelpTextImportXiaomiAccount"/>
+        <TextView android:textAppearance="@*android:style/TextAppearance.ListView.SecondaryItem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/noContactHelpTextImportXiaomiAccountInfo"/>
+      </LinearLayout>
+      <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*android:drawable/arrow_right"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/importSim" android:background="@*android:drawable/preference_item" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+      <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="@*android:style/TextAppearance.ListView.PrimaryItem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/noContactHelpTextImportSim"/>
+      </LinearLayout>
+      <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*android:drawable/arrow_right"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/importSD" android:background="@*android:drawable/preference_item" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+      <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="@*android:style/TextAppearance.ListView.PrimaryItem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/noContactHelpTextImportSD"/>
+      </LinearLayout>
+      <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*android:drawable/arrow_right"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/addContact" android:background="@*android:drawable/preference_last_item" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+      <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="@*android:style/TextAppearance.ListView.PrimaryItem" android:id="@id/addContactText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/menu_add_member"/>
+      </LinearLayout>
+      <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*android:drawable/arrow_right"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="fill_horizontal" android:orientation="vertical" android:id="@id/import_failure" android:padding="20.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+      <Button android:textAppearance="?android:textAppearanceMedium" android:id="@id/import_failure_uninstall_apps" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/upgrade_out_of_memory_uninstall"/>
+      <Button android:textAppearance="?android:textAppearanceMedium" android:id="@id/import_failure_retry_upgrade" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/upgrade_out_of_memory_retry"/>
+    </LinearLayout>
+  </LinearLayout>
+</ScrollView>

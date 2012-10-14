@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <plurals name="gadget_more_events">
+    <item quantity="other">還有 %d 個活動</item>
+    <item quantity="one">還有一個活動</item>
+  </plurals>
+</resources>

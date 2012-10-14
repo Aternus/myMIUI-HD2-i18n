@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="horizontal" android:id="@id/mms_download_controls" android:layout_width="wrap_content" android:layout_height="wrap_content">
+  <Button android:layout_gravity="center" android:id="@id/btn_download_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/download" style="@style/MessageButton.Download"/>
+  <TextView android:layout_gravity="center" android:id="@id/label_downloading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/downloading" style="@style/TextAppearanceMessageBody.Notification"/>
+</FrameLayout>

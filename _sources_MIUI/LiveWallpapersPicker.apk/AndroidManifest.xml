@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="10" android:versionName="2.3.7" package="com.android.wallpaper.livepicker">
+  <original-package android:name="com.android.wallpaper.livepicker"/>
+  <uses-permission android:name="android.permission.SET_WALLPAPER_COMPONENT"/>
+  <uses-permission android:name="android.permission.BIND_WALLPAPER"/>
+  <application android:label="@string/application_name" android:icon="@drawable/ic_launcher_live_wallpaper">
+    <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/live_wallpaper_picker_title" android:icon="@drawable/ic_launcher_live_wallpaper" android:name="LiveWallpaperListActivity" android:screenOrientation="nosensor">
+      <intent-filter>
+        <action android:name="android.service.wallpaper.LIVE_WALLPAPER_CHOOSER"/>
+        <action android:name="android.intent.action.SET_WALLPAPER"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+    </activity>
+    <activity android:theme="@style/Preview" android:label="@string/live_wallpaper_preview_title" android:icon="@drawable/ic_launcher_live_wallpaper" android:name="LiveWallpaperPreview" android:screenOrientation="nosensor"/>
+  </application>
+</manifest>

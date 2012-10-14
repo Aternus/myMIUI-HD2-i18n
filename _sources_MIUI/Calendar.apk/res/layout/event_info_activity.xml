@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+  <LinearLayout android:orientation="vertical" android:background="#fffafafa" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+    <LinearLayout android:id="@id/cal_background" android:paddingLeft="8.0dip" android:paddingTop="10.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+      <LinearLayout android:orientation="vertical" android:id="@id/event" android:background="@drawable/bg_cal_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textStyle="bold" android:id="@id/title" android:paddingBottom="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/textAppearanceMedium"/>
+        <RelativeLayout android:orientation="horizontal" android:id="@id/calendar_container" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+          <TextView android:id="@id/calendar_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/view_event_calendar_label" style="?android:attr/textAppearanceSmall"/>
+          <TextView android:id="@id/calendar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/calendar_label" android:layout_alignTop="@id/calendar_label" style="?android:attr/textAppearanceSmall"/>
+          <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/owner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/calendar_label" android:layout_alignLeft="@id/calendar_label"/>
+        </RelativeLayout>
+        <View android:id="@id/divider" android:background="@*android:drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+        <TextView android:textStyle="bold" android:id="@id/when" android:paddingTop="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/textAppearanceSmall"/>
+        <LinearLayout android:orientation="horizontal" android:id="@id/timezone_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+          <TextView android:id="@id/timezone_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/view_event_timezone_label" style="?android:attr/textAppearanceSmall"/>
+          <TextView android:id="@id/timezone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/textAppearanceSmall"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/repeat_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+          <ImageView android:layout_gravity="center" android:id="@id/repeat_icon" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_repeat_dark"/>
+          <TextView android:id="@id/repeat" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" style="?android:attr/textAppearanceSmall"/>
+        </LinearLayout>
+        <TextView android:autoLink="all" android:id="@id/where" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/textAppearanceSmall"/>
+        <LinearLayout android:orientation="horizontal" android:id="@id/organizer_container" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+          <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/view_event_organizer_label" style="?android:attr/textAppearanceSmall"/>
+          <TextView android:id="@id/organizer" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/textAppearanceSmall"/>
+        </LinearLayout>
+        <TextView android:autoLink="all" android:id="@id/description" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/textAppearanceSmall"/>
+      </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/response_container" android:paddingLeft="8.0dip" android:paddingTop="10.0dip" android:paddingRight="8.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+      <TextView android:id="@id/response_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/view_event_response_label" style="@style/TextAppearance.EventInfo_Label"/>
+      <Spinner android:entries="@array/response_labels1" android:id="@id/response_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/view_event_response_label" style="?android:attr/textAppearanceMedium"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/attendee_list" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:orientation="vertical" android:id="@id/reminders_container" android:paddingLeft="8.0dip" android:paddingTop="10.0dip" android:paddingRight="7.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+      <TextView android:id="@id/reminders_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reminders_label" style="@style/TextAppearance.EventInfo_Label"/>
+      <LinearLayout android:orientation="vertical" android:id="@id/reminder_items_container" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/textAppearanceMedium"/>
+      <LinearLayout android:gravity="right|center" android:id="@id/reminder_adder" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:text="@string/add_new_reminder"/>
+        <ImageButton android:id="@id/reminder_add" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PlusButton"/>
+      </LinearLayout>
+    </LinearLayout>
+  </LinearLayout>
+</ScrollView>

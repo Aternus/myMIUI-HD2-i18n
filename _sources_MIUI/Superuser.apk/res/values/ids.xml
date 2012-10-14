@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <item type="id" name="appIcon">false</item>
+  <item type="id" name="appName">false</item>
+  <item type="id" name="appInfo">false</item>
+  <item type="id" name="list">false</item>
+  <item type="id" name="app_manager">false</item>
+  <item type="id" name="app_uninstall">false</item>
+  <item type="id" name="category_title">false</item>
+  <item type="id" name="category_item">false</item>
+  <item type="id" name="primary_item">false</item>
+  <item type="id" name="value_text">false</item>
+  <item type="id" name="arrow">false</item>
+  <item type="id" name="secondary_item">false</item>
+  <item type="id" name="app_list">false</item>
+  <item type="id" name="empty">false</item>
+  <item type="id" name="enable_authority">false</item>
+  <item type="id" name="itemLayout">false</item>
+  <item type="id" name="permission_allowed">false</item>
+  <item type="id" name="permission_denied">false</item>
+  <item type="id" name="time_title">false</item>
+  <item type="id" name="menu_settings">false</item>
+  <item type="id" name="menu_clear_log">false</item>
+</resources>

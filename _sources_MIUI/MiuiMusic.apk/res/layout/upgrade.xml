@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+  <LinearLayout android:orientation="horizontal" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+    <ImageView android:layout_gravity="left" android:layout_width="60.0dip" android:layout_height="wrap_content" android:src="@drawable/logo" android:scaleType="centerInside"/>
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_gravity="center" android:id="@id/upgrade_dialog_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:text="@string/upgrade_title"/>
+  </LinearLayout>
+  <ImageView android:gravity="fill_horizontal" android:id="@id/titleDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/dialog_divider_horizontal_light" android:scaleType="fitXY"/>
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/upgrade_detail"/>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="270.0dip">
+      <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="fill_horizontal" android:id="@id/upgrade_log" android:layout_width="fill_parent" android:layout_height="100.0dip" android:scrollHorizontally="false" android:singleLine="false" android:selectAllOnFocus="true"/>
+    </ScrollView>
+  </LinearLayout>
+  <LinearLayout android:orientation="horizontal" android:background="#ffc6c3c6" android:paddingLeft="2.0dip" android:paddingTop="4.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="54.0dip">
+    <Button android:layout_gravity="left" android:id="@id/OK" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/upgrade_yes" android:layout_weight="1.0"/>
+    <Button android:layout_gravity="right" android:id="@id/cancel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/upgrade_no" android:layout_weight="1.0"/>
+  </LinearLayout>
+</LinearLayout>

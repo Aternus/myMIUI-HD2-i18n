@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phone="http://schemas.android.com/apk/res/com.android.phone" android:title="@string/auto_answer_setting_title">
+  <PreferenceCategory>
+    <CheckBoxPreference android:title="@string/auto_answer_pref_title" android:key="pref_auto_answer" android:summary="@string/auto_answer_pref_summary" android:defaultValue="false"/>
+  </PreferenceCategory>
+  <PreferenceCategory android:title="@string/auto_answer_delay_title">
+    <RangeBarPreference android:entries="@array/auto_answer_delay_entries" android:key="pref_auto_answer_delay" android:defaultValue="3" android:entryValues="@array/auto_answer_delay_entry_values"/>
+  </PreferenceCategory>
+  <CheckBoxPreferenceCategory android:title="@string/auto_answer_scenario_title" android:key="pref_auto_answer_scenario"/>
+</PreferenceScreen>

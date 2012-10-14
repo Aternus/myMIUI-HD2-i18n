@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/main_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <FrameLayout android:id="@id/mainFrame" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <RelativeLayout android:id="@id/inCallPanel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true">
+      <com.android.phone.CallCard android:id="@id/callCard" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true"/>
+    </RelativeLayout>
+    <ViewStub android:id="@id/otaCallCardStub" android:layout="@layout/otacall_card" android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+  </FrameLayout>
+  <com.android.phone.InCallTouchUi android:id="@id/inCallTouchUi" android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+  <TextView android:textAppearance="@style/TextStyle.SlidingTarget" android:gravity="bottom|center" android:layout_gravity="bottom" android:id="@id/sliding_down_target_hint" android:background="@drawable/incall_sliding_down_target_bg" android:paddingBottom="7.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sliding_target_hint"/>
+  <ViewStub android:id="@id/manageConferencePanelStub" android:layout="@layout/manage_conference_panel" android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+  <include layout="@layout/dtmf_twelve_key_dialer"/>
+  <RelativeLayout android:id="@id/touchLockOverlay" android:background="#88000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center" android:id="@id/touchLockIcon" android:background="@drawable/dialpad_lock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="70.0dip" android:text="@string/touchLockText" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+  </RelativeLayout>
+  <FrameLayout android:layout_gravity="top" android:id="@id/inCallProviderOverlay" android:background="@drawable/dialog_bg_calling_via" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:minHeight="88.0dip">
+    <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:textSize="16.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/callingVia" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/calling_via_template"/>
+  </FrameLayout>
+</FrameLayout>

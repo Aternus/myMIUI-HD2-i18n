@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/callCardRoot" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/callCardInfoBar" android:background="@drawable/incall_callcard_bg_first" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="104.0dip">
+    <ImageView android:id="@id/photo" android:background="@drawable/incall_photo_bg" android:layout_width="75.0dip" android:layout_height="75.0dip" android:layout_marginRight="10.0dip" android:scaleType="fitCenter" android:layout_centerVertical="true"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="235.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+      <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.phone.AlphaCallCardLayout android:gravity="center" android:orientation="vertical" android:id="@id/primaryCallCard" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+          <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/primaryCallerInfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:ellipsize="start" android:gravity="center_vertical" android:id="@id/primaryName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-5.0dip" android:singleLine="true" style="@style/TextStyle.Name"/>
+            <LinearLayout android:orientation="horizontal" android:id="@id/primaryPhoneNumberInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-5.0dip">
+              <TextView android:ellipsize="end" android:id="@id/primaryPhoneNumber" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" style="@style/TextStyle.PhoneNumber"/>
+              <TextView android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/primaryTelocation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:maxWidth="180.0dip" android:singleLine="true" style="@style/TextStyle.Telocation"/>
+            </LinearLayout>
+            <TextView android:ellipsize="end" android:id="@id/extraInfo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/TextStyle.ExtraInfo"/>
+          </LinearLayout>
+          <Button android:layout_gravity="center" android:id="@id/primaryConferenceManageButtonTwoCalls" android:background="@drawable/incall_button_conference_manage" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+          <LinearLayout android:orientation="horizontal" android:id="@id/primaryCallInfo" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/primaryCallStatus" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/TextStyle.ElapsedTime"/>
+            <ImageView android:id="@id/primaryCallStatusImage" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/incall_call_status_ongoing"/>
+            <TextView android:id="@id/primaryElapsedTime" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/TextStyle.ElapsedTime"/>
+          </LinearLayout>
+        </com.android.phone.AlphaCallCardLayout>
+        <Button android:layout_gravity="center" android:id="@id/primaryConferenceManageButtonSingleCall" android:background="@drawable/incall_button_conference_manage" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      </LinearLayout>
+      <com.android.phone.AlphaCallCardLayout android:gravity="center" android:orientation="horizontal" android:id="@id/secondaryCallCard" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/secondaryCallerInfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+          <TextView android:ellipsize="start" android:gravity="center_vertical" android:id="@id/secondaryName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:singleLine="true" style="@style/TextStyle.Name.Secondary"/>
+          <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-3.0dip">
+            <TextView android:ellipsize="end" android:id="@id/secondaryPhoneNumber" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" style="@style/TextStyle.PhoneNumber"/>
+            <TextView android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/secondaryTelocation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:maxWidth="180.0dip" android:singleLine="true" style="@style/TextStyle.Telocation"/>
+          </LinearLayout>
+        </LinearLayout>
+        <Button android:layout_gravity="center" android:id="@id/secondaryConferenceManageButton" android:background="@drawable/incall_button_conference_manage" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <LinearLayout android:gravity="right" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/secondaryCallInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:minWidth="55.0dip">
+          <TextView android:id="@id/secondaryCallStatus" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/TextStyle.ElapsedTime"/>
+          <ImageView android:id="@id/secondaryCallStatusImage" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/incall_call_status_ongoing"/>
+          <TextView android:id="@id/secondaryElapsedTime" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/TextStyle.ElapsedTime"/>
+        </LinearLayout>
+      </com.android.phone.AlphaCallCardLayout>
+    </LinearLayout>
+  </LinearLayout>
+  <ImageView android:gravity="center_vertical" android:background="@drawable/incall_callcard_bg_second" android:layout_width="fill_parent" android:layout_height="25.0dip"/>
+</LinearLayout>

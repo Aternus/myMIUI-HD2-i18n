@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mms.ui.MessageListItem xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/msg_list_item" android:layout_width="fill_parent" android:layout_height="wrap_content">
+  <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+      <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/message_title_list_stub" android:layout="@layout/message_title_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0"/>
+        <ImageView android:id="@id/favourite" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/favourite_list"/>
+      </LinearLayout>
+      <ViewStub android:id="@id/message_item_list_stub" android:layout="@layout/message_item_list" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <Button android:id="@id/timed_message_indicator" android:background="@drawable/timed_message_indicator_listmode" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent"/>
+  </LinearLayout>
+</com.android.mms.ui.MessageListItem>

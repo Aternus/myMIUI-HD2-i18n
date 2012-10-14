@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@id/share_urltitlebar_link_context_menu_id" android:title="@string/contextmenu_sharelink"/>
+  <item android:id="@id/copy_addressbar_link_context_menu_id" android:title="@string/contextmenu_copylink"/>
+  <item android:id="@id/show_page_info_context_menu_id" android:title="@string/contextmenu_showpageinfo"/>
+</menu>

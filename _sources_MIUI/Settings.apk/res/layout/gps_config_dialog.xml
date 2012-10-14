@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="wrap_content">
+  <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gps_config_ntp_server"/>
+    <EditText android:id="@id/ntp_server" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textUri"/>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gps_config_supl_host"/>
+    <EditText android:id="@id/supl_host" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textUri"/>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gps_config_supl_port"/>
+    <EditText android:id="@id/supl_port" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="number"/>
+  </LinearLayout>
+</ScrollView>

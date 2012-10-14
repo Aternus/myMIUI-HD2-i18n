@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.antispam.firewall.DeleteBar xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/delete_bar" android:visibility="gone" style="@*android:style/BottomButtonBar">
+  <ImageTextButton android:id="@id/btn_delete" android:text="@string/fw_menu_remove" android:drawableLeft="@drawable/delete" android:drawablePadding="5.0dip" style="@*android:style/BottomButton.Left"/>
+  <Button android:id="@id/btn_check" android:text="@string/check_all" style="@*android:style/BottomButton.Right"/>
+</com.miui.antispam.firewall.DeleteBar>

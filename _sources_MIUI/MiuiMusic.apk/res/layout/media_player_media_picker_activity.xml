@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <include layout="@layout/media_player_sd_error"/>
+  <include layout="@layout/media_player_header"/>
+  <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/media_player_head">
+    <EditableListView android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:cacheColorHint="@*android:color/transparent" android:fastScrollEnabled="true" style="@style/NoDividerLystViewStyle"/>
+    <com.miui.player.ui.view.AlphabetScroller android:layout_gravity="top|right|center" android:id="@id/fast_scroller" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/alpha_list_scroll"/>
+  </FrameLayout>
+</RelativeLayout>

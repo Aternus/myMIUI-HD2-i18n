@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/RelativeLayout_titleView" android:layout_width="wrap_content" android:layout_height="wrap_content">
+  <ImageView android:id="@id/tabtitle_none_black" android:clickable="false" android:layout_width="wrap_content" android:layout_height="62.0px" android:src="@drawable/tabtitle_none_black"/>
+  <ImageView android:id="@id/tabtitle_black_black_left" android:clickable="false" android:layout_width="wrap_content" android:layout_height="62.0px" android:src="@drawable/tabtitle_black_black"/>
+  <ImageView android:id="@id/tabtitle_none_white" android:clickable="false" android:layout_width="wrap_content" android:layout_height="62.0px" android:src="@drawable/tabtitle_none_white"/>
+  <ImageView android:id="@id/tabtitle_black_white" android:clickable="false" android:layout_width="wrap_content" android:layout_height="62.0px" android:src="@drawable/tabtitle_black_white"/>
+  <TextView android:textAppearance="@style/home_top_text" android:gravity="center" android:id="@id/tabtitle_TextView" android:background="@drawable/tabtitle_black" android:layout_width="70.0dip" android:layout_height="62.0px" android:lines="1"/>
+  <ImageButton android:id="@id/tabtitle_ImageButton" android:background="@drawable/tabtitle_white" android:layout_width="40.0dip" android:layout_height="62.0px" android:src="@drawable/tab_close_button"/>
+  <ImageView android:id="@id/tabtitle_white_none" android:clickable="false" android:layout_width="wrap_content" android:layout_height="62.0px" android:src="@drawable/tabtitle_white_none"/>
+  <ImageView android:id="@id/tabtitle_white_black" android:clickable="false" android:layout_width="wrap_content" android:layout_height="62.0px" android:src="@drawable/tabtitle_white_black"/>
+  <ImageView android:id="@id/tabtitle_black_black_right" android:clickable="false" android:layout_width="wrap_content" android:layout_height="62.0px" android:src="@drawable/tabtitle_black_black"/>
+  <ImageView android:id="@id/tabtitle_black_none" android:clickable="false" android:layout_width="wrap_content" android:layout_height="62.0px" android:src="@drawable/tabtitle_black_none"/>
+</LinearLayout>

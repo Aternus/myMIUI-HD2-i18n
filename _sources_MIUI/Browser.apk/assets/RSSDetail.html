@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width; initial-scale=1; minimum-scale=1; maximum-scale=1"/>
+<link href="css/RSSDetail.css" rel="stylesheet" type="text/css" />
+<base href=""/>
+
+<script type="text/javascript">
+	function removeAllChildren(parentNode){
+		while (parentNode.firstChild) {
+		     var oldNode = parentNode.removeChild(parentNode.firstChild);
+		     oldNode = null;
+	    }
+	}
+	
+	function setTitle(title, lastpost, numLike){		
+		var titleTextEle = document.getElementById("title_text");
+		removeAllChildren(titleTextEle);
+		var titleEle = document.createElement("span");
+		titleEle.innerHTML = title;
+		titleTextEle.appendChild(titleEle);
+
+		var lastPostEle = document.getElementById("title_last_post");
+		
+		lastPostEle.innerHTML = lastpost + " " + numLike;
+		
+	}
+	
+	function setLoadingText(loadingText){
+        var loadingTextEle = document.getElementById("loading_text");
+        loadingTextEle.innerHTML = loadingText;
+    }
+    
+	function setFooter(numLike, shareText, seeFullPageText, prefText, prefLinkText, nextText, nextLinkText, isLike){
+		var footerEle = document.getElementById("footer");
+		footerEle.style.display = "block";
+		var numLikeBtn = document.getElementById("like_text");
+		numLikeBtn.innerHTML = numLike;
+		
+		
+		var seeFullPageEle = document.getElementById("see_full_page_text");
+		seeFullPageEle.innerHTML = seeFullPageText;
+        
+        var shareTextEle = document.getElementById("share_text");
+        shareTextEle.innerHTML = shareText;
+
+        var prefTextEle = document.getElementById("prev_text");
+        prefTextEle.innerHTML = prefText;
+        		
+		var prefLinkEle = document.getElementById("prev");
+		prefLinkEle.innerHTML = prefLinkText;
+		
+        var nextTextEle = document.getElementById("next_text");
+        nextTextEle.innerHTML = nextText;
+        
+        var nextLinkEle = document.getElementById("next");
+		nextLinkEle.innerHTML = nextLinkText;
+		
+		setLikeUnLikeState(isLike);
+	}	
+	  
+	function setBaseUrl(url){
+	      var baseTag = document.all.tags("base");
+	      baseTag[0].href = url;
+	}
+	
+	function setContent(content, showFullLink){
+		var contentContainerEle = document.getElementById("content_container");	
+		removeAllChildren(contentContainerEle);
+		var loadingEle = document.getElementById("loading");
+
+		var contentEle = document.createElement("div");
+		contentEle.innerHTML = content;
+		contentContainerEle.appendChild(contentEle);
+		
+		var fullLink = document.getElementById('full_link');
+		if (showFullLink == 'true'){			
+			fullLink.style.visibility = 'visible';
+		}
+		else{
+			fullLink.style.visibility = 'hidden';
+		}		
+		
+		document.body.addEventListener('click', onBodyClick, false);
+	}
+	
+	function onBodyClick(e){
+
+		var screenHeight = window.innerHeight;
+		var y = e.screenY;
+		if (y < screenHeight / 2){
+		    window.RSSDetail.pageUp();
+		}else{
+		    window.RSSDetail.pageDown();
+		}	
+		return false;	      
+  	}
+	
+	function onLoadFullPage(){
+		window.RSSDetail.viewFullPage();
+		return false;
+	}
+	
+	function onNavigatePrev(){
+		window.RSSDetail.navigatePrev();
+		return false;
+	}
+	
+	function onNavigateNext(){
+		window.RSSDetail.navigateNext();
+		return false;
+	}
+	
+	function postLike(){
+		window.RSSDetail.postLike();
+		var likeBtn = document.getElementById("like_btn");
+		return false;
+	}
+	
+	function doSharing(){
+		window.RSSDetail.doSharing();
+		return false;
+	}	
+		
+	function setLikeUnLikeState(isLike){
+		var likeImg = document.getElementById("like_img");
+		if (isLike == "true"){
+			likeImg.src = "file:///android_asset/images/button_003.png";
+		}else{
+			likeImg.src = "file:///android_asset/images/button_002.png";
+		}
+	}
+	  
+	function onImgLoaded(imgEle){
+		var screenWidth = window.screen.availWidth - 20;
+		if (imgEle.width > screenWidth){
+			var height = screenWidth * imgEle.height / imgEle.width; 
+			imgEle.width = screenWidth;	
+			imgEle.height = height;
+		}
+	}
+</script>
+</head>
+<body>
+	<div class="title">
+		<div id="title_text">		
+		</div>
+		<span id="title_last_post" class="subtitle_left"></span>
+	</div>
+
+	<div class="content" id="content_container">
+		<div id="loading" style="width:100%; height:100%;" class="footer" align="center">
+			<image src="file:///android_asset/images/loading.gif" style="margin-top:100px"/>
+			<p style="margin-top:40px"><span id="loading_text"></span>
+			</p>
+		</div>	
+	</div>
+	
+	<div class="footer" id="footer" style="display:none">	
+		<div class="full_link" id="full_link">
+			<a id="see_full_page_text" href="#" onclick="return onLoadFullPage()"> </a>
+		</div>
+	
+		<div class="buttons">
+			<a id="like_btn" class="btn_left" href="#" onclick="return postLike()">
+				<img id="like_img" src="file:///android_asset/images/button_002.png"/><span id="like_text"></span>
+			</a>
+			<a id="share_btn" class="btn_right" href="#" onclick="return doSharing()">
+				<img src="file:///android_asset/images/button_001.png"/><span id="share_text"></span>
+			</a>
+		</div>
+		<div class="navigation">
+			<span id="prev_text"></span><span>：<a id="prev" href="#" onclick="return onNavigatePrev(this)"></a></span>
+			<span id="next_text"></span><span>：<a id="next" href="#" onclick="return onNavigateNext(this)"></a></span>
+		</div>	
+	
+	</div>
+
+</body>
+</html>
+

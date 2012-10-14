@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:id="@id/backup_list_item" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@*android:style/ListItem">
+  <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+    <TextView android:id="@*android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@*android:style/TextAppearance.ListView.PrimaryItem"/>
+    <TextView android:id="@*android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@*android:style/TextAppearance.ListView.SecondaryItem"/>
+  </LinearLayout>
+  <ImageView android:id="@id/targetImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/target_image"/>
+  <CheckBox android:layout_gravity="center" android:id="@id/backup_item_check" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

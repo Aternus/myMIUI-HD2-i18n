@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@id/search_engine_select_item" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+  <ImageView android:layout_gravity="center_horizontal" android:id="@id/website_icon" android:layout_width="60.0dip" android:layout_height="fill_parent" android:scaleType="centerInside"/>
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_weight="1.0">
+    <TextView android:textSize="18.0dip" android:textColor="@color/black" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/website_name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true"/>
+  </LinearLayout>
+  <ImageView android:id="@id/spinner_icon" android:layout_width="60.0dip" android:layout_height="fill_parent" android:src="@drawable/search_engine_btn_radio" android:scaleType="centerInside"/>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+  <ImageView android:layout_gravity="center_vertical" android:id="@id/action_icon" android:layout_width="41.0px" android:layout_height="41.0px" android:layout_marginRight="10.0dip" android:scaleType="centerInside" android:minWidth="41.0px"/>
+  <TextView android:textAppearance="@*android:style/TextAppearance.ListView.PrimaryItem" android:layout_gravity="center_vertical" android:id="@id/callDate" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"/>
+  <TextView android:textAppearance="@*android:style/TextAppearance.ListView.SecondaryItem" android:ellipsize="start" android:gravity="right|center" android:id="@id/location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="70.0dip" android:singleLine="true"/>
+  <CheckBox android:id="@id/check_box" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@*android:drawable/btn_check"/>
+</LinearLayout>

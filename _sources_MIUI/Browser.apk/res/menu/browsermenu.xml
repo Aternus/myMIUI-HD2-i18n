@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:icon="@drawable/menu_icon_index" android:id="@id/menu_homepage" android:title="@string/menu_homepage"/>
+  <item android:icon="@drawable/menu_icon_shoucang" android:id="@id/menu_favorite" android:title="@string/menu_fav"/>
+  <item android:icon="@*android:drawable/ic_menu_preferences" android:id="@id/menu_settings" android:title="@string/menu_setting"/>
+  <item android:icon="@drawable/menu_icon_tuichu" android:id="@id/menu_exit" android:title="@string/menu_exit"/>
+  <item android:icon="@drawable/menu_icon_download" android:id="@id/menu_download" android:title="@string/menu_download"/>
+  <item android:id="@id/menu_search" android:title="@string/menu_search"/>
+  <item android:id="@id/menu_select_text" android:title="@string/menu_select_text"/>
+  <item android:id="@id/menu_brightness_adjust" android:title="@string/menu_brightness_adjust"/>
+  <item android:id="@id/menu_share_page" android:title="@string/menu_share_page"/>
+</menu>

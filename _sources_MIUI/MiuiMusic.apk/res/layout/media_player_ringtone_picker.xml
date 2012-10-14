@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/player_main_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <LinearLayout android:orientation="vertical" android:id="@id/listContainer" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+    <TextView android:textSize="19.0dip" android:textColor="@color/list_title_text" android:gravity="left|center" android:layout_gravity="left|center" android:background="@drawable/header_bg" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/media_player_header_height" android:text="@string/ringtone_picker" android:shadowColor="@color/black_90_transparent" style="@style/TitleShadowMarqueeStyle"/>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+      <include layout="@layout/media_player_sd_error"/>
+      <ListView android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:cacheColorHint="@*android:color/transparent" android:fastScrollEnabled="true" style="@style/NoDividerLystViewStyle"/>
+    </RelativeLayout>
+  </LinearLayout>
+  <LinearLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="@dimen/drawer_tab_height">
+    <include layout="@layout/commit_bottom_2"/>
+  </LinearLayout>
+</LinearLayout>

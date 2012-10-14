@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <item type="id" name="candidates">false</item>
+  <item type="id" name="LatinkeyboardBaseView">false</item>
+  <item type="id" name="LatinKeyboardBaseView">false</item>
+  <item type="id" name="main_image">false</item>
+  <item type="id" name="text">false</item>
+  <item type="id" name="image">false</item>
+  <item type="id" name="progress">false</item>
+  <item type="id" name="button">false</item>
+  <item type="id" name="button_text">false</item>
+  <item type="id" name="mode_normal">false</item>
+  <item type="id" name="mode_url">false</item>
+  <item type="id" name="mode_email">false</item>
+  <item type="id" name="mode_im">false</item>
+  <item type="id" name="mode_webentry">false</item>
+  <item type="id" name="mode_normal_with_settings_key">false</item>
+  <item type="id" name="mode_url_with_settings_key">false</item>
+  <item type="id" name="mode_email_with_settings_key">false</item>
+  <item type="id" name="mode_im_with_settings_key">false</item>
+  <item type="id" name="mode_webentry_with_settings_key">false</item>
+  <item type="id" name="mode_symbols">false</item>
+  <item type="id" name="mode_symbols_with_settings_key">false</item>
+</resources>

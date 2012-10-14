@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/dialpad" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <ImageView android:background="@drawable/dialer_big_dialer_background" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+  <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="454.0dip">
+    <EditText android:textSize="50.0sp" android:textColor="@color/dialer_button_text" android:gravity="center" android:id="@id/digits" android:background="@drawable/dialer_big_dialer_digits" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="86.0dip" android:layout_marginLeft="1.0px" android:layout_marginTop="1.0px" android:layout_marginRight="1.0px" android:cursorVisible="false" android:scrollHorizontally="true" android:singleLine="true" android:editable="true" android:freezesText="true"/>
+    <LinearLayout style="@style/DialerButtonRow">
+      <View android:id="@id/one" android:contentDescription="@string/description_image_button_one" style="@style/DialerButton"/>
+      <View android:id="@id/two" android:contentDescription="@string/description_image_button_two" style="@style/DialerButton"/>
+      <View android:id="@id/three" android:contentDescription="@string/description_image_button_three" style="@style/DialerButton"/>
+    </LinearLayout>
+    <LinearLayout style="@style/DialerButtonRow">
+      <View android:id="@id/four" android:contentDescription="@string/description_image_button_four" style="@style/DialerButton"/>
+      <View android:id="@id/five" android:contentDescription="@string/description_image_button_five" style="@style/DialerButton"/>
+      <View android:id="@id/six" android:contentDescription="@string/description_image_button_six" style="@style/DialerButton"/>
+    </LinearLayout>
+    <LinearLayout style="@style/DialerButtonRow">
+      <View android:id="@id/seven" android:contentDescription="@string/description_image_button_seven" style="@style/DialerButton"/>
+      <View android:id="@id/eight" android:contentDescription="@string/description_image_button_eight" style="@style/DialerButton"/>
+      <View android:id="@id/nine" android:contentDescription="@string/description_image_button_nine" style="@style/DialerButton"/>
+    </LinearLayout>
+    <LinearLayout style="@style/DialerButtonRow">
+      <View android:id="@id/star" android:contentDescription="@string/description_image_button_star" style="@style/DialerButton"/>
+      <View android:id="@id/zero" android:contentDescription="@string/description_image_button_zero" style="@style/DialerButton"/>
+      <View android:id="@id/pound" android:contentDescription="@string/description_image_button_pound" style="@style/DialerButton"/>
+    </LinearLayout>
+    <LinearLayout style="@style/DialerButtonRow">
+      <View android:id="@id/add_contact" style="@style/DialerButton"/>
+      <TextView android:textSize="26.0sp" android:id="@id/call" style="@style/CallButton"/>
+      <View android:id="@id/delete" android:contentDescription="@string/description_image_button_delete" style="@style/DialerButton"/>
+    </LinearLayout>
+  </LinearLayout>
+  <View android:background="@drawable/dialer_big_dialer_buttons" android:layout_width="fill_parent" android:layout_height="454.0dip"/>
+</FrameLayout>

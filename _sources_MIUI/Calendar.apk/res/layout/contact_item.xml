@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@*android:style/LargeListItem">
+  <android.widget.QuickContactBadge android:id="@id/badge" android:background="@null" android:layout_width="43.329987dip" android:layout_height="43.329987dip" android:layout_marginRight="10.0dip" style="?android:attr/quickContactBadgeStyleWindowSmall"/>
+  <TextView android:textAppearance="@*android:style/TextAppearance.ListView.PrimaryItem" android:id="@id/name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0"/>
+  <ImageView android:id="@id/presence" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY"/>
+</LinearLayout>

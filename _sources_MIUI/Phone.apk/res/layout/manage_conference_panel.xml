@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/manageConferencePanel" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <ListView android:scrollbarStyle="outsideOverlay" android:layout_gravity="center" android:id="@id/conferenceList" android:background="@drawable/manage_conference_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="@null" android:childDivider="@null" android:divider="@null" android:dividerHeight="0.0dip" android:layout_weight="1.0"/>
+    <LinearLayout android:gravity="center" android:background="@drawable/manage_conference_bottom_bar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+      <Button android:gravity="center" android:id="@id/manage_done" android:background="@drawable/incall_button_white" android:layout_width="250.0dip" android:layout_height="wrap_content" android:text="@string/caller_manage_manage_done_text" style="@style/TextStyle.Button"/>
+    </LinearLayout>
+  </LinearLayout>
+</FrameLayout>

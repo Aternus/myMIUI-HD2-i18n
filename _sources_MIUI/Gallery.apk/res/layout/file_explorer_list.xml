@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/file_browse_frame" android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <LinearLayout android:gravity="center_vertical" android:id="@id/navigation_bar" android:background="@drawable/path_region_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/current_path_pane" android:background="@drawable/path_bg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+      <TextView android:textSize="24.0px" android:textColor="@*android:color/white" android:ellipsize="start" android:id="@id/current_path_view" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" style="@style/DeepStyle"/>
+      <ImageView android:id="@id/path_pane_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/path_pane_arrow_down"/>
+    </LinearLayout>
+    <ImageView android:id="@id/path_pane_up_level" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/path_up_level"/>
+  </LinearLayout>
+  <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+    <TextView android:textSize="27.0px" android:textColor="#ffe2e2e2" android:layout_gravity="center" android:id="@id/empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_file" android:singleLine="true" android:drawableTop="@drawable/empty_icon" android:drawablePadding="16.0dip"/>
+    <TextView android:textSize="27.0px" android:textColor="#ffe2e2e2" android:gravity="center" android:id="@id/sd_absence_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@*android:string/sd_not_available" android:singleLine="true" android:drawableTop="@*android:drawable/sd_not_available" android:drawablePadding="16.0dip" android:drawableCompactMode="true"/>
+    <EditableListView android:id="@id/file_path_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@*android:color/transparent" android:divider="@drawable/listview_divider" android:dividerHeight="3.0px" android:fastScrollEnabled="true" android:headerDividersEnabled="true" android:footerDividersEnabled="true"/>
+    <ScrollView android:id="@id/dropdown_navigation" android:background="@drawable/path_scroll_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+      <LinearLayout android:orientation="vertical" android:id="@id/dropdown_navigation_list" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+    </ScrollView>
+  </FrameLayout>
+  <EditableListActionBar android:id="@id/operation_bar" android:background="@drawable/bottombar_bg" android:padding="3.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_bar_height" android:inAnimation="@anim/in_anim" android:outAnimation="@anim/out_anim">
+    <Button android:id="@id/folder_view_btn_delete" android:background="@drawable/folder_btn_delete" android:text="@string/delete" style="@style/MultiSelectActionButton"/>
+    <Button android:id="@id/folder_view_btn_send_or_mark" android:background="@drawable/bottom_btn_bg" android:text="@string/send" style="@style/MultiSelectActionButton"/>
+    <Button android:id="@id/folder_view_btn_select_all" android:background="@drawable/bottom_btn_bg" android:text="@string/select_all" style="@style/MultiSelectActionButton"/>
+  </EditableListActionBar>
+</LinearLayout>

@@ -62,6 +62,8 @@
   <string name="user_mitalk_sync_title">Syncronisiere MiTalk</string>
   <string name="user_mitalk_sync_summary">Benutze MiTalk als den aktuellen Account zum einloggen, chatten mit Kontakten und benutze Voicechat, erfreue dich an unbegrenzten Nachrichten und teile Bilder umsonst</string>
   <string name="user_unbind">Nicht verbunden</string>
+  <string name="user_unbind">Verknüpfung aufheben</string>
+  <string name="user_unbind">Benutzer trennen</string>
   <string name="xiaomi_remove_account_title">Lösche xiaomi Account</string>
   <string name="xiaomi_remove_account_message">Das Löschen dieses Accounts, löscht auch die Service Daten, inkl. der Supermarket Apps, MiTalk Daten, etc (Kontakte, Sms, Anrufliste bleiben erhalten); es können nicht alle MIUI online Services genutzt werden; Wirklich löschen?</string>
   <string name="registered_account">Benutzername registriert</string>
@@ -77,11 +79,11 @@
   <string name="network_error">Netzwerk Verbindungsfehler</string>
   <string name="unknown">Unbekannter Fehler</string>
   <string name="sending_bind_request">Sende Anfrage</string>
-  <string name="bind_phone_dialog_title">Binde Telefon</string>
+  <string name="bind_phone_dialog_title">Verbinde Telefon</string>
   <string name="bind_phone_dialog_message">Sie erhalten eine Nachricht um Ihren Account zu bestätigen, bitte klicken Sie den Link in der Nachricht</string>
-  <string name="bind_email_dialog_title">Binde e-mail</string>
+  <string name="bind_email_dialog_title">Verbinde e-mail</string>
   <string name="bind_email_dialog_message">Sie erhalten eine E-Mail um Ihren Account zu bestätigen, bitte klicken sie den Link</string>
-  <string name="bind_dialog_button">Bind</string>
+  <string name="bind_dialog_button">Verknüpfen</string>
   <string name="enable_mitalk_dialog_title">Syncronisierung</string>
   <string name="enable_mitalk_dialog_message">MiTalk Account und der System Account sind im Konflikt, die Daten gelöscht und MiTalk als Standard benutzt. MiTalk syncronisieren?</string>
   <string name="disable_mitalk_dialog_title">Deaktiviere MiTalk Syncronisation</string>

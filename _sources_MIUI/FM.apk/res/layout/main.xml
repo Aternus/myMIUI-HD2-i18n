@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <LinearLayout android:orientation="vertical" android:id="@id/fm_main" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <LinearLayout android:background="@drawable/fm_background_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+      <ImageButton android:layout_gravity="right|center" android:id="@id/btn_onoff" android:background="@drawable/fm_btn_onoff" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+      <LinearLayout android:orientation="vertical" android:background="@drawable/fm_screen_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:orientation="vertical" android:id="@id/fm_screen" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+          <FrameLayout android:id="@id/station_info" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="top|left|center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+              <ImageView android:layout_gravity="left|center" android:id="@id/fm_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fm"/>
+              <ImageView android:id="@id/iv_lound_speaker_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ear_piece_mode"/>
+              <ImageView android:id="@id/iv_sleep_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sleep_mode"/>
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ff333333" android:layout_gravity="top|right|center" android:id="@id/tv_station_name" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+          </FrameLayout>
+          <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/image_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+              <ImageSwitcher android:id="@id/Img_switcher1" android:background="@drawable/number_background" android:paddingLeft="0.0px" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+              <ImageSwitcher android:id="@id/Img_switcher2" android:background="@drawable/number_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/Img_switcher1"/>
+              <ImageSwitcher android:id="@id/Img_switcher3" android:background="@drawable/number_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/Img_switcher2"/>
+              <ImageSwitcher android:id="@id/Img_switcher4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/Img_switcher3"/>
+              <ImageSwitcher android:id="@id/Img_switcher5" android:background="@drawable/number_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/Img_switcher4"/>
+            </RelativeLayout>
+            <ImageView android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mhz"/>
+          </LinearLayout>
+        </FrameLayout>
+        <LinearLayout android:id="@id/micro_adjust" android:layout_width="fill_parent" android:layout_height="wrap_content">
+          <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageButton android:layout_gravity="left|center" android:id="@id/btn_reduce" android:background="@drawable/down_micro_adjust" android:layout_width="wrap_content" android:layout_height="fill_parent"/>
+          </LinearLayout>
+          <ImageButton android:layout_gravity="right|center" android:id="@id/btn_add" android:background="@drawable/up_micro_adjust" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+      </LinearLayout>
+      <LinearLayout android:layout_gravity="top" android:background="@drawable/fm_screen_highlight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="7.0dip"/>
+    </FrameLayout>
+    <LinearLayout android:background="@drawable/fm_background_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+      <LinearLayout android:gravity="left|center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageButton android:layout_gravity="left|center" android:id="@id/btn_stations_list" android:background="@drawable/stations_list_button" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      </LinearLayout>
+      <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageButton android:id="@id/btn_seekbackward" android:background="@drawable/last_station_button" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      </LinearLayout>
+      <LinearLayout android:gravity="right|center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageButton android:id="@id/btn_seekforward" android:background="@drawable/next_station_button" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      </LinearLayout>
+    </LinearLayout>
+    <View android:background="@drawable/bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+  </LinearLayout>
+  <include layout="@layout/station_list"/>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/card_root_view" android:background="@*android:drawable/settings_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <include layout="@layout/contact_card_header"/>
+    <ListView android:id="@id/contact_data" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@null" android:divider="@null" android:layout_weight="1.0" android:drawSelectorOnNothing="true"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/bottomView" android:visibility="invisible" style="@*android:style/BottomButtonBar"/>
+  </LinearLayout>
+  <RelativeLayout android:id="@id/bottomButtonBar" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_alignParentBottom="true" style="@*android:style/BottomButtonBar">
+      <ImageTextButton android:gravity="center" android:id="@id/btn_call" android:text="@string/view_contact_call" android:drawableLeft="@drawable/contact_card_call" android:drawablePadding="10.0dip" style="@*android:style/BottomButton.Left"/>
+      <ImageTextButton android:gravity="center" android:id="@id/btn_sms" android:text="@string/view_contact_sms" android:drawableLeft="@drawable/contact_card_sms" android:drawablePadding="10.0dip" style="@*android:style/BottomButton.Right"/>
+    </LinearLayout>
+  </RelativeLayout>
+</FrameLayout>

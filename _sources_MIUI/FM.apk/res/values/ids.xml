@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <item type="id" name="station_frequency">false</item>
+  <item type="id" name="station_name">false</item>
+  <item type="id" name="station_input">false</item>
+  <item type="id" name="fm_main">false</item>
+  <item type="id" name="btn_onoff">false</item>
+  <item type="id" name="fm_screen">false</item>
+  <item type="id" name="station_info">false</item>
+  <item type="id" name="fm_label">false</item>
+  <item type="id" name="iv_lound_speaker_mode">false</item>
+  <item type="id" name="iv_sleep_mode">false</item>
+  <item type="id" name="tv_station_name">false</item>
+  <item type="id" name="image_number">false</item>
+  <item type="id" name="Img_switcher1">false</item>
+  <item type="id" name="Img_switcher2">false</item>
+  <item type="id" name="Img_switcher3">false</item>
+  <item type="id" name="Img_switcher4">false</item>
+  <item type="id" name="Img_switcher5">false</item>
+  <item type="id" name="micro_adjust">false</item>
+  <item type="id" name="btn_reduce">false</item>
+  <item type="id" name="btn_add">false</item>
+  <item type="id" name="btn_stations_list">false</item>
+  <item type="id" name="btn_seekbackward">false</item>
+  <item type="id" name="btn_seekforward">false</item>
+  <item type="id" name="pop_up_time">false</item>
+  <item type="id" name="left">false</item>
+  <item type="id" name="seekbar">false</item>
+  <item type="id" name="right">false</item>
+  <item type="id" name="stations_list">false</item>
+  <item type="id" name="station_list_view">false</item>
+  <item type="id" name="station_empty_view">false</item>
+  <item type="id" name="play_station_btn">false</item>
+  <item type="id" name="tv_freq">false</item>
+  <item type="id" name="tv_freq_name">false</item>
+  <item type="id" name="iv_play_icon">false</item>
+</resources>

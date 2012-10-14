@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <item type="drawable" name="APKTOOL_DUMMY_000a">false</item>
+  <item type="drawable" name="APKTOOL_DUMMY_0059">false</item>
+  <item type="drawable" name="APKTOOL_DUMMY_0064">false</item>
+  <item type="drawable" name="APKTOOL_DUMMY_0065">false</item>
+  <item type="drawable" name="APKTOOL_DUMMY_0066">false</item>
+  <item type="drawable" name="APKTOOL_DUMMY_006b">false</item>
+  <item type="drawable" name="APKTOOL_DUMMY_006c">false</item>
+  <item type="drawable" name="APKTOOL_DUMMY_00f4">false</item>
+  <item type="drawable" name="APKTOOL_DUMMY_00f5">false</item>
+  <item type="drawable" name="class_zero_background">#7f040000</item>
+  <item type="drawable" name="light_blue_background">#ffecfbff</item>
+  <item type="drawable" name="white_background">#ffffffff</item>
+  <item type="drawable" name="text_color">#ffffffff</item>
+  <item type="drawable" name="text_color_red">#ffff0000</item>
+  <item type="drawable" name="text_color_black">#ff000000</item>
+  <item type="drawable" name="text_color_offwhite">#55ffffff</item>
+  <item type="drawable" name="text_color_green">#ff478534</item>
+</resources>

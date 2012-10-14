@@ -56,7 +56,7 @@
   <string-array name="cdma_network_preferences_choices">
     <item>CDMA/EvDo</item>
     <item>nur CDMA</item>
-    <item>nur EvDo/item>
+    <item>nur EvDo</item>
   </string-array>
   <string-array name="cdma_subscription_choices">
     <item>RUIM/SIM</item>

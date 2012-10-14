@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bookmark_folder_item" android:background="@drawable/bookmark_folder_background" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@*android:style/ListItem">
+  <ImageView android:id="@id/folder_icon" android:layout_width="46.0dip" android:layout_height="fill_parent" android:src="@drawable/history_icon_wenjianjia_01" android:scaleType="centerInside"/>
+  <TextView android:textAppearance="@*android:style/TextAppearance.ListView.PrimaryItem" android:id="@id/bookmark_folder_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0"/>
+  <ImageView android:id="@id/drag_icon" android:layout_width="46.0dip" android:layout_height="fill_parent" android:src="@*android:drawable/arrow_right" android:scaleType="centerInside"/>
+</LinearLayout>

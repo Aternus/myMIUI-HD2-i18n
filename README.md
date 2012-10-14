@@ -52,15 +52,11 @@ If you need more help on how to Fork a project, [click here](https://help.github
 ### Step 3 - Setting your environment (Linux/Cygwin/GitBash)
 __Replace any occurences of username with your username.__
 
-#### Make a working directory
+#### Make a working directory & Clone the forked REPO
 ```
 cd /
-mkdir "myMIUI-HD2-i18n"
-cd myMIUI-HD2-i18n
-```
-#### Clone the REPO you've just forked to your local directory
-```
 git clone https://github.com/username/myMIUI-HD2-i18n.git
+cd myMIUI-HD2-i18n
 ```
 #### Add the remote source REPO of myMIUI-HD2-i18n
 ```
@@ -70,9 +66,10 @@ git remote add source https://github.com/Aternus/myMIUI-HD2-i18n.git
 ### Step 4 - File Structure
 ```
 /_aroma_langs           - myMIUI AROMA Installer Language Files
-/_crowdin               - Crowdin Source as seen in MIUI 2.4.20
 /_mymiui_apk            - myMIUI APK Language Files
 /_mymiui_framework      - myMIUI Framework Language Files
+/_sources_crowdin       - Crowdin Translated Sources as seen in MIUI 2.4.20
+/_sources_MIUI          - MIUI Sources as seen in MIUI 2.4.20
 ```
 
 ### Step 5a - Translating - Core Concepts
@@ -134,7 +131,7 @@ An important concept to grasp with Git is that it's a distributed version contro
 which means you are responsible to stay up to date with what happens with the __source REPO__.  
 Before working on any files, I strongly suggest pulling the latest changes from the source REPO.
 ```
-git pull source
+git pull source master
 ```
 
 ## Credits

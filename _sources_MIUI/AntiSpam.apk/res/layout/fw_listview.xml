@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditableListView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/fw_list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@null" android:divider="@*android:color/transparent" android:dividerHeight="1.0px" android:fastScrollEnabled="true" android:drawSelectorOnNothing="true"/>

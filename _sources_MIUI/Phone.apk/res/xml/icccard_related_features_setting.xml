@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phone="http://schemas.android.com/apk/res/com.android.phone" android:title="@string/answer_features_setting_title">
+  <PreferenceCategory>
+    <PreferenceScreen android:persistent="false" android:title="@string/labelCF" android:key="button_call_forwarding">
+      <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.GsmUmtsCallForwardOptions"/>
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:title="@string/labelCW" android:key="button_call_waiting" android:summary="@string/sum_call_waiting">
+      <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.CallWaitingSetting"/>
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:title="@string/labelCallerId" android:key="button_caller_id" android:summary="@string/sum_caller_id">
+      <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.CallerIdSetting"/>
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:title="@string/labelCF" android:key="button_cdma_call_forwarding">
+      <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.CdmaCallForwardOptions"/>
+    </PreferenceScreen>
+    <com.android.phone.CdmaCallWaitingPreference android:persistent="false" android:title="@string/labelCW" android:key="button_cdma_cw_key" android:summary="@string/sum_call_waiting" android:dialogTitle="@string/labelCW"/>
+    <com.android.phone.CdmaVoicePrivacyCheckBoxPreference android:persistent="false" android:title="@string/voice_privacy" android:key="button_voice_privacy_key" android:summary="@string/voice_privacy_summary"/>
+    <PreferenceScreen android:persistent="false" android:title="@string/fdn" android:key="button_fdn">
+      <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.FdnSetting"/>
+    </PreferenceScreen>
+  </PreferenceCategory>
+</PreferenceScreen>

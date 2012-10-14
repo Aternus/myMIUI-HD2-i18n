@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:icon="@drawable/ic_menu_account_add" android:id="@id/menu_add" android:title="@string/menu_newContact" android:alphabeticShortcut="n"/>
+  <item android:icon="@*android:drawable/ic_menu_allfriends" android:id="@id/menu_display_only_phones" android:title="@string/menu_display_only_phones"/>
+  <item android:icon="@*android:drawable/ic_menu_allfriends" android:id="@id/menu_display_all" android:title="@string/menu_display_all"/>
+  <item android:icon="@drawable/ic_menu_sim_contacts" android:id="@id/menu_sim_contact" android:title="@string/menu_sim_contact"/>
+  <item android:icon="@*android:drawable/ic_menu_account_list" android:id="@id/menu_accounts" android:title="@string/menu_accounts"/>
+  <item android:icon="@*android:drawable/ic_menu_preferences" android:id="@id/menu_config" android:title="@string/menu_preferences"/>
+</menu>

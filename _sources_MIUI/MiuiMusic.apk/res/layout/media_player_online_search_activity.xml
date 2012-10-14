@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <LinearLayout android:id="@id/header" android:background="@drawable/header_bg" android:layout_width="fill_parent" android:layout_height="@dimen/media_player_header_height">
+    <ImageView android:gravity="center" android:id="@id/go_home" android:layout_width="wrap_content" android:layout_height="@dimen/media_player_header_height" android:src="@drawable/go_home_selector" android:scaleType="center" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+    <RelativeLayout android:id="@id/search_bar_id" android:layout_width="fill_parent" android:layout_height="@dimen/media_player_header_height" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/go_home">
+      <include layout="@layout/media_player_search_bar"/>
+    </RelativeLayout>
+  </LinearLayout>
+  <ListView android:id="@id/search_history_view" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/header" style="@style/SearchHistoryListStyle"/>
+  <RelativeLayout android:id="@id/online_status_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_below="@id/header">
+    <include layout="@layout/media_player_online_status_bar"/>
+  </RelativeLayout>
+  <EditableListView android:id="@*android:id/list" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:cacheColorHint="@*android:color/transparent" android:layout_below="@id/header" android:fastScrollEnabled="true" style="@style/NoDividerLystViewStyle"/>
+</RelativeLayout>

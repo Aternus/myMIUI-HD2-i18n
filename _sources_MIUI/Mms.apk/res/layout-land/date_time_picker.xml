@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:background="@*android:drawable/popup_common" android:layout_width="fill_parent" android:layout_height="wrap_content">
+  <TextView android:textAppearance="@*android:style/TextAppearance" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip"/>
+  <View android:background="@*android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="6.0dip"/>
+  <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:layout_weight="1.0">
+      <Button android:id="@id/date_button" android:background="@*android:drawable/preference_first_item" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+      <Button android:id="@id/time_button" android:background="@*android:drawable/preference_last_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip"/>
+    </LinearLayout>
+    <DatePicker android:id="@id/date_picker" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"/>
+    <TimePicker android:id="@id/time_picker" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"/>
+  </LinearLayout>
+  <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:baselineAligned="false">
+    <Button android:id="@id/ok" android:text="@string/yes" style="@*android:style/BottomButton.Left"/>
+    <Button android:id="@id/cancel" android:text="@string/no" style="@*android:style/BottomButton.Secondary"/>
+  </LinearLayout>
+</LinearLayout>

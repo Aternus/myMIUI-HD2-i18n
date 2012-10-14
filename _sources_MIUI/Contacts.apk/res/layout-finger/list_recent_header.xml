@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="70.0px">
+  <TextView android:textColor="@color/contact_list_item_secondary" android:gravity="center" android:id="@id/recent_header_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="13.0dip"/>
+</LinearLayout>

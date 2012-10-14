@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@*android:drawable/settings_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <TextView android:textSize="16.0sp" android:textColor="@*android:color/preference_category_text" android:id="@id/description" android:paddingLeft="20.0dip" android:paddingTop="12.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/user_phone_description"/>
+  <LinearLayout android:background="@*android:drawable/preference_single_item" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <TextView android:id="@id/field_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/user_phone" style="@*android:style/TextAppearance.Preference.PrimaryItem"/>
+    <EditText android:textAppearance="@*android:style/TextAppearance.Small" android:textColor="@*android:color/mi_preference_primary" android:id="@id/edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+  </LinearLayout>
+  <Button android:id="@id/verify_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/user_phone_button_verify" style="@*android:style/Widget.Button.Bar"/>
+</LinearLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SortableListView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top" android:id="@id/nowplaying_list" android:background="@drawable/audio_player_playlist_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@*android:color/transparent" android:cacheColorHint="@*android:color/transparent" android:divider="@drawable/local_picker_divider" android:fastScrollEnabled="true"/>

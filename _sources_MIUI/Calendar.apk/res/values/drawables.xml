@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <item type="drawable" name="agenda_item_declined">#88ffffff</item>
+  <item type="drawable" name="APKTOOL_DUMMY_000d">false</item>
+  <item type="drawable" name="APKTOOL_DUMMY_0014">false</item>
+</resources>

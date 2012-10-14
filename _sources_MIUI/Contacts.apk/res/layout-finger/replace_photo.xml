@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+  <FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip">
+    <ImageView android:layout_gravity="left" android:id="@id/photo_target" android:background="@*android:drawable/quickcontact_badge_big" android:layout_width="76.0dip" android:layout_height="76.0dip"/>
+    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/replace_photo"/>
+    <ImageView android:layout_gravity="right" android:id="@id/photo_source" android:background="@*android:drawable/quickcontact_badge_big" android:layout_width="76.0dip" android:layout_height="76.0dip"/>
+  </FrameLayout>
+  <TextView android:textAppearance="@*android:style/TextAppearance.ListView.PrimaryItem" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/set_as_photo"/>
+</LinearLayout>

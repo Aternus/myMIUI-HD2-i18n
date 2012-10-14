@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@*android:style/WindowTitleBackground.Tall">
+    <TextView android:id="@id/category_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@*android:style/WindowTitle.Tall"/>
+    <Button android:textAppearance="@*android:style/TextAppearance" android:textColor="#a0ffffff" android:id="@id/shuffle_button" android:background="@drawable/shuffle_button" android:paddingLeft="12.0dip" android:paddingTop="6.0dip" android:paddingRight="12.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/random_pick"/>
+  </LinearLayout>
+  <ListView android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:cacheColorHint="@null" android:layout_weight="1.0" android:fastScrollEnabled="true" style="@*android:style/Widget.ListView.NoDivider"/>
+  <TextView android:textSize="@*android:dimen/normal_text_size" android:textColor="?android:textColorSecondary" android:gravity="center" android:id="@id/festival_sms_sdcard_unready" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/festival_sms_sdcard_unready" android:layout_weight="1.0"/>
+  <include layout="@layout/festival_sms_downloading_view"/>
+</LinearLayout>

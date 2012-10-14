@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingRight="?android:scrollbarSize" android:layout_width="fill_parent" android:layout_height="wrap_content">
+  <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="18.0sp" android:textColor="@*android:color/preference_primary_text" android:layout_gravity="center_vertical" android:id="@*android:id/title" android:layout_width="100.0dip" android:layout_height="wrap_content" android:singleLine="true"/>
+    <EditText android:textSize="16.0sp" android:textColor="@*android:color/preference_primary_text" android:layout_gravity="right" android:id="@id/edittext" android:background="@*android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLength="4"/>
+    <TextView android:textSize="16.0sp" android:textColor="@*android:color/preference_primary_text" android:layout_gravity="center_vertical" android:id="@*android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+  </LinearLayout>
+  <TextView android:textSize="13.0sp" android:textColor="@*android:color/preference_secondary_text" android:id="@*android:id/summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="4"/>
+</LinearLayout>

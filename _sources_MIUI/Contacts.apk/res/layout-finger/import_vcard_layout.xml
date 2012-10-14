@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <include layout="@layout/list_header"/>
+  <ListView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:fastScrollEnabled="true" style="@*android:style/Widget.ListView.NoDivider"/>
+  <include layout="@layout/contacts_list_buttons"/>
+</LinearLayout>

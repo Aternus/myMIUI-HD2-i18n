@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="18.0dip" android:textColor="@color/black" android:gravity="center_vertical" android:background="@color/search_engine_selection_item_bg" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="55.0dip" android:text="@string/search_engine_selection_title" android:singleLine="true"/>

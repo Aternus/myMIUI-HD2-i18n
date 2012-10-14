@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/menu_settings">
+  <ListPreference android:entries="@array/pref_text_size_choices" android:title="@string/pref_text_size" android:key="text_size" android:defaultValue="NORMAL" android:dialogTitle="@string/pref_text_size_dialogtitle" android:entryValues="@array/pref_text_size_values"/>
+  <CheckBoxPreference android:title="@string/pref_overview_mode" android:key="overview_mode" android:summary="@string/pref_overview_mode_summary" android:defaultValue="false"/>
+  <ListPreference android:entries="@array/pref_load_images_choice" android:title="@string/pref_content_load_images" android:key="load_images_option" android:defaultValue="ON" android:dialogTitle="@string/pref_content_load_images" android:entryValues="@array/pref_load_images_choice_value"/>
+  <CheckBoxPreference android:title="@string/pref_auto_enter_fullscreen" android:key="pref_auto_enter_fullscreen" android:defaultValue="false"/>
+  <ListPreference android:entries="@array/pref_volume_setting_choice" android:title="@string/pref_content_volume_setting" android:key="volume_setting_option" android:defaultValue="SCROLL_PAGE" android:dialogTitle="@string/pref_content_volume_setting" android:entryValues="@array/pref_volume_setting_choice_value"/>
+  <CheckBoxPreference android:title="@string/pref_always_show_tabbar" android:key="pref_always_show_tabbar" android:summary="@string/pref_always_show_tabbar_summary" android:defaultValue="false"/>
+  <ListPreference android:entries="@array/pref_simple_mode_choices" android:title="@string/pref_simple_mode" android:key="pref_simple_mode_choice" android:defaultValue="OFF" android:dialogTitle="@string/pref_simple_mode" android:entryValues="@array/pref_simple_mode_values"/>
+  <com.android.browser.ui.BrowserYesNoPreference android:title="@string/pref_privacy_clear_cache" android:key="privacy_clear_cache" android:dialogTitle="@string/clear" android:dialogMessage="@string/pref_privacy_clear_cache_dlg" android:dialogIcon="@*android:drawable/ic_dialog_alert_big"/>
+  <com.android.browser.ui.BrowserYesNoPreference android:title="@string/pref_reset_default" android:key="reset_default_preferences" android:dialogTitle="@string/pref_reset_default_dlg_title" android:dialogMessage="@string/pref_reset_default_dlg" android:dialogIcon="@*android:drawable/ic_dialog_alert_big"/>
+  <com.android.browser.ui.AboutDialog android:title="@string/pref_about" android:key="pre_about_dialog"/>
+</PreferenceScreen>

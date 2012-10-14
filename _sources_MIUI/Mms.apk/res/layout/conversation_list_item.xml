@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mms.ui.ConversationListItem xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@*android:style/LargeListItem">
+  <FrameLayout android:id="@id/badge_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip">
+    <android.widget.QuickContactBadge android:id="@id/avatar" android:background="@null" android:visibility="gone" android:layout_width="43.329987dip" android:layout_height="43.329987dip" style="?android:attr/quickContactBadgeStyleWindowSmall"/>
+    <ImageView android:layout_gravity="bottom|right|center" android:id="@id/presence" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+  </FrameLayout>
+  <LinearLayout android:orientation="vertical" android:id="@id/content_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+    <com.android.mms.ui.ShrinkableLinearLayout xmlns:mms="http://schemas.android.com/apk/res/com.android.mms" android:gravity="center_vertical" android:id="@id/from_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" mms:shrinkableIndex="1">
+      <TextView android:textSize="@*android:dimen/list_primary_text_size" android:textColor="?android:textColorSecondary" android:id="@id/fetion_prefix" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="@string/fetion_prefix"/>
+      <TextView android:textAppearance="@*android:style/TextAppearance.ListView.PrimaryItem" android:id="@id/from" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+      <TextView android:textSize="@*android:dimen/list_secondary_text_size" android:textColor="?android:textColorPrimary" android:id="@id/msg_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:singleLine="true"/>
+      <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@*android:color/white" android:gravity="center" android:id="@id/unread_msg_count" android:background="@drawable/sms_unread_count_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:singleLine="true"/>
+      <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"/>
+      <ImageView android:id="@id/has_timed_msg_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/has_timed_msg_indicator"/>
+      <ImageView android:id="@id/error" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/ic_list_alert_sms_failed"/>
+      <TextView android:textSize="@*android:dimen/list_secondary_text_size" android:textColor="@*android:color/info_color" android:id="@id/has_draft" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/has_draft" android:singleLine="true"/>
+    </com.android.mms.ui.ShrinkableLinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/subject_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip">
+      <TextView android:textAppearance="@*android:style/TextAppearance.ListView.SecondaryItem" android:ellipsize="end" android:id="@id/subject" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0"/>
+      <TextView android:textAppearance="@*android:style/TextAppearance.ListView.SecondaryItem" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:singleLine="true"/>
+    </LinearLayout>
+  </LinearLayout>
+</com.android.mms.ui.ConversationListItem>

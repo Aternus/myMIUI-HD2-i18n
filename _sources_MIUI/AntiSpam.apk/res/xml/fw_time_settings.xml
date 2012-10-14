@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory>
+    <RadioButtonPreference android:persistent="false" android:title="@string/fw_all_day" android:key="fw_all_day"/>
+    <RadioButtonPreference android:persistent="false" android:title="@string/fw_period" android:key="fw_period"/>
+  </PreferenceCategory>
+  <PreferenceCategory>
+    <PreferenceScreen android:title="@string/fw_start_time" android:key="fw_start_time" android:dependency="fw_period"/>
+    <PreferenceScreen android:title="@string/fw_end_time" android:key="fw_end_time" android:dependency="fw_period"/>
+  </PreferenceCategory>
+</PreferenceScreen>
