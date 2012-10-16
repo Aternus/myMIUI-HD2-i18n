@@ -9,12 +9,12 @@
   <string name="image_size_threshold_dialog_title">הגדר גודל לסינון (KB)</string>
   <string name="warning_rescan_sdcard">לסרוק כרטיס SD מחדש? עלול להימשך מספר דקות!</string>
   <string name="info_rescan_sdcard_finished">סריקת כרטיס SD הושלמה</string>
-  <string name="general_category">\u0020\u0020\u0020הגדרות כלליות</string>
+  <string name="general_category">הגדרות כלליות</string>
   <string name="show_hidden_album">הצגת אלבומים מוסתרים</string>
   <string name="page_category">קטגוריות</string>
   <string name="singleview_animation_set">הגדר אנימציות למסך מלא</string>
   <string name="support_reflection">אפשר השתקפות</string>
-  <string name="slideshow_category">\u0020\u0020\u0020מצגת</string>
+  <string name="slideshow_category">מצגת</string>
   <string name="slideshow_interval">מרווחי זמן בין שקופיות</string>
   <string name="slideshow_interval_dialog_title">הכנס מרווחי זמן גדולים מאפס</string>
   <string name="animation_set">סיגנון אנימצייה</string>

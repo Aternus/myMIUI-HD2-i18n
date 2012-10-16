@@ -61,9 +61,7 @@
   <string name="user_phone_format_error">Das Format Ihrer Telefonnummer ist falsch</string>
   <string name="user_mitalk_sync_title">Syncronisiere MiTalk</string>
   <string name="user_mitalk_sync_summary">Benutze MiTalk als den aktuellen Account zum einloggen, chatten mit Kontakten und benutze Voicechat, erfreue dich an unbegrenzten Nachrichten und teile Bilder umsonst</string>
-  <string name="user_unbind">Nicht verbunden</string>
   <string name="user_unbind">Verknüpfung aufheben</string>
-  <string name="user_unbind">Benutzer trennen</string>
   <string name="xiaomi_remove_account_title">Lösche xiaomi Account</string>
   <string name="xiaomi_remove_account_message">Das Löschen dieses Accounts, löscht auch die Service Daten, inkl. der Supermarket Apps, MiTalk Daten, etc (Kontakte, Sms, Anrufliste bleiben erhalten); es können nicht alle MIUI online Services genutzt werden; Wirklich löschen?</string>
   <string name="registered_account">Benutzername registriert</string>

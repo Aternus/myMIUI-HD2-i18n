@@ -16,8 +16,8 @@
   <string name="permlab_accessAllDownloads">גישה לכל הורדות המערכת</string>
   <string name="permdesc_accessAllDownloads">מאפשר ליישום להציג ולשנות כל מה שנעשה על ידי יישומים במערכת.</string>
   <string name="download_unknown_title">&lt;ללא שם&gt;</string>
-  <string name="notification_filename_separator">,\u0020</string>
-  <string name="notification_filename_extras">\u0020\u0020ו %d עוד</string>
+  <string name="notification_filename_separator">,</string>
+  <string name="notification_filename_extras">ו %d עוד</string>
   <string name="notification_download_complete">ההורדה הושלמה</string>
   <string name="notification_download_failed">ההורדה לא הושלמה</string>
   <string name="notification_need_wifi_for_size">גודל ההורדה מחייב רשת אלחיטית</string>

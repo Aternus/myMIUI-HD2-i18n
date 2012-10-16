@@ -28,8 +28,8 @@
   <string name="pref_category_log_title">לוג</string>
   <string name="pref_clear_log">נקה יומן</string>
   <string name="notification_text">ל%s הוענקו הרשאות Superuser</string>
-  <string name="permission_message">\u0020Messages</string>
-  <string name="permission_root">\u0020Root</string>
+  <string name="permission_message">Messages</string>
+  <string name="permission_root">Root</string>
   <string name="permission">הרשאות:</string>
   <string name="permission_message_summary">אושר לגישה להודעות</string>
   <string name="permission_root_summary">אושרו הרשאות רוט</string>

@@ -29,7 +29,7 @@
   <string name="minutes">%s דקות</string>
   <string name="every_day">כל יום</string>
   <string name="never">אף פעם</string>
-  <string name="day_concat">,\u0020</string>
+  <string name="day_concat">,</string>
   <string name="analog_gadget">שעון אנלוגי</string>
   <string name="settings">הגדרות</string>
   <string name="alarm_in_silent_mode_title">שעון מעורר במצב שקט</string>

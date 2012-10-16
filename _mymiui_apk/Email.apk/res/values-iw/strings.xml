@@ -87,9 +87,9 @@
   <string name="message_view_invite_view">להציג בלוח השנה» </string>
   <string name="message_view_invite_title">הזמנה בלוח השנה</string>
   <string name="message_view_invite_text">הולך?</string>
-  <string name="message_view_invite_accept">\U0020כן</string>
-  <string name="message_view_invite_maybe">\U0020אולי</string>
-  <string name="message_view_invite_decline">\U0020לא</string>
+  <string name="message_view_invite_accept">כן</string>
+  <string name="message_view_invite_maybe">אולי</string>
+  <string name="message_view_invite_decline">לא</string>
   <string name="message_view_invite_toast_yes">אישרת הזמנה זו</string>
   <string name="message_view_invite_toast_maybe">השבת \"אולי\" להזמנה זו</string>
   <string name="message_view_invite_toast_no">דחית הזמנה זו</string>
@@ -145,7 +145,7 @@
   <string name="account_setup_outgoing_password_label">סיסמה</string>
   <string name="account_setup_exchange_title">הגדרות שרת</string>
   <string name="account_setup_exchange_server_label">שרת</string>
-  <string name="account_setup_exchange_username_label">דומיין\\שם משתמש</string>
+  <string name="account_setup_exchange_username_label">דומייןשם משתמש</string>
   <string name="account_setup_exchange_ssl_label">השתמש בחיבור מאובטח (SSL)</string>
   <string name="account_setup_exchange_trust_certificates_label">לקבל את כל אישורי SSL</string>
   <string name="account_setup_options_title">אפשרויות חשבון</string>
@@ -216,7 +216,7 @@
   <string name="account_delete_dlg_instructions_fmt">החשבון \"%s\" יוסר מרשימת הדוא\"ל.</string>
   <string name="upgrade_accounts_title">שדרוג חשבונות</string>
   <string name="upgrade_accounts_error">אין אפשרות לשדרג את החשבון</string>
-  <string name="provider_note_live">רק מספר חשבונות \"Plus\" כוללות גישת POP ומאפשרות לאפליקציה זו להתחבר. אם אין באפשרותך להיכנס באמצעות כתובת הדוא\"ל הנכונה והסיסמה שלך, ייתכן שאין לך חשבון \"Plus\ בתשלום". נא הפעל את דפדפן האינטרנט כדי לקבל גישה לחשבונות דוא\"ל אלה.</string>
+  <string name="provider_note_live">רק מספר חשבונות \"Plus\" כוללות גישת POP ומאפשרות לאפליקציה זו להתחבר. אם אין באפשרותך להיכנס באמצעות כתובת הדוא\"ל הנכונה והסיסמה שלך, ייתכן שאין לך חשבון \"Plus\". נא הפעל את דפדפן האינטרנט כדי לקבל גישה לחשבונות דוא\"ל אלה.</string>
   <string name="provider_note_t_online">לפני הגדרת חשבון דוא\"ל זה, נא בקר באתר האינטרנט של T-Online וצור סיסמה עבור גישה לדוא\"ל POP3.</string>
   <string name="exchange_name">עסקי</string>
   <string name="meeting_accepted">מאושר: %s</string>
