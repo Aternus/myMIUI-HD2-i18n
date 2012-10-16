@@ -14,8 +14,8 @@
   <string name="move_data_to_sdcard_title">העבר מידע לכרטיס הזיכרון</string>
   <string name="return_to_incall_screen">לחץ על מנת לחזור לשיחה</string>
   <string name="status_bar_clear_all_button">נקה התראות</string>
-  <string name="status_bar_date_format">dd/MM/YY</string>
-  <string name="status_bar_date_format_lock">dd/MM/YY</string>
+  <string name="status_bar_date_format">dd/MM/yy</string>
+  <string name="status_bar_date_format_lock">dd/MM/yy</string>
   <string name="status_bar_latest_events_title">התראות</string>
   <string name="status_bar_no_notifications_title">אין התראות</string>
   <string name="status_bar_ongoing_events_title">פעיל</string>

@@ -62,11 +62,11 @@
   <string name="preferences_title">הגדרות Launcher</string>
   <string name="pref_enable_drawing_cache_summary">כבה לפינוי מקום בזיכרון, הדבר יגרום להאטה בביצועים</string>
   <string name="pref_enable_drawing_cache_title">מטמון ציור</string>
-  <string name="pref_icon_shadow_summary">הדלק\כבה צל מאחורי סמלים במסכי הבית</string>
+  <string name="pref_icon_shadow_summary">צל מאחורי סמלים במסכי הבית</string>
   <string name="pref_icon_shadow_title">צל סמל</string>
   <string name="pref_keep_in_memory_summary">מונע סגירת היישום Launcher בעת מחסור בזיכרון</string>
   <string name="pref_keep_in_memory_title">השאר בזיכרון</string>
-  <string name="pref_render_in_truecolor_summary">כבה לשיפור בביצועים</string>
+  <string name="pref_render_in_truecolor_summary">גרפיקה ברזולוציה גבוהה עם 32 סיביות</string>
   <string name="pref_render_in_truecolor_title">גרפיקה ברזולוציה גבוהה</string>
   <string name="pref_screen_transformation_type_title">אפקטי מעבר</string>
   <string name="sort_by_abc">מיון לפי שם יישום</string>

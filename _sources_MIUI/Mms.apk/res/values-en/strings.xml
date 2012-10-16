@@ -22,8 +22,7 @@
   <string name="expire_on">Expires: %s</string>
   <string name="kilobyte">KB</string>
   <string name="undelivered_msg_dialog_title">Undelivered message</string>
-  <string name="undelivered_msg_dialog_body">"Unable to send this message.
-Attempt(s) made: %s."</string>
+  <string name="undelivered_msg_dialog_body">"Unable to send this message. Attempt(s) made: %s."</string>
   <string name="undelivered_sms_dialog_body">Unable to send this message.</string>
   <string name="delete_thread">Delete thread</string>
   <string name="menu_forward">Forward</string>

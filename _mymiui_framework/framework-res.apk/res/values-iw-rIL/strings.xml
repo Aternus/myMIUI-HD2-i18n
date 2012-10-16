@@ -145,7 +145,7 @@
   <string name="country_name_gl">גרינלנד</string>
   <string name="country_name_gm">גמביה</string>
   <string name="country_name_gn">גינאה</string>
-  <string name="country_name_gp_bl_mf">גוואדלופ\סנט ברתלמי\סנט מרטין</string>
+  <string name="country_name_gp_bl_mf">גוואדלופ/סנט ברתלמי/סנט מרטין</string>
   <string name="country_name_gq">גינאה המשוונית</string>
   <string name="country_name_gr">יוון</string>
   <string name="country_name_gt">גואטמלה</string>
@@ -243,7 +243,7 @@
   <string name="country_name_re_yt">ליו וואנג</string>
   <string name="country_name_ro">רומניה</string>
   <string name="country_name_rs">סרביה</string>
-  <string name="country_name_ru_kz">רוסיה\קזחסטן</string>
+  <string name="country_name_ru_kz">רוסיה/קזחסטן</string>
   <string name="country_name_rw">רואנדה</string>
   <string name="country_name_sa">ערב הסעודית</string>
   <string name="country_name_sb">איי שלמה</string>
@@ -282,7 +282,7 @@
   <string name="country_name_ua">אוקראינה</string>
   <string name="country_name_ug">אוגנדה</string>
   <string name="country_name_uk">בריטניה</string>
-  <string name="country_name_us_ca">ארה\"ב\קנדה</string>
+  <string name="country_name_us_ca">ארה\"ב/קנדה</string>
   <string name="country_name_uy">אורוגוואי</string>
   <string name="country_name_uz">אוזבקיסטן</string>
   <string name="country_name_va">עיר הוותיקן</string>
@@ -642,7 +642,7 @@
   <string name="passwordIncorrect">סיסמה שגויה.</string>
   <string name="password_keyboard_label_alpha_key">אבג</string>
   <string name="password_keyboard_label_alt_key">alt</string>
-  <string name="password_keyboard_label_symbol_key">\?123</string>
+  <string name="password_keyboard_label_symbol_key">/?123</string>
   <string name="paste">הדבק</string>
   <string name="payphone">טוקמן</string>
   <string name="permdesc_accessCoarseLocation">מאפשר לאפליקציה גישה לספק מיקום לא מדויק כגון מסד נתוני הרשת הסלולרית על מנת לקבוע מיקום משוער של המכשיר. יישומים זדוניים עלולים להשתמש בכך כדי לקבוע את מיקומך המשוער.</string>
@@ -767,7 +767,7 @@
   <string name="permdesc_subscribedFeedsWrite">מאפשר לאפליקציה לשנות פרטים על ההרשמות שלך להזנות.</string>
   <string name="permdesc_systemAlertWindow">מאפשר לאפליקציה יצירה והצגת חלונות במערכת ההתראות. יישומים זדוניים יכולים להשתלט בכך על מסך הטלפון.</string>
   <string name="permdesc_useCredentials">מאפשר לאפליקציה להשתמש באסימוני אימות.</string>
-  <string name="permdesc_use_sip">מאפשר לאפליקציה להשתמש בשירות SIP על מנת לקבל\לבצע שיחות באמצעות האינטרנט.</string>
+  <string name="permdesc_use_sip">מאפשר לאפליקציה להשתמש בשירות SIP על מנת לקבל/לבצע שיחות באמצעות האינטרנט.</string>
   <string name="permdesc_vibrate">מאפשר לאפליקציה לשלוט ברטט המכשיר.</string>
   <string name="permdesc_wakeLock">מאפשר לאפליקציה למנוע מהמכשיר להיכנס למצב שינה.</string>
   <string name="permdesc_writeApnSettings">מאפשר לאפליקציה לשנות הגדרות APN.</string>
@@ -818,7 +818,7 @@
   <string name="permlab_asec_access">גישה אל מידע באיחסון מאובטח</string>
   <string name="permlab_asec_create">יצירת איחסון מאובטח</string>
   <string name="permlab_asec_destroy">מחיקת איחסון מאובטח</string>
-  <string name="permlab_asec_mount_unmount">חיבור\ניתוק איחסון מאובטח</string>
+  <string name="permlab_asec_mount_unmount">חיבור/ניתוק איחסון מאובטח</string>
   <string name="permlab_asec_rename">שינוי שם לאיחסון מאובטח</string>
   <string name="permlab_authenticateAccounts">פעילות בתור מאמת חשבונות</string>
   <string name="permlab_backup">שליטה על גיבוי ושחזור המערכת</string>
@@ -853,7 +853,7 @@
   <string name="permlab_createNetworkSockets">יצירת חיבורי רשת</string>
   <string name="permlab_deleteCacheFiles">מחיקת זיכרון מטמון</string>
   <string name="permlab_deletePackages">מחיקת יישומים</string>
-  <string name="permlab_devicePower">הפעלה\כיבוי של המכשיר</string>
+  <string name="permlab_devicePower">הפעלה/כיבוי של המכשיר</string>
   <string name="permlab_diagnostic">קריאה/כתיבה למשאבים בבעלות diag</string>
   <string name="permlab_disableKeyguard">ביטול נעילת מקשים</string>
   <string name="permlab_dump">אחזור נתוני מערכת</string>
@@ -880,7 +880,7 @@
   <string name="permlab_modifyAudioSettings">שינוי הגדרות שמע</string>
   <string name="permlab_modifyPhoneState">שינוי מצב הטלפוניה</string>
   <string name="permlab_mount_format_filesystems">איתחול מערכות קבצים</string>
-  <string name="permlab_mount_unmount_filesystems">חיבור\ניתוק מערכות קבצים</string>
+  <string name="permlab_mount_unmount_filesystems">חיבור/ניתוק מערכות קבצים</string>
   <string name="permlab_movePackage">העברת יישומים</string>
   <string name="permlab_nfc">תקשורת NFC</string>
   <string name="permlab_performCdmaProvisioning">הגדרה ישירה של טלפון CDMA</string>
@@ -906,7 +906,7 @@
   <string name="permlab_recordAudio">הקלטת שמע</string>
   <string name="permlab_reorderTasks">סידור מחדש יישומים פעילים</string>
   <string name="permlab_runSetActivityWatcher">ניטור ובקרה על הרצת יישומים</string>
-  <string name="permlab_sdcardWrite">קריאה\כתיבה של תוכן לכרטיס הזיכרון</string>
+  <string name="permlab_sdcardWrite">קריאה/כתיבה של תוכן לכרטיס הזיכרון</string>
   <string name="permlab_sendSms">שליחת הודעת טקסט</string>
   <string name="permlab_setAlarm">הגדרת שעון מעורר</string>
   <string name="permlab_setAlwaysFinish">סיום משימות היישומים ברקע</string>
@@ -928,7 +928,7 @@
   <string name="permlab_subscribedFeedsWrite">קריאת הזנות מנויים</string>
   <string name="permlab_systemAlertWindow">הצגת התראות מערכת</string>
   <string name="permlab_useCredentials">שימוש בפרטי אימות של חשבון כלשהו</string>
-  <string name="permlab_use_sip">קבלה\ביצוע שיחות באמצעות האינטרנט</string>
+  <string name="permlab_use_sip">קבלה/ביצוע שיחות באמצעות האינטרנט</string>
   <string name="permlab_vibrate">שליטה ברטט המכשיר</string>
   <string name="permlab_wakeLock">מניעת כניסה למצב שינה</string>
   <string name="permlab_writeApnSettings">כתיבת הגדרות APN</string>
@@ -1004,14 +1004,14 @@
   <string name="report">דווח</string>
   <string name="reset">איפוס</string>
   <string name="RestrictedChangedTitle">גישה מוגבלת שונתה</string>
-  <string name="RestrictedOnAll">כל שירותי שיחה\נתונים\הודעות טקסט חסומים.</string>
+  <string name="RestrictedOnAll">כל שירותי שיחה/נתונים/הודעות טקסט חסומים.</string>
   <string name="RestrictedOnAllVoice">כל שירותי השיחה חסומים.</string>
   <string name="RestrictedOnData">שירותי נתונים חסומים.</string>
   <string name="RestrictedOnEmergency">שירותי חירום חסומים.</string>
   <string name="RestrictedOnNormal">שירותי שיחה חסומים.</string>
   <string name="RestrictedOnSms">שירות הודעות טקסט חסום.</string>
-  <string name="RestrictedOnVoiceData">שירותי שיחה\נתונים חסומים.</string>
-  <string name="RestrictedOnVoiceSms">שירותי שיחה\הודעות טקסט חסומים.</string>
+  <string name="RestrictedOnVoiceData">שירותי שיחה/נתונים חסומים.</string>
+  <string name="RestrictedOnVoiceSms">שירותי שיחה/הודעות טקסט חסומים.</string>
   <string name="ringtone_default">צלצול ברירת מחדל</string>
   <string name="ringtone_default_with_actual">צלצול ברירת מחדל (%1$s)</string>
   <string name="ringtone_picker_title">צלצולים</string>
