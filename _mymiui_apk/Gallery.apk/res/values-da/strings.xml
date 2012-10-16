@@ -15,7 +15,7 @@
   <string name="singleview_animation_set">Indstil animation i fuld skærm</string>
   <string name="support_reflection">Aktiver refleketion</string>
   <string name="slideshow_category">Diasshow</string>
-  <string name="slideshow_interval">Tids interval</string>
+  <string name="slideshow_interval">Tidsinterval</string>
   <string name="slideshow_interval_dialog_title">Indstil tidsinterval</string>
   <string name="slideshow_interval_invalid">Slideshow interval ugyldigt, anvender standard indstillinger</string>
   <string name="animation_set">Animation indstillinger</string>
@@ -57,7 +57,7 @@
   <string name="save">Gem</string>
   <string name="info">Info</string>
   <string name="error">Fejl</string>
-  <string name="warn">ADvarsel</string>
+  <string name="warn">Advarsel</string>
   <string name="folder">Mappe</string>
   <string name="file">Fil</string>
   <string name="enter_selection">Vælg flere</string>

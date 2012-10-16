@@ -38,7 +38,7 @@
   <string name="mark_as_unread_action">Marker som ulæst</string>
   <string name="add_cc_bcc_action">Tilføj Cc/Bcc</string>
   <string name="add_attachment_action">Tilføj vedhæftning</string>
-  <string name="dump_settings_action">Dump indstillinger</string>
+  <string name="dump_settings_action">Drop indstillinger</string>
   <string name="choose_attachment_dialog_title">Vælg vedhæftning</string>
   <string name="status_loading_more">Indlæser meddelelser…</string>
   <string name="status_sending_messages">Sender meddelelser…</string>
@@ -57,7 +57,7 @@
   <string name="account_folder_list_summary_starred">Stjernemarkeret</string>
   <string name="account_folder_list_summary_drafts">Kladder</string>
   <string name="account_folder_list_summary_outbox">Udbakke</string>
-  <string name="account_folder_list_refresh_toast">Tryk langt på en konto for at opdatere den</string>
+  <string name="account_folder_list_refresh_toast">Tryk og hold på en konto for at opdatere den</string>
   <string name="mailbox_list_title">Postkasse</string>
   <string name="message_list_load_more_messages_action">Indlæs flere meddelelser</string>
   <string name="message_list_send_pending_messages_action">Send udgående meddelser</string>
@@ -161,7 +161,7 @@
   <string name="account_setup_options_notify_label">Underret mig når Email modtages.</string>
   <string name="account_setup_options_sync_contacts_label">Synk. kontakter fra denne konto.</string>
   <string name="account_setup_options_sync_calendar_label">Synk. kalender fra denne konto.</string>
-  <string name="account_setup_failed_dlg_title">Opsætningen kunne ike afslutte</string>
+  <string name="account_setup_failed_dlg_title">Opsætningen kunne ikke afslutte</string>
   <string name="account_setup_options_mail_window_label">Mængde at synkronisere</string>
   <string name="account_setup_options_mail_window_1day">En dag</string>
   <string name="account_setup_options_mail_window_3days">Tre dage</string>
@@ -176,8 +176,8 @@
   <string name="account_setup_failed_dlg_server_message_fmt">Kan ikke forbinde til server.\n(%s)</string>
   <string name="account_setup_failed_tls_required">TLS påkrævet men ikke understøttet af serveren.</string>
   <string name="account_setup_failed_auth_required">Godkendelsesmetoder er ikke understøttet af server.</string>
-  <string name="account_setup_failed_security">Ikke istand til at oprette forbindelse til server pga. sikkerhedsproblemer.</string>
-  <string name="account_setup_failed_ioerror">Ikke istand til at åbne forbindelse til server.</string>
+  <string name="account_setup_failed_security">Ikke i stand til at oprette forbindelse til server pga. sikkerhedsproblemer.</string>
+  <string name="account_setup_failed_ioerror">Ikke i stand til at åbne forbindelse til server.</string>
   <string name="account_setup_security_required_title">Fjernadministration af sikkerhed</string>
   <string name="account_setup_security_policies_required_fmt">Serveren %s påkræver at du tillader den at fjernadministrere nogle sikkerhedsindstillinger på din telefon. Ønsker du at færdiggøre opsætningen af kontoen?</string>
   <string name="account_setup_failed_security_policies_unsupported">Serveren påkræver sikkerhedsindstillinger som din telefon ikke understøtter.</string>
