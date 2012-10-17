@@ -23,7 +23,7 @@
   <string name="setting_widget_bright">Bright widget</string>
   <string name="setting_widget_strobe">Strobe blink</string>
   <string name="setting_frequency_title">Strobe frekvens</string>
-  <string name="setting_frequency_summary">Frekvens af strobe lys</string>
+  <string name="setting_frequency_summary">Frekvens af strobelys</string>
   <string name="setting_frequency_dialog">Frekvens</string>
   <string name="setting_frequency_hz">Hz</string>
   <string name="setting_add_widget">Tilføj widget</string>
