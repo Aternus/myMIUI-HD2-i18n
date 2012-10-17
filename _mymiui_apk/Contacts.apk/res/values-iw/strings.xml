@@ -52,7 +52,7 @@
   <string name="menu_done">שמור</string>
   <string name="menu_doNotSave">בטל שינויים</string>
   <string name="editContact_title_edit">ערוך איש קשר</string>
-  <string name="editContact_title_insert">\u0020\u0020\u0020צור קשר חדש</string>
+  <string name="editContact_title_insert">צור קשר חדש</string>
   <string name="label_notes">הערות</string>
   <string name="label_sip_address">שיחת VoIP</string>
   <string name="ghostData_company">חברה</string>
@@ -290,7 +290,7 @@
   <string name="fail_message_account_needed">הגדר את חשבון ה-MIUI שלך</string>
   <string name="success_message_import_from_account">ייבוא הושלם</string>
   <string name="date_day">יום</string>
-  <string name="fast_scroll_alphabet">\#אבגדהוזחטיכלמנסעפצקרשת</string>
+  <string name="fast_scroll_alphabet">#אבגדהוזחטיכלמנסעפצקרשת</string>
   <string name="belong_no_group">לא משוייך לקבוצה</string>
   <string name="menu_remove_member">הסר איש קשר</string>
   <string name="removeConfirmation_title">העבר</string>
@@ -320,13 +320,13 @@
   <string name="callrecordview_menu_paste">הדבק</string>
   <string name="callrecordview_item_op_time_missed">מנותק.</string>
   <string name="callrecordview_item_op_time_rejected">שיחה שנדחתה</string>
-  <string name="callrecordview_item_newcontact">\u0020\u0020\u0020\u0020\u0020\u0020צור איש קשר חדש</string>
-  <string name="callrecordview_item_op_time_short_incoming">שיחה נכנסת:\u0020</string>
-  <string name="callrecordview_item_op_time_short_outgoing">שיחה יוצאת:\u0020</string>
+  <string name="callrecordview_item_newcontact">צור איש קשר חדש</string>
+  <string name="callrecordview_item_op_time_short_incoming">שיחה נכנסת:</string>
+  <string name="callrecordview_item_op_time_short_outgoing">שיחה יוצאת:</string>
   <string name="callrecordview_item_op_time_only_seconds">%d שניות</string>
   <string name="callrecordview_item_op_time_only_minutes">%d דקות</string>
   <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d דקות %d שניות</string>
-  <string name="group_delete_confirmation">הקבוצה שנבחרה תימחק\u0020</string>
+  <string name="group_delete_confirmation">הקבוצה שנבחרה תימחק</string>
   <string name="no_sms_availabe_contact_in_group">אין איש קשר זמין בקבוצה זו לשליחת הודעה</string>
   <string name="set_ringtone_for_group_members_success">צילצול קבוצה הוגדר</string>
   <string name="noContactHelpText">אין אנשי קשר, באפשרותך:</string>

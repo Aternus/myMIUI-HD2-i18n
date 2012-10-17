@@ -25,7 +25,7 @@
   <string name="upload">העלה</string>
   <string name="cancel">ביטול</string>
   <string name="uploading_to">מעלה אל <b>%s</b></string>
-  <string name="uploading_for">\u0020\u0020במשך <b>%s</b></string>
+  <string name="uploading_for">במשך <b>%s</b></string>
   <string name="destination_format" formatted="false">%s \"%s\"</string>
   <string name="toast_intent_error">שגיאת העלאה</string>
   <string name="toast_file_error">הקובץ אינו זמין</string>

@@ -56,7 +56,7 @@
   <string name="labelCDMAMore">הגדרות שיחה</string>
   <string name="apn_settings">שמות נקודות גישה</string>
   <string name="settings_label">הגדרות רשת</string>
-  <string name="voicemail">\u0020\u0020\u0020תא קולי</string>
+  <string name="voicemail">תא קולי</string>
   <string name="voicemail_abbreviated">תא קולי:</string>
   <string name="networks">מפעילי רשת</string>
   <string name="call_settings">הגדרות שיחה</string>
@@ -358,7 +358,7 @@
   <string name="voicemail_number_not_set">&lt;לא מוגדר</string>
   <string name="voicemail_provider">שרות תא קולי</string>
   <string name="voicemail_settings_for">הגדרות %s</string>
-  <string name="other_settings">\u0020\u0020\u0020הגדרות שיחה נוספות</string>
+  <string name="other_settings">הגדרות שיחה נוספות</string>
   <string name="calling_via_template">מחייג דרך ^1\n<b>^2</b></string>
   <string name="separate_from_conference">שיחה פרטית</string>
   <string name="notification_ongoing_calling_format">שיחה מאת %s</string>
@@ -393,7 +393,7 @@
   <string name="deleteSimEntry">מחק</string>
   <string name="deleteAllSimContacts">מחק את כל אנשי קשר ב סים</string>
   <string name="deleteAllSimContactsText">אין אנשי קשר בכרטיס סים</string>
-  <string name="phone_call_pref_title">\u0020\u0020\u0020שיחות</string>
+  <string name="phone_call_pref_title">שיחות</string>
   <string name="turnover_mute_title">הפוך להשתקת הטלפון</string>
   <string name="handon_ringer_title">הנמכת צילצול בעת הרמה</string>
   <string name="handon_ringer_summary">הפוך בכדי להנמיך את הצילצול בעת קבלת שיחה</string>
@@ -406,8 +406,8 @@
   <string name="predefined_hangup_sms_title">העדפות דחיית שיחה</string>
   <string name="predefined_hangup_sms_summary">דחה שיחה עם הודעה</string>
   <string name="predefined_hangup_sms_body">אני אתקשר יותר מאוחר</string>
-  <string name="pref_dialer_list_title">\u0020\u0020\u0020רשימת חיוג</string>
-  <string name="pref_outgoing_call_title">\u0020\u0020\u0020שיחות יוצאות</string>
+  <string name="pref_dialer_list_title">רשימת חיוג</string>
+  <string name="pref_outgoing_call_title">שיחות יוצאות</string>
   <string name="pref_more_settings_title">הגדרות</string>
   <string name="sim_card_import_result">%d אנשי קשר קיימים ואוחדו</string>
   <string name="areacode_required_for_emergency_number">קוד איזור/מדינה נדרש לביצוע שיחת חירום</string>
@@ -415,7 +415,7 @@
   <string name="emergency_call_area_code_edit_dialog_button">Call</string>
   <string name="goPrivate">הפוך לפרטי</string>
   <string name="selectContact">בחר איש קשר</string>
-  <string name="sip_settings">\u0020\u0020\u0020הגדרות שיחת אינטרנט</string>
+  <string name="sip_settings">הגדרות שיחת אינטרנט</string>
   <string name="sip_accounts">חשבונות שיחת אינטרנט (SIP)</string>
   <string name="sip_accounts_title">חשבונות</string>
   <string name="sip_receive_calls">קבלת שיחות נכנסות</string>
