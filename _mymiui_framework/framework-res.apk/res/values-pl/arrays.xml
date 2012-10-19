@@ -38,10 +38,10 @@
     <item>Własne</item>
   </string-array>
   <string-array name="imAddressTypes">
-    <item>Home</item>
-    <item>Work</item>
-    <item>Other</item>
-    <item>Custom</item>
+    <item>Dom</item>
+    <item>Praca</item>
+    <item>Inne</item>
+    <item>Własne</item>
   </string-array>
   <integer-array name="maps_starting_lat_lng">
     <item>51847448</item>
