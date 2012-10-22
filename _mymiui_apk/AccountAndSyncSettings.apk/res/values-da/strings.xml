@@ -6,14 +6,14 @@
   <string name="background_data">Baggrundsdata</string>
   <string name="background_data_summary">Applikationer kan synkronisere, sende og modtage data på ethvert tidspunkt</string>
   <string name="background_data_dialog_title">Bemærk</string>
-  <string name="background_data_dialog_message">Deaktivering af baggrundsdata forlænger batteriets levetid og begrænser data forbruget. Nogle applikationer vil dog stadig benytte baggrundsdataforbindelsen.</string>
+  <string name="background_data_dialog_message">Deaktivering af baggrundsdata forlænger batteriets levetid og begrænser dataforbruget. Nogle applikationer vil dog stadig benytte baggrundsdataforbindelsen.</string>
   <string name="sync_automatically">Auto-synkroniser</string>
   <string name="sync_automatically_summary">Applikationer synkroniserer data automatisk</string>
   <string name="settings_backup">Gem indstillinger</string>
   <string name="settings_backup_summary">Gem mine indstillinger</string>
   <string name="sync_menu_sync_now">Synkroniser nu</string>
   <string name="sync_menu_sync_cancel">Afbryd synkronisering</string>
-  <string name="sync_one_time_sync">Rør for at synkroniser nu\n%1$s</string>
+  <string name="sync_one_time_sync">Tryk for at synkronisere nu\n%1$s</string>
   <string name="sync_gmail">Gmail</string>
   <string name="sync_calendar">Kalender</string>
   <string name="sync_contacts">Kontakter</string>
@@ -21,8 +21,8 @@
   <string name="sync_really_delete">Slette elementerne.</string>
   <string name="sync_undo_deletes">Fortryd sletning.</string>
   <string name="sync_do_nothing">Gør intet.</string>
-  <string name="sync_is_failing">Midlertidig synkroniserings fejl, prøv igen senere.</string>
-  <string name="sync_plug"><font fgcolor="#ffffffff">Velkommen til Google synkronisering!</font> \nA Google forsøger at synkronisere data, så du får adgang til dine kontakter, aftaler og andet, hvoren du befinder dig.\u0020</string>
+  <string name="sync_is_failing">Midlertidig synkroniseringsfejl, prøv igen senere.</string>
+  <string name="sync_plug"><font fgcolor="#ffffffff">Velkommen til Google synkronisering!</font> \nA Google forsøger at synkronisere data, så du får adgang til dine kontakter, aftaler og andet, hvorend du befinder dig.\u0020</string>
   <string name="header_application_sync_settings">Synkroniseringsindstillinger for Applikation</string>
   <string name="header_manage_accounts">Håndter Konti</string>
   <string name="header_manage_default_accounts">Standard konto</string>
@@ -54,7 +54,7 @@
   <string name="user_nickname_button_verify">Verifikation</string>
   <string name="user_email">Email</string>
   <string name="user_email_title">Tilknyt email adresse</string>
-  <string name="user_email_description">Email address for login and account recovery</string>
+  <string name="user_email_description">Email address for login and konto gendannelse</string>
   <string name="user_email_hint">Indtast email adresse her</string>
   <string name="user_email_button_verify">Verifikation</string>
   <string name="user_email_format_error">Email adresse format i forkert format</string>
@@ -69,7 +69,7 @@
   <string name="user_unbind">Fjern tilknytning</string>
   <string name="xiaomi_remove_account_title">Slet konto</string>
   <string name="xiaomi_remove_account_message">Sletning af kontoen vil også slette telefon service data, inklusiv supermarket og MiTalk og MIUI online tjenester vil være begrænset. Fortsæt?</string>
-  <string name="registered_account">Bruger navn er blevet registreret</string>
+  <string name="registered_account">Brugernavn er blevet registreret</string>
   <string name="bad_verification">Verifikation mislykkedes</string>
   <string name="bad_token">token fejl</string>
   <string name="bad_authentication">Brugernavn og kodeord stemmer ikke overens</string>

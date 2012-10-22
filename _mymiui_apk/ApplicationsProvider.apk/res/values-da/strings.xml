@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_label">Search Applications Provider</string>
+  <string name="app_label">Søg i Applications Provider</string>
   <string name="search_label">Apps</string>
   <string name="application_desc">Applikation</string>
   <string name="settings_description">Navne på installerede applikationer</string>
