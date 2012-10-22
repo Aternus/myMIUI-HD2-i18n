@@ -23,7 +23,7 @@
   <string name="fmradio_airplane_mode_enable_at_begin">Sluk radio i flytilstand</string>
   <string name="fmradio_airplane_mode_enable_in_listen">Flytilstand aktiveret, radio vil automatisk afslutte</string>
   <string name="fmradio_waiting_for_power_on">Starter radio, vent venligst...</string>
-  <string name="error_mem_full">Hukommelse fuld, kan ike starte radio</string>
+  <string name="error_mem_full">Hukommelse fuld, kan ikke starte radio</string>
   <string name="service_start_error_msg">Radio tjeneste kunne ikke starte</string>
   <string name="stations_list">Kanaloversigt</string>
   <string name="station_freq_format">%s MHz</string>

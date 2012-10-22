@@ -2,7 +2,7 @@
 <resources>
   <string name="app_name">Superbruger</string>
   <string name="app_name_request">Superbruger anmodning</string>
-  <string name="permlab_respond">reager på anmodninger fra superbruger</string>
+  <string name="permlab_respond">Reager på anmodninger fra superbruger</string>
   <string name="permdesc_respond">Tillader applikationen at reagere på anmodninger om superbruger adgang.</string>
   <string name="su_original">original</string>
   <string name="warning">Advarsel</string>

@@ -57,7 +57,7 @@
   <string name="meid">MEID (Mobile Equipment IDentifier)</string>
   <string name="labelCDMAMore">CDMA opkaldsinstillinger</string>
   <string name="apn_settings">Navne på adgangspunkter</string>
-  <string name="settings_label">Netværks indtsilliger</string>
+  <string name="settings_label">Netværksindstillinger</string>
   <string name="voicemail">Voicemail</string>
   <string name="voicemail_abbreviated">VM (Virtual Machine)</string>
   <string name="networks">Teleoperatører</string>
@@ -296,7 +296,7 @@
   <string name="invalid_new_pin">Ugyldig PIN, venligst indtast en PIN-Kode på mellem 4 og 8 cifre.</string>
   <string name="invalid_new_pin2">Ugyldig PIN2, venligst indtast en PIN2-Kode på mellem 4 og 8 cifre.</string>
   <string name="invalid_puk">Ugyldig PUK, venligst indtast en PUK-Kode på 8 cifre.</string>
-  <string name="pin2_locked_message">Forkert PIN2, funktionalitet er nu låst. Nulstil PIN2 vha PUK2.</string>
+  <string name="pin2_locked_message">Forkert PIN2, funktionalitet er nu låst. Nulstil PIN2 vha. PUK2.</string>
   <string name="bad_puk">Forkert PUK. Prøv venligst igen.</string>
   <string name="caller_manage_manage_done_text">Tilbage til opkald</string>
   <string name="fake_phone_activity_phoneNumber_text">+45 1234 5678</string>
@@ -365,7 +365,7 @@
   <string name="ota_title_activate">Aktiver din telefon</string>
   <string name="ota_touch_activate">Et specielt opkald er krævet for at aktivere din telefontjeneste. \n\nTryk "Aktiver" og følg derefter instruktionen for at aktivere din telefon.</string>
   <string name="ota_skip_activation_dialog_title">Vil du springe aktivering over?</string>
-  <string name="ota_skip_activation_dialog_message">Hvis du springer aktiveringen over vil du ikke kunne foretage opkald eller forbindes til det mobile datanetværk(Det vil dog stadig være mulig at forbinde til Wi-Fi netværk). Indtil telefonen aktiveres vil aktiveringen blive forespurgt hver gang telefonen tændes.</string>
+  <string name="ota_skip_activation_dialog_message">Hvis du springer aktiveringen over vil du ikke kunne foretage opkald eller forbindes til det mobile datanetværk (Det vil dog stadig være mulig at forbinde til Wi-Fi netværk). Indtil telefonen aktiveres vil aktiveringen blive forespurgt hver gang telefonen tændes.</string>
   <string name="ota_skip_activation_dialog_skip_label">Spring over</string>
   <string name="ota_skip_activation_dialog_continue_label">Aktiver</string>
   <string name="ota_activate">Aktiver</string>
@@ -376,7 +376,7 @@
   <string name="ota_progress">Vent venligst imens din telefon programmeres.</string>
   <string name="ota_failure">Programmering Mislykket</string>
   <string name="ota_successful">Din telefon er nu aktiveret. Det kan tage op til 15 minutter for tjenesten er tilgængelig.</string>
-  <string name="ota_unsuccessful">Din telefon blev ikke aktiveret. \nDet anbefales at du finder et område med bedre forbindelse(Ved et vindue eller udenfor).\n\nForsøg igen eller ring til kundeservice for flere muligheder.</string>
+  <string name="ota_unsuccessful">Din telefon blev ikke aktiveret. \nDet anbefales at du finder et område med bedre forbindelse (ved et vindue eller udenfor).\n\nForsøg igen eller ring til kundeservice for flere muligheder.</string>
   <string name="ota_spc_failure">For mange SPC-fejl</string>
   <string name="ota_call_end">Tilbage</string>
   <string name="ota_try_again">Forsøg igen</string>
@@ -485,7 +485,7 @@
   <string name="auto_answer_delay_entries_delay_10s">10s</string>
   <string name="auto_answer_scenario_title">Scenarie for Auto Svar</string>
   <string name="auto_answer_scenario_enteries_always">Altid</string>
-  <string name="auto_answer_scenario_enteries_headset_only">Kun når Headset forbundet</string>
+  <string name="auto_answer_scenario_enteries_headset_only">Kun når headset forbundet</string>
   <string name="auto_answer_scenario_enteries_bluetooth_only">Kun når Bluetooth forbundet</string>
   <string name="auto_answer_scenario_enteries_headset_bluetooth">Headset eller Bluetooth forbundet</string>
   <string name="auto_redial_pref_title">Auto Genopkald</string>
@@ -568,7 +568,7 @@
   <string name="alert_dialog_ok">OK</string>
   <string name="close_profile">Luk</string>
   <string name="primary_account_summary_with">Primær konto. %s</string>
-  <string name="registration_status_checking_status">Checker status...</string>
+  <string name="registration_status_checking_status">Tjekker status...</string>
   <string name="registration_status_registering">Registrerer...</string>
   <string name="registration_status_still_trying">Prøver stadig...</string>
   <string name="registration_status_not_receiving">Modtager ikke opkald</string>
@@ -637,7 +637,7 @@
   <string name="remove">Slet</string>
   <string name="check_all">Vælg alle</string>
   <string name="check_nothing">Fravælg alle</string>
-  <string name="deleting_message">sletter ...</string>
+  <string name="deleting_message">sletter...</string>
   <string name="confirm_delete_message_title">Du vil slette valgte %d brugerdefinerede indstilinger</string>
   <string name="enable_telocation_title">Vis fulde nummer</string>
   <string name="pref_custom_location_title">Rediger indstillinger</string>
@@ -647,7 +647,7 @@
   <string name="jituan_number_format_error_message">%s understøtter kun tal og wildcards</string>
   <string name="enter_edit_mode">Slet</string>
   <string name="dual_microphone_enable_title">Aktiver støjreducering</string>
-  <string name="dual_microphone_enable_summary_on">Dual-microphone støjreducering er aktiveret</string>
-  <string name="dual_microphone_enable_summary_off">Dual-microphone støjreducering er deaktiveret</string>
+  <string name="dual_microphone_enable_summary_on">Dual-mikrofon støjreducering er aktiveret</string>
+  <string name="dual_microphone_enable_summary_off">Dual-mikrofon støjreducering er deaktiveret</string>
   <string name="preferred_network_type_3g_only_warning">Du valgte Kun 3G som foretrukkent netværkstype, så du vil ikke have noget signal, hvis SIM kortet ikke understøtter 3G!\nTryk OK for at fortsætte.</string>
 </resources>
