@@ -3,6 +3,7 @@
 ## Available Languages
 * English
 * Chinese
+* Danish by larsmew
 
 ## Missing Languages
 * Greek
@@ -15,7 +16,6 @@
 * German
 * Italian
 * Turkish
-* Danish
 * Norwegian
 * French
 * Arabic/Farsi
