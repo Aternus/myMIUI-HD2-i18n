@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="english_ime_name">แป้นพิมพ์ Android</string>
+  <string name="english_ime_settings">การตั้งค่าแป้นพิมพ์ Android</string>
+  <string name="english_ime_input_options">ตัวเลือกการป้อนข้อมูล</string>
+  <string name="vibrate_on_keypress">สั่นเมื่อกดปุ่ม</string>
+  <string name="sound_on_keypress">ส่งเสียงเมื่อกดปุ่ม</string>
+  <string name="popup_on_keypress">ป๊อปอัปเมื่อกดแป้น</string>
+  <string name="hit_correction">แก้ไขข้อผิดพลาดในการพิมพ์</string>
+  <string name="hit_correction_summary">เปิดการใช้งานการแก้ไขข้อผิดพลาดในการป้อนข้อมูล</string>
+  <string name="hit_correction_land">ข้อผิดพลาดในการป้อนข้อมูลแนวนอน</string>
+  <string name="hit_correction_land_summary">เปิดการใช้งานการแก้ไขข้อผิดพลาดในการป้อนข้อมูล</string>
+  <string name="auto_correction">การแนะนำคำ</string>
+  <string name="auto_correction_summary">แก้ไขคำก่อนหน้าอัตโนมัติ</string>
+  <string name="prediction">การแนะนำคำ</string>
+  <string name="prediction_category">การตั้งค่าการแนะนำคำ</string>
+  <string name="prediction_summary">เปิดใช้งานการเติมคำอัตโนมัติขณะพิมพ์</string>
+  <string name="auto_complete_dialog_title">เติมคำอัตโนมัติ</string>
+  <string name="prediction_landscape">เพิ่มขนาดฟิลด์ข้อความ</string>
+  <string name="prediction_landscape_summary">ซ่อนการแนะนำคำในมุมมองแนวนอน</string>
+  <string name="auto_cap">ปรับเป็นตัวพิมพ์ใหญ่อัตโนมัติ</string>
+  <string name="auto_cap_summary">ใช้ตัวพิมพ์ใหญ่เมื่อขึ้นต้นประโยค</string>
+  <string name="auto_punctuate">ใส่เครื่องหมายวรรคตอนอัตโนมัติ</string>
+  <string name="auto_punctuate_summary"/>
+  <string name="quick_fixes">แก้ไขด่วน</string>
+  <string name="quick_fixes_summary">แก้ไขข้อผิดพลาดในการพิมพ์ที่พบบ่อย</string>
+  <string name="show_suggestions">แสดงคำแนะนำ</string>
+  <string name="show_suggestions_summary">แสดงคำที่แนะนำขณะพิมพ์</string>
+  <string name="auto_complete">เติมคำอัตโนมัติ</string>
+  <string name="auto_complete_summary">ใช้แป้นเคาะวรรคและเครื่องหมายวรรคตอนเพื่อแทรกคำที่ไฮไลต์โดยอัตโนมัติ</string>
+  <string name="prefs_settings_key">แสดงแป้นการตั้งค่า</string>
+  <string name="settings_key_mode_auto_name">อัตโนมัติ</string>
+  <string name="settings_key_mode_always_show_name">แสดงตลอดเวลา</string>
+  <string name="settings_key_mode_always_hide_name">ซ่อนตลอดเวลา</string>
+  <string name="bigram_suggestion">คำแนะนำ Bigram</string>
+  <string name="bigram_suggestion_summary">ใช้คำก่อนหน้านี้เพื่อปรับปรุงคำแนะนำ</string>
+  <string name="added_word">%s : บันทึกแล้ว</string>
+  <string name="tip_long_press">กดปุ่มค้างไว้เพื่อดูการออกเสียง (ø, ö, ฯลฯ)</string>
+  <string name="tip_dismiss">กดปุ่ม ย้อนกลับ เพื่อปิดแป้นพิมพ์เมื่อใดก็ได้</string>
+  <string name="tip_access_symbols">เข้าถึงหมายเลขและสัญลักษณ์</string>
+  <string name="tip_add_to_dictionary">กดคำซ้ายสุดค้างไว้เพื่อเพิ่มลงในพจนานุกรม</string>
+  <string name="touch_to_continue">แตะคำแนะนำนี้เพื่อทำงานต่อ »</string>
+  <string name="touch_to_finish">แตะที่นี่เพื่อปิดคำแนะนำนี้และเริ่มพิมพ์!</string>
+  <string name="tip_to_open_keyboard">
+    <b>แป้นพิมพ์จะเปิดขึ้นเมื่อคุณแตะฟิลด์ข้อความ</b>
+  </string>
+  <string name="tip_to_view_accents">
+    <b>"แตะปุ่มค้างไว้เพื่อดูการออกเสียง
+(ø, ö, ô, ó และอื่นๆ)"</b>
+  </string>
+  <string name="tip_to_open_symbols">
+    <b>เปลี่ยนเป็นตัวเลขและสัญลักษณ์เมื่อแตะปุ่มนี้</b>
+  </string>
+  <string name="tip_to_close_symbols">
+    <b>กลับไปที่ตัวอักษรโดยการแตะปุ่มนี้อีกครั้ง</b>
+  </string>
+  <string name="tip_to_launch_settings">
+    <b>แตะปุ่มนี้ค้างไว้เพื่อเปลี่ยนการตั้งค่าแป้นพิมพ์ เช่น การเติมคำอัตโนมัติ</b>
+  </string>
+  <string name="tip_to_start_typing">
+    <b>ลองดูสิ!</b>
+  </string>
+  <string name="label_go_key">ไป</string>
+  <string name="label_next_key">ถัดไป</string>
+  <string name="label_done_key">เสร็จสิ้น</string>
+  <string name="label_send_key">ส่ง</string>
+  <string name="label_symbol_key">\?123</string>
+  <string name="label_phone_key">123</string>
+  <string name="label_alpha_key">ABC</string>
+  <string name="label_alt_key">ALT</string>
+  <string name="voice_warning_title">การป้อนข้อมูลด้วยเสียง</string>
+  <string name="voice_warning_locale_not_supported">ขณะนี้การป้อนข้อมูลด้วยเสียงยังไม่ได้รับการสนับสนุนในภาษาของคุณ แต่ใช้ได้ในภาษาอังกฤษ</string>
+  <string name="voice_warning_may_not_understand">การป้อนข้อมูลด้วยเสียงเป็นคุณลักษณะทดลองที่ใช้การจดจำเสียงที่มีการสร้างเครือข่ายไว้ของ Google</string>
+  <string name="voice_warning_how_to_turn_off">หากต้องการปิดการป้อนข้อมูลด้วยเสียง ไปที่การตั้งค่าแป้นพิมพ์</string>
+  <string name="voice_hint_dialog_message">หากต้องการใช้การป้อนข้อมูลด้วยเสียง กดปุ่มไมโครโฟนหรือเลื่อนนิ้วผ่านแป้นพิมพ์บนหน้าจอ</string>
+  <string name="voice_listening">พูดได้เลย</string>
+  <string name="voice_working">กำลังทำงาน</string>
+  <string name="voice_initializing"/>
+  <string name="voice_error">ข้อผิดพลาด โปรดลองอีกครั้ง</string>
+  <string name="voice_network_error">ไม่สามารถเชื่อมต่อได้</string>
+  <string name="voice_too_much_speech">ข้อผิดพลาด คำพูดยาวเกินไป</string>
+  <string name="voice_audio_error">ปัญหาด้านเสียง</string>
+  <string name="voice_server_error">ข้อผิดพลาดของเซิร์ฟเวอร์</string>
+  <string name="voice_speech_timeout">ไม่ได้ยินเสียง</string>
+  <string name="voice_no_match">ไม่พบรายการที่ตรงกัน</string>
+  <string name="voice_not_installed">ไม่ได้ติดตั้ง Voice Search</string>
+  <string name="voice_swipe_hint"><b>คำแนะนำ:</b> กวาดผ่านแป้นพิมพ์เพื่อพูด</string>
+  <string name="voice_punctuation_hint"><b>คำแนะนำ:</b> ครั้งต่อไป ให้ลองเอ่ยถึงเครื่องหมายวรรคตอน เช่น \"มหัพภาค\" \"จุลภาค\" หรือ \"เครื่องหมายคำถาม\"</string>
+  <string name="cancel">ยกเลิก</string>
+  <string name="ok">ตกลง</string>
+  <string name="voice_input">การป้อนข้อมูลด้วยเสียง</string>
+  <string name="auto_submit">ส่งอัตโนมัติหลังบันทึกเสียง</string>
+  <string name="auto_submit_summary">กด Enter อัตโนมัติเมื่อค้นหาหรือไปที่ฟิลด์ถัดไป</string>
+  <string name="open_the_keyboard"><font size="17"><b>"เปิดแป้นพิมพ์
+"</b></font><font size="3">"
+"</font>แตะฟิลด์ข้อความใดก็ได้</string>
+  <string name="close_the_keyboard"><font size="17"><b>"ปิดแป้นพิมพ์
+"</b></font><font size="3">"
+"</font>กดปุ่ม ย้อนกลับ</string>
+  <string name="touch_and_hold"><font size="17"><b>"แตะปุ่มค้างไว้เพื่อดูตัวเลือก 
+"</b></font><font size="3">"
+"</font>เข้าถึงเครื่องหมายวรรคตอนและการออกเสียง</string>
+  <string name="keyboard_settings"><font size="17"><b>"การตั้งค่าแป้นพิมพ์
+"</b></font><font size="3">"
+"</font>แตะปุ่ม <b>?123</b>ค้างไว้</string>
+  <string name="popular_domain_0">.com</string>
+  <string name="popular_domain_1">.net</string>
+  <string name="popular_domain_2">.org</string>
+  <string name="popular_domain_3">.gov</string>
+  <string name="popular_domain_4">.edu</string>
+  <string name="selectInputMethod">เลือกวิธีการป้อนข้อมูล</string>
+  <string name="language_selection_title">ภาษาในการป้อนข้อมูล</string>
+  <string name="language_selection_summary">เลื่อนนิ้วไปบนแป้นเคาะวรรคเพื่อเปลี่ยนภาษา</string>
+  <string name="hint_add_to_dictionary">← แตะอีกครั้งเพื่อบันทึก</string>
+  <string name="has_dictionary">มีพจนานุกรมให้ใช้งาน</string>
+  <string name="prefs_enable_log">เปิดใช้งานการแสดงความคิดเห็นจากผู้ใช้</string>
+  <string name="prefs_description_log">ช่วยปรับปรุงตัวแก้ไขวิธีการป้อนข้อมูลนี้โดยการส่งสถิติการใช้งานและรายงานการขัดข้องถึง Google โดยอัตโนมัติ</string>
+  <string name="prefs_enable_recorrection">แตะเพื่อแก้ไขคำ</string>
+  <string name="prefs_enable_recorrection_summary">แตะคำที่ป้อนไว้เพื่อแก้ไข</string>
+  <string name="keyboard_layout">ชุดรูปแบบแป้นพิมพ์</string>
+  <string name="subtype_mode_keyboard">แป้นพิมพ์</string>
+  <string name="subtype_mode_voice">เสียง</string>
+</resources>

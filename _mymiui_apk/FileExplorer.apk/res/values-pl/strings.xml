@@ -16,7 +16,7 @@
   <string name="category_zip">Archiwa</string>
   <string name="confirm">OK</string>
   <string name="confirm_know">OK</string>
-  <string name="enable_sd_card">Karda SD jest niedostępna</string>
+  <string name="enable_sd_card">Karta SD jest niedostępna</string>
   <string name="error_info_cant_send_folder">Wysyłanie katalogu nieudane</string>
   <string name="fail_to_create_folder">Utworzenie katalogu nieudane, katalog już istnieje</string>
   <string name="fail_to_rename">Zmiana nazwy pliku lub katalogu nieudana, nazwa już istnieje</string>

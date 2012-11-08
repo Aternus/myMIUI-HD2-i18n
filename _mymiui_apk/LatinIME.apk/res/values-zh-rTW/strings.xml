@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="alternates_for_a">àáâãäåæ</string>
+  <string name="alternates_for_e">èéêë</string>
+  <string name="alternates_for_i">ìíîï</string>
+  <string name="alternates_for_o">òóôõöœø</string>
+  <string name="alternates_for_u">ùúûü</string>
+  <string name="alternates_for_s">§ß</string>
+  <string name="alternates_for_n">ñ</string>
+  <string name="alternates_for_c">ç</string>
+  <string name="alternates_for_y">ýÿ</string>
+  <string name="english_ime_name">Android 鍵盤</string>
+  <string name="english_ime_settings">Android 鍵盤設定</string>
+  <string name="english_ime_input_options">輸入選項</string>
+  <string name="vibrate_on_keypress">按鍵時震動</string>
+  <string name="obey_haptic_feedback">跟隨觸動反饋</string>
+  <string name="obey_haptic_feedback_summary">當系統的觸動反饋設定為停用時則不要震動</string>
+  <string name="sound_on_keypress">按鍵時播放音效</string>
+  <string name="popup_on_keypress">按鍵時顯示彈出式視窗</string>
+  <string name="hit_correction">修正輸入錯誤</string>
+  <string name="hit_correction_summary">啟用輸入錯誤修正功能</string>
+  <string name="hit_correction_land">橫向輸入錯誤</string>
+  <string name="hit_correction_land_summary">啟用輸入錯誤修正功能</string>
+  <string name="auto_correction">字詞建議</string>
+  <string name="auto_correction_summary">自動修正前一個字詞</string>
+  <string name="prediction">字詞建議</string>
+  <string name="prediction_category">字詞建議設定</string>
+  <string name="prediction_summary">輸入時啟用自動完成</string>
+  <string name="auto_complete_dialog_title">自動完成</string>
+  <string name="prediction_landscape">放大文字欄位大小</string>
+  <string name="prediction_landscape_summary">在橫向檢視模式中隱藏字詞建議</string>
+  <string name="auto_cap">自動大寫</string>
+  <string name="auto_cap_summary">句首字母大寫</string>
+  <string name="auto_punctuate">自動標點</string>
+  <string name="auto_punctuate_summary"/>
+  <string name="long_press_delay">長按延遲</string>
+  <string name="long_press_delay_summary">%d 毫秒</string>
+  <string name="quick_fixes">快速修正</string>
+  <string name="quick_fixes_summary">修正一般打字錯誤</string>
+  <string name="show_suggestions">顯示建議</string>
+  <string name="show_suggestions_summary">打字時顯示建議字詞</string>
+  <string name="auto_complete">自動完成</string>
+  <string name="auto_complete_summary">在反白顯示的字詞處自動插入空白鍵和標點符號鍵盤</string>
+  <string name="prefs_settings_key">顯示設定金鑰</string>
+  <string name="settings_key_mode_auto_name">自動</string>
+  <string name="settings_key_mode_always_show_name">永遠顯示</string>
+  <string name="settings_key_mode_always_hide_name">永遠隱藏</string>
+  <string name="bigram_suggestion">雙連詞建議</string>
+  <string name="bigram_suggestion_summary">根據前一個字詞自動找出更適合的建議</string>
+  <string name="added_word">%s：已儲存</string>
+  <string name="tip_long_press">按住按鍵可查看重音符號 (ø、ö 等)</string>
+  <string name="tip_dismiss">隨時可以透過按後退鍵 ↶ 關閉鍵盤</string>
+  <string name="tip_access_symbols">使用數字和符號</string>
+  <string name="tip_add_to_dictionary">按住最左邊的字詞，將其新增到字典中</string>
+  <string name="touch_to_continue">輕觸此提示繼續 »</string>
+  <string name="touch_to_finish">輕觸此處以關閉提示，並開始打字！</string>
+  <string name="tip_to_open_keyboard">
+    <b>輕觸文字欄位時即會開啟鍵盤</b>
+  </string>
+  <string name="tip_to_view_accents">
+    <b>"輕觸並按住某個鍵即可查看聲調
+(ø、ö、ô、ó 等)"</b>
+  </string>
+  <string name="tip_to_open_symbols">
+    <b>輕觸此鍵即可切換到數字和符號鍵盤</b>
+  </string>
+  <string name="tip_to_close_symbols">
+    <b>再次輕觸此鍵即可返回到字母鍵盤</b>
+  </string>
+  <string name="tip_to_launch_settings">
+    <b>輕觸並按住此鍵即可變更鍵盤設定，例如自動完成</b>
+  </string>
+  <string name="tip_to_start_typing">
+    <b>試試看！</b>
+  </string>
+  <string name="label_go_key">開始</string>
+  <string name="label_next_key">繼續</string>
+  <string name="label_done_key">完成</string>
+  <string name="label_send_key">傳送</string>
+  <string name="label_symbol_key">\?123</string>
+  <string name="label_phone_key">123</string>
+  <string name="label_alpha_key">ABC</string>
+  <string name="label_alt_key">ALT</string>
+  <string name="voice_warning_title">語音輸入</string>
+  <string name="voice_warning_locale_not_supported">語音輸入目前不支援您的語言，但是可以辨識英文。</string>
+  <string name="voice_warning_may_not_understand">語音輸入這項實驗功能運用了 Google 的網路語音辨識系統。</string>
+  <string name="voice_warning_how_to_turn_off">請前往鍵盤設定來關閉語音輸入。</string>
+  <string name="voice_hint_dialog_message">如要使用語音輸入，按下 [麥克風] 按鈕，或將手指滑過螢幕小鍵盤即可。</string>
+  <string name="voice_listening">請說話</string>
+  <string name="voice_working">辨識中</string>
+  <string name="voice_initializing"/>
+  <string name="voice_error">發生錯誤，請再試一次。</string>
+  <string name="voice_network_error">無法連線</string>
+  <string name="voice_too_much_speech">錯誤：語音內容過長。</string>
+  <string name="voice_audio_error">音訊問題</string>
+  <string name="voice_server_error">伺服器錯誤</string>
+  <string name="voice_speech_timeout">沒有聽到任何聲音</string>
+  <string name="voice_no_match">找不到相符的項目</string>
+  <string name="voice_not_installed">未安裝語音搜尋</string>
+  <string name="voice_swipe_hint"><b>提示：</b>滑過鍵盤即可說話</string>
+  <string name="voice_punctuation_hint"><b>提示：</b>下次可嘗試說出標點符號，例如「句號」、「逗號」或「問號」。</string>
+  <string name="cancel">取消</string>
+  <string name="ok">確定</string>
+  <string name="voice_input">語音輸入</string>
+  <string name="auto_submit">說話後自動提交</string>
+  <string name="auto_submit_summary">搜尋或前往下一個欄位時自動按下輸入。</string>
+  <string name="open_the_keyboard"><font size="17"><b>"開啟鍵盤
+"</b></font><font size="3">"
+"</font>輕觸任何文字欄位。</string>
+  <string name="close_the_keyboard"><font size="17"><b>"關閉鍵盤
+"</b></font><font size="3">"
+"</font>按下 Back 鍵。</string>
+  <string name="touch_and_hold"><font size="17"><b>"
+輕觸並按住按鍵開啟選項"</b></font><font size="3">"
+"</font>輸入標點與輕重音。</string>
+  <string name="keyboard_settings"><font size="17"><b>"鍵盤設定
+"</b></font><font size="3">"
+"</font>輕觸並按住 <b>?123</b> 鍵。</string>
+  <string name="popular_domain_0">.com</string>
+  <string name="popular_domain_1">.net</string>
+  <string name="popular_domain_2">.org</string>
+  <string name="popular_domain_3">.gov</string>
+  <string name="popular_domain_4">.edu</string>
+  <string name="selectInputMethod">選取輸入法</string>
+  <string name="language_selection_title">輸入語言</string>
+  <string name="language_selection_summary">以手指在空白鍵上滑動可變更語言</string>
+  <string name="hint_add_to_dictionary">← 再次輕觸即可儲存</string>
+  <string name="has_dictionary">可使用字典</string>
+  <string name="prefs_enable_log">啟用使用者意見回饋</string>
+  <string name="prefs_description_log">自動將使用統計資料和當機報告傳送給 Google，協助改善這個輸入法編輯器。</string>
+  <string name="prefs_enable_recorrection">輕觸此處可修正字詞</string>
+  <string name="prefs_enable_recorrection_summary">輕觸輸入的字詞即可加以修正</string>
+  <string name="keyboard_layout">鍵盤主題</string>
+  <string name="subtype_mode_keyboard">鍵盤</string>
+  <string name="subtype_mode_voice">語音</string>
+</resources>
