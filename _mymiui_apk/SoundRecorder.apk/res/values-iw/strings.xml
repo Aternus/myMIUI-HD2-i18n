@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">הקלטה</string>
+  <string name="app_name">רשמקול</string>
   <string name="recording">מקליט</string>
   <string name="recording_stopped">הקלטה הופסקה</string>
   <string name="storage_is_full">אחסון מלא</string>

@@ -22,7 +22,7 @@
   <string name="sync_undo_deletes">בטל את המחיקות.</string>
   <string name="sync_do_nothing">אל תעשה כלום עכשיו.</string>
   <string name="sync_is_failing">הסינכרון נתקל כעת בבעיות. הוא ינסה שוב בקרוב.</string>
-  <string name="sync_plug"><font fgcolor="#ffffffff">ברוך הבא לסינכרון Google!</font> oogle נותנת לך את הגישה לסנכרן את אנשי הקשר , הפגישות ועוד בכל מקום שבו אתה נמצא.\u0020</string>
+  <string name="sync_plug"><font fgcolor="#ffffffff">ברוך הבא לסינכרון Google!</font> Google נותנת לך את האפשרות לסנכרן את אנשי הקשר, יומן הפגישות ועוד בכל מקום בו אתה נמצא.</string>
   <string name="header_application_sync_settings">הגדרות סינכרון יישומים</string>
   <string name="header_manage_accounts">נהל חשבונות</string>
   <string name="header_manage_default_accounts">Default account</string>

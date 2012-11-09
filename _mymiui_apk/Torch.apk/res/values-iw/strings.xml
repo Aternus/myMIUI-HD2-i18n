@@ -3,13 +3,13 @@
   <string name="app_name">פנס</string>
   <string name="about">אודות:</string>
   <string name="about_btn">אודות פנס</string>
-  <string name="about_title">אודות</string>
+  <string name="about_title">אודות יישום הפנס</string>
   <string name="about_close">סגור</string>
-  <string name="description">תוכנית זו עושה שימוש בנורת ה-LED של המצלמה.\n</string>
-  <string name="warning">אזהרה: השארת הנורית דולקת למשך זמן רב עלול לחממה.\n\nבהירות מלאה \'תמיד דלוק\' נוסתה במשך 1/2 שעה אך ממיד קיים החשש שזה יפגע בנורית.\n</string>
-  <string name="license">הקוד המקורי מ-Nexus One Torch שנכתב ע\"י Ben Buxton ומשוחרר תחת רשיון GPL v3\nhttp://n1torch.googlecode.com/\n\nתודות ל-David Prieto על תכנון הממשק החדש\n\nשונה עבור CyanogenMod ע\"י Steve Kondik.\n\n</string>
+  <string name="description">תוכנית זו עושה שימוש בנורת ה-LED של המצלמה.</string>
+  <string name="warning">אזהרה: השארת הנורית דולקת למשך זמן רב עלול לחממה ולהורסה.\n\n מומלץ לא להשתמש בנורית בבהירות מלאה, \'תמיד דלוק\' בפרק הזמן העולה על חצי שעה.</string>
+  <string name="license">http://n1torch.googlecode.com</string>
   <string name="warning_label">אזהרה</string>
-  <string name="brightwarn">בהירות מלאה נוסתה בהצלחה במשך 1/2 שעה אבל הנורה התחממה והתחילה להבהב (זמנית) לאחר 45 דקות. לא ידועות ההשפעות לטווח ארוך.\n\nזה לא נתמך ע\"י הוידג\'ט עדיין.\n\nלחץ \'אשר\' אם אתה מסכים להשתמש על אחריותך בלבד.</string>
+  <string name="brightwarn">הפנס נבדק כאשר הוא דלק קבוע בבהירות מלאה. אחרי 45 דקות בהם הפנס דלק כראוי, הפנס החל להבהב והנורית LED התחממה מאוד. מומלץ לא להשתמש בפנס בפרק זמן העולה על חצי שעה. לא ידועות השפעות לטווח ארוך.\n\n השימוש באחראיות המשתמש בלבד.</string>
   <string name="brightwarn_title">הפעלת בהירות גבוהה</string>
   <string name="brightwarn_negative">בטל</string>
   <string name="brightwarn_accept">אשר</string>
@@ -29,5 +29,5 @@
   <string name="not_torch_title">פנס דלוק</string>
   <string name="not_torch_summary">פנס דלוק כרגע</string>
   <string name="widget_label">פנס</string>
-  <string name="torch_message">You can quickly open flashlight by holding [icon] when in lock screen</string>
+  <string name="torch_message">ניתן לפתוח את יישום הפנס ע\"י לחיצה על [icon] כאשר הנכם נמצאים במסך הנעילה</string>
 </resources>

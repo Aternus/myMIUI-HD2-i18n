@@ -57,7 +57,7 @@
   <string name="contextmenu_map">מפה</string>
   <string name="choosertitle_sharevia">שתף באמצעות</string>
   <string name="clear">נקה</string>
-  <string name="pref_content_title">\u0020\u0020\u0020\u0020הגדרות תוכן דף</string>
+  <string name="pref_content_title">הגדרות תוכן דף</string>
   <string name="pref_content_load_images">טען תמונות</string>
   <string name="pref_content_block_popups">חסום חלונות קופצים</string>
   <string name="pref_content_plugins">אפשר Plug-ins</string>
@@ -82,7 +82,7 @@
   <string name="pref_privacy_clear_geolocation_access">ביטול מיקום</string>
   <string name="pref_privacy_clear_geolocation_access_summary">ביטול צפייה במיקום לכל האתרים</string>
   <string name="pref_privacy_clear_geolocation_access_dlg">ביטול צפייה במיקום לכל האתרים</string>
-  <string name="pref_security_title">\u0020\u0020\u0020\u0020הגדרות אבטחה</string>
+  <string name="pref_security_title">הגדרות אבטחה</string>
   <string name="pref_security_remember_passwords">זכור שם-משתמש וסיסמאות</string>
   <string name="pref_security_remember_passwords_summary">שמור שמות משתמשים וסיסמאות לאתרים</string>
   <string name="pref_security_save_form_data">זכור נתוני טפסים מוקלדים</string>

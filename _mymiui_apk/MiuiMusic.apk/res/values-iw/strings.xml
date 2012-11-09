@@ -212,7 +212,7 @@
   <string name="download_album_helper">הורד כיסויים עבור סיפריית השירים שלך</string>
   <string name="download_all_album">מוריד תמונת אלבום</string>
   <string name="widget_1x">מוזיקה_1x</string>
-  <string name="fast_scroll_alphabet">\#ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+  <string name="fast_scroll_alphabet">#ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
   <string name="equalizer">אקולייזר</string>
   <string name="no_effect">חלק</string>
   <string name="custom">הגדרות אקולייזר חדשות</string>

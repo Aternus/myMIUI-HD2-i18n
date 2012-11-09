@@ -51,7 +51,7 @@
   <string name="paused_queued_for_wifi">Venter på Wi-Fi forbindelse</string>
   <string name="paused_waiting_for_network">Venter på data forbindelse</string>
   <string name="paused_waiting_to_retry">Venter på at prøve igen</string>
-  <string name="paused_unknown">Pause pga ukendt årsag</string>
+  <string name="paused_unknown">Pause pga. ukendt årsag</string>
   <string name="confirm_delete_downloads_message">Slet alle %d downloads?</string>
   <string name="confirm_delete_the_download_item_message">Slet download?</string>
   <string name="delete_the_downloaded_file">Slet downloadede filer</string>

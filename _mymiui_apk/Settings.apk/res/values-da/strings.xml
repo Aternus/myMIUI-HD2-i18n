@@ -5,7 +5,7 @@
   <string name="device_info_default">Ukendt</string>
   <string name="turn_on_radio">Tænd radio</string>
   <string name="turn_off_radio">Sluk radio</string>
-  <string name="radioInfo_menu_viewADN">Se sim kort adresse bog </string>
+  <string name="radioInfo_menu_viewADN">Se sim kort adressebog</string>
   <string name="radioInfo_menu_viewFDN">Vis faste opkaldsnumre</string>
   <string name="radioInfo_menu_viewSDN">Vis servicenumre</string>
   <string name="radioInfo_menu_getPDP">Hent PDP liste</string>
@@ -41,7 +41,7 @@
   <string name="battery_info_level_label">Batteri niveau:</string>
   <string name="battery_info_health_label">Batteri status:</string>
   <string name="battery_info_technology_label">Batteri teknologi:</string>
-  <string name="battery_info_voltage_label">Batteri strømstyrke i Volt:</string>
+  <string name="battery_info_voltage_label">Batteri strømstyrke i volt:</string>
   <string name="battery_info_voltage_units">mV</string>
   <string name="battery_info_temperature_label">Batteri temperatur:</string>
   <string name="battery_info_temperature_units">° C</string>
@@ -165,7 +165,7 @@
   <string name="band_mode_succeeded">Fuldført</string>
   <string name="next_label">Næste</string>
   <string name="language_picker_title">Sprog</string>
-  <string name="select_your_language">Vælge sprog</string>
+  <string name="select_your_language">Vælg sprog</string>
   <string name="activity_picker_label">Vælg aktivitet</string>
   <string name="debug_intent_sender_label">Debug intent sender</string>
   <string name="battery_info_label">Batteri info</string>
@@ -300,7 +300,7 @@
   <string name="wifi_starting">Aktiverer</string>
   <string name="wifi_stopping">Deaktiverer</string>
   <string name="wifi_error">Fejl</string>
-  <string name="wifi_in_airplane_mode">I Flytilstand</string>
+  <string name="wifi_in_airplane_mode">I flytilstand</string>
   <string name="wifi_fail_to_scan">Kunne ikke søge efter netværk</string>
   <string name="wifi_wapi_fail_to_init">Kan ikke åbne WAPI certifikater\nLager for legimitationsoplysninger er muligvis ikke aktiveret</string>
   <string name="wifi_wapi_fail_to_auth">WAPI autentificering slog fejl\nKontroller venligst gyldigheden af certifikater</string>
@@ -1136,7 +1136,7 @@
   <string name="battery_indicator_style">Notifikations Indikator Stil</string>
   <string name="battery_low_level">Niveau til at aktivere Strømbesparelses tilstand</string>
   <string name="battery_saving_rules_title">Strømbesparelses indstillinger</string>
-  <string name="battery_auto_saving_category_general">Ændringer vil træde ikraft næste gang strømbesparelsestilstand aktiveres</string>
+  <string name="battery_auto_saving_category_general">Ændringer vil træde i kraft næste gang strømbesparelsestilstand aktiveres</string>
   <string name="battery_auto_saving">Automatisk Indstilling</string>
   <string name="battery_auto_saving_summary">Når strømbesparelses tilstand er aktiveret, vil visse batteri intensive funktioner være utilgængelige</string>
   <string name="battery_setting_quick_entry">Lavt Strømniveau Notifikation</string>

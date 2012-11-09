@@ -24,7 +24,7 @@
   <string name="group_wallpapers">Tapeter</string>
   <string name="add_folder">Mappe</string>
   <string name="add_clock">Ur</string>
-  <string name="add_photo_frame">Billede ramme</string>
+  <string name="add_photo_frame">Billederamme</string>
   <string name="out_of_space">Ikke mere plads på denne startskærm.</string>
   <string name="shortcut_installed">Genvej\"%s\"lavet.</string>
   <string name="shortcut_uninstalled">Genvej\"%s\"er blevet fjernet.</string>
@@ -45,7 +45,7 @@
   <string name="permdesc_uninstall_shortcut">Tillader en applikation om at fjerne genveje uden brugerens medvirken.</string>
   <string name="permlab_read_settings">læs startskærms indstillinger og genveje</string>
   <string name="permdesc_read_settings">Tillader en applikation at læse indstillingerne og genvejene på startskærmen. </string>
-  <string name="permlab_write_settings">skriv Startskærmen og genvejene</string>
+  <string name="permlab_write_settings">skriv startskærmen og genvejene</string>
   <string name="permdesc_write_settings">Tillader en applikation at ændre på indstillingerne og genvejene på startskærmen.</string>
   <string name="gadget_error_text">Problemer med at indlæse widget</string>
   <string name="menu_edit">Redigeringstilstand</string>

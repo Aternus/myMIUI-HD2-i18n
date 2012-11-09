@@ -45,11 +45,11 @@
   <string name="toggle_exit_sym_to_en">28</string>
   <string name="toggle_en_upper_locked">29</string>
   <string name="toggle_single_quote_open">Slå enkelt citat åben til</string>
-  <string name="toggle_single_quote_close">Slå enkelt åben citat fra</string>
+  <string name="toggle_single_quote_close">Slå enkelt citat åben fra</string>
   <string name="toggle_double_quote_open">Slå dobbelt citat åben til</string>
   <string name="toggle_double_quote_close">Slå dobbelt citat åben fra</string>
   <string name="setting_stroke_key">Knaptryk</string>
-  <string name="setting_fault_tolerance_key">Fejltolerens</string>
+  <string name="setting_fault_tolerance_key">Fejltolerence</string>
   <string name="setting_sound_key">Tastelyd</string>
   <string name="setting_vibrate_key">Vibrer knapper</string>
   <string name="setting_prediction_key">Stavekontrol</string>
@@ -70,7 +70,7 @@
   <string name="setting_others">Andet</string>
   <string name="setting_others_summary">Anvend ordliste</string>
   <string name="account_label_username">Din Googlekonto (f.eks. johndoe@gmail.com)</string>
-  <string name="account_label_password">Password:</string>
+  <string name="account_label_password">Kodeord:</string>
   <string name="account_label_login">Log ind</string>
   <string name="account_label_cancel">Afbryd</string>
   <string name="account_title">Konto</string>
@@ -111,14 +111,14 @@
   <string name="setting_sync_error">Synkronisering mislykkedes</string>
   <string name="setting_sync_ongoing">Synkronisering igang...</string>
   <string name="setting_update_error">Opdatering mislykkedes</string>
-  <string name="setting_update_ongoing">Opdatering igang...</string>
+  <string name="setting_update_ongoing">Opdatering i gang...</string>
   <string name="privacy_url">http://m.google.com/static/zh-CN/privacy.html</string>
   <string name="tos_url">http://m.google.com/tospage?dc=gorganic&hl=zh_CN</string>
   <string name="setting_privacy_key">Privat</string>
   <string name="setting_tos_key">System</string>
   <string name="setting_about_key">Om</string>
   <string name="setting_privacy_title">Sikkerhedsvilkår</string>
-  <string name="setting_tos_title">Anvendingsvilkår</string>
+  <string name="setting_tos_title">Anvendelsesvilkår</string>
   <string name="setting_about_title">Om</string>
   <string name="setting_about_version_title">Nuværende version</string>
   <string name="setting_about_loading_title">Loader...</string>

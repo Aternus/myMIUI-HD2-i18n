@@ -308,8 +308,8 @@
   <string name="permgroupdesc_developmentTools">Funktioner kun til programudviklere.</string>
   <string name="permgrouplab_storage">Lagring</string>
   <string name="permgroupdesc_storage">Få adgang til SD-kortet.</string>
-  <string name="permlab_statusBar">deaktiver eller tilpas statuslinie</string>
-  <string name="permdesc_statusBar">Tillader programmet at deaktivere statuslinien eller tilføje og fjerne system ikoner</string>
+  <string name="permlab_statusBar">deaktiver eller tilpas statuslinje</string>
+  <string name="permdesc_statusBar">Tillader programmet at deaktivere statuslinjen eller tilføje og fjerne system ikoner</string>
   <string name="permlab_statusBarService">deaktiver eller rediger statuslinje</string>
   <string name="permdesc_statusBarService">Tillader, at et program deaktiverer statuslinjen eller tilføjer eller fjerner systemikoner.</string>
   <string name="permlab_expandStatusBar">udvid/skjul statuslinje</string>

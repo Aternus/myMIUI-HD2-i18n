@@ -7,9 +7,9 @@
   <string name="start_backup">התחל גיבוי</string>
   <string name="button_cancel">בטל</string>
   <string name="backup_empty">לא קיימים גיבויים</string>
-  <string name="backup_items_sysdata_tailer">\u0020\u0020נתוני מערכת</string>
-  <string name="backup_items_app_tailer">\u0020\u0020נתוני יישום</string>
-  <string name="backup_recently">\u0020(אחרון)</string>
+  <string name="backup_items_sysdata_tailer">נתוני מערכת</string>
+  <string name="backup_items_app_tailer">נתוני יישום</string>
+  <string name="backup_recently">(אחרון)</string>
   <string name="sdcard_unmounted">כרטיס הזיכרון אינו מותקן!</string>
   <string name="backup_progress">יוצר גיבוי...</string>
   <string name="button_ok">אשר</string>
@@ -21,7 +21,7 @@
   <string name="batch_delete_backup_confirm">גיבוי זה יימחק, האם להמשיך?</string>
   <string name="start_restore">שחזר</string>
   <string name="backup_file_error">אירעה בעיה בתהליך הגיבוי , הפעולה לא תקפה</string>
-  <string name="unit_byte">u0020בתים</string>
+  <string name="unit_byte">בתים</string>
   <string name="unit_piece">פריט</string>
   <string name="restore_finished">השחזור הושלם</string>
   <string name="restore_progress">משחזר...</string>
