@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="wallpapers">Animowane tapety Android</string>
+  <string name="wallpaper_walkaround">Pogląd</string>
+  <string name="wallpaper_walkaround_author">Google</string>
+  <string name="wallpaper_walkaround_desc">Patrz na telefon i unikaj wypadków.</string>
+  <string name="wallpaper_grass">Trawa</string>
+  <string name="wallpaper_grass_author">Google</string>
+  <string name="wallpaper_grass_desc">Źdźbła trawy poruszające się na tle nieba w dzień/noc.</string>
+  <string name="wallpaper_galaxy">Galaktyka</string>
+  <string name="wallpaper_galaxy_author">Google</string>
+  <string name="wallpaper_galaxy_desc">Galaktyka z wolno obracających się planet.</string>
+  <string name="wallpaper_fall">Woda</string>
+  <string name="wallpaper_fall_author">Google</string>
+  <string name="wallpaper_fall_desc">Jesień wrzucająca liście&lt;br&gt; do stawu:&lt;br&gt; </string>
+  <string name="wallpaper_clock">Polarny zegar</string>
+  <string name="wallpaper_clock_author">Google</string>
+  <string name="wallpaper_clock_desc">Pokazuje datę i czas jako łuki poruszające się w kierunku wskazówek zegara: miesiąc, dzień, godzina, minuta i sekunda.</string>
+  <string name="wallpaper_nexus">Nexus</string>
+  <string name="wallpaper_nexus_author">Google</string>
+  <string name="wallpaper_nexus_desc">Peek wewnątrz sieci neuronowej.</string>
+  <string name="clock_settings">Ustawienia Zegara Polarnego</string>
+  <string name="show_seconds">Pokazuj sekundy</string>
+  <string name="variable_line_width">Różnica długości linii</string>
+  <string name="palette">Kolor</string>
+  <string name="palette_gray">Żelazny</string>
+  <string name="palette_violet">Północ</string>
+  <string name="palette_matrix">Zielony Ekran</string>
+  <string name="palette_white_c">Polarny Niedźwiedź (dynamiczna)</string>
+  <string name="palette_black_c">Czarna Dziura (dynamiczna)</string>
+  <string name="palette_halloween">Ciasto Dyniowe</string>
+  <string name="palette_zenburn">Kosmiczna Owocowa Sałatka</string>
+  <string name="palette_oceanic">Niebieski Laser</string>
+</resources>

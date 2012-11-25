@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="english_ime_name">Tipkovnica Android</string>
+  <string name="english_ime_settings">Nastavitve tipkovnice Android</string>
+  <string name="english_ime_input_options">Možnosti vnosa</string>
+  <string name="vibrate_on_keypress">Vibriranje ob pritisku tipke</string>
+  <string name="sound_on_keypress">Zvok ob pritisku tipke</string>
+  <string name="popup_on_keypress">Pojavno okno ob pritisku tipke</string>
+  <string name="hit_correction">Popravljanje tipkarskih napak</string>
+  <string name="hit_correction_summary">Omogoči popravljanje napak pri vnosu</string>
+  <string name="hit_correction_land">Napake pri vnosu v ležečem položaju</string>
+  <string name="hit_correction_land_summary">Omogoči popravljanje napak pri vnosu</string>
+  <string name="auto_correction">Predlogi besed</string>
+  <string name="auto_correction_summary">Samodejno popravi prejšnjo besedo</string>
+  <string name="prediction">Predlogi besed</string>
+  <string name="prediction_category">Nastavitve za predlaganje besede</string>
+  <string name="prediction_summary">Omogoči samodokončanje med tipkanjem</string>
+  <string name="auto_complete_dialog_title">Samodokončanje</string>
+  <string name="prediction_landscape">Povečaj velikost besedilnega polja</string>
+  <string name="prediction_landscape_summary">Skrij predloge besed v ležečem pogledu</string>
+  <string name="auto_cap">Samodejne velike začetnice</string>
+  <string name="auto_cap_summary">Napiši začetek stavka z veliko začetnico</string>
+  <string name="auto_punctuate">Samodejno vstavljanje ločil</string>
+  <string name="auto_punctuate_summary"/>
+  <string name="quick_fixes">Hitri popravki</string>
+  <string name="quick_fixes_summary">Popravi pogoste tipkarske napake</string>
+  <string name="show_suggestions">Pokaži predloge</string>
+  <string name="show_suggestions_summary">Prikaži predlagane besede med tipkanjem</string>
+  <string name="auto_complete">Samodokončanje</string>
+  <string name="auto_complete_summary">Preslednica in ločila samodejno vnesejo označeno besedo</string>
+  <string name="prefs_settings_key">Pokaži tipko za nastavitve</string>
+  <string name="settings_key_mode_auto_name">Samodejno</string>
+  <string name="settings_key_mode_always_show_name">Vedno pokaži</string>
+  <string name="settings_key_mode_always_hide_name">Vedno skrij</string>
+  <string name="bigram_suggestion">Bigramni predlogi</string>
+  <string name="bigram_suggestion_summary">Predlog izboljšaj s prejšnjo besedo</string>
+  <string name="added_word">%s: shranjeno</string>
+  <string name="tip_long_press">Držite tipko, da prikažete poudarke (ø, ö itd.)</string>
+  <string name="tip_dismiss">Kadar koli lahko pritisnete tipko »Nazaj« ↶, da zaprete tipkovnico</string>
+  <string name="tip_access_symbols">Dostop do številk in simbolov</string>
+  <string name="tip_add_to_dictionary">Če besedo želite dodati v slovar, jo pridržite</string>
+  <string name="touch_to_continue">Dotaknite se tega nasveta za nadaljevanje »</string>
+  <string name="touch_to_finish">Dotaknite se tukaj, da zaprete nasvet in začnete tipkati!</string>
+  <string name="tip_to_open_keyboard">
+    <b>Tipkovnice se odpre, kadar se dotaknete besedilnega polja</b>
+  </string>
+  <string name="tip_to_view_accents">
+    <b>"Za ogled poudarkov pridržite tipko
+(ø, ö, ô, ó itd.)"</b>
+  </string>
+  <string name="tip_to_open_symbols">
+    <b>Preklopite na številke in simbole z dotikom te tipke</b>
+  </string>
+  <string name="tip_to_close_symbols">
+    <b>Na črke se vrnete, če se še enkrat dotaknete te tipke</b>
+  </string>
+  <string name="tip_to_launch_settings">
+    <b>Pridržite to tipko, če želite spremeniti nastavitve tipkovnice, npr. samodokončanje</b>
+  </string>
+  <string name="tip_to_start_typing">
+    <b>Poskusite!</b>
+  </string>
+  <string name="label_go_key">Pojdi</string>
+  <string name="label_next_key">Naprej</string>
+  <string name="label_done_key">Dokončano</string>
+  <string name="label_send_key">Pošlji</string>
+  <string name="label_symbol_key">\?123</string>
+  <string name="label_phone_key">123</string>
+  <string name="label_alpha_key">ABC</string>
+  <string name="label_alt_key">ALT</string>
+  <string name="voice_warning_title">Glasovni vnos</string>
+  <string name="voice_warning_locale_not_supported">Glasovni vnos trenutno ni podprt v vašem jeziku, deluje pa v angleščini.</string>
+  <string name="voice_warning_may_not_understand">Glasovni vnos je poskusna funkcija, ki uporablja Googlovo omrežno prepoznavanje govora.</string>
+  <string name="voice_warning_how_to_turn_off">Če želite izklopiti glasovni vnos, pojdite na nastavitve tipkovnice.</string>
+  <string name="voice_hint_dialog_message">Če želite uporabiti glasovni vnos, pritisnite gumb z mikrofonom ali podrsajte s prstom po zaslonski tipkovnici.</string>
+  <string name="voice_listening">Začnite govoriti</string>
+  <string name="voice_working">Obdelava</string>
+  <string name="voice_initializing"/>
+  <string name="voice_error">Napaka. Poskusite znova.</string>
+  <string name="voice_network_error">Povezava ni mogoča</string>
+  <string name="voice_too_much_speech">Napaka, preveč govora.</string>
+  <string name="voice_audio_error">Težave z zvokom</string>
+  <string name="voice_server_error">Napaka strežnika</string>
+  <string name="voice_speech_timeout">Govora se ne sliši</string>
+  <string name="voice_no_match">Ni rezultatov</string>
+  <string name="voice_not_installed">Glasovno iskanje ni nameščeno</string>
+  <string name="voice_swipe_hint"><b>Nasvet:</b> za govorjenje s prstom povlecite po tipkovnici</string>
+  <string name="voice_punctuation_hint"><b>Nasvet:</b> naslednjič poskusite ločila izgovoriti, npr. »pika«, »vejica« ali »vprašaj«.</string>
+  <string name="cancel">Prekliči</string>
+  <string name="ok">V redu</string>
+  <string name="voice_input">Glasovni vnos</string>
+  <string name="auto_submit">Samodejno pošlji po govoru</string>
+  <string name="auto_submit_summary">Samodejno pritisni »Enter« pri iskanju ali prehodu na naslednje polje.</string>
+  <string name="open_the_keyboard"><font size="17"><b>"Odprite tipkovnico
+"</b></font><font size="3">"
+"</font>Dotaknite se katerega koli besedilnega polja.</string>
+  <string name="close_the_keyboard"><font size="17"><b>"Zaprite tipkovnico
+"</b></font><font size="3">"
+"</font>Pritisnite tipko »Nazaj«.</string>
+  <string name="touch_and_hold"><font size="17"><b>"Pridržite tipko za ogled možnosti
+"</b></font><font size="3">"
+"</font>Dostop do ločil in poudarkov.</string>
+  <string name="keyboard_settings"><font size="17"><b>"Nastavitve 
+"</b></font><font size="3">"
+"</font>Pridržite tipko <b>?123</b>.</string>
+  <string name="popular_domain_0">.com</string>
+  <string name="popular_domain_1">.net</string>
+  <string name="popular_domain_2">.org</string>
+  <string name="popular_domain_3">.gov</string>
+  <string name="popular_domain_4">.edu</string>
+  <string name="selectInputMethod">Izberite način vnosa</string>
+  <string name="language_selection_title">Jeziki vnosa</string>
+  <string name="language_selection_summary">Podrsajte s prstom po preslednici, da zamenjate jezik</string>
+  <string name="hint_add_to_dictionary">← Še enkrat se dotaknite, da shranite</string>
+  <string name="has_dictionary">Slovar je na voljo</string>
+  <string name="prefs_enable_log">Omogoči povratne informacije uporabnikov</string>
+  <string name="prefs_description_log">S samodejnim pošiljanjem statističnih podatkov o uporabi in poročil o zrušitvah Googlu nam lahko pomagate izboljšati urejevalnik načina vnosa.</string>
+  <string name="prefs_enable_recorrection">Dotaknite se besed in jih popravite</string>
+  <string name="prefs_enable_recorrection_summary">Dotaknite se vnesenih besed in jih popravite</string>
+  <string name="keyboard_layout">Tema tipkovnice</string>
+  <string name="subtype_mode_keyboard">tipkovnica</string>
+  <string name="subtype_mode_voice">govor</string>
+</resources>

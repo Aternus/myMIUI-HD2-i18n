@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="alternates_for_a">áàâąã</string>
+  <string name="alternates_for_e">3éèêëę€</string>
+  <string name="alternates_for_i">íìîï8</string>
+  <string name="alternates_for_o">óòôõ9</string>
+  <string name="alternates_for_u">úùûū7</string>
+  <string name="alternates_for_s">śšşß</string>
+  <string name="alternates_for_n">ńñň</string>
+  <string name="alternates_for_c">çćč</string>
+  <string name="alternates_for_y">ýÿü6</string>
+  <string name="alternates_for_d">ðď</string>
+  <string name="alternates_for_r">ř4</string>
+  <string name="alternates_for_t">ťþ5</string>
+  <string name="alternates_for_z">źžż</string>
+  <string name="alternates_for_l">ł</string>
+  <string name="alternates_for_v">w</string>
+  <string name="alternates_for_ae">ä</string>
+  <string name="alternates_for_oe">öœ</string>
+  <string name="english_ime_name">Android-tastatur</string>
+  <string name="english_ime_settings">Indstillinger for Android-tastatur</string>
+  <string name="english_ime_input_options">Indstillinger for input</string>
+  <string name="vibrate_on_keypress">Vibration ved tastetryk</string>
+  <string name="sound_on_keypress">Lyd ved tastetryk</string>
+  <string name="popup_on_keypress">Popup ved tastetryk</string>
+  <string name="hit_correction">Ret stavefejl</string>
+  <string name="hit_correction_summary">Aktiver fejlretning af input</string>
+  <string name="hit_correction_land">Inputfejl i landskab</string>
+  <string name="hit_correction_land_summary">Aktiver fejlretning af input</string>
+  <string name="auto_correction">Ordforslag</string>
+  <string name="auto_correction_summary">Ret automatisk det forrige ord</string>
+  <string name="prediction">Ordforslag</string>
+  <string name="prediction_category">Indstillinger for ordforslag</string>
+  <string name="prediction_summary">Aktiver automatisk udfyldelse, når du indtaster</string>
+  <string name="auto_complete_dialog_title">Automatisk udfyldelse</string>
+  <string name="prediction_landscape">Forøg tekstfeltets størrelse</string>
+  <string name="prediction_landscape_summary">Skjul ordforslag i landskabsvisning</string>
+  <string name="auto_cap">Skriv aut. med stort</string>
+  <string name="auto_cap_summary">Første bogstav i en sætning skrives med stort</string>
+  <string name="auto_punctuate">Foretag automatisk tegnsætning</string>
+  <string name="auto_punctuate_summary"/>
+  <string name="quick_fixes">Hurtige løsninger</string>
+  <string name="quick_fixes_summary">Retter almindelige stavefejl</string>
+  <string name="show_suggestions">Vis forslag</string>
+  <string name="show_suggestions_summary">Vis ordforslag under indtastning</string>
+  <string name="auto_complete">Udfyld automatisk</string>
+  <string name="auto_complete_summary">Mellemrumstast og tegnsætning indsætter automatisk fremhævet ord</string>
+  <string name="prefs_settings_key">Vis indstillingsnøgle</string>
+  <string name="settings_key_mode_auto_name">Automatisk</string>
+  <string name="settings_key_mode_always_show_name">Vis altid</string>
+  <string name="settings_key_mode_always_hide_name">Skjul altid</string>
+  <string name="bigram_suggestion">Bigram-forslag</string>
+  <string name="bigram_suggestion_summary">Brug forrige ord for at forbedre forslag</string>
+  <string name="added_word">%s: Gemt</string>
+  <string name="tip_long_press">Hold en tast nede for at se accenter (ø, ö osv.)</string>
+  <string name="tip_dismiss">Tryk på knappen Tilbage ↶ for når som helst at lukke for tastaturet</string>
+  <string name="tip_access_symbols">Få adgang til tal og symboler</string>
+  <string name="tip_add_to_dictionary">Tryk og hold på ordet længst til venstre for at føje det til ordbogen</string>
+  <string name="touch_to_continue">Berør dette tip for at fortsætte »</string>
+  <string name="touch_to_finish">Berør her for at lukke dette tip og begynde at indtaste!</string>
+  <string name="tip_to_open_keyboard">
+    <b>Tastaturet åbner når som helst, du berører et tekstfelt</b>
+  </string>
+  <string name="tip_to_view_accents">
+    <b>"Tryk på en tast, og hold den nede for a vise accenter
+(ø, ö, ô, ó osv.)"</b>
+  </string>
+  <string name="tip_to_open_symbols">
+    <b>Skift til tal og symboler ved at røre denne tast</b>
+  </string>
+  <string name="tip_to_close_symbols">
+    <b>Gå tilbage til bogstaver ved at berøre denne tast igen</b>
+  </string>
+  <string name="tip_to_launch_settings">
+    <b>Tryk på denne tast, og hold den nede for at ændre tastaturindstillingerne, som f.eks. automatisk udfyldelse</b>
+  </string>
+  <string name="tip_to_start_typing">
+    <b>Prøv det!</b>
+  </string>
+  <string name="label_go_key">Gå</string>
+  <string name="label_next_key">Næste</string>
+  <string name="label_done_key">Udfør</string>
+  <string name="label_send_key">Send</string>
+  <string name="label_symbol_key">\?123</string>
+  <string name="label_phone_key">123</string>
+  <string name="label_alpha_key">ABC</string>
+  <string name="label_alt_key">ALT</string>
+  <string name="voice_warning_title">Stemmeinput</string>
+  <string name="voice_warning_locale_not_supported">Stemmeinput understøttes i øjeblikket ikke for dit sprog, men fungerer på engelsk.</string>
+  <string name="voice_warning_may_not_understand">Stemme-input er en funktion på forsøgsbasis, som bruger Googles netværksstemmegenkendelse.</string>
+  <string name="voice_warning_how_to_turn_off">Slå stemmeinput fra i indstillingerne for tastaturet.</string>
+  <string name="voice_hint_dialog_message">For at bruge stemme-input skal du trykke på knappen mikrofon eller lade glide fingeren hen over skærmtastaturet.</string>
+  <string name="voice_listening">Tal nu</string>
+  <string name="voice_working">Arbejder</string>
+  <string name="voice_initializing"/>
+  <string name="voice_error">Fejl. Prøv igen.</string>
+  <string name="voice_network_error">Kunne ikke oprette forbindelse</string>
+  <string name="voice_too_much_speech">Fejl. For meget tale.</string>
+  <string name="voice_audio_error">Lydproblem</string>
+  <string name="voice_server_error">Serverfejl</string>
+  <string name="voice_speech_timeout">Der høres ingen tale</string>
+  <string name="voice_no_match">Der blev ikke fundet nogen matches</string>
+  <string name="voice_not_installed">Stemmesøgning er ikke installeret</string>
+  <string name="voice_swipe_hint"><b>Tip:</b> Glid hen over tastaturet for at tale</string>
+  <string name="voice_punctuation_hint"><b>Tip:</b> Næste gang kan du forsøge at sige tegnsætning, f.eks. \"punktum\", \"komma\" eller \"spørgsmålstegn\".</string>
+  <string name="cancel">Annuller</string>
+  <string name="ok">OK</string>
+  <string name="voice_input">Stemmeinput</string>
+  <string name="auto_submit">Send automatisk efter stemme</string>
+  <string name="auto_submit_summary">Tryk automatisk på enter, når du søger eller går til det næste felt.</string>
+  <string name="open_the_keyboard"><font size="17"><b>"Åbn tastaturet
+"</b></font><font size="3">"
+"</font>Tryk på et hvilket som helst tekstfelt.</string>
+  <string name="close_the_keyboard"><font size="17"><b>"Luk tastaturet
+"</b></font><font size="3">"
+"</font>Tryk på knappen Tilbage.</string>
+  <string name="touch_and_hold"><font size="17"><b>"Tryk på en tast, og hold den nede for valgmuligheder
+"</b></font><font size="3">"
+"</font>Få adgang til tegnsætning og accenter.</string>
+  <string name="keyboard_settings"><font size="17"><b>"Tastaturindstillinger
+"</b></font><font size="3">"
+"</font>Tryk på tasten <b>?123</b>, og hold den nede.</string>
+  <string name="popular_domain_0">.com</string>
+  <string name="popular_domain_1">.net</string>
+  <string name="popular_domain_2">.org</string>
+  <string name="popular_domain_3">.gov</string>
+  <string name="popular_domain_4">.edu</string>
+  <string name="selectInputMethod">Vælg inputmetode</string>
+  <string name="language_selection_title">Inputsprog</string>
+  <string name="language_selection_summary">Træk fingeren på mellemrumstasten for at skifte sprog</string>
+  <string name="hint_add_to_dictionary">← Tryk igen for at gemme</string>
+  <string name="has_dictionary">Ordbog er tilgængelig</string>
+  <string name="prefs_enable_log">Aktiver brugerfeedback</string>
+  <string name="prefs_description_log">Vær med til at forbedre denne inputmetode ved at sende anvendelsesstatistikker og rapporter om nedbrud til Google.</string>
+  <string name="prefs_enable_recorrection">Tryk for at rette ord</string>
+  <string name="prefs_enable_recorrection_summary">Tryk på de indtastede ord for at rette dem</string>
+  <string name="keyboard_layout">Tastaturtema</string>
+  <string name="subtype_mode_keyboard">tastatur</string>
+  <string name="subtype_mode_voice">stemme</string>
+</resources>

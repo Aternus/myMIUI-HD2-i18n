@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="alternates_for_a">á</string>
+  <string name="alternates_for_e">3é</string>
+  <string name="alternates_for_i">í8</string>
+  <string name="alternates_for_o">óöő9</string>
+  <string name="alternates_for_u">úüű7</string>
+  <string name="alternates_for_s"/>
+  <string name="alternates_for_n"/>
+  <string name="alternates_for_c"/>
+  <string name="alternates_for_y">6</string>
+  <string name="alternates_for_q">1</string>
+  <string name="alternates_for_w">2</string>
+  <string name="alternates_for_r">4</string>
+  <string name="alternates_for_t">5</string>
+  <string name="alternates_for_p">0</string>
+  <string name="english_ime_name">Android-billentyűzet</string>
+  <string name="english_ime_settings">Android billentyűzetbeállítások</string>
+  <string name="english_ime_input_options">Beviteli beállítások</string>
+  <string name="vibrate_on_keypress">Rezgés billentyű megnyomása esetén</string>
+  <string name="sound_on_keypress">Hangjelzés billentyű megnyomása esetén</string>
+  <string name="popup_on_keypress">Legyen nagyobb billentyű lenyomásakor</string>
+  <string name="hit_correction">Gépelési hibák kijavítása</string>
+  <string name="hit_correction_summary">Beviteli hibák javításának engedélyezése</string>
+  <string name="hit_correction_land">Fekvő beviteli hibák</string>
+  <string name="hit_correction_land_summary">Beviteli hibák javításának engedélyezése</string>
+  <string name="auto_correction">Szójavaslatok</string>
+  <string name="auto_correction_summary">Az előző szó automatikus kijavítása</string>
+  <string name="prediction">Szójavaslatok</string>
+  <string name="prediction_category">Szójavaslati beállítások</string>
+  <string name="prediction_summary">Automatikus kiegészítés engedélyezése gépelés közben</string>
+  <string name="auto_complete_dialog_title">Automatikus kiegészítés</string>
+  <string name="prediction_landscape">A szövegmező méretének növelése</string>
+  <string name="prediction_landscape_summary">Szójavaslatok elrejtése fekvő nézetben</string>
+  <string name="auto_cap">Automatikusan nagy kezdőbetű</string>
+  <string name="auto_cap_summary">Nagybetűvel kezdi a mondatot</string>
+  <string name="auto_punctuate">Automatikus központozás</string>
+  <string name="auto_punctuate_summary"/>
+  <string name="quick_fixes">Gyorsjavítások</string>
+  <string name="quick_fixes_summary">Kijavítja a gyakori gépelési hibákat</string>
+  <string name="show_suggestions">Javaslatok megjelenítése</string>
+  <string name="show_suggestions_summary">A javasolt szavak megjelenítése gépelés közben</string>
+  <string name="auto_complete">Automatikus kiegészítés</string>
+  <string name="auto_complete_summary">A szóköz és az írásjelek használata automatikusan beszúrja a kiemelt szót</string>
+  <string name="prefs_settings_key">Beállítások billentyű megjelenítése</string>
+  <string name="settings_key_mode_auto_name">Automatikus</string>
+  <string name="settings_key_mode_always_show_name">Mindig látszik</string>
+  <string name="settings_key_mode_always_hide_name">Mindig rejtve</string>
+  <string name="bigram_suggestion">Bigram javaslatok</string>
+  <string name="bigram_suggestion_summary">Előző szó használata a javaslatok javításához</string>
+  <string name="added_word">%s : mentve</string>
+  <string name="tip_long_press">Az ékezetes betűk megtekintéséhez tartsa lenyomva valamelyik billentyűt (ø, ö stb.)</string>
+  <string name="tip_dismiss">A vissza gomb ↶ megnyomásával bármikor elrejtheti a billentyűzetet</string>
+  <string name="tip_access_symbols">Számok és szimbólumok elérése</string>
+  <string name="tip_add_to_dictionary">A szótárhoz történő hozzáadásához nyomja meg hosszan a bal oldali legszélső szót</string>
+  <string name="touch_to_continue">A folytatáshoz érintse meg ezt a tippet »</string>
+  <string name="touch_to_finish">Érintse meg itt a tipp bezárásához és a gépelés megkezdéséhez.</string>
+  <string name="tip_to_open_keyboard">
+    <b>Szövegmező megérintésekor a billentyűzet mindig megjelenik</b>
+  </string>
+  <string name="tip_to_view_accents">
+    <b>"Érintse meg és tartsa lenyomva valamelyik billentyűt az ékezetes betűk megtekintéséhez
+(ø, ö, ô, ó stb.)"</b>
+  </string>
+  <string name="tip_to_open_symbols">
+    <b>Számokra és szimbólumokra ennek a billentyűnek a megérintésével válthat</b>
+  </string>
+  <string name="tip_to_close_symbols">
+    <b>A billentyű újbóli megérintésével visszatérhet a betűkhöz</b>
+  </string>
+  <string name="tip_to_launch_settings">
+    <b>Érintse meg és tartsa lenyomva ezt a billentyűt a billentyűzet-beállítások (pl. az automatikus kiegészítés) módosításához</b>
+  </string>
+  <string name="tip_to_start_typing">
+    <b>Próbálja ki!</b>
+  </string>
+  <string name="label_go_key">Ugrás</string>
+  <string name="label_next_key">Tovább</string>
+  <string name="label_done_key">Kész</string>
+  <string name="label_send_key">Küldés</string>
+  <string name="label_symbol_key">\?123</string>
+  <string name="label_phone_key">123</string>
+  <string name="label_alpha_key">ABC</string>
+  <string name="label_alt_key">ALT</string>
+  <string name="voice_warning_title">Hangbevitel</string>
+  <string name="voice_warning_locale_not_supported">A hangbevitel szolgáltatás jelenleg nem támogatja az Ön nyelvét, ám angolul működik.</string>
+  <string name="voice_warning_may_not_understand">A hangbevitel a Google hálózati beszédfelismerését alkalmazó kísérleti funkció.</string>
+  <string name="voice_warning_how_to_turn_off">A hangbevitelt a billentyűzet beállításai között lehet kikapcsolni.</string>
+  <string name="voice_hint_dialog_message">A hangbevitel használatához nyomja meg a mikrofon gombját vagy húzza végig az ujját a képernyő-billentyűzeten.</string>
+  <string name="voice_listening">Most beszéljen</string>
+  <string name="voice_working">Feldolgozás</string>
+  <string name="voice_initializing"/>
+  <string name="voice_error">Hiba történt. Kérjük, próbálja újra.</string>
+  <string name="voice_network_error">Nem sikerült kapcsolódni</string>
+  <string name="voice_too_much_speech">Hiba történt; túl sokat beszélt.</string>
+  <string name="voice_audio_error">Hangprobléma</string>
+  <string name="voice_server_error">Szerverhiba</string>
+  <string name="voice_speech_timeout">Nem hallatszott beszéd</string>
+  <string name="voice_no_match">Nem található egyezés</string>
+  <string name="voice_not_installed">A hangalapú keresés nincs telepítve</string>
+  <string name="voice_swipe_hint"><b>Tipp:</b> húzza végig az ujját a billentyűzeten a beszédhez</string>
+  <string name="voice_punctuation_hint"><b>Tipp:</b> következő alkalommal próbálja ki az írásjelek kimondását is, pl. \"period\", \"comma\" vagy \"question mark\".</string>
+  <string name="cancel">Mégse</string>
+  <string name="ok">OK</string>
+  <string name="voice_input">Hangbevitel</string>
+  <string name="auto_submit">Automatikus küldés a beszéd után</string>
+  <string name="auto_submit_summary">Az Enter automatikus megnyomása keresés vagy a következő mezőre ugrás során.</string>
+  <string name="open_the_keyboard"><font size="17"><b>"A billentyűzet megjelenítése
+"</b></font><font size="3">"
+"</font>Érintse meg valamelyik szövegmezőt.</string>
+  <string name="close_the_keyboard"><font size="17"><b>"A billentyűzet bezárása
+"</b></font><font size="3">"
+"</font>Nyomja meg a Vissza billentyűt.</string>
+  <string name="touch_and_hold"><font size="17"><b>"A lehetőségek megjelenítéséhez érintse meg és tartsa lenyomva valamelyik billentyűt
+"</b></font><font size="3">"
+"</font>Az írásjelek és az ékezetes betűk elérése.</string>
+  <string name="keyboard_settings"><font size="17"><b>"Billentyűzetbeállítások
+"</b></font><font size="3">"
+"</font>Érintse meg és tartsa lenyomva a <b>?123</b> billentyűt.</string>
+  <string name="popular_domain_0">.com</string>
+  <string name="popular_domain_1">.net</string>
+  <string name="popular_domain_2">.org</string>
+  <string name="popular_domain_3">.gov</string>
+  <string name="popular_domain_4">.edu</string>
+  <string name="selectInputMethod">Beviteli mód kiválasztása</string>
+  <string name="language_selection_title">Beviteli nyelvek</string>
+  <string name="language_selection_summary">A nyelv módosításához húzza végig az ujját a szóköz billentyűn</string>
+  <string name="hint_add_to_dictionary">← Érintse meg újra a mentéshez</string>
+  <string name="has_dictionary">Van elérhető szótár</string>
+  <string name="prefs_enable_log">Felhasználói visszajelzés engedélyezése</string>
+  <string name="prefs_description_log">Segíthet ennek a beviteli módszernek a javításában, ha engedélyezi a használati statisztikák és a hibajelentések elküldését a Google-nak.</string>
+  <string name="prefs_enable_recorrection">Javítás a szavak megérintésével</string>
+  <string name="prefs_enable_recorrection_summary">A beírt szavakat megérintve kijavíthatja őket</string>
+  <string name="keyboard_layout">Billentyűzettéma</string>
+  <string name="subtype_mode_keyboard">billentyűzet</string>
+  <string name="subtype_mode_voice">hang</string>
+</resources>

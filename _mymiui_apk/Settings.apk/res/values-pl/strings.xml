@@ -94,7 +94,7 @@
   <string name="awake">Czas pracy urządzenia</string>
   <string name="back_long_press">Zamykanie aplikacji przyciskiem Wstecz</string>
   <string name="back_long_press_timeout">Czas\n%1$.1f sek</string>
-  <string name="background_process_stop_description">This is an old application process that is being kept for better speed in case it is needed again. There is usually no reason to stop it.</string>
+  <string name="background_process_stop_description">To stary proces trzymany na wypadek, gdyby znów był potrzebny. Nie ma potrzeby go zatrzymywać.</string>
   <string name="backlight_title">Automatyczne podświetlenie</string>
   <string name="backup_data_summary">Utwórz kopię zapasową ustawień i innych danych aplikacji.</string>
   <string name="backup_data_title">Utwórz kopię zapasową</string>

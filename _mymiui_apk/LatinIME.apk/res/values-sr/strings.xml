@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="english_ime_name">Android тастатура</string>
+  <string name="english_ime_settings">Подешавања Android тастатуре</string>
+  <string name="english_ime_input_options">Опције уноса</string>
+  <string name="vibrate_on_keypress">Вибрирај на притисак тастера</string>
+  <string name="sound_on_keypress">Звук на притисак тастера</string>
+  <string name="popup_on_keypress">Искачући прозор приликом притиска тастера</string>
+  <string name="hit_correction">Исправи грешке у куцању</string>
+  <string name="hit_correction_summary">Омогућавање исправљања грешака током уноса</string>
+  <string name="hit_correction_land">Грешке приликом уноса у положеном приказу</string>
+  <string name="hit_correction_land_summary">Омогућавање исправљања грешака током уноса</string>
+  <string name="auto_correction">Предлагање речи</string>
+  <string name="auto_correction_summary">Аутоматско исправљање претходне речи</string>
+  <string name="prediction">Предлагање речи</string>
+  <string name="prediction_category">Подешавања за предлагање речи</string>
+  <string name="prediction_summary">Омогућавање аутоматског довршавања током уноса текста</string>
+  <string name="auto_complete_dialog_title">Аутоматско довршавање</string>
+  <string name="prediction_landscape">Повећај величину поља за текст</string>
+  <string name="prediction_landscape_summary">Скривање предложених речи у положеном приказу</string>
+  <string name="auto_cap">Аутоматски унос великих слова</string>
+  <string name="auto_cap_summary">Унос великог слова на почетку реченице</string>
+  <string name="auto_punctuate">Аутоматска интерпункција</string>
+  <string name="auto_punctuate_summary"/>
+  <string name="quick_fixes">Брзе исправке</string>
+  <string name="quick_fixes_summary">Исправља честе грешке у куцању</string>
+  <string name="show_suggestions">Прикажи предлоге</string>
+  <string name="show_suggestions_summary">Приказивање предложених речи током уноса текста</string>
+  <string name="auto_complete">Аутоматско довршавање</string>
+  <string name="auto_complete_summary">Означена реч се аутоматски умеће када притиснете размак или знак интерпункције</string>
+  <string name="prefs_settings_key">Прикажи тастер за подешавања</string>
+  <string name="settings_key_mode_auto_name">Аутоматски</string>
+  <string name="settings_key_mode_always_show_name">Увек прикажи</string>
+  <string name="settings_key_mode_always_hide_name">Увек сакриј</string>
+  <string name="bigram_suggestion">Bigram предлози</string>
+  <string name="bigram_suggestion_summary">Користи претходну реч за побољшање предлога</string>
+  <string name="added_word">%s : Сачувано</string>
+  <string name="tip_long_press">Држите тастер да бисте видели акценте (ø, ö итд.)</string>
+  <string name="tip_dismiss">Притисните тастер „Назад“ ↶ у било ком тренутку да бисте затворили тастатуру</string>
+  <string name="tip_access_symbols">Приступите бројевима и симболима</string>
+  <string name="tip_add_to_dictionary">Притисните и држите прву реч са леве стране да бисте је додали у речник</string>
+  <string name="touch_to_continue">Додирните овај савет да бисте наставили »</string>
+  <string name="touch_to_finish">Додирните овде да бисте затворили овај савет и почели да уносите текст!</string>
+  <string name="tip_to_open_keyboard">
+    <b>Тастатура се отвара сваки пут када додирнете поље за текст</b>
+  </string>
+  <string name="tip_to_view_accents">
+    <b>"Додирните и држите тастер да бисте видели акценте
+(ø, ö, ô, ó, и тако даље)"</b>
+  </string>
+  <string name="tip_to_open_symbols">
+    <b>Пређите на бројеве и симболе тако што ћете додирнути овај тастер</b>
+  </string>
+  <string name="tip_to_close_symbols">
+    <b>Вратите се на слова тако што ћете поново додирнути овај тастер</b>
+  </string>
+  <string name="tip_to_launch_settings">
+    <b>Додирните и држите овај тастер да бисте променили подешавања тастатуре, као што је аутоматско довршавање</b>
+  </string>
+  <string name="tip_to_start_typing">
+    <b>Пробајте!</b>
+  </string>
+  <string name="label_go_key">Иди</string>
+  <string name="label_next_key">Следеће</string>
+  <string name="label_done_key">Готово</string>
+  <string name="label_send_key">Пошаљи</string>
+  <string name="label_symbol_key">\?123</string>
+  <string name="label_phone_key">123</string>
+  <string name="label_alpha_key">ABC</string>
+  <string name="label_alt_key">ALT</string>
+  <string name="voice_warning_title">Гласовни унос</string>
+  <string name="voice_warning_locale_not_supported">Гласовни унос тренутно није подржан за ваш језик, али функционише на енглеском.</string>
+  <string name="voice_warning_may_not_understand">Гласовни унос је експериментална функција која користи Google-ово мрежно препознавање гласа.</string>
+  <string name="voice_warning_how_to_turn_off">Да бисте искључили гласовни унос, идите на подешавања тастатуре.</string>
+  <string name="voice_hint_dialog_message">Да бисте користили гласовни унос, притисните дугме за микрофон или превуците прст преко тастатуре на екрану.</string>
+  <string name="voice_listening">Говорите сада</string>
+  <string name="voice_working">Обрада</string>
+  <string name="voice_initializing"/>
+  <string name="voice_error">Грешка. Покушајте поново.</string>
+  <string name="voice_network_error">Повезивање није могуће</string>
+  <string name="voice_too_much_speech">Грешка, говорите предуго.</string>
+  <string name="voice_audio_error">Проблем са звуком</string>
+  <string name="voice_server_error">Грешка сервера</string>
+  <string name="voice_speech_timeout">Не чује се говор</string>
+  <string name="voice_no_match">Нема подударања</string>
+  <string name="voice_not_installed">Гласовна претрага није инсталирана</string>
+  <string name="voice_swipe_hint"><b>Савет:</b> Превуците прстом преко тастатуре за гласовни унос</string>
+  <string name="voice_punctuation_hint"><b>Савет:</b> Следећи пут покушајте да изговорите знакове интерпункције као што су „тачка“, „зарез“ или „знак питања“.</string>
+  <string name="cancel">Откажи</string>
+  <string name="ok">Потврди</string>
+  <string name="voice_input">Гласовни унос</string>
+  <string name="auto_submit">Аутоматски пошаљи после гласа</string>
+  <string name="auto_submit_summary">Аутоматски притисак на enter приликом претраге или преласка на следеће поље.</string>
+  <string name="open_the_keyboard"><font size="17"><b>"Активирање тастатуре
+"</b></font><font size="3">"
+"</font>Додирните било које поље за текст.</string>
+  <string name="close_the_keyboard"><font size="17"><b>"Затварање тастатуре
+"</b></font><font size="3">"
+"</font>Притисните тастер „Назад“.</string>
+  <string name="touch_and_hold"><font size="17"><b>"Додирните и држите тастер да би се приказале опције
+"</b></font><font size="3">"
+"</font>Приступ знаковима интерпункције и акцентима.</string>
+  <string name="keyboard_settings"><font size="17"><b>"Подешавања тастатуре
+"</b></font><font size="3">"
+"</font>Додирните и држите тастер <b>?123</b>.</string>
+  <string name="popular_domain_0">.com</string>
+  <string name="popular_domain_1">.net</string>
+  <string name="popular_domain_2">.org</string>
+  <string name="popular_domain_3">.gov</string>
+  <string name="popular_domain_4">.edu</string>
+  <string name="selectInputMethod">Изаберите метод уноса</string>
+  <string name="language_selection_title">Језици за унос</string>
+  <string name="language_selection_summary">Превуците прст преко тастера за размак да бисте променили језик</string>
+  <string name="hint_add_to_dictionary">← Поново додирните да бисте сачували</string>
+  <string name="has_dictionary">Речник је доступан</string>
+  <string name="prefs_enable_log">Омогући повратну информацију корисника</string>
+  <string name="prefs_description_log">Помозите да се побољша овај уређивач режима уноса тако што ће се аутоматски послати статистика о коришћењу и извештаји о грешкама компанији Google.</string>
+  <string name="prefs_enable_recorrection">Додирните да бисте исправили речи</string>
+  <string name="prefs_enable_recorrection_summary">Додирните унете речи да бисте их исправили</string>
+  <string name="keyboard_layout">Тема тастатуре</string>
+  <string name="subtype_mode_keyboard">тастатура</string>
+  <string name="subtype_mode_voice">глас</string>
+</resources>

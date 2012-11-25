@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="english_ime_name">Android tipkovnica</string>
+  <string name="english_ime_settings">Postavke tipkovnice za Android</string>
+  <string name="english_ime_input_options">Opcije ulaza</string>
+  <string name="vibrate_on_keypress">Vibracija pri pritisku na tipku</string>
+  <string name="sound_on_keypress">Zvuk pri pritisku tipke</string>
+  <string name="popup_on_keypress">Povećanja na pritisak tipke</string>
+  <string name="hit_correction">Ispravi pogreške u pisanju</string>
+  <string name="hit_correction_summary">Omogućavanje ispravka pogreške pri unosu</string>
+  <string name="hit_correction_land">Pogreške pri pejzažnom unosu</string>
+  <string name="hit_correction_land_summary">Omogućavanje ispravka pogreške pri unosu</string>
+  <string name="auto_correction">Prijedlozi riječi</string>
+  <string name="auto_correction_summary">Automatsko ispravljanje prethodne riječi</string>
+  <string name="prediction">Prijedlozi riječi</string>
+  <string name="prediction_category">Postavke prijedloga riječi</string>
+  <string name="prediction_summary">Omogućavanje automatskog dovršavanja pri upisivanju</string>
+  <string name="auto_complete_dialog_title">Automatsko dovršavanje</string>
+  <string name="prediction_landscape">Povećaj tekstualno polje</string>
+  <string name="prediction_landscape_summary">Sakrij prijedloge riječi u pejzažnom prikazu</string>
+  <string name="auto_cap">Automatsko pisanje velikih slova</string>
+  <string name="auto_cap_summary">Stavi veliko slovo na početku rečenice</string>
+  <string name="auto_punctuate">Automatsko stavljanje interpunkcije</string>
+  <string name="auto_punctuate_summary"/>
+  <string name="quick_fixes">Brzi popravci</string>
+  <string name="quick_fixes_summary">Ispravlja uobičajene pogreške u pisanju</string>
+  <string name="show_suggestions">Pokaži prijedloge</string>
+  <string name="show_suggestions_summary">Prikazivanje predloženih riječi prilikom upisivanja</string>
+  <string name="auto_complete">Automatsko dovršavanje</string>
+  <string name="auto_complete_summary">Razmaknica i interpunkcija automatski umeću istaknutu riječ</string>
+  <string name="prefs_settings_key">Prikaži tipku postavki</string>
+  <string name="settings_key_mode_auto_name">Automatski</string>
+  <string name="settings_key_mode_always_show_name">Uvijek prikaži</string>
+  <string name="settings_key_mode_always_hide_name">Uvijek sakrij</string>
+  <string name="bigram_suggestion">Bigram prijedlozi</string>
+  <string name="bigram_suggestion_summary">Upotrijebi prethodnu riječ radi poboljšanja prijedloga</string>
+  <string name="added_word">%s : Spremljeno</string>
+  <string name="tip_long_press">Pritisnite i držite tipku da biste vidjeli naglaske (ø, ö itd.)</string>
+  <string name="tip_dismiss">Pritisnite tipku \"Natrag\" ↶ za zatvaranje tipkovnice</string>
+  <string name="tip_access_symbols">Pristup brojevima i simbolima</string>
+  <string name="tip_add_to_dictionary">Pritisnite i držite krajnju lijevu riječ da biste je dodali u rječnik.</string>
+  <string name="touch_to_continue">Dodirnite ovaj savjet za nastavak »</string>
+  <string name="touch_to_finish">Dodirnite ovdje da biste zatvorili savjet i počeli upisivati!</string>
+  <string name="tip_to_open_keyboard">
+    <b>Tipkovnica se otvara svaki put kada dodirnete tekstualno polje</b>
+  </string>
+  <string name="tip_to_view_accents">
+    <b>"Dodirnite i držite tipku da biste vidjeli naglaske
+(ø, ö, ô, ó i tako dalje)"</b>
+  </string>
+  <string name="tip_to_open_symbols">
+    <b>Prijeđite na brojeve i simbole dodirom na ovu tipku</b>
+  </string>
+  <string name="tip_to_close_symbols">
+    <b>Dodirnite ponovo ovu tipku za povratak na slova</b>
+  </string>
+  <string name="tip_to_launch_settings">
+    <b>Dodirnite i držite ovu tipku da biste promijenili postavke tipkovnice, poput automatskog dovršavanja</b>
+  </string>
+  <string name="tip_to_start_typing">
+    <b>Isprobajte!</b>
+  </string>
+  <string name="label_go_key">Idi</string>
+  <string name="label_next_key">Dalje</string>
+  <string name="label_done_key">Gotovo</string>
+  <string name="label_send_key">Pošalji</string>
+  <string name="label_symbol_key">\?123</string>
+  <string name="label_phone_key">123</string>
+  <string name="label_alpha_key">ABC</string>
+  <string name="label_alt_key">ALT</string>
+  <string name="voice_warning_title">Glasovni unos</string>
+  <string name="voice_warning_locale_not_supported">Vaš jezik trenutno nije podržan za glasovni unos, ali radi za engleski.</string>
+  <string name="voice_warning_may_not_understand">Glasovni unos je pokusna značajka koja koristi Googleovo umreženo prepoznavanje govora.</string>
+  <string name="voice_warning_how_to_turn_off">Za isključivanje glasovnog unosa idite na postavke tipkovnice.</string>
+  <string name="voice_hint_dialog_message">Da biste koristili glasovni unos pritisnite gumb mikrofona ili kliznite prstom preko tipkovnice na zaslonu.</string>
+  <string name="voice_listening">Govorite sad</string>
+  <string name="voice_working">Obrada</string>
+  <string name="voice_initializing"/>
+  <string name="voice_error">Pogreška. Pokušajte ponovo.</string>
+  <string name="voice_network_error">Spajanje nije bilo moguće</string>
+  <string name="voice_too_much_speech">Pogreška, predugi govor.</string>
+  <string name="voice_audio_error">Problem sa zvukom</string>
+  <string name="voice_server_error">Pogreška na poslužitelju</string>
+  <string name="voice_speech_timeout">Nije se čuo govor</string>
+  <string name="voice_no_match">Nisu pronađeni rezultati</string>
+  <string name="voice_not_installed">Glasovno pretraživanje nije instalirano</string>
+  <string name="voice_swipe_hint"><b>Savjet:</b> Prijeđite preko tipkovnice pa govorite</string>
+  <string name="voice_punctuation_hint"><b>Savjet:</b> Sljedeći put pokušajte izgovoriti znakove interpunkcije poput \"točka, \"zarez\" ili \"upitnik\".</string>
+  <string name="cancel">Odustani</string>
+  <string name="ok">U redu</string>
+  <string name="voice_input">Glasovni unos</string>
+  <string name="auto_submit">Automatski pošalji nakon glasovnog unosa</string>
+  <string name="auto_submit_summary">Automatski se pritišće \"Enter\" kad pretražujete ili idete na sljedeće polje.</string>
+  <string name="open_the_keyboard"><font size="17"><b>"Otvaranje tipkovnice
+"</b></font><font size="3">"
+"</font>Dodirnite bilo koje tekstualno polje</string>
+  <string name="close_the_keyboard"><font size="17"><b>"Zatvaranje tipkovnice
+"</b></font><font size="3">"
+"</font>Pritisnite tipku \"Natrag\".</string>
+  <string name="touch_and_hold"><font size="17"><b>"Dodirnite i držite tipku da biste vidjeli opcije
+"</b></font><font size="3">"
+"</font>Pristup interpunkciji i naglascima.</string>
+  <string name="keyboard_settings"><font size="17"><b>"Postavke tipkovnice
+"</b></font><font size="3">"
+"</font>Dodirnite i držite tipku <b>?123</b>.</string>
+  <string name="popular_domain_0">.com</string>
+  <string name="popular_domain_1">.net</string>
+  <string name="popular_domain_2">.org</string>
+  <string name="popular_domain_3">.gov</string>
+  <string name="popular_domain_4">.edu</string>
+  <string name="selectInputMethod">Odabir ulazne metode</string>
+  <string name="language_selection_title">Jezici unosa</string>
+  <string name="language_selection_summary">Kliznite prstom po razmaknici za promjenu jezika</string>
+  <string name="hint_add_to_dictionary">← Dodirnite opet za spremanje</string>
+  <string name="has_dictionary">Rječnik je dostupan</string>
+  <string name="prefs_enable_log">Omogući korisničke povratne informacije</string>
+  <string name="prefs_description_log">Pomozite u poboljšanju ovog urednika ulazne metode automatskim slanjem statistike upotrebe i padova Googleu.</string>
+  <string name="prefs_enable_recorrection">Dodirnite za ispravak riječi</string>
+  <string name="prefs_enable_recorrection_summary">Dodirnite unesene riječi radi ispravka</string>
+  <string name="keyboard_layout">Tema tipkovnice</string>
+  <string name="subtype_mode_keyboard">tipkovnica</string>
+  <string name="subtype_mode_voice">glas</string>
+</resources>
