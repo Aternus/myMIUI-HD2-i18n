@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <plurals name="groupDescrip">
-    <item quantity="other">%0$d contacts</item>
+    <item quantity="other">%0$d kontaktów</item>
   </plurals>
   <plurals name="groupDescripPhones">
-    <item quantity="other">%1$d contacts, %2$d with phones</item>
+    <item quantity="other">%1$d kontaktów, %2$d z numerem telefonu</item>
   </plurals>
   <plurals name="listTotalPhoneContacts">
-    <item quantity="other">Displaying %d contacts with phone numbers</item>
-    <item quantity="one">Displaying 1 contact with phone number</item>
+    <item quantity="other">Wyświetlanie %d kontaktów z numerem telefonu</item>
+    <item quantity="one">Wyświetlanie 1 kontaktu z numerem telefonu</item>
   </plurals>
   <plurals name="listTotalAllContacts">
-    <item quantity="other">Displaying %d contacts</item>
-    <item quantity="one">Displaying 1 contact</item>
+    <item quantity="other">Wyświetlanie %d kontaktów</item>
+    <item quantity="one">Wyświetlanie 1 kontaktu</item>
   </plurals>
   <plurals name="listFoundAllContacts">
-    <item quantity="other">Found %d contacts</item>
-    <item quantity="one">Found 1 contact</item>
+    <item quantity="other">Znaleziono %d kontaktów</item>
+    <item quantity="one">Znaleziono 1 kontakt</item>
   </plurals>
   <plurals name="searchFoundContacts">
-    <item quantity="other">%d contacts</item>
-    <item quantity="one">1 contact</item>
+    <item quantity="other">%d kontaktów</item>
+    <item quantity="one">1 kontakt</item>
   </plurals>
 </resources>
