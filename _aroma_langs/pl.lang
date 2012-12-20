@@ -65,15 +65,15 @@ mymiui.req.continue=Rozumiem
 mymiui.req.system.title=Ostrzeżenie: /Partycja systemowa...
 mymiui.req.system.content=Zauważyliśmy, że Twoja /partycja systemowa ma mniej niż 200MB.\
 \
-Rozważ zwiększenie rozmiaru  /swojej partycji systemowaj <#d31820>inaczej możesz mieć problemy</#>!\
+Rozważ zwiększenie rozmiaru  /swojej partycji systemowej, <#d31820>inaczej możesz mieć problemy</#>!\
 
 # /sd-ext partition
 mymiui.req.sd_ext.title=Ostrzeżenie: /Partycja sd-ext...
-mymiui.req.sd_ext.content=Zauważyliśmy, że Twoja partycja /sd-ext ma mniej niż 500MB lub wcale jej nie ma\
+mymiui.req.sd_ext.content=Zauważyliśmy, że Twoja partycja /sd-ext ma mniej niż 500MB lub wcale jej nie ma.\
 \
 Rozważ zwiększenie swojej partycji /sd-ext lub utworzenie jej w CWR.\
 \
-<b>Zalecane partyvje:</b>\
+<b>Zalecane partycje:</b>\
 \
 <b>EXT:</b> <#d31820>500MB</#>, <b>SWAP:</b> <#d31820>0MB</#>\
 \
@@ -107,7 +107,7 @@ Czy to prawda?\
 mymiui.req.bl_error.title=Błąd: Nieznany bootloader...
 mymiui.req.bl_error.content=Nie mogliśmy określić jakiego bootloadera używasz...\
 \
-Upewnij się, że korzystasz z  <#d31820>CWR v5.0.0.0+</#> with\
+Upewnij się, że korzystasz z  <#d31820>CWR v5.0.0.0+</#> z\
 \
 <#d31820>cLK 1.4.0.1+</#>\
 \
