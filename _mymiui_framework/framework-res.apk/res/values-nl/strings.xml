@@ -746,7 +746,7 @@
   <string name="orgTypeCustom">Aangepast</string>
   <string name="orgTypeOther">Overig</string>
   <string name="orgTypeWork">Werk</string>
-  <string name="package_behavior_confirmation">Application %1$s is requesting permission %2$s. This is consider risky. If you trust the application, please choose %3$s. Otherwise please choose %4$s.\n\nNote: Some application will crash if the request is denied.\n\nThis dialog will be dismissed in %5$s seconds and the request will be denied.</string>
+  <string name="package_behavior_confirmation">Applicatie %1$s vraagt rechten %2$s. Dit is een risico. Rechten toestaan?\n\nLet op: Sommige applicaties crashen als ze geen rechten hebben.</string>
   <string name="partys_day"/>
   <string name="passwordIncorrect">Foutief wachtwoord</string>
   <string name="password_keyboard_label_alpha_key">ABC</string>
